@@ -1,0 +1,1 @@
+E:\NHUB\bin\pwsh\pwsh.exe -NoProfile -NoLogo -ExecutionPolicy bypass -File E:\NHUB\consoles\vsCodeAutomationConsoleInitiation.ps1 -Command

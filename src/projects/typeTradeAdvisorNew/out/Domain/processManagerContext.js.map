@@ -1,0 +1,1 @@
+{"version":3,"file":"processManagerContext.js","sourceRoot":"","sources":["../../src/domain/processManagerContext.ts"],"names":[],"mappings":";;AACA,MAAa,qBAAqB;IAG9B,YAAY,UAAkB,EAAE,QAAc;QAC1C,IAAI,CAAC,UAAU,GAAG,UAAU,CAAC;QAC7B,IAAI,CAAC,QAAQ,GAAG,QAAQ,CAAC;IAC7B,CAAC;CACJ;AAPD,sDAOC"}

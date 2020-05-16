@@ -1,0 +1,9 @@
+Value vs Referential Equality.linq
+== and !=.linq
+Virtual Equals Method.linq
+Static Equals Method.linq
+EqualityComparer.linq
+The static ReferenceEquals method.linq
+The IEquatable Interface.linq
+When Equals and == are not Equal.linq
+Customizing Equality - Full Example.linq

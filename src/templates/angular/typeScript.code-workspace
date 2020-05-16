@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "./angularBase",
+		}
+	],
+	"settings": {
+		"editor.fontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+		"editor.fontLigatures": true,
+		"editor.fontWeight": "100",
+		"terminal.integrated.shell.windows": "E:\\NHUB\\bin\\consoles\\pwsh_Integrated_Console.bat",
+		"eslint.nodePath": "E:\\NHUB\\bin\\compilers\\node",
+	}
+}

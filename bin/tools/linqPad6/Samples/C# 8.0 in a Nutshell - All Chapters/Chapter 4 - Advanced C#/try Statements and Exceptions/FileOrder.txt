@@ -1,0 +1,13 @@
+DivideByZeroException unhandled.linq
+DivideByZeroException handled.linq
+The catch Clause.linq
+Exception Filters.linq
+The finally Block.linq
+The using Statement.linq
+using Declarations.linq
+Throwing Exceptions.linq
+throw Expressions.linq
+Rethrowing an Exception.linq
+Rethrowing More Specific Exception.linq
+The TryXXX Pattern.linq
+The Atomicity Pattern.linq

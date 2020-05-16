@@ -1,0 +1,10 @@
+5-2. Using the Scan Operator.linq
+5-3. Using the Slice Operator.linq
+5-4. Using the Interleave Operator.linq
+5-5. Using the Windowed Operator.linq
+5-6. Using the Cartesian Operator.linq
+5-7. Using the Partition Operator.linq
+5-8. Using the Index Operator.linq
+5-9. Using the PairWise Operator.linq
+5-10. The ForEach Operator.linq
+5-11. Using the MinBy MaxBy Operator.linq

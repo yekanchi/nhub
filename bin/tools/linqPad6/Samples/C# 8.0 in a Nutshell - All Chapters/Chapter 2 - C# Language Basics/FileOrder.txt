@@ -1,0 +1,12 @@
+A First C# Program (and notes on LINQPad)
+Syntax Basics
+Type Basics
+Numeric Types
+Boolean Type and Operators
+Strings and Characters
+Arrays
+Variables and Parameters
+Expressions and Operators
+Null Operators
+Statements
+Namespaces

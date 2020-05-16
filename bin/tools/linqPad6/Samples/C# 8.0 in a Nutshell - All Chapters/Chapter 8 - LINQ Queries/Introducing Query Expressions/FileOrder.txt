@@ -1,0 +1,4 @@
+A Basic Query.linq
+A Basic Query - Translation.linq
+Mixing Syntax.linq
+Query Syntax in its Entirety.linq

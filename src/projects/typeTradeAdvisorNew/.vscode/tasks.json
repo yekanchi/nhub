@@ -1,0 +1,59 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "options": {
+        "shell": {
+            // "executable": "E:/NHUB/bin/pwsh/pwsh.exe",
+            "executable": "C:\\Windows\\System32\\cmd.exe",
+            "args": [
+                // "-Noexit",
+                // "-File",
+                // "E:\\NHUB\\consoles\\vsCodeAutomationConsoleInitiation.ps1",
+            ]
+        }
+    },
+    "tasks": [
+        {
+            "label": "tsc-build-with-shell",
+            "type": "shell",
+            "command": "-Command $env:path += ';E:\\NHUB\\bin\\compilers\\node;E:\\NHUB\\bin\\compilers\\node\\NPMCache'; tsc",
+            "options": {
+                "shell": {
+                    "executable": "E:/NHUB/bin/pwsh/pwsh.exe",
+                    // "args": [
+                    //      "-File",
+                    //      "E:\\NHUB\\consoles\\vsCodeAutomationConsoleInitiation.ps1"]
+                },
+                "cwd": "${workspaceFolder}"
+            },
+        },
+        {
+            "label": "buildshell",
+            "type": "shell",
+            "command": "tsc",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
+            "dependsOn": "welcomeTask"
+        },
+        {
+            "label": "buildtsc",
+            "type": "typescript",
+            "tsconfig": "tsconfig.json",
+            "problemMatcher": [
+                "$tsc"
+            ]
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "echo 'hello world'",
+        }
+    ]
+}

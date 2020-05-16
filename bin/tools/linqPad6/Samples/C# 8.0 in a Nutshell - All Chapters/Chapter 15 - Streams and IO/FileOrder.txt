@@ -1,0 +1,29 @@
+Create and Write.linq
+Async Demo.linq
+Named Pipe Server.linq
+Named Pipe Client.linq
+Stream Reader and Writer.linq
+Encoding.linq
+Compression Streams.linq
+Compressing Text.linq
+Compressing in Memory.linq
+Compressing in Memory - alternative.linq
+Deflate.linq
+GZip Stream.linq
+Zip.linq
+File Attributes.linq
+CompressFolder.linq
+Enumerate File Security.linq
+Modify Access Control.linq
+File Info.linq
+Special Folders.linq
+Drive Information.linq
+File Watcher.linq
+Get Volume Information.linq
+Memory Mapped.linq
+Memory Mapped Named Reader.linq
+Memory Mapped Named Writer.linq
+Memory Mapped Reader.linq
+Memory Mapped Writer.linq
+Memory Mapped Server.linq
+Memory Mapped Unsafe.linq

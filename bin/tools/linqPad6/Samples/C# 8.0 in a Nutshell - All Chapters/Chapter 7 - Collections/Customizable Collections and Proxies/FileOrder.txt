@@ -1,0 +1,4 @@
+Using System.Collections.ObjectModel.Collection.linq
+Extending previous example.linq
+KeyedCollection.linq
+ReadOnlyCollection.linq

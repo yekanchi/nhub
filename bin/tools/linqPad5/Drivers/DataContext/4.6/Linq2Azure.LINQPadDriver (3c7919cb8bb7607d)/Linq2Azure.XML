@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Linq2Azure</name>
+    </assembly>
+    <members>
+        <member name="T:Linq2Azure.AzureRestClient">
+            <summary>
+            Performs REST-like options on the Azure HTTP management endpoint, taking care of authentication, error
+            handling and other functions common to all requests. This also handles optional request logging.
+            </summary>
+        </member>
+        <member name="P:Linq2Azure.AzureRestException.ResponseMessage">
+            <summary>The response message upon which an exception was thrown.</summary>
+        </member>
+        <member name="P:Linq2Azure.AzureRestException.DebugInfo">
+            <summary>This is populated with useful diagnostic data such as the original request XML.</summary>
+        </member>
+        <member name="M:Linq2Azure.CloudServices.CloudService.#ctor(System.String,System.String,System.Boolean)">
+            <summary>
+            When creating a cloud service, you must specify either a location or affinity group.
+            </summary>
+        </member>
+        <member name="T:Linq2Azure.LatentSequence`1">
+            <summary>
+            Represents a sequence whose elements become available some time in the future. This is used for collections
+            that require a request over the Internet to populate.
+            </summary>
+        </member>
+        <member name="M:Linq2Azure.LatentSequence`1.AsTask">
+            <summary>Starts fetching data. The task completes when all elements have been fetched.</summary>
+        </member>
+        <member name="M:Linq2Azure.LatentSequence`1.AsArray">
+            <summary>Fetches all elements, blocking until all data is available. Equivalent to calling AsTask().Result.</summary>
+        </member>
+        <member name="M:Linq2Azure.LatentSequence`1.AsEnumerable">
+            <summary>Fetches all elements upon enumeration, blocking until all data is available. Equivalent to calling AsArray()
+            except that the request is not kicked off until the sequence is actually enumerated.</summary>
+        </member>
+        <member name="M:Linq2Azure.LatentSequence`1.AsObservable">
+            <summary>Upon subscription, starts fetching data and then yields all elements when they become available. This 
+            is useful in parallelizing queries with Reactive Extensions.</summary>
+        </member>
+        <member name="T:Linq2Azure.SqlDatabases.DatabaseServer">
+            <summary>
+            Allows management of SQL Azure servers. After creating a DatabaseServer and adding firewall rules, you can
+            create databases by establishing an ADO.NET connection using the same credentials.
+            </summary>
+        </member>
+        <member name="T:Linq2Azure.CloudServices.RoleInstance">
+            <summary>
+            Read-only view of RoleInstance information.
+            </summary>
+        </member>
+        <member name="P:Linq2Azure.TrafficManagement.TrafficManagerMonitor.IntervalInSeconds">
+            <summary>Right now, the Azure management server doesn't anything other than the default value here.</summary>
+        </member>
+        <member name="P:Linq2Azure.TrafficManagement.TrafficManagerMonitor.TimeoutInSeconds">
+            <summary>Right now, the Azure management server doesn't anything other than the default value here.</summary>
+        </member>
+        <member name="M:Linq2Azure.XmlHelper.HydrateObject(System.Xml.Linq.XElement,System.Xml.Linq.XNamespace,System.Object)">
+            <summary>
+            Populates an object from an XElement, based on properties whose names match XML elements.
+            This handles properties with string, int and enum types and ignores all other properties.
+            </summary>
+        </member>
+        <member name="M:Linq2Azure.CloudServices.Deployment.UpdateConfigurationAsync(Linq2Azure.CloudServices.ExtensionAssociation[])">
+            <summary>
+            Submits any changes to the Configuration property.
+            </summary>
+            <param name="extensionAssociations">
+                Optional extensions to be adjusted against the deployment
+            </param>
+        </member>
+        <member name="M:Linq2Azure.CloudServices.Deployment.UpgradeAsync(System.Uri,System.String,Linq2Azure.CloudServices.UpgradeMode)">
+            <summary>
+            Upgrades the given deployment with the package contents.
+            </summary>
+        </member>
+        <member name="M:Linq2Azure.CloudServices.Deployment.UpgradeAsync(System.Uri,Linq2Azure.CloudServices.DeploymentType,System.String,Linq2Azure.CloudServices.UpgradeMode)">
+            <summary>
+            Upgrades the given deployment with the package contents.
+            </summary>
+        </member>
+        <member name="T:Linq2Azure.Subscription">
+            <summary>
+            This is the "root" type in the LinqToAzure API, from which all queries and operations are made.
+            </summary>
+        </member>
+        <member name="M:Linq2Azure.Subscription.WaitForOperationCompletionAsync(System.Net.Http.HttpResponseMessage)">
+            <summary>
+            Implements http://msdn.microsoft.com/en-us/library/windowsazure/ee460783.aspx
+            </summary>
+            <param name="operationResponse">The response message from the operation for which we're awaiting completion.</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,28 @@
+Listing 2-1. Finding a dot product.linq
+Listing 2-2. Generating Pythagorean triples with the Babylonian formula.linq
+Listing 2-3. Finding a weighted sum.linq
+Listing 2-4. Score percentile solution.linq
+Listing 2-5. Obtaining score ranking from percentile.linq
+Listing 2-6. Finding the array dominator.linq
+Listing 2-7. Finding minimum number of currency bills.linq
+Listing 2-8. Finding a moving average.linq
+Listing 2-9. Cumulative sum solution.linq
+Listing 2-10. Algae growth using L-system grammar.linq
+Listing 2-11. Algal growth shown by stages.linq
+Listing 2-12. Projecting the length of algal strings.linq
+Listing 2-13. Generate Logo commands to create a Koch curve.linq
+Listing 2-14. Generate Logo commands to draw a Serpinski triangle.linq
+Listing 2-15. Generating Fibonacci numbers with LINQ.linq
+Listing 2-16. Generating Permutations of a given string.linq
+Listing 2-17. Create a power set from a given string.linq
+Listing 2-18. Picking every n th element from a given collection.linq
+Listing 2-19. Picking minimum or maximum values from multiple collections.linq
+Listing 2-20. A better LINQ solution for picking minimum and maximum values from multiple collections.linq
+Listing 2-21. Finding Armstrong numbers, Dudeney numbers, sum-product numbers, and factorions in a range.linq
+Listing 2-22. Generating a Pascal triangle without recursion.linq
+Listing 2-23. Generate winning paths for a tic-tac-toe board.linq
+Listing 2-24. Generating answers for a Go-Figure puzzle.linq
+Listing 2-25. Finding matching pairs in two unsorted collections.linq
+Listing 2-25. Finding matching pairs in two unsorted collections_with_lookup.linq
+Listing 2-26. Solving the FizzBuzz Challenge with LINQ.linq
+Listing 2-27. Solving the FizzBuzz Challenge using set theory.linq

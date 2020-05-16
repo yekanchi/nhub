@@ -1,0 +1,13 @@
+Filtering
+Projecting - Select
+Projecting - SelectMany
+Joining
+Ordering
+Grouping
+Set Operators
+Zip Operator
+Conversion Methods
+Element Operators
+Aggregation Methods
+Quantifiers
+Generation Methods

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".",
+		}
+	],
+	"settings": {
+		"editor.fontFamily": "'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace",
+		"editor.fontLigatures": true,
+		"editor.fontWeight": "500",
+		"terminal.integrated.shell.windows": "E:\\NHUB\\bin\\consoles\\pwsh_Integrated_Console.bat",
+		"eslint.nodePath": "E:\\NHUB\\bin\\compilers\\node",
+	}
+}

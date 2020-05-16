@@ -1,0 +1,16 @@
+[L] A First C# Program.linq
+A First C# Program.linq
+[O] A First C# Program.linq
+[L] A First C# Program - simplified.linq
+A First C# Program - simplified.linq
+[L] Statement Mode.linq
+Statement Mode.linq
+[L] Statement Mode with Dump.linq
+Statement Mode with Dump.linq
+[L] Note on Selective Execution in LINQPad.linq
+Note on Selective Execution in LINQPad.linq
+[L] Expressions in LINQPad.linq
+Expressions in LINQPad.linq
+[L] First Program Refactored.linq
+First Program Refactored.linq
+[O] First Program Refactored.linq

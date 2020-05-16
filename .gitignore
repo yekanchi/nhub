@@ -1,0 +1,15 @@
+#ignorebases
+/data
+/tmp
+/docs
+
+
+src/open/*
+src/test/*
+src/template/**/*.exe
+
+node_modules/
+
+
+*.e2e
+src/*.exe

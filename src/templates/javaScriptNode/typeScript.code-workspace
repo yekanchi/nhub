@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		// "terminal.integrated.shell.windows": "E:\\NHUB\\bin\\pwsh\\pwsh.exe",
+		"terminal.integrated.shell.windows": "E:\\NHUB\\bin\\consoles\\pwshNodeIntegratedConsole.bat",
+		// "terminal.integrated.automationShell.windows": "E:\\NHUB\\consoles\\pwshAutomationConsole.bat",
+		// "terminal.integrated.automationShell.windows": "E:\\NHUB\\bin\\pwsh\\pwsh.exe",
+		// "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
+		"terminal.integrated.shellArgs.windows": [
+			// "-NoProfile",
+			// "-Noexit",
+			// "-NoLogo",
+			// "-ExecutionPolicy",
+			// "Unrestricted",
+			// "-File",
+			// "E:/vsCodeConsoleInitiation.ps1"
+			//"-WorkingDirectory"
+			//"${workspaceFolder}"
+		],
+		"eslint.nodePath": "E:\\NHUB\\bin\\node",
+	}
+}
