@@ -1,0 +1,1 @@
+start "" "bin\consoles\pwsh_Integrated_Console.bat"
