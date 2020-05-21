@@ -1,0 +1,125 @@
+{
+    //Editor
+    "editor.fontLigatures": true,
+    "terminal.integrated.rendererType": "dom",
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "workbench.activityBar.visible": true,
+    "editor.fontSize": 15,
+    "debug.console.fontFamily": "Menlo for Powerline",
+
+    //=================================================================================================================
+    "terminal.integrated.fontSize": 16,
+    "window.zoomLevel": 0,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "explorer.confirmDelete": false,
+    //CLI Settings=====================================================================================================
+    // "terminal.integrated.fontFamily": "Menlo for powerline",
+    // "terminal.integrated.rendererType": "dom",
+    "eslint.nodePath": "E:\\NHUB\\bin\\compilers\\node",
+    //User Defined Environment Variables
+    //=================================================================================================================
+    "terminal.integrated.env.windows": {
+        "NODE_PATH": "E:\\NHUB\\bin\\compilers\\node",
+        "JAVA_HOME": "E:\\NHUB\\bin\\compilers\\jdk",
+        "NPM_CACHE": "E:\\NHUB\\bin\\compilers\\node\\NPMCache",
+        "QT_PLUGIN_PATH": "E:\\NHUB\\bin\\frameworks\\anaconda\\Library\\plugins",
+        "NPM_CONFIG_CACHE": "E:\\NHUB\\bin\\compilers\\node\\NPMCache",
+        "NPM_CONFIG_SCRIPTS_PREPEND_NODE_PATH": "false",
+        "CONDA_NPY": "111",
+
+        "LIBRARY_BIN": "E:\\NHUB\\bin\\frameworks\\anaconda\\Library\\bin",
+        "LIBRARY_INC": "E:\\NHUB\\bin\\frameworks\\anaconda\\Library\\include",
+        "LIBRARY_LIB": "E:\\NHUB\\bin\\frameworks\\anaconda\\Library\\lib",
+
+        "SCRIPTS": "E:\\NHUB\\bin\\frameworks\\anaconda\\Scripts"
+    },
+    //Sync==========================================================================================================
+    "sync.askGistName": true,
+    "sync.forceUpload": true,
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.removeExtensions": false,
+    "sync.gist": "bc322808d55acdebad87ce3f1bb125c1",
+    //Git-scm=======================================================================================================
+    "git.path": "E:\\NHUB\\bin\\gitscm\\bin\\git.exe",
+    "git.enableSmartCommit": true,
+    //Java==========================================================================================================
+    "java.configuration.checkProjectSettingsExclusions": false,
+    //Python========================================================================================================
+    "python.jediEnabled": true,
+    "python.condaPath": "E:\\NHUB\\bin\\frameworks\\anaconda\\Condabin\\conda.bat",
+    "python.pythonPath": "E:\\NHUB\\bin\\frameworks\\anaconda\\python.exe",
+    //"python.pythonPath": "${workspaceFolder}\\.\\..\\..\\bin\\frameworks\\anaconda\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    
+    //TodoTree
+    "todo-tree.highlights.defaultHighlight": {},
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "type": "line",
+            "background": "cyan",
+            "foreground": "black",
+            "fontWeight": "bold"
+        }
+    },
+   
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#b52e31"
+        },
+        {
+            "name": "Auth0 Orange",
+            "value": "#eb5424"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "C# Purple",
+            "value": "#68217A"
+        },
+        {
+            "name": "Gatsby Purple",
+            "value": "#639"
+        },
+        {
+            "name": "Go Cyan",
+            "value": "#5dc9e2"
+        },
+        {
+            "name": "Java Blue-Gray",
+            "value": "#557c9b"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#00b3e6"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        }
+    ],
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.mouseWheelZoom": true
+}
