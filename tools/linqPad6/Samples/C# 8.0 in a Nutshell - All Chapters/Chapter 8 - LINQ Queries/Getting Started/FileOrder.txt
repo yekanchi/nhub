@@ -1,3 +1,0 @@
-Simple Filtering.linq
-Extension Methods.linq
-Basic Query Expression.linq

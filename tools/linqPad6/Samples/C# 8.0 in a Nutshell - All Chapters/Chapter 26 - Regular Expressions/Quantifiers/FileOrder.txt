@@ -1,2 +1,0 @@
-Quantifiers.linq
-Greedy verus Lazy.linq

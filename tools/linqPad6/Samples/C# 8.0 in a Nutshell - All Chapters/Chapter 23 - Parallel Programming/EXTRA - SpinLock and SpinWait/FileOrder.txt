@@ -1,4 +1,0 @@
-SpinLock.linq
-SpinWait - SpinUntil.linq
-SpinWait - SpinOnce.linq
-SpinWait - Lock-free updates with CompareExchange.linq

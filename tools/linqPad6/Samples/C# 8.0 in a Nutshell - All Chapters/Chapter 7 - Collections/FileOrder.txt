@@ -1,8 +1,0 @@
-Enumeration
-ICollection and IList
-Arrays
-Lists, Queues, Stacks and Sets
-Dictionaries
-Customizable Collections and Proxies
-Immutable Collections
-Plugging in Equality and Order

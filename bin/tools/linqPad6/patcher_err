@@ -1,0 +1,5 @@
+Unhandled exception. System.Exception: Private key not replaced
+   at Patcher.ActivatorInjector.DecryptStrings(String deobfuscatedDllPath, ModuleDefMD module, MethodDef encryptMethod)
+   at Patcher.ActivatorInjector.Patch(PatchingModule linqPad)
+   at Patcher.PatchingModule.Patch()
+   at LINQPadAutoPatcher.Program.Main(String[] args)

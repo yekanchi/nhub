@@ -1,7 +1,0 @@
-Lambda Expressions.linq
-Capturing Outer Variables.linq
-Capturing Outer Variables - Lifetime.linq
-Capturing Outer Variables - Uniqueness.linq
-Capturing Iteration Variables.linq
-Capturing Iteration Variables - Workaround.linq
-Anonymous Methods.linq

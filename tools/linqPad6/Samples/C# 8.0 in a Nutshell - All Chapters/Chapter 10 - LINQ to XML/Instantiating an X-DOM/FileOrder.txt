@@ -1,4 +1,0 @@
-Imperative Construction.linq
-Functional Construction.linq
-Functional Construction from Database Query.linq
-Automatic Deep Cloning.linq

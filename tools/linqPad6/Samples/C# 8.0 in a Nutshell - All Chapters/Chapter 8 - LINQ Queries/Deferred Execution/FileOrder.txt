@@ -1,8 +1,0 @@
-Introduction.linq
-Reevaluation.linq
-Defeating Reevaluation.linq
-Captured Variables.linq
-Captured Variables in a for-loop.linq
-Solution.linq
-Captured Variables and foreach.linq
-Workaround in C# 4.linq

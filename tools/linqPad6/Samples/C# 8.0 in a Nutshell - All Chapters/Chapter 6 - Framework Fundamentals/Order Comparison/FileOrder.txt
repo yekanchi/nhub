@@ -1,4 +1,0 @@
-Order Comparison.linq
-IComparable.linq
-LessThan & GreaterThan operators.linq
-Customizing Order Comparision - Full Example.linq

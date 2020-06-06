@@ -1,9 +1,0 @@
-Simple Local Select.linq
-Projecting into Anonymous Type.linq
-Select - No Transformation.linq
-Select - Indexed.linq
-Select-Subqueries and Object Hierarchies.linq
-Select-Subqueries querying a database.linq
-Select-Subqueries using Assocations.linq
-Select-Subqueries Filtered.linq
-Select-Subqueries Filtered with let.linq

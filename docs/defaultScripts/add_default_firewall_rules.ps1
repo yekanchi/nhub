@@ -1,0 +1,1 @@
+New-NetFirewallRule -DisplayName 'HubNetRule: Block 010Editor Internet' -Direction Outbound -Program "E:\NHUB\bin\tools\010editor\010Editor.exe" -Action Block

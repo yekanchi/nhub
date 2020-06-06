@@ -1,6 +1,0 @@
-FolderBasedALC.linq
-AssemblyDependencyResolver.linq
-[O] Writing a Plug-in System - Plugin.Common.linq
-[O] Writing a Plug-in System - Capitalizer.linq
-[O] Writing a Plug-in System - Host.linq
-[L] Writing a Plug-in System.linq

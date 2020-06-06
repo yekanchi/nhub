@@ -1,5 +1,0 @@
-Simple Ordering.linq
-Ordering on Multiple Expressions.linq
-Descending.linq
-Comparers and Collations.linq
-IOrderedEnumerable and IOrderedQueryable.linq

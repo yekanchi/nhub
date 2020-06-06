@@ -1,4 +1,0 @@
-Access Modifiers - Examples.linq
-Friend Assemblies.linq
-Accessibility Capping.linq
-Restrictions on Access Modifiers.linq

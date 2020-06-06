@@ -1,5 +1,0 @@
-Process - Start.linq
-ProcessStartInfo.linq
-Process - Capturing output and error streams.linq
-
-Opening a file or URL in Windows and Linux.linq

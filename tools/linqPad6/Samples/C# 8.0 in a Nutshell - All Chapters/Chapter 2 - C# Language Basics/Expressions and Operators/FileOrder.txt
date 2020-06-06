@@ -1,5 +1,0 @@
-Primary Expressions.linq
-Assignment Expressions.linq
-Precedence.linq
-Left Associativity.linq
-Right Associativity.linq

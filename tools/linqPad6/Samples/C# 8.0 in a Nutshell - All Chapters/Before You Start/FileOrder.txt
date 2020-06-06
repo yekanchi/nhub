@@ -1,5 +1,0 @@
-Readme.First().linq
-Readme.Second() - how to set up sample database.linq
-Populate demo database.linq
-A note on AsQueryable.linq
-Query syntax diagram.linq

@@ -1,8 +1,0 @@
-Step 1 - Functional Construction with Literals.linq
-Step 2 - Build a Projection Around it.linq
-Same Query Built Progressively.linq
-Eliminating Empty Elements - Problem.linq
-Eliminating Empty Elements - Solution.linq
-Streaming a Projection.linq
-EXTRA - Transforming an X-DOM.linq
-EXTRA - Advanced Transformations.linq

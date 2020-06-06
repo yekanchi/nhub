@@ -1,4 +1,0 @@
-Concat and Union .linq
-Intersect and Except .linq
-Extra - Concat and Union (database).linq
-Extra - Intersect and Except (database).linq

@@ -1,6 +1,0 @@
-Threading Basics
-Tasks
-Principles of Asynchrony
-Asynchronous Functions in C# 5.0
-Asynchronous Streams in C# 8.0
-Asynchronous Patterns

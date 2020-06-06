@@ -1,4 +1,0 @@
-Progressive Query Building.linq
-The into Keyword.linq
-into keyword - Scoping Rules.linq
-Wrapping Queries.linq

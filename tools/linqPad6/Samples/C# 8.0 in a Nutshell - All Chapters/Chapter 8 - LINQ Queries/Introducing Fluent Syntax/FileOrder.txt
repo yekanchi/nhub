@@ -1,5 +1,0 @@
-Chaining Query Operators.linq
-Shunning Extension Methods.linq
-Type inference.linq
-Natural Ordering.linq
-Other Operators.linq

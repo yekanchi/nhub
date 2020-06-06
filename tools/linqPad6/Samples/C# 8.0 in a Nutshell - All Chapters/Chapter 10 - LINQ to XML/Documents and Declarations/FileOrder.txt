@@ -1,4 +1,0 @@
-Simplest Valid XDocument.linq
-Building an XHTML document.linq
-Declarations.linq
-Writing a Declaration to a String.linq

@@ -1,8 +1,0 @@
-ThreadStatic.linq
-ThreadLocal.linq
-GetData and SetData.linq
-AsyncLocal.linq
-AsyncLocal - concurrent.linq
-AsyncLocal - inherited value.linq
-AsyncLocal - inherited value - copy.linq
-AsyncLocal - inherited value - copy - limitation.linq
