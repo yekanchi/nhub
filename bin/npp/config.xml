@@ -7,7 +7,6 @@
         <Replace name="" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="E:\NHUB\bin\.gitignore" />
         <File filename="E:\NHUB\.gitignore" />
         <File filename="E:\NHUB\docs\.gitignore" />
         <File filename="E:\NHUB\commands.txt" />
@@ -17,6 +16,7 @@
         <File filename="E:\NHUB\src\projects\tradeAdviser\.gitignore" />
         <File filename="E:\NHUB\src\projects\TradeServer\.gitignore" />
         <File filename="E:\NHUB\src\projects\typeTradeAdvisorNew\.gitignore" />
+        <File filename="E:\NHUB\docs\cheats\winCheat.txt" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -25,7 +25,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="624" y="181" width="1100" height="700" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="238" y="114" width="1100" height="700" isMaximized="no" />
         <GUIConfig name="FindWindowPosition" left="607" top="731" right="1294" bottom="1125" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">yes</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
