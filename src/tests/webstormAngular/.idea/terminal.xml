@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TerminalProjectOptionsProvider">
+    <envs>
+      <env key="NODE_PATH" value="E:\\NHUB\\bin\\compilers\\node" />
+      <env key="NPM_CACHE" value="E:\\NHUB\\bin\\compilers\\node\\NPMCache" />
+      <env key="NPM_CONFIG_CACHE" value="E:\\NHUB\\bin\\compilers\\node\\NPMCache" />
+      <env key="NPM_CONFIG_SCRIPTS_PREPEND_NODE_PATH" value="false" />
+    </envs>
+  </component>
+</project>

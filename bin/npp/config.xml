@@ -7,16 +7,16 @@
         <Replace name="" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="E:\NHUB\tree.txt" />
-        <File filename="E:\NHUB\Updates.md" />
-        <File filename="E:\NHUB\bin\ides\datagrip\bin\idea.properties" />
-        <File filename="E:\NHUB\bin\ides\.gitignore" />
-        <File filename="E:\NHUB\bin\ides\intellij\bin\idea.properties" />
-        <File filename="E:\NHUB\bin\ides\rider\bin\idea.properties" />
         <File filename="E:\NHUB\bin\.gitignore" />
         <File filename="E:\NHUB\.gitignore" />
         <File filename="E:\NHUB\docs\.gitignore" />
         <File filename="E:\NHUB\commands.txt" />
+        <File filename="E:\NHUB\src\tests\webstormAngular\.gitignore" />
+        <File filename="E:\NHUB\src\templates\javaScriptNode\.gitignore" />
+        <File filename="E:\NHUB\src\templates\typeScript\.gitignore" />
+        <File filename="E:\NHUB\src\projects\tradeAdviser\.gitignore" />
+        <File filename="E:\NHUB\src\projects\TradeServer\.gitignore" />
+        <File filename="E:\NHUB\src\projects\typeTradeAdvisorNew\.gitignore" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
