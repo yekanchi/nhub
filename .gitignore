@@ -1,6 +1,5 @@
 #ignorebases
 /tmp
-/docs
 
 
 src/open/*
