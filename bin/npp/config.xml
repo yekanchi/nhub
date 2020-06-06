@@ -7,16 +7,16 @@
         <Replace name="" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="E:\NHUB\src\templates\typeScript\.gitignore" />
         <File filename="E:\NHUB\src\projects\tradeAdviser\.gitignore" />
         <File filename="E:\NHUB\src\projects\TradeServer\.gitignore" />
         <File filename="E:\NHUB\src\projects\typeTradeAdvisorNew\.gitignore" />
         <File filename="E:\NHUB\docs\cheats\winCheat.txt" />
-        <File filename="E:\NHUB\docs\cheats\winCheat.md" />
         <File filename="E:\NHUB\cheats.txt" />
         <File filename="E:\NHUB\commands.txt" />
         <File filename="E:\NHUB\README.md" />
         <File filename="E:\NHUB\Updates.md" />
+        <File filename="E:\NHUB\docs\cheats\winCheat.md" />
+        <File filename="E:\NHUB\docs\cheats\commands.txt" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
