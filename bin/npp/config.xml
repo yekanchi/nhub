@@ -7,16 +7,16 @@
         <Replace name="" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="E:\NHUB\docs\cheats\winCheat.txt" />
         <File filename="E:\NHUB\cheats.txt" />
         <File filename="E:\NHUB\commands.txt" />
         <File filename="E:\NHUB\README.md" />
-        <File filename="E:\NHUB\Updates.md" />
         <File filename="E:\NHUB\docs\cheats\winCheat.md" />
         <File filename="E:\NHUB\docs\cheats\commands.txt" />
         <File filename="E:\NHUB\bin\tools\linqPad6\Readme.txt" />
         <File filename="E:\NHUB\docs\cheats\wget\command.md" />
         <File filename="E:\NHUB\bin\README.md" />
+        <File filename="E:\NHUB\Updates.md" />
+        <File filename="E:\NHUB\bin\npp\config.xml" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
