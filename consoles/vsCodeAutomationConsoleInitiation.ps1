@@ -1,1 +1,0 @@
-$env:path += ";E:\\NHU\\bin\\gitscm\\bin;E:\\NHUB\\bin\\compilers\\node;E:\\NHUB\\bin\\compilers\\node\NPMCache"

@@ -7,7 +7,6 @@
         <Replace name="" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="E:\NHUB\src\tests\webstormAngular\.idea\workspace.xml" />
         <File filename="E:\NHUB\tree.txt" />
         <File filename="E:\NHUB\Updates.md" />
         <File filename="E:\NHUB\bin\ides\datagrip\bin\idea.properties" />
@@ -17,6 +16,7 @@
         <File filename="E:\NHUB\bin\.gitignore" />
         <File filename="E:\NHUB\.gitignore" />
         <File filename="E:\NHUB\docs\.gitignore" />
+        <File filename="E:\NHUB\commands.txt" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
