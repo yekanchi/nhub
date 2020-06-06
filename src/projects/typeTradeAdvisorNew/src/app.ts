@@ -1,2 +1,2 @@
-import * as el from "./electron"
-el.showWindow();
+
+console.log(global)

@@ -1,0 +1,6 @@
+Simple Cast.linq
+Cast versus OfType.linq
+Cast versus the C# Cast Operator.linq
+Cast in Query Syntax.linq
+ToArray and ToList.linq
+ToDictionary.linq

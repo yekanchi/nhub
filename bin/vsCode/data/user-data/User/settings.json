@@ -1,39 +1,34 @@
 {
-    //Editor
-    "editor.fontLigatures": true,
-    "terminal.integrated.rendererType": "dom",
-    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
-    "workbench.activityBar.visible": true,
-    "editor.fontSize": 15,
-    "debug.console.fontFamily": "Menlo for Powerline",
-
-    //=================================================================================================================
     "terminal.integrated.fontSize": 16,
     "window.zoomLevel": 0,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "explorer.confirmDelete": false,
     //CLI Settings=====================================================================================================
-    // "terminal.integrated.fontFamily": "Menlo for powerline",
+    // "terminal.integrated.fontFamily": "Menlo For Powerline",
     // "terminal.integrated.rendererType": "dom",
     "eslint.nodePath": "E:\\NHUB\\bin\\compilers\\node",
     //User Defined Environment Variables
     //=================================================================================================================
     "terminal.integrated.env.windows": {
+        //Node.js:
         "NODE_PATH": "E:\\NHUB\\bin\\compilers\\node",
-        "JAVA_HOME": "E:\\NHUB\\bin\\compilers\\jdk",
         "NPM_CACHE": "E:\\NHUB\\bin\\compilers\\node\\NPMCache",
-        "QT_PLUGIN_PATH": "E:\\NHUB\\bin\\frameworks\\anaconda\\Library\\plugins",
         "NPM_CONFIG_CACHE": "E:\\NHUB\\bin\\compilers\\node\\NPMCache",
         "NPM_CONFIG_SCRIPTS_PREPEND_NODE_PATH": "false",
-        "CONDA_NPY": "111",
 
+        //JVM:
+        "JAVA_HOME": "E:\\NHUB\\bin\\compilers\\jdk",
+        
+        //Anaconda, Python:
+        "CONDA_NPY": "111",
+        "SCRIPTS": "E:\\NHUB\\bin\\frameworks\\anaconda\\Scripts",
         "LIBRARY_BIN": "E:\\NHUB\\bin\\frameworks\\anaconda\\Library\\bin",
         "LIBRARY_INC": "E:\\NHUB\\bin\\frameworks\\anaconda\\Library\\include",
         "LIBRARY_LIB": "E:\\NHUB\\bin\\frameworks\\anaconda\\Library\\lib",
-
-        "SCRIPTS": "E:\\NHUB\\bin\\frameworks\\anaconda\\Scripts"
+        "QT_PLUGIN_PATH": "E:\\NHUB\\bin\\frameworks\\anaconda\\Library\\plugins",
     },
+    
     //Sync==========================================================================================================
     "sync.askGistName": true,
     "sync.forceUpload": true,
@@ -50,6 +45,8 @@
     "python.jediEnabled": true,
     "python.condaPath": "E:\\NHUB\\bin\\frameworks\\anaconda\\Condabin\\conda.bat",
     "python.pythonPath": "E:\\NHUB\\bin\\frameworks\\anaconda\\python.exe",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.envFile": "${workspaceFolder}/.env",
     //"python.pythonPath": "${workspaceFolder}\\.\\..\\..\\bin\\frameworks\\anaconda\\python.exe",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
@@ -65,7 +62,11 @@
             "fontWeight": "bold"
         }
     },
-   
+    "editor.fontLigatures": true,
+    "terminal.integrated.rendererType": "dom",
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "workbench.activityBar.visible": true,
+    "editor.fontSize": 13,
     "peacock.favoriteColors": [
         {
             "name": "Angular Red",
@@ -121,5 +122,6 @@
         }
     ],
     "C_Cpp.updateChannel": "Insiders",
-    "editor.mouseWheelZoom": true
+    "editor.mouseWheelZoom": true,
+    "kite.showWelcomeNotificationOnStartup": false
 }

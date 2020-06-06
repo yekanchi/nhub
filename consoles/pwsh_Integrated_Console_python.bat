@@ -1,0 +1,1 @@
+E:\NHUB\bin\pwsh\pwsh.exe -Noexit -NoProfile -NoLogo -ExecutionPolicy bypass -File E:\NHUB\bin\consoles\pwsh_Integrated_Console_python.ps1

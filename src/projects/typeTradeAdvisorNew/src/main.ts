@@ -57,5 +57,5 @@ export async function getSymbolHistory(symbol, historyResolution, fromJalaliData
 
 
 export async function processdata() {
-    //var data = await this.getSymbolHistory("IRO1MSMI0001", HistoryResolution.OneMinute, "1398/1/1", "1398/5/5");
+    // var data = await this.getSymbolHistory("IRO1MSMI0001", HistoryResolution.OneMinute, "1398/1/1", "1398/5/5");
 }

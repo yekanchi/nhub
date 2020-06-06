@@ -1,0 +1,16 @@
+Matching a US Phone or Social Security Number.linq
+Extracting Name=Value pairs.linq
+Strong Password Validation.linq
+Lines at least n characters.linq
+Parsing Dates and Times.linq
+Matching Roman Numerals.linq
+Removing Repeated Words.linq
+Replacing newline with return-newline.linq
+Word Count.linq
+Matching a GUID.linq
+Parsing an XML tag.linq
+Splitting a Camel-Cased Word.linq
+Obtaining a Legal Filename.linq
+Escaping Unicode Characters for HTML.linq
+Unescaping Characters in an HTTP Query String.linq
+Parsing Google Search Terms from a Web Stats Log.linq

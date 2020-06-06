@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataContextDriver>
+  <MainAssembly>Mindscape.LightSpeed.LinqPad.dll</MainAssembly>
+  <SupportUri>http://www.mindscape.co.nz/forums/Forum.aspx?ForumID=9</SupportUri>
+</DataContextDriver>

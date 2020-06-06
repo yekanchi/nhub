@@ -1,0 +1,17 @@
+Awaiting.linq
+Capturing local state.linq
+Awaiting in a UI - synchronous.linq
+Awaiting in a UI - asynchronous.linq
+Awaiting in a UI - IO-bound.linq
+Awaiting in a UI - Comparison to course-grained concurrency.linq
+Writing asynchronous functions.linq
+Returning Task of TResult.linq
+Blocking versions of the above.linq
+Parallelism.linq
+Asynchronous lambda expressions.linq
+Asynchronous lambda expressions - event handlers.linq
+Asynchronous lambda expressions - returning Task of TResult.linq
+Optimizations - Completing synchronously.linq
+Optimizations - Caching Tasks.linq
+Optimizations - Caching Tasks fully threadsafe.linq
+Optimizations - Avoiding excessive bouncing.linq

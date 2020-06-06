@@ -1,0 +1,18 @@
+Listing 3-1. Find words that match T9 keypresses.linq
+Listing 3-2. Find closest-match words from a dictionary.linq
+Listing 3-3. Implementing spelling correction.linq
+Listing 3-4. Reversing a sentence.linq
+Listing 3-5. Create a word triangle.linq
+Listing 3-6. Determining whether two phrases are anagrams of each other.linq
+Listing 3-7. Checking for anagrams without sorting.linq
+Listing 3-8. Adding syntax highlighting to code.linq
+Listing 3-9. A LINQ-based word-ladder solver.linq
+Listing 3-10. On-the- fly formatting.linq
+Listing 3-11. One comma-quibbling problem solution.linq
+Listing 3-12. Generating random serials.linq
+Listing 3-13. Generating all substrings of a given string.linq
+Listing 3-14. Find all words that can be formed from a given set of letters.linq
+Listing 3-15. Finding all sub-sequences of a given word.linq
+Listing 3-16. Line-wrapping algorithm to equalize line lengths.linq
+Listing 3-17. Generating the lyrics to 99 Bottles of Beer.linq
+Listing 3-18. Identifying abbreviations and their expanded forms.linq

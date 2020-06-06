@@ -1,0 +1,6 @@
+First and Last.linq
+FirstOrDefault.linq
+Single.linq
+SingleOrDefault.linq
+SingleOrDefault (database).linq
+ElementAt.linq

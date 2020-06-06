@@ -1,0 +1,15 @@
+<Query Kind="Statements">
+  <Reference>&lt;RuntimeDirectory&gt;\System.Windows.Forms.dll</Reference>
+  <Namespace>System.Windows.Forms</Namespace>
+</Query>
+
+Button button = new Button();
+button.Text = "Click me";
+button.Click += delegate { Console.WriteLine("LogPlain"); };
+button.KeyPress += delegate { Console.WriteLine("LogKey"); };
+button.MouseClick += delegate { Console.WriteLine("LogMouse"); };
+
+Form form = new Form();
+form.AutoSize = true;
+form.Controls.Add(button);
+Application.Run(form);

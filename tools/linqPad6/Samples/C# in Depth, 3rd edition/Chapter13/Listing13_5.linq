@@ -1,0 +1,14 @@
+<Query Kind="Program" />
+
+void Main()
+{
+    int i = 0;
+    Dump(x: ++i, y: ++i, z: ++i);
+    i = 0;
+    Dump(z: ++i, x: ++i, y: ++i);    
+}
+
+static void Dump(int x, int y, int z)
+{
+    Console.WriteLine("x={0} y={1} z={2}", x, y, z);
+}

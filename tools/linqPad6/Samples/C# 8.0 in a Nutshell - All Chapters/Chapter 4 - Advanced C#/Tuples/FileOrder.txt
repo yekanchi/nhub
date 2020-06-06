@@ -1,0 +1,11 @@
+Tuple literals.linq
+Tuple literals - specifying types.linq
+Returning tuple from method.linq
+Naming tuple elements.linq
+Naming tuple elements - types.linq
+Tuple type compatibility.linq
+Tuple.Create.linq
+Deconstructing tuples.linq
+Deconstructing tuples - method call.linq
+Equality Comparison.linq
+Extra - Tuple Order Comparison.linq

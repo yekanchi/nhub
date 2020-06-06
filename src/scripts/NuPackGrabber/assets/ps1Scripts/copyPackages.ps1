@@ -1,0 +1,1 @@
+Get-ChildItem -Path ".\assets\temp\*" -Include *.nupkg -Recurse | Copy-Item -Destination ".\nuPkges"

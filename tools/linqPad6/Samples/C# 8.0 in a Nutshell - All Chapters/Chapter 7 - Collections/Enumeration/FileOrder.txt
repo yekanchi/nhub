@@ -1,0 +1,8 @@
+Low-level use of IEnumerable and IEnumerator.linq
+Disposing enumerators.linq
+Use of nongeneric interfaces.linq
+Simple iterator class.linq
+Simple iterator class - generic.linq
+Iterator method.linq
+Low-level approach - nongeneric.linq
+Low-level approach - generic.linq

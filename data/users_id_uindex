@@ -1,0 +1,4 @@
+-- auto-generated definition
+create unique index users_id_uindex
+    on users (user_id);
+

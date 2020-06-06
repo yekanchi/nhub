@@ -1,5 +1,2 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const el = require("./electron");
-el.showWindow();
+console.log(global);
 //# sourceMappingURL=app.js.map

@@ -1,0 +1,1209 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BigQuery.Linq</name>
+    </assembly>
+    <members>
+        <member name="M:BigQuery.Linq.IExecutableBigQueryable`1.Into">
+            <summary>Change query as Subquery.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryableQueryChainExtensions.Flatten``1(BigQuery.Linq.ITableDecoratorBigQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+            <summary>
+            Note:Flatten with Table decorators is works fine.
+            But Flatten with Table wildcard currently BigQuery reports error.
+            see: https://code.google.com/p/google-bigquery/issues/detail?id=113
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <param name="fieldSelector"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryableQueryChainExtensions.Where``1(BigQuery.Linq.IWhereBigQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            The WHERE clause, sometimes called the predicate, states the qualifying conditions for a query. Multiple conditions can be joined by boolean AND and OR clauses, optionally surrounded by (parentheses) to group them. The fields listed in a WHERE clause do not need to be listed in any SELECT clause.
+            </summary>
+            <param name="condition">Aggregate functions cannot be used in the WHERE clause.</param>
+        </member>
+        <member name="T:BigQuery.Linq.IRowsParser">
+            <summary>
+            Parses rows as a specified type
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.MetaTableSchema.BuildCSharpClasses(System.Boolean,BigQuery.Linq.DuplicateNamingStorage)">
+            <summary>
+            not flatten nested table.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.MetaTableSchema.ToJsonSchema(Newtonsoft.Json.Formatting)">
+            <summary>
+            Showing the table schema same as bq --format=prettyjson show
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.CumulativeDistribution``1(``0)">
+            <summary>
+            Returns a double that indicates the cumulative distribution of a value in a group of values, calculated using the formula &lt;number of rows preceding or tied with the current row&gt; / &lt;total rows&gt;.
+            Tied values return the same cumulative distribution value.
+            This window function requires ORDER BY in the OVER clause.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.DenseRank``1(``0)">
+            <summary>
+            Returns the integer rank of a value in a group of values. The rank is calculated based on comparisons with other values in the group.
+            Tied values display as the same rank. The rank of the next value is incremented by 1. For example, if two values tie for rank 2, the next ranked value is 3. If you prefer a gap in the ranking list, use rank().
+            This window function requires ORDER BY in the OVER clause.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Lag``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Int32)">
+            <summary>
+            Returns the value of [expr] for the row located [offset] rows before the current row. If the row doesn't exist, [default_value] returns.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Lag``2(``0,System.String,System.Int32)">
+            <summary>
+            Returns the value of [expr] for the row located [offset] rows before the current row. If the row doesn't exist, [default_value] returns.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Lag``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Int32,``1)">
+            <summary>
+            Returns the value of [expr] for the row located [offset] rows before the current row. If the row doesn't exist, [default_value] returns.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Lag``2(``0,System.String,System.Int32,``1)">
+            <summary>
+            Returns the value of [expr] for the row located [offset] rows before the current row. If the row doesn't exist, [default_value] returns.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Lead``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Int32)">
+            <summary>
+            Returns the value of [expr] for the row located [offset] rows after the current row. If the row doesn't exist, [default_value] returns.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Lead``2(``0,System.String,System.Int32)">
+            <summary>
+            Returns the value of [expr] for the row located [offset] rows after the current row. If the row doesn't exist, [default_value] returns.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Lead``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Int32,``1)">
+            <summary>
+            Returns the value of [expr] for the row located [offset] rows after the current row. If the row doesn't exist, [default_value] returns.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Lead``2(``0,System.String,System.Int32,``1)">
+            <summary>
+            Returns the value of [expr] for the row located [offset] rows after the current row. If the row doesn't exist, [default_value] returns.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.NthValue``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Int32)">
+            <summary>
+            Returns the value of [expr] at position [n] of the window frame, where [n] is a one-based index.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.NthValue``2(``0,System.String,System.Int32)">
+            <summary>
+            Returns the value of [expr] at position [n] of the window frame, where [n] is a one-based index.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Ntile``1(``0,System.Int32)">
+            <summary>
+            Divides a sequence of rows into [num_buckets] buckets and assigns a corresponding bucket number, as an integer, with each row. The ntile() function assigns the bucket numbers as equally as possible and returns a value from 1 to [num_buckets] for each row.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.PercentRank``1(``0)">
+            <summary>
+            Returns the rank of the current row, relative to the other rows in the partition. Returned values range between 0 and 1, inclusively. The first value returned is 0.0.
+            This window function requires ORDER BY in the OVER clause.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.PercentileCont``1(``0,System.Double)">
+            <summary>
+            Returns values that are based upon linear interpolation between the values of the group, after ordering them per the ORDER BY clause.
+            [percentile] must be between 0 and 1.
+            This window function requires ORDER BY in the OVER clause.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.PercentileDisc``1(``0,System.Double)">
+            <summary>
+            Returns the value with the smallest cumulative distribution that's greater or equal to [percentile].
+            [percentile] must be between 0 and 1.
+            This window function requires ORDER BY in the OVER clause.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Rank``1(``0)">
+            <summary>
+            Returns the integer rank of a value in a group of values. The rank is calculated based on comparisons with other values in the group.
+            Tied values display as the same rank. The rank of the next value is incremented according to how many tied values occurred before it. For example, if two values tie for rank 2, the next ranked value is 4, not 3. If you prefer no gaps in the ranking list, use dense_rank().
+            This window function requires ORDER BY in the OVER clause.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.RatioToReport``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Returns the ratio of each value to the sum of the values, as a double between 0 and 1.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.RatioToReport``1(``0,System.String)">
+            <summary>
+            Returns the ratio of each value to the sum of the values, as a double between 0 and 1.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.RowNumber``1(``0)">
+            <summary>
+            Returns the current row number of the query result, starting with 1.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.FirstValue``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.FirstValue``2(``0,System.String,``1)">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.LastValue``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.LastValue``2(``0,System.String,``1)">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Sum``2(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Int64}})">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Sum``2(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Double}})">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Sum``1(``0,System.String)">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Count``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Count``2(``0,System.String)">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Average``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Average``2(``0,System.String)">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Min``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Min``2(``0,System.String,``1)">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Max``2(``0,System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Max``2(``0,System.String,``1)">
+            <summary>Window and analytics function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Host(System.String)">
+            <summary>
+            Given a URL, returns the host name as a string.
+            Example: HOST('http://www.google.com:80/index.html') returns 'www.google.com'
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Domain(System.String)">
+            <summary>
+            Given a URL, returns the domain as a string.
+            Example: DOMAIN('http://www.google.com:80/index.html') returns 'google.com'
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Tld(System.String)">
+            <summary>
+            Given a URL, returns the top level domain plus any country domain in the URL.
+            Example: TLD('http://www.google.com:80/index.html') returns '.com'. TLD('http://www.google.co.uk:80/index.html') returns '.co.uk'.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Concat(System.String[])">
+            <summary>
+            Returns the concatenation of two or more strings, or NULL if any of the values are NULL.
+            You can use str1 + str2 + ..., too.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Contains(System.String,System.String)">
+            <summary>
+            Returns true if expr contains the specified string argument. This is a case-sensitive comparison.
+            You can use String.Contains - foo.Contains(bar), too.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.InStr(System.String,System.String)">
+            <summary>
+            Returns the one-based index of the first occurrence of str2 in str1, or returns 0 if str2 does not occur in str1.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Left(System.String,System.Int64)">
+            <summary>
+            Returns the leftmost numeric_expr characters of str. If the number is longer than str, the full string will be returned.
+            Example: LEFT('seattle', 3) returns sea.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.TrimLeft(System.String)">
+            <summary>
+            ReturnsRemoves characters from the left side of str1.
+            If str2 is omitted, LTRIM removes spaces from the left side of str1.
+            Otherwise, LTRIM removes any characters in str2 from the left side of str1 (case-sensitive).
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.TrimLeft(System.String,System.String)">
+            <summary>
+            ReturnsRemoves characters from the left side of str1.
+            If str2 is omitted, LTRIM removes spaces from the left side of str1.
+            Otherwise, LTRIM removes any characters in str2 from the left side of str1 (case-sensitive).
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Length(System.String)">
+            <summary>
+            Returns a numerical value for the length of the string.
+            Example: if str is '123456', LENGTH returns 6.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Lower(System.String)">
+            <summary>
+            Returns the original string with all characters in lower case. Works for LATIN-1 characters only.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.PadLeft(System.String,System.Int32,System.String)">
+            <summary>
+            Pads str1 on the left with str2, repeating str2 until the result string is exactly numeric_expr characters.
+            Example: LPAD('1', 7, '?') returns ??????1.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Right(System.String,System.Int64)">
+            <summary>
+            Returns the righmost numeric_expr characters of str. If the number is longer than the string, it will return the whole string.
+            Example: RIGHT('kirkland', 4) returns land.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.PadRight(System.String,System.Int32,System.String)">
+            <summary>
+            Pads str1 on the right with str2, repeating str2 until the result string is exactly numeric_expr characters.
+            Example: RPAD('1', 7, '?') returns 1??????.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.TrimRight(System.String)">
+            <summary>
+            Removes trailing characters from the right side of str1.
+            If str2 is omitted, RTRIM removes trailing spaces from str1.
+            Otherwise, RTRIM removes any characters in str2 from the right side of str1 (case-sensitive).
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.TrimRight(System.String,System.String)">
+            <summary>
+            Removes trailing characters from the right side of str1.
+            If str2 is omitted, RTRIM removes trailing spaces from str1.
+            Otherwise, RTRIM removes any characters in str2 from the right side of str1 (case-sensitive).
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Split(System.String)">
+            <summary>
+            Returns a set of substrings as a repeated string. If delimiter is specified, the SPLIT function breaks str into substrings, using delimiter as the delimiter.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Split(System.String,System.String)">
+            <summary>
+            Returns a set of substrings as a repeated string. If delimiter is specified, the SPLIT function breaks str into substrings, using delimiter as the delimiter.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Substring(System.String,System.Int32)">
+            <summary>
+            Returns a substring of str, starting at index.
+            If the optional max_len parameter is used, the returned string is a maximum of max_len characters long.
+            Counting starts at 1, so the first character in the string is in position 1 (not zero).
+            If index is 5, the substring begins with the 5th character from the left in str.
+            If index is -4, the substring begins with the 4th character from the right in str.
+            Example: SUBSTR('awesome', -4, 4) returns the substring some.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Substring(System.String,System.Int32,System.Int32)">
+            <summary>
+            Returns a substring of str, starting at index.
+            If the optional max_len parameter is used, the returned string is a maximum of max_len characters long.
+            Counting starts at 1, so the first character in the string is in position 1 (not zero).
+            If index is 5, the substring begins with the 5th character from the left in str.
+            If index is -4, the substring begins with the 4th character from the right in str.
+            Example: SUBSTR('awesome', -4, 4) returns the substring some.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Upper(System.String)">
+            <summary>
+            Returns the original string with all characters in upper case. Works for LATIN-1 characters only.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.RegexpMatch(System.String,System.String)">
+            <summary>
+            Returns true if str matches the regular expression. For string matching without regular expressions, use CONTAINS instead of REGEXP_MATCH.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.RegexpExtract(System.String,System.String)">
+            <summary>
+            Returns the portion of str that matches the capturing group within the regular expression.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.RegexpReplace(System.String,System.String,System.String)">
+            <summary>
+            Returns a string where any substring of orig_str that matches reg_exp is replaced with replace_str.
+            For example, REGEXP_REPLACE ('Hello', 'lo', 'p') returns Help.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Abs(System.Nullable{System.Int64})">
+            <summary>Returns the absolute value of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Abs(System.Nullable{System.Double})">
+            <summary>Returns the absolute value of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Acos(System.Nullable{System.Double})">
+            <summary>Returns the arc cosine of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Acosh(System.Nullable{System.Double})">
+            <summary>Returns the arc hyperbolic cosine of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Asin(System.Nullable{System.Double})">
+            <summary>Returns the arc sine of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Asinh(System.Nullable{System.Double})">
+            <summary>Returns the arc hyperbolic sine of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Atan(System.Nullable{System.Double})">
+            <summary>Returns the arc tangent of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Atanh(System.Nullable{System.Double})">
+            <summary>Returns the arc hyperbolic tangent of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Atan2(System.Nullable{System.Double},System.Nullable{System.Double})">
+            <summary>Returns the arc tangent of the two arguments.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Ceil(System.Nullable{System.Double})">
+            <summary>Rounds the argument up to the nearest whole number and returns the rounded value.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Cos(System.Nullable{System.Double})">
+            <summary>Returns the cosine of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Cosh(System.Nullable{System.Double})">
+            <summary>Returns the hyperbolic cosine of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Degrees(System.Nullable{System.Double})">
+            <summary>Returns numeric_expr, converted from radians to degrees.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Floor(System.Nullable{System.Double})">
+            <summary>Rounds the argument down to the nearest whole number and returns the rounded value.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Exp(System.Nullable{System.Int64})">
+            <summary>Returns the result of raising the constant "e" - the base of the natural logarithm - to the power of numeric_expr.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Exp(System.Nullable{System.Double})">
+            <summary>Returns the result of raising the constant "e" - the base of the natural logarithm - to the power of numeric_expr.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Log(System.Nullable{System.Double})">
+            <summary>Returns the natural logarithm of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Log2(System.Nullable{System.Double})">
+            <summary>Returns the Base-2 logarithm of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Log10(System.Nullable{System.Double})">
+            <summary>Returns the Base-10 logarithm of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.PI">
+            <summary>Returns the constant π. The PI() function requires parentheses to signify that it is a function, but takes no arguments in those parentheses. You can use PI() like a constant with mathematical and arithmetic functions.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Pow(System.Nullable{System.Double},System.Nullable{System.Double})">
+            <summary>Returns the result of raising numeric_expr1 to the power of numeric_expr2.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Radians(System.Nullable{System.Double})">
+            <summary>Returns numeric_expr, converted from degrees to radians. (Note that π radians equals 180 degrees.)</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Random">
+            <summary>
+            Returns a random float value in the range 0.0 &lt;= value &lt; 1.0.
+            Each int32_seed value always generates the same sequence of random numbers within a given query, as long as you don't use a LIMIT clause.
+            If int32_seed is not specified, BigQuery uses the current timestamp as the seed value.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Random(System.Int32)">
+            <summary>
+            Returns a random float value in the range 0.0 &lt;= value &lt; 1.0.
+            Each int32_seed value always generates the same sequence of random numbers within a given query, as long as you don't use a LIMIT clause.
+            If int32_seed is not specified, BigQuery uses the current timestamp as the seed value.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Round(System.Nullable{System.Double})">
+            <summary>Rounds the argument either up or down to the nearest whole number (or if specified, to the specified number of digits) and returns the rounded value.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Round(System.Nullable{System.Double},System.Int32)">
+            <summary>Rounds the argument either up or down to the nearest whole number (or if specified, to the specified number of digits) and returns the rounded value.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Sin(System.Nullable{System.Double})">
+            <summary>Returns the sine of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Sinh(System.Nullable{System.Double})">
+            <summary>Returns the hyperbolic sine of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Sqrt(System.Nullable{System.Double})">
+            <summary>Returns the square root of the expression.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Tan(System.Nullable{System.Double})">
+            <summary>Returns the tangent of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Tanh(System.Nullable{System.Double})">
+            <summary>Returns the hyperbolic tangent of the argument.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.JsonExtract(System.String,System.String)">
+            <summary>
+            Selects a value in json according to the JSONPath expression json_path. json_path must be a string constant. Returns the value in JSON string format.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.JsonExtractScalar(System.String,System.String)">
+            <summary>
+            Selects a value in json according to the JSONPath expression json_path. json_path must be a string constant. Returns a scalar JSON value.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.FormatIP(System.Int32)">
+            <summary>
+            Converts 32 least significant bits of integer_value to human-readable IPv4 address string.
+            For example, FORMAT_IP(1) will return string '0.0.0.1'.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.ParseIP(System.String)">
+            <summary>
+            Converts a string representing IPv4 address to unsigned integer value.
+            For example, PARSE_IP('0.0.0.1') will return 1. If string is not a valid IPv4 address, PARSE_IP will return NULL.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.FormatPackedIP(System.String)">
+            <summary>
+            Returns a human-readable IP address, in the form 10.1.5.23 or 2620:0:1009:1:216:36ff:feef:3f.
+            Examples:
+            FORMAT_PACKED_IP('0123456789@ABCDE') returns '3031:3233:3435:3637:3839:4041:4243:4445'
+            FORMAT_PACKED_IP('0123') returns '48.49.50.51'
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.ParsePackedIP(System.String)">
+            <summary>
+            Returns an IP address in binary format packed in a string.
+            If the input string is not a valid IPv4 or IPv6 address, PARSE_PACKED_IP will return NULL.
+            Examples:
+            PARSE_PACKED_IP('48.49.50.51') returns '0123'
+            PARSE_PACKED_IP('3031:3233:3435:3637:3839:4041:4243:4445') returns '0123456789@ABCDE'
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.CurrentDate">
+            <summary>Returns a human-readable string of the current date in the format %Y-%m-%d.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.CurrentTime">
+            <summary>Returns a human-readable string of the server's current time in the format %H:%M:%S.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.CurrentTimestamp">
+            <summary>Returns a TIMESTAMP data type of the server's current time in the format %Y-%m-%d %H:%M:%S.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Date(System.DateTimeOffset)">
+            <summary>Returns a human-readable string of a TIMESTAMP data type in the format %Y-%m-%d.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.DateAdd(System.DateTimeOffset,System.Int32,BigQuery.Linq.IntervalUnit)">
+            <summary>Adds the specified interval to a TIMESTAMP data type. Possible interval_units values include YEAR, MONTH, DAY, HOUR, MINUTE, and SECOND. If interval is a negative number, the interval is subtracted from the TIMESTAMP data type.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.DateDiff(System.DateTimeOffset,System.Nullable{System.DateTimeOffset})">
+            <summary>Returns the number of days between two TIMESTAMP data types.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Day(System.DateTimeOffset)">
+            <summary>Returns the day of the month of a TIMESTAMP data type as an integer between 1 and 31, inclusively.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.DayOfWeek(System.DateTimeOffset)">
+            <summary>Returns the day of the week of a TIMESTAMP data type as an integer between 1 (Sunday) and 7 (Saturday), inclusively.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.DayOfYear(System.DateTimeOffset)">
+            <summary>Returns the day of the year of a TIMESTAMP data type as an integer between 1 and 366, inclusively. The integer 1 refers to January 1.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.FormatUtcUsec(System.Nullable{System.Int64})">
+            <summary>
+            Returns a human-readable string representation of a UNIX timestamp in the format YYYY-MM-DD HH:MM:SS.uuuuuu.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Hour(System.DateTimeOffset)">
+            <summary>Returns the hour of a TIMESTAMP data type as an integer between 0 and 23, inclusively.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Minute(System.DateTimeOffset)">
+            <summary>Returns the minutes of a TIMESTAMP data type as an integer between 0 and 59, inclusively.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Month(System.DateTimeOffset)">
+            <summary>Returns the month of a TIMESTAMP data type as an integer between 1 and 12, inclusively.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Second(System.DateTimeOffset)">
+            <summary>
+            Returns the seconds of a TIMESTAMP data type as an integer between 0 and 59, inclusively.
+            During a leap second, the integer range is between 0 and 60, inclusively.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Year(System.DateTimeOffset)">
+            <summary>Returns the year of a TIMESTAMP data type.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.MsecToTimestamp(System.Nullable{System.Int64})">
+            <summary>Converts a UNIX timestamp in milliseconds to a TIMESTAMP data type.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Now">
+            <summary>Returns a UNIX timestamp in microseconds.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.ParseUtcUsec(System.String)">
+            <summary>
+            Converts a date string to a UNIX timestamp in microseconds.
+            date_string must have the format YYYY-MM-DD HH:MM:SS[.uuuuuu].
+            The fractional part of the second can be up to 6 digits long or can be omitted.
+            TIMESTAMP_TO_USEC is an equivalent function that converts a TIMESTAMP data type argument instead of a date string.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Quarter(System.DateTimeOffset)">
+            <summary>
+            Returns the quarter of the year of a TIMESTAMP data type as an integer between 1 and 4, inclusively.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.SecToTimestamp(System.Nullable{System.Int64})">
+            <summary>
+            Converts a UNIX timestamp in seconds to a TIMESTAMP data type.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.StrftimeUtcUsec(System.Nullable{System.Int64},System.String)">
+            <summary>
+            Returns a human-readable date string in the format date_format_str. date_format_str can include date-related punctuation characters (such as / and -) and special characters accepted by the strftime function in C++ (such as %d for day of month).
+            Use the UTC_USEC_TO_&lt;function_name&gt; functions if you plan to group query data by time intervals, such as getting all data for a certain month, because the functions are more efficient.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Time(System.DateTimeOffset)">
+            <summary>Returns a human-readable string of a TIMESTAMP data type, in the format %H:%M:%S.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Timestamp(System.String)">
+            <summary>Convert a date string to a TIMESTAMP data type.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.TimestampToMsec(System.DateTimeOffset)">
+            <summary>Converts a TIMESTAMP data type to a UNIX timestamp in milliseconds.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.TimestampToSec(System.DateTimeOffset)">
+            <summary>Converts a TIMESTAMP data type to a UNIX timestamp in seconds.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.TimestampToUsec(System.DateTimeOffset)">
+            <summary>
+            Converts a TIMESTAMP data type to a UNIX timestamp in microseconds.
+            PARSE_UTC_USEC is an equivalent function that converts a data string argument instead of a TIMESTAMP data type.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.UsecToTimestamp(System.Nullable{System.Int64})">
+            <summary>
+            Converts a UNIX timestamp in microseconds to a TIMESTAMP data type.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.UtcUsecToDay(System.Nullable{System.Int64})">
+            <summary>
+            Shifts a UNIX timestamp in microseconds to the beginning of the day it occurs in.
+            For example, if unix_timestamp occurs on May 19th at 08:58, this function returns a UNIX timestamp for May 19th at 00:00 (midnight).
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.UtcUsecToHour(System.Nullable{System.Int64})">
+            <summary>
+            Shifts a UNIX timestamp in microseconds to the beginning of the hour it occurs in.
+            For example, if unix_timestamp occurs at 08:58, this function returns a UNIX timestamp for 08:00 on the same day.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.UtcUsecToMonth(System.Nullable{System.Int64})">
+            <summary>
+            Shifts a UNIX timestamp in microseconds to the beginning of the month it occurs in.
+            For example, if unix_timestamp occurs on March 19th, this function returns a UNIX timestamp for March 1st of the same year.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.UtcUsecToWeek(System.Nullable{System.Int64},System.Int64)">
+            <summary>
+            Returns a UNIX timestamp in microseconds that represents a day in the week of the unix_timestamp argument. This function takes two arguments: a UNIX timestamp in microseconds, and a day of the week from 0 (Sunday) to 6 (Saturday).
+            For example, if unix_timestamp occurs on Friday, 2008-04-11, and you set day_of_week to 2 (Tuesday), the function returns a UNIX timestamp for Tuesday, 2008-04-08.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.UtcUsecToYear(System.Nullable{System.Int64})">
+            <summary>
+            Returns a UNIX timestamp in microseconds that represents the year of the unix_timestamp argument.
+            For example, if unix_timestamp occurs in 2010, the function returns 1274259481071200, the microsecond representation of 2010-01-01 00:00.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.GreaterThan(System.String,System.String)">
+            <summary>
+            &gt;. Returns true if expr1 is greater than expr2.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.GreaterThanEqual(System.String,System.String)">
+            <summary>
+            &gt;=. Returns true if expr1 is greater than or equal to expr2.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.LessThan(System.String,System.String)">
+            <summary>
+            &lt;. Returns true if expr1 is less than expr2.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.LessThanEqual(System.String,System.String)">
+            <summary>
+            &lt;=. Returns true if expr1 is less than or equal to expr2.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Between``1(``0,``0,``0)">
+            <summary>
+            Returns true if the value of expr1 is greater than or equal to expr2, and less than or equal to expr3.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.In``1(``0,``0[])">
+            <summary>
+            Returns true if expr matches expr1, expr2, or any value in the parentheses.
+            The IN keyword is an efficient shorthand for (expr = expr1 || expr = expr2 || ...).
+            The expressions used with the IN keyword must be constants and they must match the data type of expr
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.In``2(``0,BigQuery.Linq.IExecutableBigQueryable{``1})">
+            <summary>
+            Returns true if expr matches expr1, expr2, or any value in the parentheses.
+            The IN keyword is an efficient shorthand for (expr = expr1 || expr = expr2 || ...).
+            The expressions used with the IN keyword must be constants and they must match the data type of expr
+            Semijoin expression (i.e. "x IN (SELECT ...)") only supported in WHERE or HAVING clauses
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.NotIn``1(``0,``0[])">
+            <summary>
+            Returns true if expr matches expr1, expr2, or any value in the parentheses.
+            The IN keyword is an efficient shorthand for (expr = expr1 || expr = expr2 || ...).
+            The expressions used with the IN keyword must be constants and they must match the data type of expr
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.NotIn``2(``0,BigQuery.Linq.IExecutableBigQueryable{``1})">
+            <summary>
+            Returns true if expr matches expr1, expr2, or any value in the parentheses.
+            The IN keyword is an efficient shorthand for (expr = expr1 || expr = expr2 || ...).
+            The expressions used with the IN keyword must be constants and they must match the data type of expr
+            Semijoin expression (i.e. "x IN (SELECT ...)") only supported in WHERE or HAVING clauses
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Coalesce``1(``0[])">
+            <summary>
+            Returns the first argument that isn't NULL.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Greatest(System.Nullable{System.Int64}[])">
+            <summary>
+            Returns the largest numeric_expr parameter. All parameters must be numeric, and all parameters must be the same type. If any parameter is NULL, this function returns NULL.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Greatest(System.Nullable{System.Double}[])">
+            <summary>
+            Returns the largest numeric_expr parameter. All parameters must be numeric, and all parameters must be the same type. If any parameter is NULL, this function returns NULL.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.IsInfinity(System.Nullable{System.Double})">
+            <summary>Returns true if numeric_expr is positive or negative infinity.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.IsNAN(System.Nullable{System.Double})">
+            <summary>Returns true if numeric_expr is the special NaN numeric value.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Least(System.Nullable{System.Int64}[])">
+            <summary>
+            Returns the smallest numeric_expr parameter. All parameters must be numeric, and all parameters must be the same type. If any parameter is NULL, this function returns NULL.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Least(System.Nullable{System.Double}[])">
+            <summary>
+            Returns the smallest numeric_expr parameter. All parameters must be numeric, and all parameters must be the same type. If any parameter is NULL, this function returns NULL.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Nvl``1(``0,``0)">
+            <summary>
+            If expr is not null, returns expr, otherwise returns null_default. The NVL function is an alias for IFNULL.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Boolean(System.Nullable{System.Int64})">
+            <summary>
+            Returns true if numeric_expr is not 0 and not NULL.
+            Returns false if numeric_expr is 0.
+            Returns NULL if numeric_expr is NULL.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Boolean(System.Nullable{System.Double})">
+            <summary>
+            Returns true if numeric_expr is not 0 and not NULL.
+            Returns false if numeric_expr is 0.
+            Returns NULL if numeric_expr is NULL.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Cast``1(System.Object)">
+            <summary>
+            Converts expr into a variable of type type.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Float(System.Object)">
+            <summary>
+            Returns expr as a double. The expr can be a string like '45.78', but the function returns NULL for non-numeric values.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.HexString(System.Nullable{System.Int64})">
+            <summary>
+            Returns numeric_expr as a hexadecimal string.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.HexString(System.Nullable{System.Double})">
+            <summary>
+            Returns numeric_expr as a hexadecimal string.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Integer(System.Object)">
+            <summary>
+            Returns expr as a 64-bit integer. This function expects an integer string, such as '45', and returns NULL for non-integer values.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.String(System.Nullable{System.Int64})">
+            <summary>
+            Returns numeric_expr as a string.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.String(System.Nullable{System.Double})">
+            <summary>
+            Returns numeric_expr as a string.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.BitCount(System.Nullable{System.Int64})">
+            <summary>Returns the number of bits that are set in numeric_expr.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.WithIn``1(``0)">
+            <summary>
+            WITHIN RECORD
+            The WITHIN keyword specifically works with aggregate functions to aggregate across children and repeated fields within records and nested fields.
+            Aggregates data in the repeated values within the record, where a record represents an entire unique protocol buffer message, including children and repeated values.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.WithIn``1(``0,System.Object)">
+            <summary>
+            WITHIN node_name
+            The WITHIN keyword specifically works with aggregate functions to aggregate across children and repeated fields within records and nested fields.
+            Aggregates data in the repeated values within the specified node, where a node is a parent node of the field in the aggregation function.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Grouping``1(``0)">
+            <summary>
+            The GROUPING modifier allows you to distinguish between rows that BigQuery added because of the ROLLUP modifier, versus rows that have a NULL value.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Average(System.Nullable{System.Int64})">
+            <summary>
+            Returns the average of the values for a group of rows computed by numeric_expr. Rows with a NULL value are not included in the calculation.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Average(System.Nullable{System.Double})">
+            <summary>
+            Returns the average of the values for a group of rows computed by numeric_expr. Rows with a NULL value are not included in the calculation.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.BitAnd(System.Nullable{System.Int64})">
+            <summary>
+            Returns the result of a bitwise AND operation between each instance of numeric_expr across all rows. NULL values are ignored. This function returns NULL if all instances of numeric_expr evaluate to NULL.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.BitOr(System.Nullable{System.Int64})">
+            <summary>
+            Returns the result of a bitwise OR operation between each instance of numeric_expr across all rows. NULL values are ignored. This function returns NULL if all instances of numeric_expr evaluate to NULL.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.BitXor(System.Nullable{System.Int64})">
+            <summary>
+            Returns the result of a bitwise XOR operation between each instance of numeric_expr across all rows. NULL values are ignored. This function returns NULL if all instances of numeric_expr evaluate to NULL.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Correlation(System.Nullable{System.Int64},System.Nullable{System.Int64})">
+            <summary>
+            Returns the Pearson correlation coefficient of a set of number pairs.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Correlation(System.Nullable{System.Double},System.Nullable{System.Double})">
+            <summary>
+            Returns the Pearson correlation coefficient of a set of number pairs.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Count">
+            <summary>
+            COUNT(*). Returns the total number of values (NULL and non-NULL) in the scope of the function. Unless you are using COUNT(*) with the TOP function, it is better to explicitly specify the field to count.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Count(System.Object)">
+            <summary>
+            Returns the total number of non-NULL values in the scope of the function.
+            If you use the DISTINCT keyword, the function returns the number of distinct values for the specified field. Note that the returned value for DISTINCT is a statistical approximation and is not guaranteed to be exact.
+            If you require greater accuracy from COUNT(DISTINCT), you can specify a second parameter, n, which gives the threshold below which exact results are guaranteed. By default, n is 1000, but if you give a larger n, you will get exact results for COUNT(DISTINCT) up to that value of n. However, giving larger values of n will reduce scalability of this operator and may substantially increase query execution time or cause the query to fail.
+            To compute the exact number of distinct values in a scalable fashion, consider using GROUP EACH BY on the relevant field(s) and then applying COUNT(*). This approach is more scalable but might incur a slight up-front performance penalty.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.CountDistinct(System.Object)">
+            <summary>
+            Returns the total number of non-NULL values in the scope of the function.
+            If you use the DISTINCT keyword, the function returns the number of distinct values for the specified field. Note that the returned value for DISTINCT is a statistical approximation and is not guaranteed to be exact.
+            If you require greater accuracy from COUNT(DISTINCT), you can specify a second parameter, n, which gives the threshold below which exact results are guaranteed. By default, n is 1000, but if you give a larger n, you will get exact results for COUNT(DISTINCT) up to that value of n. However, giving larger values of n will reduce scalability of this operator and may substantially increase query execution time or cause the query to fail.
+            To compute the exact number of distinct values in a scalable fashion, consider using GROUP EACH BY on the relevant field(s) and then applying COUNT(*). This approach is more scalable but might incur a slight up-front performance penalty.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.CountDistinct(System.Object,System.Int32)">
+            <summary>
+            Returns the total number of non-NULL values in the scope of the function.
+            If you use the DISTINCT keyword, the function returns the number of distinct values for the specified field. Note that the returned value for DISTINCT is a statistical approximation and is not guaranteed to be exact.
+            If you require greater accuracy from COUNT(DISTINCT), you can specify a second parameter, n, which gives the threshold below which exact results are guaranteed. By default, n is 1000, but if you give a larger n, you will get exact results for COUNT(DISTINCT) up to that value of n. However, giving larger values of n will reduce scalability of this operator and may substantially increase query execution time or cause the query to fail.
+            To compute the exact number of distinct values in a scalable fashion, consider using GROUP EACH BY on the relevant field(s) and then applying COUNT(*). This approach is more scalable but might incur a slight up-front performance penalty.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.CovariancePopulation(System.Nullable{System.Int64},System.Nullable{System.Int64})">
+            <summary>Computes the population covariance of the values computed by numeric_expr1 and numeric_expr2.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.CovariancePopulation(System.Nullable{System.Double},System.Nullable{System.Double})">
+            <summary>Computes the population covariance of the values computed by numeric_expr1 and numeric_expr2.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.CovarianceSample(System.Nullable{System.Int64},System.Nullable{System.Int64})">
+            <summary>Computes the sample covariance of the values computed by numeric_expr1 and numeric_expr2.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.CovarianceSample(System.Nullable{System.Double},System.Nullable{System.Double})">
+            <summary>Computes the sample covariance of the values computed by numeric_expr1 and numeric_expr2.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.ExactCountDistinct(System.Object)">
+            <summary>
+            Returns the exact number of non-NULL, distinct values for the specified field. For better scalability and performance, use COUNT(DISTINCT field).
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.First``1(``0)">
+            <summary>Returns the first sequential value in the scope of the function.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.GroupConcat(System.String)">
+            <summary>Concatenates multiple strings into a single string, where each value is separated by the optional separator parameter. If separator is omitted, BigQuery returns a comma-separated string.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.GroupConcat(System.String,System.String)">
+            <summary>Concatenates multiple strings into a single string, where each value is separated by the optional separator parameter. If separator is omitted, BigQuery returns a comma-separated string.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.GroupConcatUnquoted(System.String)">
+            <summary>Concatenates multiple strings into a single string, where each value is separated by the optional separator parameter. If separator is omitted, BigQuery returns a comma-separated string. Unlike GROUP_CONCAT, this function will not add double quotes to returned values that include a double quote character.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.GroupConcatUnquoted(System.String,System.String)">
+            <summary>Concatenates multiple strings into a single string, where each value is separated by the optional separator parameter. If separator is omitted, BigQuery returns a comma-separated string. Unlike GROUP_CONCAT, this function will not add double quotes to returned values that include a double quote character.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Last``1(``0)">
+            <summary>
+            Returns the last sequential value in the scope of the function. The LAST function works only with the WITHIN keyword.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Max``1(``0)">
+            <summary>
+            Returns the maximum value in the scope of the function.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Min``1(``0)">
+            <summary>
+            Returns the minimum value in the scope of the function.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Nest``1(``0)">
+            <summary>
+            Aggregates all values in the current aggregation scope into a repeated field. For example, the query "SELECT x, NEST(y) FROM ... GROUP BY x" returns one output record for each distinct x value, and contains a repeated field for all y values paired with x in the query input. The NEST function requires a GROUP BY clause.
+            BigQuery automatically flattens query results, so if you use the NEST function on the top level query, the results won't contain repeated fields. Use the NEST function when using a subselect that produces intermediate results for immediate use by the same query.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Nth``1(System.Nullable{System.Int64},``0)">
+            <summary>
+            Returns the nth sequential value in the scope of the function, where n is a constant. The NTH function starts counting at 1, so there is no zeroth term. If the scope of the function has less than n values, the function returns NULL.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Quantiles``1(``0)">
+            <summary>
+            Compares approximate quantiles for the input expression. The number of quantiles computed is controlled with the optional buckets parameter. The default value of buckets is 100. If specified explicitly, buckets must be greater than or equal to 2. The fractional error per quantile is epsilon = 1 / buckets.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Quantiles``1(``0,System.Nullable{System.Int64})">
+            <summary>
+            Compares approximate quantiles for the input expression. The number of quantiles computed is controlled with the optional buckets parameter. The default value of buckets is 100. If specified explicitly, buckets must be greater than or equal to 2. The fractional error per quantile is epsilon = 1 / buckets.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.StandardDeviation(System.Nullable{System.Int64})">
+            <summary>Returns the standard deviation of the values computed by numeric_expr. Rows with a NULL value are not included in the calculation. The STDDEV function is an alias for STDDEV_SAMP.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.StandardDeviation(System.Nullable{System.Double})">
+            <summary>Returns the standard deviation of the values computed by numeric_expr. Rows with a NULL value are not included in the calculation. The STDDEV function is an alias for STDDEV_SAMP.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.StandardDeviationPopulation(System.Nullable{System.Int64})">
+            <summary>Computes the population standard deviation of the value computed by numeric_expr.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.StandardDeviationPopulation(System.Nullable{System.Double})">
+            <summary>Computes the population standard deviation of the value computed by numeric_expr.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.StandardDeviationSample(System.Nullable{System.Int64})">
+            <summary>Computes the sample standard deviation of the value computed by numeric_expr.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.StandardDeviationSample(System.Nullable{System.Double})">
+            <summary>Computes the sample standard deviation of the value computed by numeric_expr.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Sum(System.Nullable{System.Int64})">
+            <summary>
+            Returns the sum total of the values in the scope of the function. For use with numerical data types only.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Sum(System.Nullable{System.Double})">
+            <summary>
+            Returns the sum total of the values in the scope of the function. For use with numerical data types only.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Sum(System.Nullable{System.DateTimeOffset})">
+            <summary>
+            Returns the sum total of the values in the scope of the function. For use with numerical data types only.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Top``1(``0)">
+            <summary>
+            Returns the top max_records records by frequency.
+            TOP is a function that is an alternative to the GROUP BY clause.
+            When using TOP in a SELECT clause, you must include COUNT(*) as one of the fields.
+            </summary>
+            <param name="field">The field or alias to return.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Top``1(``0,System.Nullable{System.Int64})">
+            <summary>
+            Returns the top max_records records by frequency.
+            TOP is a function that is an alternative to the GROUP BY clause.
+            When using TOP in a SELECT clause, you must include COUNT(*) as one of the fields.
+            </summary>
+            <param name="field">The field or alias to return.</param>
+            <param name="maxValues">[Optional] The maximum number of results to return. Default is 20.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Top``1(``0,System.Nullable{System.Int64},System.Nullable{System.Int64})">
+            <summary>
+            Returns the top max_records records by frequency.
+            TOP is a function that is an alternative to the GROUP BY clause.
+            When using TOP in a SELECT clause, you must include COUNT(*) as one of the fields.
+            </summary>
+            <param name="field">The field or alias to return.</param>
+            <param name="maxValues">[Optional] The maximum number of results to return. Default is 20.</param>
+            <param name="multiplier">A numeric constant, expression, or field that is multiplied with max_values to specify how many results to return.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Unique``1(``0)">
+            <summary>
+            Returns the set of unique, non-NULL values in the scope of the function in an undefined order.
+            Similar to a large GROUP BY clause without the EACH keyword, the query will fail with a "Resources Exceeded" error if there are too many distinct values.
+            Unlike GROUP BY, however, the UNIQUE function can be applied with scoped aggregation, allowing efficient operation on nested fields with a limited number of values.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Variance(System.Nullable{System.Int64})">
+            <summary>Computes the variance of the values computed by numeric_expr. Rows with a NULL value are not included in the calculation. The VARIANCE function is an alias for VAR_SAMP.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Variance(System.Nullable{System.Double})">
+            <summary>Computes the variance of the values computed by numeric_expr. Rows with a NULL value are not included in the calculation. The VARIANCE function is an alias for VAR_SAMP.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.VariancePopulation(System.Nullable{System.Int64})">
+            <summary>Computes the population variance of the values computed by numeric_expr.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.VariancePopulation(System.Nullable{System.Double})">
+            <summary>Computes the population variance of the values computed by numeric_expr.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.VarianceSample(System.Nullable{System.Int64})">
+            <summary>Computes the sample variance of the values computed by numeric_expr.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.VarianceSample(System.Nullable{System.Double})">
+            <summary>Computes the sample variance of the values computed by numeric_expr.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Hash(System.Object)">
+            <summary>
+            Computes and returns a 64-bit signed hash value of the bytes of expr as defined by the CityHash library. Any string or integer expression is supported and the function respects IGNORE CASE for strings, returning case invariant values.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BqFunc.Position(System.Object)">
+            <summary>
+            Returns the one-based, sequential position of field within a set of repeated fields.
+            </summary>
+        </member>
+        <member name="T:BigQuery.Linq.MetaTable">
+            <summary>
+            Table meta data shown by __TABLES__.
+            </summary>
+        </member>
+        <member name="P:BigQuery.Linq.MetaTable.project_id">
+            <summary>name of the project.</summary>
+        </member>
+        <member name="P:BigQuery.Linq.MetaTable.dataset_id">
+            <summary>name of the dataset.</summary>
+        </member>
+        <member name="P:BigQuery.Linq.MetaTable.table_id">
+            <summary>name of the table.</summary>
+        </member>
+        <member name="P:BigQuery.Linq.MetaTable.creation_time">
+            <summary>time, in milliseconds since 1/1/1970 UTC, that the table was created. This is the same as the creation_time field on the table.</summary>
+        </member>
+        <member name="P:BigQuery.Linq.MetaTable.last_modified_time">
+            <summary>time, in milliseconds since 1/1/1970 UTC, that the table was updated (either metadata or table contents).</summary>
+        </member>
+        <member name="P:BigQuery.Linq.MetaTable.row_count">
+            <summary>number of rows in the table.</summary>
+        </member>
+        <member name="P:BigQuery.Linq.MetaTable.size_bytes">
+            <summary>total size in bytes of the table.</summary>
+        </member>
+        <member name="P:BigQuery.Linq.MetaTable.type">
+            <summary>whether it is a view (2) or regular table (1).</summary>
+        </member>
+        <member name="M:BigQuery.Linq.MetaTable.CreateTable(Google.Apis.Bigquery.v2.BigqueryService,Google.Apis.Bigquery.v2.Data.TableFieldSchema[],System.String,System.Nullable{System.Int64},System.String)">
+            <param name="description">[Optional] A user-friendly description of this table.</param>
+            <param name="expirationTime">
+            [Optional] The time when this table expires, in milliseconds since the epoch.
+            If not present, the table will persist indefinitely. Expired tables will
+            be deleted and their storage reclaimed.
+            </param>
+            <param name="friendlyName">[Optional] A descriptive name for this table.</param>
+        </member>
+        <member name="M:BigQuery.Linq.MetaTable.CreateTableAsync(Google.Apis.Bigquery.v2.BigqueryService,Google.Apis.Bigquery.v2.Data.TableFieldSchema[],System.String,System.Nullable{System.Int64},System.String)">
+            <param name="description">[Optional] A user-friendly description of this table.</param>
+            <param name="expirationTime">
+            [Optional] The time when this table expires, in milliseconds since the epoch.
+            If not present, the table will persist indefinitely. Expired tables will
+            be deleted and their storage reclaimed.
+            </param>
+            <param name="friendlyName">[Optional] A descriptive name for this table.</param>
+        </member>
+        <member name="M:BigQuery.Linq.MetaTable.InsertAllAsync``1(Google.Apis.Bigquery.v2.BigqueryService,System.Collections.Generic.IEnumerable{``0},Google.Apis.Util.IBackOff,System.Func{``0,System.String},Newtonsoft.Json.JsonSerializerSettings)">
+            <param name="retryStrategy">If not null, try retry.</param>
+        </member>
+        <member name="P:BigQuery.Linq.QueryResponse`1.Rows">
+            <summary>Returns current page rows. If you needs all paged rows, use ToArray or ToArrayAsync instead.</summary>
+        </member>
+        <member name="M:BigQuery.Linq.QueryResponse`1.ToArray">
+            <summary>
+            Get paging result.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.QueryResponse`1.ToArrayAsync(System.Threading.CancellationToken)">
+            <summary>
+            Get paging result.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromDateRange``1">
+            <summary>
+            Queries todays table
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromDateRange``1(System.DateTimeOffset)">
+            <summary>
+            Queries timestamp date table
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromDateRange``1(System.DateTimeOffset,System.DateTimeOffset)">
+            <summary>
+            Queries daily tables that overlap with the time range between timestamp1 and timestamp2.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromDateRange``1(System.Linq.Expressions.Expression{System.Func{System.DateTimeOffset}},System.Linq.Expressions.Expression{System.Func{System.DateTimeOffset}})">
+            <summary>
+            Queries daily tables that overlap with the time range between timestamp1 and timestamp2.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromDateRange``1(System.String,System.DateTimeOffset,System.DateTimeOffset)">
+            <summary>
+            Queries daily tables that overlap with the time range between timestamp1 and timestamp2.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromDateRange``1(System.String,System.Linq.Expressions.Expression{System.Func{System.DateTimeOffset}},System.Linq.Expressions.Expression{System.Func{System.DateTimeOffset}})">
+            <summary>
+            Queries daily tables that overlap with the time range between timestamp1 and timestamp2.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromDateRange``1(System.String,``0,System.DateTimeOffset,System.DateTimeOffset)">
+            <summary>
+            Queries daily tables that overlap with the time range between timestamp1 and timestamp2.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromDateRange``1(System.String,``0,System.Linq.Expressions.Expression{System.Func{System.DateTimeOffset}},System.Linq.Expressions.Expression{System.Func{System.DateTimeOffset}})">
+            <summary>
+            Queries daily tables that overlap with the time range between timestamp1 and timestamp2.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromDateRangeStrict``1(System.DateTimeOffset,System.DateTimeOffset)">
+            <summary>
+            This function is equivalent to TABLE_DATE_RANGE. The only difference is that if any daily table is missing in the sequence, TABLE_DATE_RANGE_STRICT fails and returns a Not Found: Table [table_name] error.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromDateRangeStrict``1(System.Linq.Expressions.Expression{System.Func{System.DateTimeOffset}},System.Linq.Expressions.Expression{System.Func{System.DateTimeOffset}})">
+            <summary>
+            This function is equivalent to TABLE_DATE_RANGE. The only difference is that if any daily table is missing in the sequence, TABLE_DATE_RANGE_STRICT fails and returns a Not Found: Table [table_name] error.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromDateRangeStrict``1(System.String,System.DateTimeOffset,System.DateTimeOffset)">
+            <summary>
+            This function is equivalent to TABLE_DATE_RANGE. The only difference is that if any daily table is missing in the sequence, TABLE_DATE_RANGE_STRICT fails and returns a Not Found: Table [table_name] error.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromDateRangeStrict``1(System.String,System.Linq.Expressions.Expression{System.Func{System.DateTimeOffset}},System.Linq.Expressions.Expression{System.Func{System.DateTimeOffset}})">
+            <summary>
+            This function is equivalent to TABLE_DATE_RANGE. The only difference is that if any daily table is missing in the sequence, TABLE_DATE_RANGE_STRICT fails and returns a Not Found: Table [table_name] error.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromDateRangeStrict``1(System.String,``0,System.DateTimeOffset,System.DateTimeOffset)">
+            <summary>
+            This function is equivalent to TABLE_DATE_RANGE. The only difference is that if any daily table is missing in the sequence, TABLE_DATE_RANGE_STRICT fails and returns a Not Found: Table [table_name] error.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromDateRangeStrict``1(System.String,``0,System.Linq.Expressions.Expression{System.Func{System.DateTimeOffset}},System.Linq.Expressions.Expression{System.Func{System.DateTimeOffset}})">
+            <summary>
+            This function is equivalent to TABLE_DATE_RANGE. The only difference is that if any daily table is missing in the sequence, TABLE_DATE_RANGE_STRICT fails and returns a Not Found: Table [table_name] error.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromTableQuery``1(System.String,System.Linq.Expressions.Expression{System.Func{BigQuery.Linq.MetaTable,System.Boolean}})">
+            <summary>
+            Queries tables whose names match the supplied expr. The expr parameter must be represented as a string and must contain an expression to evaluate.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.FromTableQuery``1(System.String,``0,System.Linq.Expressions.Expression{System.Func{BigQuery.Linq.MetaTable,System.Boolean}})">
+            <summary>
+            Queries tables whose names match the supplied expr. The expr parameter must be represented as a string and must contain an expression to evaluate.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.GetFastTableSchemasAsync(System.String)">
+            <summary>
+            GetTableSchemas but if can grouping by day suffix, use same schema(for reduce query).
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.Run(System.String)">
+            <summary>
+            Run query and return Response with dynamic(ExpandoObject/Primitive) rows.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.RunAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Run query and return Response with dynamic(ExpandoObject/Primitive) rows.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.RunDry(System.String)">
+            <summary>
+            Dry run and return Response with dynamic(ExpandoObject/Primitive) rows.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.Query``1(System.String)">
+            <summary>
+            Run query and return rows.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.QueryAsync``1(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Run query and return rows.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.Query(System.String)">
+            <summary>
+            Run query and return dynamic(ExpandoObject/Primitive) rows.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.BigQueryContext.QueryAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Run query and return dynamic(ExpandoObject/Primitive) rows.
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.DataTypeUtility.ToTableFieldSchema(System.Type,System.Func{System.Reflection.PropertyInfo,Google.Apis.Bigquery.v2.Data.TableFieldSchema})">
+            <param name="customFieldSchemaSelector">Use custom fallback. If return null, use default fieldschema.</param>
+        </member>
+        <member name="M:BigQuery.Linq.DateTimeExtensions.FromBigQueryTimestamp(System.Int64)">
+            <summary>
+            From long with 6 millisecond digits(YYYY-MM-DD HH:MM:SS[.uuuuuu].)
+            </summary>
+        </member>
+        <member name="M:BigQuery.Linq.DateTimeExtensions.FromBigQueryTimestamp(System.UInt64)">
+            <summary>
+            From long with 6 millisecond digits(YYYY-MM-DD HH:MM:SS[.uuuuuu].)
+            </summary>
+        </member>
+    </members>
+</doc>

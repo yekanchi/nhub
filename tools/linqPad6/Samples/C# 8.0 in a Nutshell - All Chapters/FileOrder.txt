@@ -1,0 +1,26 @@
+Before You Start
+Chapter 2 - C# Language Basics
+Chapter 3 - Creating Types in C#
+Chapter 4 - Advanced C#
+Chapter 6 - Framework Fundamentals
+Chapter 7 - Collections
+Chapter 8 - LINQ Queries
+Chapter 9 - LINQ Operators
+Chapter 10 - LINQ to XML
+Chapter 11 - Other XML and JSON Technologies
+Chapter 12 - Disposal and Garbage Collection
+Chapter 13 - Diagnostics
+Chapter 14 - Concurrency and Asynchrony
+Chapter 15 - Streams and IO
+Chapter 16 - Networking
+Chapter 17 - Serialization
+Chapter 18 - Assemblies
+Chapter 19 - Reflection and Metadata
+Chapter 20 - Dynamic Programming
+Chapter 21 - Cryptography
+Chapter 22 - Advanced Threading
+Chapter 23 - Parallel Programming
+Chapter 24 - Span and Memory
+Chapter 25 - Native and COM Interoperability
+Chapter 26 - Regular Expressions
+Chapter 27 - The Roslyn Compiler

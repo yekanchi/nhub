@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Win64_Launch",
+            "name": "Win64_Launch_msys2",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -15,7 +15,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "E:\\NHUB\\bin\\msys2\\mingw64\\bindb.exe",
+            "miDebuggerPath": "E:\\NHUB\\bin\\msys2\\mingw64\\dbg.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -23,7 +23,28 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "build_main"
+            "preLaunchTask": "build_main_msys2"
+        },
+        {
+            "name": "Win64_Launch_mingw",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\bin\\main.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "E:\\NHUB\\bin\\compilers\\mingw\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build_main_mingw"
         }
     ]
 }

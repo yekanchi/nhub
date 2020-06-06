@@ -1,4 +1,4 @@
--Updated pwsh bin
--Updated anaconda to 2019.10
+- Updated pwsh bin
+- Updated anaconda to 2019.10
 
 

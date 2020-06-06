@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "python work space"
+		}
+	],
+	"settings": {
+		// "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+		// "terminal.integrated.automationShell.windows": "C:\\WINDOWS\\System32\\cmd.exe /k -echo 'AutomationShell Ignited'",
+		// "terminal.integrated.shellArgs.windows": [
+		// 	"/k echo 'CMD Started with Shell Args'",
+		// ],
+		"terminal.integrated.shell.windows": "E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat",
+		"terminal.integrated.automationShell.windows":"E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat",
+		//Python, Anaconda
+		// "python.linting.pylintArgs": [
+		// 	"--extension-pkg-whitelist=PyQt5"
+		// ],
+		"python.pythonPath": "E:\\NHUB\\bin\\frameworks\\anaconda\\python.exe"
+	}
+}

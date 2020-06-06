@@ -1,0 +1,1 @@
+Get-ChildItem -Path .\assets\temp -Recurse -File | Move-Item -Destination .\assets\prevTemp

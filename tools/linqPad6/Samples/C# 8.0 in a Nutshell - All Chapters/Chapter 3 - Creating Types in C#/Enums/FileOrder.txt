@@ -1,0 +1,6 @@
+Enums.linq
+Enum Conversions.linq
+Flags Enums.linq
+Flags Enums - Combinations.linq
+Type-Safety Issues.linq
+Type-Safety Issues - Workaround.linq

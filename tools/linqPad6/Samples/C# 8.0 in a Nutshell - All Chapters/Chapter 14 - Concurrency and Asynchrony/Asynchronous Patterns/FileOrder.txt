@@ -1,0 +1,17 @@
+Cancellation.linq
+Using the real CancellationToken.linq
+Using the real CancellationToken - improved version.linq
+Progress reporting - with a delegate.linq
+Progress reporting - with IProgress.linq
+Task combinators - WhenAny.linq
+Task combinators - WhenAny - await winning task.linq
+Task combinators - WhenAny - in one step.linq
+Task combinators - WhenAny - timeouts.linq
+Task combinators - WhenAll.linq
+Task combinators - WhenAll - exceptions.linq
+Task combinators - WhenAll - return values.linq
+Task combinators - WhenAll - web page downloads.linq
+Task combinators - WhenAll - web page downloads improved.linq
+Custom combinators - WithTimeout.linq
+Custom combinators - WithCancellation.linq
+Custom combinators - WhenAllOrError.linq

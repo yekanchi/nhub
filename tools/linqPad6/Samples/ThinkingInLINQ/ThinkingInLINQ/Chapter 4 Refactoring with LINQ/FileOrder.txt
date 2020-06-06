@@ -1,0 +1,19 @@
+4-2 The Any Operator.linq
+4-3 The All Operator.linq
+4-4 The Take Operator.linq
+4-5 The Skip Operator.linq
+4-6 The TakeWhile Operator.linq
+4-7 The SkipWhile Operator.linq
+4-8 The Where Operator.linq
+4-9 The Zip Operator.linq
+4-10 OrderBy and OrderByDescending Operators.linq
+4-11 The Distinct Operator.linq
+4-12 The Union Operator.linq
+4-13 The Intersect Operator.linq
+4-14 The Except Operator.linq
+4-15 The Concat Operator.linq
+4-16 The SequenceEqual Operator.linq
+4-17 The OfType Operator.linq
+4-18 The Cast Operator.linq
+4-19 The Aggregate Operator.linq
+4-21 Running Code in Parallel Using AsParallel( ) and  AsOrdered().linq

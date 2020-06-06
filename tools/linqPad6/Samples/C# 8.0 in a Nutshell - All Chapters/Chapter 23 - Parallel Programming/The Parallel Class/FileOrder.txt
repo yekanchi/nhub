@@ -1,0 +1,9 @@
+Parallel.Invoke.linq
+Parallel.For.linq
+PLINQ version.linq
+Parallel.Foreach - indexed.linq
+Parallel Spellchecker with TPL.linq
+Breaking early out of loops.linq
+Optimization with local values - problem.linq
+Optimization with local values - solution.linq
+PLINQ version sum.linq

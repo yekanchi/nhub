@@ -1,4 +1,4 @@
-/adStudio
+/calibre
 /cmder
 /compilers
 /db
@@ -8,8 +8,9 @@
 /msys2
 /node
 /pwsh
+/tools
 /utillity
+/vsCode
 /opera
 /firefox
-/dropbox
-/qBittorrent
+/goldenDict

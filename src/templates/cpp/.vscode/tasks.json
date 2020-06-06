@@ -2,7 +2,7 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "build_main",
+            "label": "build_main_msys2",
             "command": "E:\\NHUB\\bin\\msys2\\mingw64\\bin\\g++.exe",
             "args": [
                 "-g",
@@ -11,7 +11,21 @@
                 "bin\\main.exe"
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "${workspaceFolder}"
+            }
+        },
+        {
+            "type": "shell",
+            "label": "build_main_mingw",
+            "command": "E:\\NHUB\\bin\\compilers\\mingw\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "main.cpp",
+                "-o",
+                "bin\\main.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
             }
         }
     ],

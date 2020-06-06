@@ -1,0 +1,7 @@
+PLINQ
+The Parallel Class
+Task Parallelism
+Working with AggregateException
+Concurrent Collections
+EXTRA - Channels
+EXTRA - SpinLock and SpinWait

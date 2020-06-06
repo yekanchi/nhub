@@ -1,0 +1,10 @@
+Slicing.linq
+CopyTo.linq
+Working with strings.linq
+Memory of T.linq
+Splitting into Ranges.linq
+CharSpanSplitter.linq
+Summing with pointers.linq
+Span and stackalloc.linq
+
+Span and unmanaged memory.linq

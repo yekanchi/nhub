@@ -1,0 +1,16 @@
+Delegates.linq
+Delegates - longhand.linq
+Delegates - Writing Plug-in Methods.linq
+Multicast Delegates.linq
+Multicast Delegates - ProgressReporter.linq
+Instance vs Static Methods.linq
+Generic Delegate Types.linq
+Func and Action Delegates.linq
+Delegates vs Interfaces.linq
+Delegates vs Interfaces - Clumsiness.linq
+Delegate Type Incompatibility.linq
+Delegate Type Incompatibility - Workaround.linq
+Delegate Equality.linq
+Parameter Compatibility (Contravariance).linq
+Return Type Compatibility (Covariance).linq
+Type Parameter Variance.linq
