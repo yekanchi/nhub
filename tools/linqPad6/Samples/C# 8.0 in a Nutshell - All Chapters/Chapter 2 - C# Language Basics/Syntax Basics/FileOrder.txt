@@ -1,3 +1,0 @@
-The @ prefix.linq
-Contextual Keywords.linq
-Semicolons and Comments.linq

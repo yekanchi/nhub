@@ -1,8 +1,0 @@
-Count.linq
-Min and Max.linq
-Min and Max (database).linq
-Sum and Average.linq
-Average Return Types.linq
-Average Upscaling.linq
-Average (database).linq
-Aggregate.linq

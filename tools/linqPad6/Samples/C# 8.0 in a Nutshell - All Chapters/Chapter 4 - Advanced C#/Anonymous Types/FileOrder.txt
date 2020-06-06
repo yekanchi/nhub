@@ -1,3 +1,0 @@
-Anonymous Types.linq
-Anonymous Types - Omitting Identifiers.linq
-Anonymous Types - Identity.linq

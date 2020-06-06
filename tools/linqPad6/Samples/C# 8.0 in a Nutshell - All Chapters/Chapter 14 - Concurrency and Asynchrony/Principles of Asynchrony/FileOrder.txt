@@ -1,5 +1,0 @@
-GetPrimesCount.linq
-Course-grained asynchrony.linq
-Fine-grained asynchrony.linq
-Making DisplayPrimesCount asynchronous.linq
-Asynchronous functions to the rescue.linq

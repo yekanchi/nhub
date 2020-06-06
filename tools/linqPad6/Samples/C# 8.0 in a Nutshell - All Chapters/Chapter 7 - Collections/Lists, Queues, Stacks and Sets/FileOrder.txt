@@ -1,8 +1,0 @@
-Generic List class.linq
-Old ArrayList class.linq
-LinkedList.linq
-Queue.linq
-Stack.linq
-BitArray.linq
-HashSet and SortedSet.linq
-HashSet and SortedSet - set operators.linq

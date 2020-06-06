@@ -1,8 +1,8 @@
-LINQPad6.exe is framework-dependent, so you must install .NET Core 3.0 or .NET Core 3.1.
+LINQPad6.exe is framework-dependent, so you must install .NET Core 3.1 or .NET Core 3.0.
 
-The *netcore runtime* alone isn't enough: you also need NETCORE DESKTOP (or the SDK) -- X64 --
+The .NET Core Runtime isn't enough: you need DESKTOP RUNTIME - or the SDK.
 
-You can check that it's installed by running "Download .NET Core 3.exe".
+*** You can check that it's installed by running "Download .NET Core 3.exe" ***
 
 You should end up with the following folders:
    C:\Program Files\dotnet\shared\Microsoft.NETCore.App
@@ -18,5 +18,3 @@ If you do this, be sure to set the DOTNET_ROOT environment variable to the folde
 For example:
 
    set DOTNET_ROOT c:\users\joe\dotnet
-=================
-www.downloadly.ir

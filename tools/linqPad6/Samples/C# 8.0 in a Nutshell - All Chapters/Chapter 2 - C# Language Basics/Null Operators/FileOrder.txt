@@ -1,4 +1,0 @@
-Null Coalescing Operator.linq
-Null Coalescing Assignment Operator.linq
-Null-Conditional Operator.linq
-Null-Conditional Operator - with nullable types.linq

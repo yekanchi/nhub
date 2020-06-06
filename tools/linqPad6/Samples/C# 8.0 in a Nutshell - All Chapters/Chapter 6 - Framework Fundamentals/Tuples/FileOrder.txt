@@ -1,2 +1,0 @@
-Tuples.linq
-Comparing Tuples.linq

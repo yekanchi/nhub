@@ -1,8 +1,0 @@
-SetValue Replaces Child Content.linq
-SetElementValue.linq
-AddAfterSelf.linq
-ReplaceWith.linq
-Remove Extension Method.linq
-Remove - Conditional.linq
-Remove - Recursive.linq
-Remove - Recursive OfType.linq

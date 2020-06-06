@@ -1,1 +1,1 @@
-E:\NHUB\bin\pwsh\pwsh.exe -Noexit -NoProfile -NoLogo -ExecutionPolicy Bypass -File E:\NHUB\bin\consoles\pwsh_Integrated_Console_Initialization.ps1
+E:\NHUB\bin\pwsh\pwsh.exe -Noexit -NoProfile -NoLogo -ExecutionPolicy Bypass -File E:\NHUB\bin\consoles\pwsh_Console.ps1

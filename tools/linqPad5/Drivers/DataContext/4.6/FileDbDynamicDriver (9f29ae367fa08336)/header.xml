@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<DataContextDriver>
-   <MainAssembly>FileDbDynamicDriver.dll</MainAssembly>
-   <SupportUri>http://www.eztools-software.com/tools/filedb/LinqPad.asp</SupportUri>
-</DataContextDriver>

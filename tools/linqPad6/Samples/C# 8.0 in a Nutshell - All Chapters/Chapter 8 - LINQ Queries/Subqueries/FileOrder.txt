@@ -1,3 +1,0 @@
-Basic Subquery.linq
-Reformulating the Subquery.linq
-Avoiding Subqueries.linq

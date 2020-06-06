@@ -1,6 +1,0 @@
-IEqualityComparer and EqualityComparer.linq
-IComparer and Comparer.linq
-IComparer and Comparer - SurnameComparer.linq
-StringComparer.linq
-Culture-aware SurnameComarer.linq
-IStructuralEquatable and IStructuralComparable.linq

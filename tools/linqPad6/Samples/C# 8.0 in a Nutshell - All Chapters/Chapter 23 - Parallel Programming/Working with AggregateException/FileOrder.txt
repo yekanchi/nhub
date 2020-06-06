@@ -1,3 +1,0 @@
-AggregateException.linq
-Flatten.linq
-Handle.linq

@@ -1,5 +1,0 @@
-Type Unification.linq
-Enum to Integral Conversions.linq
-Integral to enum Conversions.linq
-String Conversions.linq
-Enumerating enum Values.linq

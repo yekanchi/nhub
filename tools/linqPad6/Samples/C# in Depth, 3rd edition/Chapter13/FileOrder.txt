@@ -1,9 +1,0 @@
-Listing13_1.linq
-Listing13_3.linq
-Listing13_4.linq
-Listing13_5.linq
-Listing13_7.linq
-Listing13_12.linq
-Listing13_13.linq
-Listing13_14.linq
-Listing13_15.linq

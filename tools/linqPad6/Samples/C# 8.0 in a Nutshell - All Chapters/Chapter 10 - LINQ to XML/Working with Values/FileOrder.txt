@@ -1,7 +1,0 @@
-Setting Values.linq
-Getting Values.linq
-Getting Values - Nullables.linq
-Factoring out nullable types.linq
-Value casts in LINQ queries.linq
-Value and Mixed Content Nodes.linq
-XText Concatenation.linq

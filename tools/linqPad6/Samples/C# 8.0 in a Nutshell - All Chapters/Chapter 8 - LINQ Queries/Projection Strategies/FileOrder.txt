@@ -1,4 +1,0 @@
-Object Initializers.linq
-Anonymous Types.linq
-The let Keyword.linq
-More Info.linq

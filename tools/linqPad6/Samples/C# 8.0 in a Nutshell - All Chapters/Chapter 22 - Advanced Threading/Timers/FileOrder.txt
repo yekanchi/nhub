@@ -1,2 +1,0 @@
-Multithreaded timers - Threading Timer.linq
-Multithreaded timers - System.Timer.linq

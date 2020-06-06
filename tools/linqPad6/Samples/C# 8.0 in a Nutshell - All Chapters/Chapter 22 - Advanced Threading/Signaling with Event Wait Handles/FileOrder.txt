@@ -1,5 +1,0 @@
-AutoResetEvent.linq
-Two-way signaling.linq
-CountdownEvent.linq
-Wait Handles and continuations.linq
-Converting Wait Handles to Tasks.linq

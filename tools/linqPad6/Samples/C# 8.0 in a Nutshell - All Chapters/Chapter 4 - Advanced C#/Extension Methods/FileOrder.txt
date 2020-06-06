@@ -1,6 +1,0 @@
-Extension Methods.linq
-Extension Method Chaining.linq
-Extension Methods vs Instance Methods.linq
-Extension Methods vs Extension Methods.linq
-Extension Methods on Interfaces.linq
-Extension Methods Calling Another.linq

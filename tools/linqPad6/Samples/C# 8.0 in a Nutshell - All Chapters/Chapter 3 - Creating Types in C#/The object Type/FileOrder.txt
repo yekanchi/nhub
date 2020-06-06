@@ -1,7 +1,0 @@
-The object Type.linq
-Boxing & Unboxing.linq
-Unboxing to Wrong Type.linq
-Unboxing to Wrong Type - Fix.linq
-Copying Semantics of Boxing & Unboxing.linq
-GetType and typeof.linq
-The ToString Method.linq

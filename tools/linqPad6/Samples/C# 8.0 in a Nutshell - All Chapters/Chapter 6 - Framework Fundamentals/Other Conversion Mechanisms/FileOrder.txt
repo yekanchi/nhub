@@ -1,4 +1,0 @@
-Convert.linq
-XmlConvert.linq
-BitConverter.linq
-Type Converters.linq

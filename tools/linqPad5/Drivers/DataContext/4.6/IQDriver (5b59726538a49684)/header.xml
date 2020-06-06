@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<DataContextDriver>
-  <MainAssembly>IQDriver.dll</MainAssembly>
-  <SupportUri>http://www.linqpad.net</SupportUri>
-  <Version>2.1.4.1</Version>
-</DataContextDriver>

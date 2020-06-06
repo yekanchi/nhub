@@ -1,0 +1,10 @@
+System.IO.IsolatedStorage.IsolatedStorageException: Operation not permitted on IsolatedStorageFileStream.
+ ---> System.IO.IOException: The process cannot access the file 'C:\Users\m.talebi\AppData\Local\IsolatedStorage\0th2z5au.xhb\djvzfe1q.xxj\StrongName.rgxnfyjm5b5dnnatdapj0ktcnerr44mm\StrongName.rgxnfyjm5b5dnnatdapj0ktcnerr44mm\Files\LastWindowPosition' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.IsolatedStorage.IsolatedStorageFileStream.InitializeFileStream(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, IsolatedStorageFile isf)
+   --- End of inner exception stack trace ---
+   at System.IO.IsolatedStorage.IsolatedStorageFileStream.InitializeFileStream(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, IsolatedStorageFile isf)
+   at System.IO.IsolatedStorage.IsolatedStorageFileStream..ctor(String path, FileMode mode, IsolatedStorageFile isf)
+   at LINQPad.Activator.WriteLicense()

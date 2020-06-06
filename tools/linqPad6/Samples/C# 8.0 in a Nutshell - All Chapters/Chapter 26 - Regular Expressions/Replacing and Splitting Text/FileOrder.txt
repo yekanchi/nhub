@@ -1,5 +1,0 @@
-Simple Replacement.linq
-Referencing the Original String.linq
-Updating an XML tag.linq
-Using MatchEvaluator.linq
-Splitting Text.linq

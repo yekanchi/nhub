@@ -1,5 +1,0 @@
-Emitting Methods.linq
-Emitting Methods - ref and out.linq
-Emitting Fields and Properties.linq
-Emitting Constructors.linq
-Attaching Attributes.linq

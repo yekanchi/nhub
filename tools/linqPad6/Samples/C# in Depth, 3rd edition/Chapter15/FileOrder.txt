@@ -1,8 +1,0 @@
-Listing15_1.linq
-Listing15_4.linq
-Listing15_5.linq
-Listing15_6.linq
-Listing15_7.linq
-Listing15_8.linq
-Listing15_9.linq
-Listing15_10.linq

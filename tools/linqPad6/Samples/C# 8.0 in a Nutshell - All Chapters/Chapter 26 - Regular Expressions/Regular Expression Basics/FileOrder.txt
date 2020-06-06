@@ -1,9 +1,0 @@
-Simple Quantifier.linq
-The Match object.linq
-Using NextMatch.linq
-The Matches Method.linq
-Alternators.linq
-Compiled Expressions.linq
-RegexOptions.linq
-Character Escapes.linq
-Character Sets.linq

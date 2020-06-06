@@ -1,9 +1,0 @@
-Chapter 2 Series Generation
-Chapter 3 Text Processing
-Chapter 4 Refactoring with LINQ
-Chapter 5 Refactoring with MoreLINQ
-Chapter 6 Creating Domain Specific Languages (DSLs) using LINQ
-Chapter 7 Static Code Analysis
-Chapter 8 Exploratory Data Analysis
-Chapter 9 Interaction with File System
-Appendix B Taming Streaming Data With Rx

@@ -1,5 +1,0 @@
-Getting started.linq
-[NonSerialized].linq
-[OnDeserializing] and [OnDeserialized].linq
-[OnSerializing] and [OnSerialized].linq
-Implementing ISerializable.linq

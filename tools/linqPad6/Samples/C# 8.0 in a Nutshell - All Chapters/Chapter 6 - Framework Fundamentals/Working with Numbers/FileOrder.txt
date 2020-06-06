@@ -1,3 +1,0 @@
-BigInteger.linq
-Complex Numbers.linq
-Random.linq

@@ -1,3 +1,0 @@
-Contains and Any.linq
-All.linq
-SequenceEqual.linq
