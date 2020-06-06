@@ -7,9 +7,6 @@
         <Replace name="" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="E:\NHUB\src\projects\tradeAdviser\.gitignore" />
-        <File filename="E:\NHUB\src\projects\TradeServer\.gitignore" />
-        <File filename="E:\NHUB\src\projects\typeTradeAdvisorNew\.gitignore" />
         <File filename="E:\NHUB\docs\cheats\winCheat.txt" />
         <File filename="E:\NHUB\cheats.txt" />
         <File filename="E:\NHUB\commands.txt" />
@@ -17,6 +14,9 @@
         <File filename="E:\NHUB\Updates.md" />
         <File filename="E:\NHUB\docs\cheats\winCheat.md" />
         <File filename="E:\NHUB\docs\cheats\commands.txt" />
+        <File filename="E:\NHUB\bin\tools\linqPad6\Readme.txt" />
+        <File filename="E:\NHUB\docs\cheats\wget\command.md" />
+        <File filename="E:\NHUB\bin\README.md" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
@@ -25,7 +25,7 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" replaceBySpace="no" size="4" />
-        <GUIConfig name="AppPosition" x="110" y="84" width="1393" height="747" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="110" y="84" width="1393" height="747" isMaximized="yes" />
         <GUIConfig name="FindWindowPosition" left="607" top="731" right="1294" bottom="1125" />
         <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">yes</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
@@ -60,7 +60,7 @@
         <GUIConfig name="searchEngine" searchEngineChoice="2" searchEngineCustom="" />
         <GUIConfig name="SmartHighLight" matchCase="no" wholeWordOnly="yes" useFindSettings="no" onAnotherView="no">yes</GUIConfig>
         <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="show" indentGuideLine="show" folderMarkStyle="box" lineWrapMethod="aligned" currentLineHilitingShow="show" scrollBeyondLastLine="no" disableAdvancedScrolling="no" wrapSymbolShow="hide" Wrap="no" borderEdge="yes" isEdgeBgMode="no" edgeMultiColumnPos="" zoom="2" zoom2="0" whiteSpaceShow="hide" eolShow="hide" borderWidth="2" smoothFont="no" />
-        <GUIConfig name="DockingManager" leftWidth="200" rightWidth="561" topHeight="200" bottomHeight="200">
+        <GUIConfig name="DockingManager" leftWidth="200" rightWidth="566" topHeight="200" bottomHeight="200">
             <PluginDlg pluginName="MarkdownViewer++" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NPPJSONViewer.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <ActiveTabs cont="0" activeTab="-1" />
