@@ -11,12 +11,14 @@ void Main()
 	// for sending in parameters to the script
 	var myId = Guid.NewGuid();
 
-
+	
 	// Script that will use dynamic
 	var scriptContent = @"
 	{
-		data.myId = Guid.NewGuid(); 
-		return data.myId == Guid.Empty;
+		System.Diagnostics.Debug.WriteLine('g');
+		data.myId = System.Guid.NewGuid();
+		return data.somevar;
+		
 	}
 	";
 
@@ -24,7 +26,7 @@ void Main()
 	dynamic expando = new ExpandoObject();
 	expando.myId = myId;
 	//expando.Y = 45;
-
+	(expando as IDictionary<string, Object>).Add("somevar", new someClass());
 
 
 	// setup references needed
@@ -36,7 +38,7 @@ void Main()
 	};
 	
 	var script = CSharpScript.Create(scriptContent, 
-	options: ScriptOptions.Default.AddReferences(refs).WithReferences(typeof(System.Guid).Assembly).WithImports("System.Guid"), 
+	options: ScriptOptions.Default.AddReferences(refs), 
 	globalsType: typeof(Globals));
 
 	script.Compile();
@@ -53,4 +55,10 @@ void Main()
 public class Globals
 {
 	public dynamic data;
+}
+
+public class someClass{
+	
+	public int MyProperty => 25;
+	public string somestring => "Some test string";
 }
