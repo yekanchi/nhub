@@ -1,15 +1,25 @@
-import { createDbConnection } from "./Service/DataService";
-import { getManager } from "typeorm";
-import { User } from "./domain/Domain";
+import {createDbConnection} from "./Service/DataService";
+import {EntityManager, getManager} from "typeorm";
+import {User} from "./domain/Domain";
 
 export async function RunService() {
-    var con = await createDbConnection();
-    console.log(con);
+
+    let someUser = new User({userName: "m.talebi", name: "morteza", family: "talebi"});
+    let repo = new UserRepository();
+
+    await repo.create(someUser);
+}
 
 
-    var someuser = new User();
-    someuser.name = "some user";
-    const entityManager = getManager(); // you can also get it via getConnection().manager
-    const user = await entityManager.create(User, someuser)
-    entityManager.save(someuser);
+export class UserRepository {
+    entityManager: any;
+    constructor() {
+        let con = createDbConnection();
+        this.entityManager = getManager();
+    }
+
+    async create(user: User) {
+        this.entityManager.create(User, user);
+        await this.entityManager.save(user);
+    }
 }

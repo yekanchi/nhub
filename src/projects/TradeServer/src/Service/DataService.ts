@@ -6,7 +6,7 @@ import { User } from "../domain/Domain";
 export const createDbConnection = async () => {
     var connection = await createConnection({
         type: "sqlite",
-        database: "E:\\NHUB\\data\\sqLiteDBs\\TSETMC.db",
+        database: "E:/NHUB/data/TSETMC.db",
         entities: [User]
     });
     return connection;
