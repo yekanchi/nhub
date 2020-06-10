@@ -8,9 +8,11 @@ void Main()
 public static class MyExtensions
 {
 	// Write custom extension methods here. They will be available to all queries.
-	public static void Something()
+	public static int ToNumber(this string text)
 	{
-
+		var isParsable = int.TryParse(text, out var resultInt);
+		
+		return isParsable ? resultInt : 0;
 	}
 }
 
