@@ -21,7 +21,7 @@ public class DescriptionAttribute : Attribute
 
 public enum State
 {
-	[Description("سلامتی رهتبر")]
+	[Description("تست اتربویت")]
 	none,
 	accpepted,
 	rejected
