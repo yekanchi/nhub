@@ -7,8 +7,6 @@
         <Replace name="" />
     </FindHistory>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="E:\NHUB\src\projects\tradeAdviser\.gitignore" />
-        <File filename="E:\NHUB\src\projects\TradeServer\.gitignore" />
         <File filename="E:\NHUB\src\projects\typeTradeAdvisorNew\.gitignore" />
         <File filename="E:\NHUB\bin\tools\everything\,gitignore" />
         <File filename="E:\NHUB\bin\.gitignore" />
@@ -17,6 +15,8 @@
         <File filename="C:\Program Files (x86)\Actipro Software\WPF-Controls\v19.1.0684\Assemblies\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.xml" />
         <File filename="C:\Users\Morteza Talebi\Desktop\codal.ts" />
         <File filename="C:\Users\Morteza Talebi\Documents\Actipro Software\WPF-Controls\v19.1.0684\SampleBrowser\ProductSamples\SyntaxEditorSamples\Languages\Definitions\CSharp.langdef" />
+        <File filename="E:\NHUB\bin\ides\datagrip\bin\idea.properties" />
+        <File filename="E:\NHUB\bin\ides\webstorm\bin\idea.properties" />
     </History>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
