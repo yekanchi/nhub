@@ -1,0 +1,25 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="E:/NHUB/bin/compilers/node/node.exe">
+      <version-cache version="10.16.3" last-modified="1565895451414" />
+    </local-interpreter>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="14" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GeneralSettings.initiallyConfigured" value="true" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="SettingsSearchHistory" value="terminal" />
+    <property name="appcds.runOnSecondStart" value="WS-201.7223.93-cde367c5ab96dd044e127b68acf7bd0354152549da54547ec37807a6062f24a9" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="evlsprt3.201" value="10" />
+    <property name="file.chooser.recent.files" value="E:/NHUB/bin/gitscm/bin/git.exe&#10;E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat&#10;E:/NHUB/src/tests&#10;E:/NHUB/bin/compilers/node/node.exe" />
+    <property name="file.gist.reindex.count" value="6" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="last_opened_file_path" value="E:/NHUB/bin/gitscm/bin/git.exe" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.8.2" />
+  </component>
+</application>

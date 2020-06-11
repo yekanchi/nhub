@@ -1,0 +1,34 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="E:/NHUB/bin/compilers/node/node.exe">
+      <version-cache version="10.16.3" last-modified="1565895451414" />
+    </local-interpreter>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="14" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Darcula.SavedEditorTheme" value="_@user_Darcula" />
+    <property name="Default.SavedEditorTheme" value="_@user_Default" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="GeneralSettings.initiallyConfigured" value="true" />
+    <property name="KEYMAP" value="f5&#10;ctrl&#10;run&#10;format&#10;size" />
+    <property name="MarketplacePluginsSearchHistory" value="/tag:Keymap" />
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="SettingsSearchHistory" value="key&#10;terminal" />
+    <property name="appcds.runOnSecondStart" value="WS-201.7223.93-bfdd543a0ae0b19bdb1b838ba30cefc8ee134931909ee3519d298666528001cd" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="evlsprt.201" value="172c454e5ca" />
+    <property name="evlsprt2.201" value="17295306d00" />
+    <property name="evlsprt3.201" value="10" />
+    <property name="file.chooser.recent.files" value="E:/NHUB/src/projects/TradeServer/out/app.js&#10;E:/NHUB/src/projects/TradeServer/src/app.ts&#10;E:/NHUB/bin/node&#10;E:/NHUB/src/projects/TradeServer&#10;E:/NHUB/bin/gitscm/bin/git.exe&#10;E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat&#10;E:/NHUB/src/tests&#10;E:/NHUB/bin/compilers/node/node.exe" />
+    <property name="file.gist.reindex.count" value="269" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="last_opened_file_path" value="E:/NHUB/bin/gitscm/bin/git.exe" />
+    <property name="org.intellij.images.editor.actions.BackgroundImageDialog#recent" value="" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.8.2" />
+  </component>
+</application>

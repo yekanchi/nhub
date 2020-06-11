@@ -1,0 +1,51 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <data>
+      <entry key="Console.Jdbc.Execute">
+        <ActionSummary times="2" last="1591735427859" />
+      </entry>
+      <entry key="DatabaseView.AddActionGroupPopup">
+        <ActionSummary times="2" last="1591735184479" />
+      </entry>
+      <entry key="DatabaseView.AddDriver">
+        <ActionSummary times="1" last="1591735401947" />
+      </entry>
+      <entry key="DatabaseView.Ddl.AddTable">
+        <ActionSummary times="1" last="1591735408821" />
+      </entry>
+      <entry key="DatabaseView.Refresh">
+        <ActionSummary times="1" last="1591735422153" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="5" last="1591735291859" />
+      </entry>
+      <entry key="EditorCopy">
+        <ActionSummary times="1" last="1591735350278" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="1" last="1591735355826" />
+      </entry>
+      <entry key="FileChooser.NewFolder">
+        <ActionSummary times="1" last="1591735289924" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="3" last="1591735143712" />
+      </entry>
+      <entry key="com.intellij.database.actions.RunExtensionScriptActionGroup$RunScriptAction">
+        <ActionSummary times="1" last="1591735480909" />
+      </entry>
+      <entry key="com.intellij.database.dataSource.LocalDataSourceManager$2">
+        <ActionSummary times="1" last="1591735189285" />
+      </entry>
+      <entry key="com.intellij.database.dataSource.url.ui.ParamEditorBase$FMChooseAction">
+        <ActionSummary times="6" last="1591735331166" />
+      </entry>
+      <entry key="com.intellij.diagnostic.WindowsDefenderFixAction">
+        <ActionSummary times="1" last="1591732836542" />
+      </entry>
+      <entry key="com.intellij.ui.CommonActionsPanel$AddButton">
+        <ActionSummary times="2" last="1591735414815" />
+      </entry>
+    </data>
+  </component>
+</application>

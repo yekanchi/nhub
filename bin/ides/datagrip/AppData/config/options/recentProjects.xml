@@ -1,0 +1,24 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$APPLICATION_CONFIG_DIR$/projects/default">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1d65Ysqiy7OmkhXECtWskQcPORh">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="DB-201.7846.70" />
+              <option name="buildTimestamp" value="1590690195594" />
+              <option name="productionCode" value="DB" />
+              <option name="projectOpenTimestamp" value="1591732757449" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="recentPaths">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/projects/default" />
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,38 @@
+<application>
+  <component name="DimensionService">
+    <size key="GridCell.Tab.0.left.0.0.1921.1081@137dpi" width="1889" height="253" />
+    <size key="GridCell.Tab.0.center.0.0.1921.1081@137dpi" width="1889" height="253" />
+    <size key="GridCell.Tab.0.right.0.0.1921.1081@137dpi" width="1889" height="253" />
+    <size key="GridCell.Tab.0.bottom.0.0.1921.1081@137dpi" width="1889" height="253" />
+    <size key="GridCell.Tab.1.left.0.0.1921.1081@137dpi" width="1889" height="316" />
+    <size key="GridCell.Tab.1.center.0.0.1921.1081@137dpi" width="1889" height="316" />
+    <size key="GridCell.Tab.1.right.0.0.1921.1081@137dpi" width="1889" height="316" />
+    <size key="GridCell.Tab.1.bottom.0.0.1921.1081@137dpi" width="1889" height="316" />
+    <size key="GridCell.Tab.2.left.0.0.1921.1081@137dpi" width="1889" height="316" />
+    <size key="GridCell.Tab.2.center.0.0.1921.1081@137dpi" width="1889" height="316" />
+    <size key="GridCell.Tab.2.right.0.0.1921.1081@137dpi" width="1889" height="316" />
+    <size key="GridCell.Tab.2.bottom.0.0.1921.1081@137dpi" width="1889" height="316" />
+    <size key="GridCell.Tab.3.left.0.0.1921.1081@137dpi" width="1889" height="316" />
+    <size key="GridCell.Tab.3.center.0.0.1921.1081@137dpi" width="1889" height="316" />
+    <size key="GridCell.Tab.3.right.0.0.1921.1081@137dpi" width="1889" height="316" />
+    <size key="GridCell.Tab.3.bottom.0.0.1921.1081@137dpi" width="1889" height="316" />
+  </component>
+  <component name="WindowManager">
+    <frame x="-10" y="-10" width="1938" height="1051" extendedState="6" />
+    <layout>
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+    </layout>
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="599" y="180" key="FileChooserDialogImpl" timestamp="1589839901678">
+      <screen x="0" y="0" width="1676" height="902" />
+    </state>
+    <state x="599" y="180" key="FileChooserDialogImpl/0.0.1676.902" timestamp="1589839901678" />
+  </component>
+</application>
