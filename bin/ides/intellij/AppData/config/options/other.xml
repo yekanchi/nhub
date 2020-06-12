@@ -1,0 +1,11 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="NonModalCommitCustomization.IsApplied" value="true" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="evlsprt3.201" value="10" />
+    <property name="installed.kotlin.plugin.version" value="1.3.72-release-IJ2020.1-1" />
+    <property name="project.wizard.group" value="JAVA_MODULE" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+  </component>
+</application>
