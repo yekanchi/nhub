@@ -18,7 +18,7 @@
     <size key="GridCell.Tab.3.bottom.0.0.1921.1081@137dpi" width="1889" height="316" />
   </component>
   <component name="WindowManager">
-    <frame x="-10" y="-10" width="1938" height="1051" extendedState="6" />
+    <frame x="-9" y="0" width="977" height="524" extendedState="6" />
     <layout>
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
@@ -34,5 +34,9 @@
       <screen x="0" y="0" width="1676" height="902" />
     </state>
     <state x="599" y="180" key="FileChooserDialogImpl/0.0.1676.902" timestamp="1589839901678" />
+    <state x="1174" y="776" width="500" height="138" key="ProcessPopupWindow" timestamp="1591954232742">
+      <screen x="0" y="0" width="1676" height="902" />
+    </state>
+    <state x="1174" y="776" width="500" height="138" key="ProcessPopupWindow/0.0.1676.902" timestamp="1591954232742" />
   </component>
 </application>
