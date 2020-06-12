@@ -17,7 +17,7 @@
         <ActionSummary times="10" last="1591642853900" />
       </entry>
       <entry key="About">
-        <ActionSummary times="1" last="1591644503083" />
+        <ActionSummary times="2" last="1591947563846" />
       </entry>
       <entry key="BraceOrQuoteOut">
         <ActionSummary times="1" last="1591642532911" />
@@ -115,6 +115,9 @@
       <entry key="ReformatCode">
         <ActionSummary times="4" last="1591643216666" />
       </entry>
+      <entry key="Register">
+        <ActionSummary times="1" last="1591947572484" />
+      </entry>
       <entry key="Rerun">
         <ActionSummary times="2" last="1591389419609" />
       </entry>
@@ -149,7 +152,7 @@
         <ActionSummary times="8" last="1591644521090" />
       </entry>
       <entry key="Stop">
-        <ActionSummary times="10" last="1591644412733" />
+        <ActionSummary times="12" last="1591947578134" />
       </entry>
       <entry key="Terminal.OpenInTerminal">
         <ActionSummary times="1" last="1590095232432" />
