@@ -1,0 +1,30 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Python 3.8 (SomeTestEnv)" />
+      <type value="Python SDK" />
+      <version value="Python 3.8.3" />
+      <homePath value="E:\NHUB\bin\frameworks\anaconda\envs\SomeTestEnv\python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://E:/NHUB/bin/frameworks/anaconda/envs/SomeTestEnv/DLLs" type="simple" />
+            <root url="file://E:/NHUB/bin/frameworks/anaconda/envs/SomeTestEnv/Lib" type="simple" />
+            <root url="file://E:/NHUB/bin/frameworks/anaconda/envs/SomeTestEnv/Lib/site-packages" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/AppData/system/python_stubs/1376164721" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3.7" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/PycharmProjects/untitled" />
+    </jdk>
+  </component>
+</application>
