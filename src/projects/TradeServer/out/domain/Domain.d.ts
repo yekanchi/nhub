@@ -4,7 +4,7 @@ export declare class User {
     name: string;
     family: string;
     email: string;
-    passsowrd: string;
+    password: string;
     constructor(intial?: Partial<User>);
 }
 //# sourceMappingURL=Domain.d.ts.map

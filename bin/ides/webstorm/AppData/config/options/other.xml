@@ -19,13 +19,13 @@
     <property name="MarketplacePluginsSearchHistory" value="/tag:Keymap" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
     <property name="SettingsSearchHistory" value="key&#10;terminal" />
-    <property name="appcds.runOnSecondStart" value="WS-201.7223.93-bfdd543a0ae0b19bdb1b838ba30cefc8ee134931909ee3519d298666528001cd" />
+    <property name="appcds.runOnSecondStart" value="WS-201.7223.93-ef07ee4090621b253d5ee8df2430a67ca7f3c63d0b54e9a973cd0395ea0143d1" />
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="evlsprt.201" value="172c454e5ca" />
     <property name="evlsprt2.201" value="17295306d00" />
     <property name="evlsprt3.201" value="10" />
     <property name="file.chooser.recent.files" value="E:/NHUB/src/projects/TradeServer/out/app.js&#10;E:/NHUB/src/projects/TradeServer/src/app.ts&#10;E:/NHUB/bin/node&#10;E:/NHUB/src/projects/TradeServer&#10;E:/NHUB/bin/gitscm/bin/git.exe&#10;E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat&#10;E:/NHUB/src/tests&#10;E:/NHUB/bin/compilers/node/node.exe" />
-    <property name="file.gist.reindex.count" value="269" />
+    <property name="file.gist.reindex.count" value="270" />
     <property name="ide.memory.adjusted" value="true" />
     <property name="last_opened_file_path" value="E:/NHUB/bin/gitscm/bin/git.exe" />
     <property name="org.intellij.images.editor.actions.BackgroundImageDialog#recent" value="" />

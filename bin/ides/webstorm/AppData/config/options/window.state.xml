@@ -1,28 +1,28 @@
 <application>
   <component name="DimensionService">
-    <size key="GridCell.Tab.0.left.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.0.center.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.0.right.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.0.bottom.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.1.left.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.1.center.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.1.right.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.1.bottom.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.2.left.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.2.center.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.2.right.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.2.bottom.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.3.left.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.3.center.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.3.right.0.0.1921.1081@137dpi" width="1889" height="316" />
-    <size key="GridCell.Tab.3.bottom.0.0.1921.1081@137dpi" width="1889" height="316" />
+    <size key="GridCell.Tab.0.left.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.0.center.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.0.right.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.0.bottom.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.1.left.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.1.center.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.1.right.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.1.bottom.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.2.left.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.2.center.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.2.right.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.2.bottom.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.3.left.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.3.center.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.3.right.0.0.1921.1081@137dpi" width="1889" height="263" />
+    <size key="GridCell.Tab.3.bottom.0.0.1921.1081@137dpi" width="1889" height="263" />
     <size key="GridCell.Tab.0.left.0.0.1600.900@120dpi" width="1573" height="207" />
     <size key="GridCell.Tab.0.center.0.0.1600.900@120dpi" width="1573" height="207" />
     <size key="GridCell.Tab.0.right.0.0.1600.900@120dpi" width="1573" height="207" />
     <size key="GridCell.Tab.0.bottom.0.0.1600.900@120dpi" width="1573" height="207" />
   </component>
   <component name="WindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extendedState="6" />
+    <frame x="952" y="0" width="977" height="1042" extendedState="6" />
     <layout>
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />

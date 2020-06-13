@@ -18,9 +18,9 @@ export class User {
     email: string;
 
     @Column({name: "password_hash", type: "text"})
-    passsowrd: string;
+    password: string;
 
-
+    //this is for es6 initialization
     public constructor(intial?:Partial<User>) {
         Object.assign(this, intial);
     }

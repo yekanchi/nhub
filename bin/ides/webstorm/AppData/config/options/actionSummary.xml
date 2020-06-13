@@ -14,7 +14,7 @@
         <ActionSummary times="9" last="1591643216204" />
       </entry>
       <entry key="$Undo">
-        <ActionSummary times="10" last="1591642853900" />
+        <ActionSummary times="18" last="1592076599757" />
       </entry>
       <entry key="About">
         <ActionSummary times="7" last="1592040029096" />
@@ -32,49 +32,49 @@
         <ActionSummary times="1" last="1589851563419" />
       </entry>
       <entry key="CommentByLineComment">
-        <ActionSummary times="4" last="1591644415106" />
+        <ActionSummary times="5" last="1592074396060" />
       </entry>
       <entry key="Debug">
-        <ActionSummary times="16" last="1591734407428" />
+        <ActionSummary times="45" last="1592076626062" />
       </entry>
       <entry key="EditCustomProperties">
         <ActionSummary times="1" last="1589873264034" />
       </entry>
       <entry key="EditorBackSpace">
-        <ActionSummary times="265" last="1592041230346" />
+        <ActionSummary times="370" last="1592076607813" />
       </entry>
       <entry key="EditorChooseLookupItemReplace">
-        <ActionSummary times="20" last="1591643486695" />
+        <ActionSummary times="29" last="1592076405509" />
       </entry>
       <entry key="EditorCopy">
-        <ActionSummary times="14" last="1591643428103" />
+        <ActionSummary times="26" last="1592076622978" />
       </entry>
       <entry key="EditorCut">
-        <ActionSummary times="3" last="1591643315019" />
+        <ActionSummary times="4" last="1592074160305" />
       </entry>
       <entry key="EditorDecreaseFontSize">
         <ActionSummary times="41" last="1591642373009" />
       </entry>
       <entry key="EditorDelete">
-        <ActionSummary times="1" last="1591644525748" />
+        <ActionSummary times="2" last="1592074172799" />
       </entry>
       <entry key="EditorDown">
         <ActionSummary times="12" last="1591643486574" />
       </entry>
       <entry key="EditorEnter">
-        <ActionSummary times="45" last="1592041227081" />
+        <ActionSummary times="52" last="1592075953646" />
       </entry>
       <entry key="EditorIncreaseFontSize">
-        <ActionSummary times="93" last="1591978455925" />
+        <ActionSummary times="100" last="1592074232335" />
       </entry>
       <entry key="EditorLeft">
         <ActionSummary times="11" last="1591966498763" />
       </entry>
       <entry key="EditorPaste">
-        <ActionSummary times="13" last="1591643428820" />
+        <ActionSummary times="24" last="1592076623847" />
       </entry>
       <entry key="EditorRight">
-        <ActionSummary times="11" last="1592040700850" />
+        <ActionSummary times="17" last="1592076613607" />
       </entry>
       <entry key="EditorSelectWord">
         <ActionSummary times="1" last="1591642823467" />
@@ -83,7 +83,7 @@
         <ActionSummary times="1" last="1591642262691" />
       </entry>
       <entry key="EditorTab">
-        <ActionSummary times="3" last="1591643471213" />
+        <ActionSummary times="4" last="1592073848774" />
       </entry>
       <entry key="EditorUp">
         <ActionSummary times="1" last="1591643303366" />
@@ -92,7 +92,7 @@
         <ActionSummary times="2" last="1589851635053" />
       </entry>
       <entry key="GotoDeclaration">
-        <ActionSummary times="7" last="1591643193952" />
+        <ActionSummary times="19" last="1592076679663" />
       </entry>
       <entry key="HideAllWindows">
         <ActionSummary times="1" last="1589849788403" />
@@ -122,13 +122,13 @@
         <ActionSummary times="2" last="1591389419609" />
       </entry>
       <entry key="Resume">
-        <ActionSummary times="13" last="1591644558279" />
+        <ActionSummary times="24" last="1592076543895" />
       </entry>
       <entry key="RevealIn">
         <ActionSummary times="3" last="1592041037717" />
       </entry>
       <entry key="Run">
-        <ActionSummary times="111" last="1592040737075" />
+        <ActionSummary times="123" last="1592076429101" />
       </entry>
       <entry key="RunAnything">
         <ActionSummary times="1" last="1591642096852" />
@@ -137,7 +137,7 @@
         <ActionSummary times="13" last="1591389415430" />
       </entry>
       <entry key="SaveDocument">
-        <ActionSummary times="67" last="1592041230862" />
+        <ActionSummary times="90" last="1592076679812" />
       </entry>
       <entry key="ShowIntentionActions">
         <ActionSummary times="5" last="1591642865221" />
@@ -149,16 +149,16 @@
         <ActionSummary times="4" last="1591644510685" />
       </entry>
       <entry key="StepOver">
-        <ActionSummary times="8" last="1591644521090" />
+        <ActionSummary times="24" last="1592074289115" />
       </entry>
       <entry key="Stop">
-        <ActionSummary times="12" last="1591947578134" />
+        <ActionSummary times="16" last="1592076658550" />
       </entry>
       <entry key="Terminal.OpenInTerminal">
         <ActionSummary times="1" last="1590095232432" />
       </entry>
       <entry key="ToggleLineBreakpoint">
-        <ActionSummary times="13" last="1591643627896" />
+        <ActionSummary times="21" last="1592076536487" />
       </entry>
       <entry key="com.intellij.application.options.schemes.AbstractSchemeActions$RenameAction">
         <ActionSummary times="1" last="1591642690886" />
@@ -188,13 +188,13 @@
         <ActionSummary times="2" last="1591388467091" />
       </entry>
       <entry key="com.intellij.lang.typescript.compiler.TypeScriptLanguageServiceToolWindowManager$2">
-        <ActionSummary times="10" last="1592041318480" />
+        <ActionSummary times="14" last="1592076500501" />
       </entry>
       <entry key="com.intellij.lang.typescript.compiler.TypeScriptLanguageServiceToolWindowManager$3">
         <ActionSummary times="2" last="1591389425457" />
       </entry>
       <entry key="com.intellij.lang.typescript.compiler.action.TypeScriptCompileAllAction">
-        <ActionSummary times="7" last="1592041319824" />
+        <ActionSummary times="11" last="1592076502915" />
       </entry>
       <entry key="com.intellij.notification.NotificationAction$1">
         <ActionSummary times="5" last="1592041070469" />
@@ -215,7 +215,7 @@
         <ActionSummary times="4" last="1589847158138" />
       </entry>
       <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
-        <ActionSummary times="8" last="1592039895793" />
+        <ActionSummary times="10" last="1592073599158" />
       </entry>
       <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$6">
         <ActionSummary times="1" last="1589839803441" />
@@ -227,7 +227,7 @@
         <ActionSummary times="16" last="1591388063558" />
       </entry>
       <entry key="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
-        <ActionSummary times="3" last="1591641343934" />
+        <ActionSummary times="11" last="1592074138947" />
       </entry>
       <entry key="context.save">
         <ActionSummary times="2" last="1591387776541" />

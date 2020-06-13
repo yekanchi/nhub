@@ -13,14 +13,23 @@
       <entry key="DatabaseView.AddDriver">
         <ActionSummary times="1" last="1591735401947" />
       </entry>
+      <entry key="DatabaseView.CloseConnectionAction">
+        <ActionSummary times="1" last="1592075563140" />
+      </entry>
       <entry key="DatabaseView.Ddl.AddTable">
-        <ActionSummary times="1" last="1591735408821" />
+        <ActionSummary times="2" last="1592073448420" />
+      </entry>
+      <entry key="DatabaseView.PropertiesAction">
+        <ActionSummary times="2" last="1592075599108" />
       </entry>
       <entry key="DatabaseView.Refresh">
         <ActionSummary times="1" last="1591735422153" />
       </entry>
       <entry key="EditorBackSpace">
-        <ActionSummary times="5" last="1591735291859" />
+        <ActionSummary times="12" last="1592075610822" />
+      </entry>
+      <entry key="EditorChooseLookupItemReplace">
+        <ActionSummary times="3" last="1592073782774" />
       </entry>
       <entry key="EditorCopy">
         <ActionSummary times="1" last="1591735350278" />
@@ -31,8 +40,14 @@
       <entry key="FileChooser.NewFolder">
         <ActionSummary times="1" last="1591735289924" />
       </entry>
+      <entry key="ModifyObject">
+        <ActionSummary times="1" last="1592073741825" />
+      </entry>
       <entry key="Register">
         <ActionSummary times="1" last="1591947551822" />
+      </entry>
+      <entry key="RenameElement">
+        <ActionSummary times="1" last="1592075544532" />
       </entry>
       <entry key="ShowSettings">
         <ActionSummary times="4" last="1592040219589" />
@@ -53,7 +68,10 @@
         <ActionSummary times="1" last="1592040328416" />
       </entry>
       <entry key="com.intellij.ui.CommonActionsPanel$AddButton">
-        <ActionSummary times="2" last="1591735414815" />
+        <ActionSummary times="16" last="1592073790502" />
+      </entry>
+      <entry key="com.intellij.ui.CommonActionsPanel$RemoveButton">
+        <ActionSummary times="2" last="1592073730968" />
       </entry>
     </data>
   </component>

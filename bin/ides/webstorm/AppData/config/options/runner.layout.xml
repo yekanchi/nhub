@@ -50,6 +50,7 @@
         <option name="index" value="1" />
       </TabImpl>
       <TabImpl>
+        <option name="bottomProportion" value="0.0" />
         <option name="defaultIndex" value="2" />
         <option name="index" value="2" />
       </TabImpl>

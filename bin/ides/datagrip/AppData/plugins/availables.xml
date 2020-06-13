@@ -5838,7 +5838,7 @@ Usage: <b>Help | Print Keymap</b>
         The current time is displayed in the right bottom of the IDE window.<br>
         Especially useful when writing code in the full screen mode.<br>
         <br>
-        
+        <img>
     ]]></description><version>1.0.1</version><vendor email="" url="https://plugins.jetbrains.com/plugin/11252">Igor Strebezhev</vendor><rating>4.4</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="131.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>User Interface</tags></idea-plugin><idea-plugin downloads="930" size="813736" date="1555021348000" updatedDate="1555021457000" url=""><name>ScreencastRecorder</name><id>com.github.recognized.screencast.recorder</id><description><![CDATA[
 
     <p>Plugin for recording and reproducing IDE screencasts.</p>
@@ -26088,7 +26088,7 @@ The Iedis 2 plugin provides Redis support in JetBrains platform.
             <p><a href="https://github.com/gejun123456/redispluginIssues.git">GitHub</a>
             </p><p>qq group:674948973</p>
         </div>
- ]]></description><version>2020.06.14</version><vendor email="gejun123456@gmail.com" url="">bruce-ge</vendor><rating>3.6</rating><change-notes><![CDATA[
+ ]]></description><version>2020.06.14</version><vendor email="gejun123456@gmail.com" url="">bruce-ge</vendor><rating>3.7</rating><change-notes><![CDATA[
         <strong>2020.6.14</strong>
         <ul>
             <li>[NEW]clone key action</li>

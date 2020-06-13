@@ -29,10 +29,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="657" y="263" width="399" height="438" key="#Notifications/0.0.1600.860@0.0.1600.860" timestamp="1592040217830" />
-    <state x="429" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591735404977">
+    <state x="429" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592075618730">
       <screen x="0" y="0" width="1676" height="902" />
     </state>
-    <state x="429" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1676.902@0.0.1676.902" timestamp="1591735404977" />
+    <state x="429" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1676.902@0.0.1676.902" timestamp="1592075618730" />
     <state x="538" y="138" key="FileChooserDialogImpl" timestamp="1592040301687">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -43,9 +43,9 @@
     </state>
     <state x="212" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592040317548" />
     <state x="346" y="19" key="SettingsEditor/0.0.1676.902@0.0.1676.902" timestamp="1591735175169" />
-    <state x="673" y="166" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1591735417144">
+    <state x="183" y="151" width="573" height="644" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1592073816170">
       <screen x="0" y="0" width="1676" height="902" />
     </state>
-    <state x="673" y="166" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1676.902@0.0.1676.902" timestamp="1591735417144" />
+    <state x="183" y="151" width="573" height="644" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1676.902@0.0.1676.902" timestamp="1592073816170" />
   </component>
 </project>

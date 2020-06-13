@@ -13,30 +13,75 @@
     <table id="6" parent="2" name="sqlite_master">
       <System>1</System>
     </table>
-    <table id="7" parent="2" name="table_name"/>
-    <column id="8" parent="6" name="type">
+    <table id="7" parent="2" name="sqlite_sequence">
+      <System>1</System>
+    </table>
+    <table id="8" parent="2" name="table_name"/>
+    <table id="9" parent="2" name="users"/>
+    <column id="10" parent="6" name="type">
       <Position>1</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="9" parent="6" name="name">
+    <column id="11" parent="6" name="name">
       <Position>2</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="10" parent="6" name="tbl_name">
+    <column id="12" parent="6" name="tbl_name">
       <Position>3</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="11" parent="6" name="rootpage">
+    <column id="13" parent="6" name="rootpage">
       <Position>4</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="12" parent="6" name="sql">
+    <column id="14" parent="6" name="sql">
       <Position>5</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="13" parent="7" name="column_1">
+    <column id="15" parent="7" name="name">
+      <Position>1</Position>
+    </column>
+    <column id="16" parent="7" name="seq">
+      <Position>2</Position>
+    </column>
+    <column id="17" parent="8" name="column_1">
       <Position>1</Position>
       <DataType>int|0s</DataType>
     </column>
+    <column id="18" parent="9" name="user_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="19" parent="9" name="user_name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="20" parent="9" name="name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="21" parent="9" name="family">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="22" parent="9" name="email">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="23" parent="9" name="password_hash">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <index id="24" parent="9" name="users_user_id_uindex">
+      <ColNames>user_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="25" parent="9" name="users_pk">
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>users_user_id_uindex</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>
