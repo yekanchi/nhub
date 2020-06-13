@@ -14,6 +14,7 @@
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
     <property name="GeneralSettings.initiallyConfigured" value="true" />
+    <property name="InstalledPluginsSearchHistory" value="k&#10;ke&#10;ma&#10;mac" />
     <property name="KEYMAP" value="f5&#10;ctrl&#10;run&#10;format&#10;size" />
     <property name="MarketplacePluginsSearchHistory" value="/tag:Keymap" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />

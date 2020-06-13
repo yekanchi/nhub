@@ -1,0 +1,2 @@
+Docker
+org.jetbrains.plugins.vagrant

@@ -35,7 +35,7 @@
         <ActionSummary times="1" last="1591947551822" />
       </entry>
       <entry key="ShowSettings">
-        <ActionSummary times="3" last="1591735143712" />
+        <ActionSummary times="4" last="1592040219589" />
       </entry>
       <entry key="com.intellij.database.actions.RunExtensionScriptActionGroup$RunScriptAction">
         <ActionSummary times="1" last="1591735480909" />
@@ -48,6 +48,9 @@
       </entry>
       <entry key="com.intellij.diagnostic.WindowsDefenderFixAction">
         <ActionSummary times="1" last="1591732836542" />
+      </entry>
+      <entry key="com.intellij.openapi.keymap.impl.KeymapImplKt$notifyAboutMissingKeymap$1$projectOpened$1$action$2">
+        <ActionSummary times="1" last="1592040328416" />
       </entry>
       <entry key="com.intellij.ui.CommonActionsPanel$AddButton">
         <ActionSummary times="2" last="1591735414815" />

@@ -21,7 +21,7 @@
     <feature id="editing.completion.basic" count="20" last-shown="0" last-used="1591643486709" shown-count="0" />
     <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.surroundwith.expression" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.select.word" count="35" last-shown="0" last-used="1591643578735" shown-count="0" />
+    <feature id="editing.select.word" count="36" last-shown="0" last-used="1592040650824" shown-count="0" />
     <feature id="navigation.recent.files" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.goto.declaration" count="7" last-shown="0" last-used="1591643193956" shown-count="0" />
     <feature id="editing.completion.finishByDotEtc" count="0" last-shown="0" last-used="0" shown-count="0" />
