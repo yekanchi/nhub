@@ -10,6 +10,12 @@
         <item name="BinaCodal" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="BinaCodal" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
@@ -18,7 +24,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="das://3e459bdd-9106-41f3-b82d-11bcf338d476/schema/main/table/users">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state presentationMode="TABLE" projectRestartId="e3d82e61-4bdb-4911-b2df-26477e3c53c4" pageSize="500">
+            <state presentationMode="TABLE" projectRestartId="9126b169-f506-4ec4-a4d5-58328a75e1b1" pageSize="500">
               <filtering>
                 <filter text="" />
               </filtering>
@@ -32,33 +38,81 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3e459bdd-9106-41f3-b82d-11bcf338d476/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3e459bdd-9106-41f3-b82d-11bcf338d476/console_1.sql" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" x="-9" y="0" width="977" height="1042" extendedState="6" />
+  <component name="ProjectFrameBounds" x="-9" y="0" width="977" height="1042" extendedState="7" />
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="BinaCodal: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="BinaCodal: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@2f88759e" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="BinaCodal: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7b1bc3e6" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
       <window_info id="Commit" order="2" />
-      <window_info anchor="bottom" id="Services" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Services" order="7" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Problems View" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="right" id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="4" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info content_ui="combo" id="Database" order="0" visible="true" weight="0.22160494" />
+      <window_info content_ui="combo" id="Database" order="0" visible="true" weight="0.22760735" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e459bdd-9106-41f3-b82d-11bcf338d476/console.sql" />
+    <entry file="das://3e459bdd-9106-41f3-b82d-11bcf338d476/schema/main/table/table_name">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="TABLE" projectRestartId="9126b169-f506-4ec4-a4d5-58328a75e1b1" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+          <column-attributes>
+            <column name="rowid" enabled="false" position="-1" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3e459bdd-9106-41f3-b82d-11bcf338d476/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://3e459bdd-9106-41f3-b82d-11bcf338d476/schema/main/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state presentationMode="TABLE" projectRestartId="e3d82e61-4bdb-4911-b2df-26477e3c53c4" pageSize="500">
+        <state presentationMode="TABLE" projectRestartId="9126b169-f506-4ec4-a4d5-58328a75e1b1" pageSize="500">
           <filtering>
             <filter text="" />
           </filtering>

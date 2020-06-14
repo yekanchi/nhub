@@ -1,7 +1,7 @@
 <application>
   <component name="NotRoamableUiSettings">
     <option name="fontScale" value="1.0" />
-    <option name="fontSize" value="14" />
+    <option name="fontSize" value="13" />
   </component>
   <component name="PropertiesComponent">
     <property name="DBE.Init.Cfg.1" value="true" />
@@ -11,12 +11,13 @@
     <property name="PluginConfigurable.selectionTab" value="1" />
     <property name="UITheme.relaunch" value="true" />
     <property name="appcds.runOnSecondStart" value="DB-201.7846.70-396cbf20b8c42b0011cd717e0838ae884bedb779e4458bc923bd0c743db0167b" />
+    <property name="com.intellij.database.actions.DdlActions$DeleteProvider2$1.previewExpanded" value="true" />
     <property name="file.chooser.recent.files" value="E:/NHUB/bin/gitscm/bin/git.exe" />
-    <property name="file.gist.reindex.count" value="6" />
+    <property name="file.gist.reindex.count" value="10" />
     <property name="ide.memory.adjusted" value="true" />
-    <property name="lastSeenTip" value="neue-GoToSymbol.html" />
-    <property name="lastTimeTipsWereShown" value="1592040186644" />
+    <property name="lastSeenTip" value="neue-tips_db_DBGoToSymbolFQN.html" />
+    <property name="lastTimeTipsWereShown" value="1592161867903" />
     <property name="last_opened_file_path" value="E:/NHUB/bin/gitscm/bin/git.exe" />
-    <property name="seenTips" value="neue-RecentChanges.html,neue-GoToSymbol.html" />
+    <property name="seenTips" value="neue-RecentChanges.html,neue-GoToSymbol.html,neue-tips_db_DBGoToSymbolFQN.html" />
   </component>
 </application>

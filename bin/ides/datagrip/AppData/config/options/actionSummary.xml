@@ -5,7 +5,13 @@
         <ActionSummary times="2" last="1591947540340" />
       </entry>
       <entry key="Console.Jdbc.Execute">
-        <ActionSummary times="2" last="1591735427859" />
+        <ActionSummary times="16" last="1592164152823" />
+      </entry>
+      <entry key="Console.TableResult.Reload">
+        <ActionSummary times="122" last="1592165397862" />
+      </entry>
+      <entry key="CopyElement">
+        <ActionSummary times="1" last="1592162780749" />
       </entry>
       <entry key="DatabaseView.AddActionGroupPopup">
         <ActionSummary times="2" last="1591735184479" />
@@ -16,8 +22,14 @@
       <entry key="DatabaseView.CloseConnectionAction">
         <ActionSummary times="1" last="1592075563140" />
       </entry>
+      <entry key="DatabaseView.CopyTable">
+        <ActionSummary times="1" last="1592162287347" />
+      </entry>
       <entry key="DatabaseView.Ddl.AddTable">
         <ActionSummary times="2" last="1592073448420" />
+      </entry>
+      <entry key="DatabaseView.DropAction">
+        <ActionSummary times="1" last="1592162007396" />
       </entry>
       <entry key="DatabaseView.PropertiesAction">
         <ActionSummary times="2" last="1592075599108" />
@@ -26,10 +38,10 @@
         <ActionSummary times="1" last="1591735422153" />
       </entry>
       <entry key="EditorBackSpace">
-        <ActionSummary times="12" last="1592075610822" />
+        <ActionSummary times="19" last="1592162776769" />
       </entry>
       <entry key="EditorChooseLookupItemReplace">
-        <ActionSummary times="3" last="1592073782774" />
+        <ActionSummary times="5" last="1592162779734" />
       </entry>
       <entry key="EditorCopy">
         <ActionSummary times="1" last="1591735350278" />
@@ -37,11 +49,20 @@
       <entry key="EditorPaste">
         <ActionSummary times="1" last="1591735355826" />
       </entry>
+      <entry key="EditorTab">
+        <ActionSummary times="1" last="1592162772993" />
+      </entry>
       <entry key="FileChooser.NewFolder">
         <ActionSummary times="1" last="1591735289924" />
       </entry>
+      <entry key="GotoClass">
+        <ActionSummary times="1" last="1592162763465" />
+      </entry>
+      <entry key="Jdbc.OpenConsole.New.Generate">
+        <ActionSummary times="1" last="1592162769979" />
+      </entry>
       <entry key="ModifyObject">
-        <ActionSummary times="1" last="1592073741825" />
+        <ActionSummary times="2" last="1592164113490" />
       </entry>
       <entry key="Register">
         <ActionSummary times="1" last="1591947551822" />
@@ -50,7 +71,7 @@
         <ActionSummary times="1" last="1592075544532" />
       </entry>
       <entry key="ShowSettings">
-        <ActionSummary times="4" last="1592040219589" />
+        <ActionSummary times="5" last="1592162379456" />
       </entry>
       <entry key="com.intellij.database.actions.RunExtensionScriptActionGroup$RunScriptAction">
         <ActionSummary times="1" last="1591735480909" />

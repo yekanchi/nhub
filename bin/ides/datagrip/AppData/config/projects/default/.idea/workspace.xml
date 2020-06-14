@@ -22,7 +22,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="657" y="263" width="399" height="438" key="#Notifications" timestamp="1592040217830">
@@ -38,14 +38,42 @@
     </state>
     <state x="538" y="138" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1592040301687" />
     <state x="564" y="145" key="FileChooserDialogImpl/0.0.1676.902@0.0.1676.902" timestamp="1591735484616" />
-    <state x="212" y="0" key="SettingsEditor" timestamp="1592040317548">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="212" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592040317548" />
-    <state x="346" y="19" key="SettingsEditor/0.0.1676.902@0.0.1676.902" timestamp="1591735175169" />
-    <state x="183" y="151" width="573" height="644" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1592073816170">
+    <state width="1120" height="232" key="GridCell.Tab.0.bottom" timestamp="1592164154870">
       <screen x="0" y="0" width="1676" height="902" />
     </state>
-    <state x="183" y="151" width="573" height="644" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1676.902@0.0.1676.902" timestamp="1592073816170" />
+    <state width="1120" height="232" key="GridCell.Tab.0.bottom/0.0.1676.902@0.0.1676.902" timestamp="1592164154870" />
+    <state width="1120" height="232" key="GridCell.Tab.0.center" timestamp="1592164154868">
+      <screen x="0" y="0" width="1676" height="902" />
+    </state>
+    <state width="1120" height="232" key="GridCell.Tab.0.center/0.0.1676.902@0.0.1676.902" timestamp="1592164154868" />
+    <state width="1120" height="232" key="GridCell.Tab.0.left" timestamp="1592164154866">
+      <screen x="0" y="0" width="1676" height="902" />
+    </state>
+    <state width="1120" height="232" key="GridCell.Tab.0.left/0.0.1676.902@0.0.1676.902" timestamp="1592164154866" />
+    <state width="1120" height="232" key="GridCell.Tab.0.right" timestamp="1592164154869">
+      <screen x="0" y="0" width="1676" height="902" />
+    </state>
+    <state width="1120" height="232" key="GridCell.Tab.0.right/0.0.1676.902@0.0.1676.902" timestamp="1592164154869" />
+    <state x="346" y="19" key="SettingsEditor" timestamp="1592162389248">
+      <screen x="0" y="0" width="1676" height="902" />
+    </state>
+    <state x="212" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1592040317548" />
+    <state x="346" y="19" key="SettingsEditor/0.0.1676.902@0.0.1676.902" timestamp="1592162389248" />
+    <state x="708" y="325" width="363" height="292" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1592162011319">
+      <screen x="0" y="0" width="1676" height="902" />
+    </state>
+    <state x="708" y="325" width="363" height="292" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1676.902@0.0.1676.902" timestamp="1592162011319" />
+    <state x="502" y="208" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1592162289408">
+      <screen x="0" y="0" width="1676" height="902" />
+    </state>
+    <state x="502" y="208" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1676.902@0.0.1676.902" timestamp="1592162289408" />
+    <state x="183" y="151" width="573" height="644" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1592164123959">
+      <screen x="0" y="0" width="1676" height="902" />
+    </state>
+    <state x="183" y="151" width="573" height="644" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1676.902@0.0.1676.902" timestamp="1592164123959" />
+    <state x="500" y="190" key="search.everywhere.popup" timestamp="1592162766659">
+      <screen x="0" y="0" width="1676" height="902" />
+    </state>
+    <state x="500" y="190" key="search.everywhere.popup/0.0.1676.902@0.0.1676.902" timestamp="1592162766659" />
   </component>
 </project>

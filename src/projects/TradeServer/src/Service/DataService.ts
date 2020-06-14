@@ -7,6 +7,8 @@ export const createDbConnection = async () => {
     var connection = await createConnection({
         type: "sqlite",
         database: "E:/NHUB/data/bina/BinaCodal.db",
+        logging: false,
+        synchronize: true,
         entities: [User]
     });
     return connection;
