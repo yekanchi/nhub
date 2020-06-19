@@ -9,8 +9,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.User = void 0;
+exports.Letter = exports.User = exports.CodalPage = void 0;
 const typeorm_1 = require("typeorm");
+class CodalPage {
+}
+exports.CodalPage = CodalPage;
 let User = class User {
     //this is for es6 initialization
     constructor(intial) {
@@ -46,4 +49,46 @@ User = __decorate([
     __metadata("design:paramtypes", [Object])
 ], User);
 exports.User = User;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRG9tYWluLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2RvbWFpbi9Eb21haW4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQUEscUNBQStEO0FBRy9ELElBQWEsSUFBSSxHQUFqQixNQUFhLElBQUk7SUFtQmIsZ0NBQWdDO0lBQ2hDLFlBQW1CLE1BQXFCO1FBQ3BDLE1BQU0sQ0FBQyxNQUFNLENBQUMsSUFBSSxFQUFFLE1BQU0sQ0FBQyxDQUFDO0lBQ2hDLENBQUM7Q0FDSixDQUFBO0FBckJHO0lBREMsZ0NBQXNCLENBQUMsRUFBQyxJQUFJLEVBQUUsU0FBUyxFQUFFLElBQUksRUFBRSxTQUFTLEVBQUMsQ0FBQzs7Z0NBQ2hEO0FBR1g7SUFEQyxnQkFBTSxDQUFDLEVBQUMsSUFBSSxFQUFFLFdBQVcsRUFBRSxJQUFJLEVBQUUsTUFBTSxFQUFDLENBQUM7O3NDQUN6QjtBQUdqQjtJQURDLGdCQUFNLENBQUMsRUFBQyxJQUFJLEVBQUUsTUFBTSxFQUFFLElBQUksRUFBRSxNQUFNLEVBQUMsQ0FBQzs7a0NBQ3hCO0FBR2I7SUFEQyxnQkFBTSxDQUFDLEVBQUMsSUFBSSxFQUFFLFFBQVEsRUFBRSxJQUFJLEVBQUUsTUFBTSxFQUFDLENBQUM7O29DQUN4QjtBQUdmO0lBREMsZ0JBQU0sQ0FBQyxFQUFDLElBQUksRUFBRSxPQUFPLEVBQUUsSUFBSSxFQUFFLE1BQU0sRUFBQyxDQUFDOzttQ0FDeEI7QUFHZDtJQURDLGdCQUFNLENBQUMsRUFBQyxJQUFJLEVBQUUsZUFBZSxFQUFFLElBQUksRUFBRSxNQUFNLEVBQUMsQ0FBQzs7c0NBQzdCO0FBakJSLElBQUk7SUFEaEIsZ0JBQU0sQ0FBQyxFQUFDLElBQUksRUFBRSxZQUFZLEVBQUMsQ0FBQzs7R0FDaEIsSUFBSSxDQXVCaEI7QUF2Qlksb0JBQUkifQ==
+let Letter = class Letter {
+};
+__decorate([
+    typeorm_1.PrimaryGeneratedColumn({ name: "user_id", type: "integer" }),
+    __metadata("design:type", Number)
+], Letter.prototype, "id", void 0);
+__decorate([
+    typeorm_1.Column({ type: "text" }),
+    __metadata("design:type", String)
+], Letter.prototype, "attachmentUrl", void 0);
+__decorate([
+    typeorm_1.Column({ type: "integer" }),
+    __metadata("design:type", Number)
+], Letter.prototype, "code", void 0);
+__decorate([
+    typeorm_1.Column({ type: "text" }),
+    __metadata("design:type", String)
+], Letter.prototype, "companyName", void 0);
+__decorate([
+    typeorm_1.Column({ type: "integer" }),
+    __metadata("design:type", Number)
+], Letter.prototype, "publishTime", void 0);
+__decorate([
+    typeorm_1.Column({ type: "integer" }),
+    __metadata("design:type", Number)
+], Letter.prototype, "sendTime", void 0);
+__decorate([
+    typeorm_1.Column({ type: "string" }),
+    __metadata("design:type", String)
+], Letter.prototype, "symbol", void 0);
+__decorate([
+    typeorm_1.Column({ type: "integer" }),
+    __metadata("design:type", Number)
+], Letter.prototype, "tracingNumber", void 0);
+__decorate([
+    typeorm_1.Column({ type: "text" }),
+    __metadata("design:type", String)
+], Letter.prototype, "url", void 0);
+Letter = __decorate([
+    typeorm_1.Entity({ name: "main.letters" })
+], Letter);
+exports.Letter = Letter;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRG9tYWluLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2RvbWFpbi9Eb21haW4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQUEscUNBQStEO0FBSS9ELE1BQWEsU0FBUztDQUlyQjtBQUpELDhCQUlDO0FBSUQsSUFBYSxJQUFJLEdBQWpCLE1BQWEsSUFBSTtJQW1CYixnQ0FBZ0M7SUFDaEMsWUFBbUIsTUFBcUI7UUFDcEMsTUFBTSxDQUFDLE1BQU0sQ0FBQyxJQUFJLEVBQUUsTUFBTSxDQUFDLENBQUM7SUFDaEMsQ0FBQztDQUNKLENBQUE7QUFyQkc7SUFEQyxnQ0FBc0IsQ0FBQyxFQUFDLElBQUksRUFBRSxTQUFTLEVBQUUsSUFBSSxFQUFFLFNBQVMsRUFBQyxDQUFDOztnQ0FDaEQ7QUFHWDtJQURDLGdCQUFNLENBQUMsRUFBQyxJQUFJLEVBQUUsV0FBVyxFQUFFLElBQUksRUFBRSxNQUFNLEVBQUMsQ0FBQzs7c0NBQ3pCO0FBR2pCO0lBREMsZ0JBQU0sQ0FBQyxFQUFDLElBQUksRUFBRSxNQUFNLEVBQUUsSUFBSSxFQUFFLE1BQU0sRUFBQyxDQUFDOztrQ0FDeEI7QUFHYjtJQURDLGdCQUFNLENBQUMsRUFBQyxJQUFJLEVBQUUsUUFBUSxFQUFFLElBQUksRUFBRSxNQUFNLEVBQUMsQ0FBQzs7b0NBQ3hCO0FBR2Y7SUFEQyxnQkFBTSxDQUFDLEVBQUMsSUFBSSxFQUFFLE9BQU8sRUFBRSxJQUFJLEVBQUUsTUFBTSxFQUFDLENBQUM7O21DQUN4QjtBQUdkO0lBREMsZ0JBQU0sQ0FBQyxFQUFDLElBQUksRUFBRSxlQUFlLEVBQUUsSUFBSSxFQUFFLE1BQU0sRUFBQyxDQUFDOztzQ0FDN0I7QUFqQlIsSUFBSTtJQURoQixnQkFBTSxDQUFDLEVBQUMsSUFBSSxFQUFFLFlBQVksRUFBQyxDQUFDOztHQUNoQixJQUFJLENBdUJoQjtBQXZCWSxvQkFBSTtBQTJCakIsSUFBYSxNQUFNLEdBQW5CLE1BQWEsTUFBTTtDQTJCbEIsQ0FBQTtBQXpCRztJQURDLGdDQUFzQixDQUFDLEVBQUMsSUFBSSxFQUFFLFNBQVMsRUFBRSxJQUFJLEVBQUUsU0FBUyxFQUFDLENBQUM7O2tDQUNoRDtBQUdYO0lBREMsZ0JBQU0sQ0FBQyxFQUFDLElBQUksRUFBRSxNQUFNLEVBQUMsQ0FBQzs7NkNBQ0Q7QUFHdEI7SUFEQyxnQkFBTSxDQUFDLEVBQUMsSUFBSSxFQUFFLFNBQVMsRUFBQyxDQUFDOztvQ0FDYjtBQUdiO0lBREMsZ0JBQU0sQ0FBQyxFQUFDLElBQUksRUFBRSxNQUFNLEVBQUMsQ0FBQzs7MkNBQ0g7QUFHcEI7SUFEQyxnQkFBTSxDQUFDLEVBQUMsSUFBSSxFQUFFLFNBQVMsRUFBQyxDQUFDOzsyQ0FDTjtBQUdwQjtJQURDLGdCQUFNLENBQUMsRUFBQyxJQUFJLEVBQUUsU0FBUyxFQUFDLENBQUM7O3dDQUNUO0FBR2pCO0lBREMsZ0JBQU0sQ0FBQyxFQUFDLElBQUksRUFBRSxRQUFRLEVBQUMsQ0FBQzs7c0NBQ1Y7QUFHZjtJQURDLGdCQUFNLENBQUMsRUFBQyxJQUFJLEVBQUUsU0FBUyxFQUFDLENBQUM7OzZDQUNKO0FBR3RCO0lBREMsZ0JBQU0sQ0FBQyxFQUFDLElBQUksRUFBRSxNQUFNLEVBQUMsQ0FBQzs7bUNBQ1g7QUExQkgsTUFBTTtJQURsQixnQkFBTSxDQUFDLEVBQUMsSUFBSSxFQUFFLGNBQWMsRUFBQyxDQUFDO0dBQ2xCLE1BQU0sQ0EyQmxCO0FBM0JZLHdCQUFNIn0=

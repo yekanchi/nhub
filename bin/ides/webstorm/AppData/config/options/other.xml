@@ -16,7 +16,7 @@
     <property name="GeneralSettings.initiallyConfigured" value="true" />
     <property name="InstalledPluginsSearchHistory" value="k&#10;ke&#10;ma&#10;mac" />
     <property name="KEYMAP" value="f5&#10;ctrl&#10;run&#10;format&#10;size" />
-    <property name="MarketplacePluginsSearchHistory" value="/tag:Keymap" />
+    <property name="MarketplacePluginsSearchHistory" value="/sortBy:featured&#10;/tag:Keymap" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
@@ -27,7 +27,7 @@
     <property name="evlsprt2.201" value="17295306d00" />
     <property name="evlsprt3.201" value="10" />
     <property name="file.chooser.recent.files" value="E:/NHUB/src/projects/TradeServer/out/app.js&#10;E:/NHUB/src/projects/TradeServer/src/app.ts&#10;E:/NHUB/bin/node&#10;E:/NHUB/src/projects/TradeServer&#10;E:/NHUB/bin/gitscm/bin/git.exe&#10;E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat&#10;E:/NHUB/src/tests&#10;E:/NHUB/bin/compilers/node/node.exe" />
-    <property name="file.gist.reindex.count" value="273" />
+    <property name="file.gist.reindex.count" value="275" />
     <property name="ide.memory.adjusted" value="true" />
     <property name="last_opened_file_path" value="E:/NHUB/bin/gitscm/bin/git.exe" />
     <property name="org.intellij.images.editor.actions.BackgroundImageDialog#recent" value="" />

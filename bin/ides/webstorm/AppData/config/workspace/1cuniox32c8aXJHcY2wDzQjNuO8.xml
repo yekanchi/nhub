@@ -1,88 +1,82 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/app.ts" line="3" />
+    <bookmark url="file://$PROJECT_DIR$/src/JobScheduler.ts" line="32" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="TradeServer" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JobScheduler.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#70#0" expanded="true" />
+                <element signature="n#!!block;n#storeCodaDump#0;n#JobScheduler#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/financialStatements/provider/indexDataProvider.ts">
+        <entry file="file://$PROJECT_DIR$/src/data/DataService.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#0#51#0" expanded="true" />
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/data/financialStatements/store/codalDataStore.ts">
+        <entry file="file://$PROJECT_DIR$/src/dal/DataAccess.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="86" column="16" lean-forward="true" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+            <state relative-caret-position="253">
+              <caret line="13" column="14" selection-end-line="72" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
+                <element signature="n#!!block;n#create#0;n#DumpRepository#0" />
+                <element signature="n#!!block;n#getAll#0;n#DumpRepository#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/financialStatements/provider/n10ReportDataProvider.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-              <folding>
-                <element signature="e#233#289#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/financialStatements/provider/n30ReportDataProvider.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/financialStatements/provider/n31ReportDataProvider.ts">
+        <entry file="file://$PROJECT_DIR$/src/dal/DataAccessContract.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/financialStatements/provider/utils.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>createDbConnection</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/domain/Domain.ts" />
         <option value="$PROJECT_DIR$/ormconfig.json" />
         <option value="$PROJECT_DIR$/src/Service/DataService.ts" />
-        <option value="$PROJECT_DIR$/src/main.ts" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/src/Service/DataGrabber.ts" />
         <option value="$PROJECT_DIR$/src/data/financialStatements/provider/index.ts" />
@@ -92,14 +86,22 @@
         <option value="$PROJECT_DIR$/src/data/financialStatements/provider/n31ReportDataProvider.ts" />
         <option value="$PROJECT_DIR$/src/data/financialStatements/hook/index.ts" />
         <option value="$PROJECT_DIR$/src/app.ts" />
-        <option value="$PROJECT_DIR$/src/data/DataGrabber.ts" />
-        <option value="$PROJECT_DIR$/src/JobScheduler.ts" />
         <option value="$PROJECT_DIR$/src/data/financialStatements/provider/utils.ts" />
         <option value="$PROJECT_DIR$/src/data/financialStatements/provider/dataSource.ts" />
         <option value="$PROJECT_DIR$/src/data/financialStatements/provider/indexDataProvider.ts" />
         <option value="$PROJECT_DIR$/src/data/financialStatements/provider/n10ReportDataProvider.ts" />
         <option value="$PROJECT_DIR$/src/data/financialStatements/provider/n30ReportDataProvider.ts" />
         <option value="$PROJECT_DIR$/src/data/financialStatements/store/codalDataStore.ts" />
+        <option value="$PROJECT_DIR$/src/Repository/UserRepository.ts" />
+        <option value="$PROJECT_DIR$/src/domain/Domain.ts" />
+        <option value="$PROJECT_DIR$/out/main.d.ts" />
+        <option value="$PROJECT_DIR$/src/data/DataGrabber.ts" />
+        <option value="$PROJECT_DIR$/src/dal/contracts.ts" />
+        <option value="$PROJECT_DIR$/src/data/DataService.ts" />
+        <option value="$PROJECT_DIR$/src/dal/DataAccess.ts" />
+        <option value="$PROJECT_DIR$/src/main.ts" />
+        <option value="$PROJECT_DIR$/src/JobScheduler.ts" />
+        <option value="$PROJECT_DIR$/src/dal/DataAccessContract.ts" />
       </list>
     </option>
   </component>
@@ -110,7 +112,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectFrameBounds" x="952" y="0" width="977" height="1042" extendedState="6" />
+  <component name="ProjectFrameBounds" x="-9" y="0" width="1094" height="1042" extendedState="6" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
@@ -130,38 +132,13 @@
               <item name="TradeServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="TradeServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="dal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TradeServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="TradeServer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="financialStatements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TradeServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TradeServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="financialStatements" type="462c0819:PsiDirectoryNode" />
-              <item name="hook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TradeServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TradeServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="financialStatements" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TradeServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TradeServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="financialStatements" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,11 +149,11 @@
   </component>
   <component name="TerminalArrangementManager">
     <option name="myTabStates">
-      <TerminalTabState tabName="Local" currentWorkingDirectory="E:\NHUB\src\projects\TradeServer\" commandHistoryFileName="history-6" />
+      <TerminalTabState tabName="Local" commandHistoryFileName="history-7" />
     </option>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34824000" />
+    <option name="totallyTimeSpent" value="45680000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -193,54 +170,44 @@
       <window_info id="Commit" order="3" weight="0.17654172" />
       <window_info anchor="bottom" id="Services" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Problems View" order="5" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.3275" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19226119" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19467956" />
       <window_info anchor="bottom" id="Flow" order="9" />
       <window_info anchor="bottom" id="TODO" order="3" />
-      <window_info anchor="bottom" id="TypeScript" order="11" visible="true" weight="0.355" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.3375" />
+      <window_info anchor="bottom" id="TypeScript" order="11" visible="true" weight="0.205" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.3275" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.62636036" weight="0.42125" />
       <window_info id="Learn" order="4" />
       <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.38" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.6608223" weight="0.38" />
       <window_info id="Structure" order="1" weight="0.2496977" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32947233" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.37363967" side_tool="true" weight="0.43125" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.22128174" />
     </layout>
     <layout-to-restore>
-      <window_info id="Learn" order="4" />
-      <window_info anchor="bottom" id="Flow" order="9" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.3375" />
       <window_info id="Commit" order="3" weight="0.17654172" />
-      <window_info id="Favorites" order="2" side_tool="true" weight="0.22128174" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Problems View" order="5" />
-      <window_info id="Structure" order="1" weight="0.2496977" />
-      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.355" />
       <window_info anchor="bottom" id="Services" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19226119" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38" />
-      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
+      <window_info anchor="bottom" id="Flow" order="9" />
+      <window_info anchor="bottom" id="TODO" order="3" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.355" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.3275" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.3375" />
+      <window_info id="Learn" order="4" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38" />
+      <window_info id="Structure" order="1" weight="0.2496977" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32947233" />
-      <window_info anchor="bottom" id="TODO" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.22128174" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/typeorm/entity-manager/EntityManager.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -275,16 +242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#824#1730#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/domain/Domain.js.map">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="sourcemapFileViewerProvider" />
@@ -298,13 +255,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/domain/Domain.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/Domain.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/getConnection.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -336,44 +286,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/DataService.ts">
+    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/provider/n10ReportDataProvider.js" />
+    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/store/database.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/hook/hooks.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
-            <element signature="e#96#165#0" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/provider/n10ReportDataProvider.js" />
-    <entry file="file://$PROJECT_DIR$/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/DataGrabber.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.ts">
+    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/store/index.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JobScheduler.ts">
+    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/hook/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="161">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/store/database.ts">
+    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/provider/dataSource.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/provider/index.ts">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="315" column="17" selection-start-line="315" selection-start-column="17" selection-end-line="315" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/store/codalDataStore.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="86" column="16" lean-forward="true" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/financialStatements/provider/n10ReportDataProvider.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -409,62 +374,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/hook/hooks.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/store/index.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/hook/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/provider/dataSource.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/provider/index.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/financialStatements/provider/indexDataProvider.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/index.ts">
+    <entry file="file://$PROJECT_DIR$/out/main.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="315" column="17" selection-start-line="315" selection-start-column="17" selection-end-line="315" selection-end-column="17" />
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/financialStatements/store/codalDataStore.ts">
+    <entry file="file://$PROJECT_DIR$/src/app.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="86" column="16" lean-forward="true" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+        <state relative-caret-position="69">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/DataGrabber.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/UserRepository.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="n#DumpRepository#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/DataService.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JobScheduler.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+            <element signature="n#!!block;n#storeCodaDump#0;n#JobScheduler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/Domain.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dal/DataAccessContract.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dal/DataAccess.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="14" selection-end-line="72" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
+            <element signature="n#!!block;n#create#0;n#DumpRepository#0" />
+            <element signature="n#!!block;n#getAll#0;n#DumpRepository#0" />
           </folding>
         </state>
       </provider>

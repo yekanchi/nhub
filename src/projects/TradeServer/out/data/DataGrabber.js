@@ -1,11 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CodaDataGrabber = void 0;
-const fetch = require('node-fetch');
+const query_string_1 = require("query-string");
+const fetch = require("node-fetch");
 class CodaDataGrabber {
-    async getPage(pageNo) {
+    async getPage(pageNumber) {
         let codalPageJsonData;
-        await fetch('https://search.codal.ir/api/search/v2/q?&PageNumber=1')
+        const queryString = query_string_1.stringify({
+            PageNumber: pageNumber,
+        });
+        await fetch('https://search.codal.ir/api/search/v2/q?' + queryString)
             .then(res => {
             codalPageJsonData = res.json();
         });
@@ -13,4 +17,4 @@ class CodaDataGrabber {
     }
 }
 exports.CodaDataGrabber = CodaDataGrabber;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YUdyYWJiZXIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvZGF0YS9EYXRhR3JhYmJlci50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBQSxNQUFNLEtBQUssR0FBRyxPQUFPLENBQUMsWUFBWSxDQUFDLENBQUM7QUFTcEMsTUFBYSxlQUFlO0lBRXhCLEtBQUssQ0FBQyxPQUFPLENBQUMsTUFBYztRQUN4QixJQUFJLGlCQUFpQixDQUFDO1FBQ3RCLE1BQU0sS0FBSyxDQUFDLHVEQUF1RCxDQUFDO2FBQy9ELElBQUksQ0FBQyxHQUFHLENBQUMsRUFBRTtZQUNSLGlCQUFpQixHQUFHLEdBQUcsQ0FBQyxJQUFJLEVBQUUsQ0FBQztRQUNuQyxDQUFDLENBQUMsQ0FBQztRQUVQLE9BQVEsaUJBQWlCLENBQUM7SUFDOUIsQ0FBQztDQUNKO0FBWEQsMENBV0MifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRGF0YUdyYWJiZXIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvZGF0YS9EYXRhR3JhYmJlci50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBQSwrQ0FBdUM7QUFDdkMsTUFBTSxLQUFLLEdBQUcsT0FBTyxDQUFDLFlBQVksQ0FBQyxDQUFDO0FBTXBDLE1BQWEsZUFBZTtJQUV4QixLQUFLLENBQUMsT0FBTyxDQUFDLFVBQWtCO1FBQzVCLElBQUksaUJBQWlCLENBQUM7UUFFdEIsTUFBTSxXQUFXLEdBQUcsd0JBQVMsQ0FBQztZQUMxQixVQUFVLEVBQUUsVUFBVTtTQUN6QixDQUFDLENBQUM7UUFFSCxNQUFNLEtBQUssQ0FBQywwQ0FBMEMsR0FBRyxXQUFXLENBQUM7YUFDaEUsSUFBSSxDQUFDLEdBQUcsQ0FBQyxFQUFFO1lBQ1IsaUJBQWlCLEdBQUcsR0FBRyxDQUFDLElBQUksRUFBRSxDQUFDO1FBQ25DLENBQUMsQ0FBQyxDQUFDO1FBQ1AsT0FBUSxpQkFBaUIsQ0FBQztJQUM5QixDQUFDO0NBQ0o7QUFmRCwwQ0FlQyJ9

@@ -1,1 +1,1 @@
-{"version":3,"file":"DataGrabber.d.ts","sourceRoot":"","sources":["../../src/data/DataGrabber.ts"],"names":[],"mappings":"AAIA,MAAM,WAAW,iBAAiB;IAC9B,OAAO,CAAC,MAAM,EAAE,MAAM,GAAG,GAAG,CAAC;CAEhC;AAED,qBAAa,eAAgB,YAAW,iBAAiB;IAE/C,OAAO,CAAC,MAAM,EAAE,MAAM,GAAG,OAAO,CAAC,GAAG,CAAC;CAS9C"}
+{"version":3,"file":"DataGrabber.d.ts","sourceRoot":"","sources":["../../src/data/DataGrabber.ts"],"names":[],"mappings":"AAGA,MAAM,WAAW,iBAAiB;IAC9B,OAAO,CAAC,MAAM,EAAE,MAAM,GAAG,GAAG,CAAC;CAChC;AAED,qBAAa,eAAgB,YAAW,iBAAiB;IAE/C,OAAO,CAAC,UAAU,EAAE,MAAM,GAAG,OAAO,CAAC,GAAG,CAAC;CAalD"}

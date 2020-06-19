@@ -1,4 +1,13 @@
 import {Entity, PrimaryGeneratedColumn, Column} from "typeorm";
+import {ILetter} from "../data/financialStatements";
+
+
+export class CodalPage {
+    Total: number;
+    Page: number;
+    Letters: Array<Letter>;
+}
+
 
 @Entity({name: "main.users"})
 export class User {
@@ -24,6 +33,37 @@ export class User {
     public constructor(intial?:Partial<User>) {
         Object.assign(this, intial);
     }
+}
+
+
+@Entity({name: "main.letters"})
+export class Letter implements ILetter {
+    @PrimaryGeneratedColumn({name: "user_id", type: "integer"})
+    id: number;
+
+    @Column({type: "text"})
+    attachmentUrl: string;
+
+    @Column({type: "integer"})
+    code: number;
+
+    @Column({type: "text"})
+    companyName: string;
+
+    @Column({type: "integer"})
+    publishTime: number;
+
+    @Column({type: "integer"})
+    sendTime: number;
+
+    @Column({type: "string"})
+    symbol: string;
+
+    @Column({type: "integer"})
+    tracingNumber: number;
+
+    @Column({type: "text"})
+    url: string;
 }
 
 
