@@ -1,5 +1,5 @@
 import { ICostOfGoods, IIncomeStatement, IN10Letter, IN30ProductItem, IN30Report, IN3xLetter, ISaleAndCost } from "../index";
-import { ICodalDataStore } from "../store";
+import { ICodalDataStore } from "./index";
 export declare class CodalDataStore implements ICodalDataStore {
     retrieveN30Report(letter: IN3xLetter): Promise<IN30Report>;
     loadN30ProductItems(tracingNumber: number): Promise<IN30ProductItem[]>;

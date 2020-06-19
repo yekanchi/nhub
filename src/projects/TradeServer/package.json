@@ -33,6 +33,7 @@
     "jsdom": "^16.2.2",
     "moment": "^2.24.0",
     "node-fetch": "^2.6.0",
+    "persianjs": "^0.4.0",
     "query-string": "^6.13.1",
     "react": "^16.13.1",
     "sqlite3": "^4.2.0",
