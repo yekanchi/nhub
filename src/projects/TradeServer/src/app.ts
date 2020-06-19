@@ -1,4 +1,4 @@
 import {JobScheduler} from "./JobScheduler";
 
-var jobScheduler = new JobScheduler();
-jobScheduler.RunGrabber();
+const jobScheduler = new JobScheduler();
+jobScheduler.RunGrabber().then(r => console.log("success: " + r), r => console.log("error: " + r));

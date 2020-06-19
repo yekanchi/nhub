@@ -16,7 +16,7 @@ export class JobScheduler {
     async storeCodaDump(codalPageJsonData: CodalPage): Promise<any> {
         codalPageJsonData.Letters.forEach(item=> {
             if(item.symbol == 'ونیکی'){
-                this._DumpRepository.create(item);
+                this._DumpRepository.insert(item);
             }
             return true;
 
@@ -27,9 +27,14 @@ export class JobScheduler {
         // const codaPageJsonData = await this._dataGrabber.getPage(1);
         // this.storeCodaDump(codaPageJsonData);
         let name = new Letter();
-        name.id = 1;
         name.code = 233;
         name.symbol = "some symbol";
-        await this._DumpRepository.create(name);
+        name.attachmentUrl = "some url";
+        name.publishTime = (new Date()).getTime();
+        name.sendTime = (new Date()).getTime();
+        name.tracingNumber = 32323;
+        name.url = "some url for you";
+
+        await this._DumpRepository.insert(name);
     }
 }

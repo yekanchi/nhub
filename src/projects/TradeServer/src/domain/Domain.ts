@@ -30,15 +30,15 @@ export class User {
     password: string;
 
     //this is for es6 initialization
-    public constructor(intial?:Partial<User>) {
+    public constructor(intial?: Partial<User>) {
         Object.assign(this, intial);
     }
 }
 
 
-@Entity({name: "main.letters"})
+@Entity({name: "main.Letters"})
 export class Letter implements ILetter {
-    @PrimaryGeneratedColumn({name: "user_id", type: "integer"})
+    @PrimaryGeneratedColumn({name: "id", type: "integer"})
     id: number;
 
     @Column({type: "text"})
@@ -56,7 +56,7 @@ export class Letter implements ILetter {
     @Column({type: "integer"})
     sendTime: number;
 
-    @Column({type: "string"})
+    @Column({type: "text"})
     symbol: string;
 
     @Column({type: "integer"})
@@ -64,6 +64,11 @@ export class Letter implements ILetter {
 
     @Column({type: "text"})
     url: string;
+
+    //this is for es6 initialization
+    public constructor(intial?: Partial<User>) {
+        Object.assign(this, intial);
+    }
 }
 
 

@@ -23,5 +23,6 @@ export declare class Letter implements ILetter {
     symbol: string;
     tracingNumber: number;
     url: string;
+    constructor(intial?: Partial<User>);
 }
 //# sourceMappingURL=Domain.d.ts.map

@@ -16,13 +16,15 @@
     <property name="GeneralSettings.initiallyConfigured" value="true" />
     <property name="InstalledPluginsSearchHistory" value="k&#10;ke&#10;ma&#10;mac" />
     <property name="KEYMAP" value="f5&#10;ctrl&#10;run&#10;format&#10;size" />
+    <property name="LayoutCode.optimizeImports" value="false" />
+    <property name="LayoutCode.processChangedText" value="false" />
     <property name="MarketplacePluginsSearchHistory" value="/sortBy:featured&#10;/tag:Keymap" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
     <property name="SettingsSearchHistory" value="envir&#10;key&#10;terminal" />
+    <property name="ShowDocumentationInToolWindow" value="false" />
     <property name="appcds.runOnSecondStart" value="WS-201.7223.93-ef07ee4090621b253d5ee8df2430a67ca7f3c63d0b54e9a973cd0395ea0143d1" />
-    <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="evlsprt.201" value="172c454e5ca" />
     <property name="evlsprt2.201" value="17295306d00" />
     <property name="evlsprt3.201" value="10" />

@@ -15,9 +15,8 @@ export const getBinaCodalDbConnection = async () => {
 export const getDumpCodalDbConnection = async () => {
     return await createConnection({
         type: "sqlite",
-        database: "../../databases/",
+        database: "E:\\NHUB\\src\\projects\\TradeServer\\databases\\dumpCodal.db",
         logging: false,
-        synchronize: true,
         entities: [Letter]
     });
 }
@@ -26,24 +25,22 @@ export class DumpRepository implements IDumpRepository {
     repository: Repository<Letter>
 
     constructor() {
-        let connection;
-        getDumpCodalDbConnection().then(res => {
-                connection = res;
-            }
-        )
-
-        this.repository = connection.getRepository(Letter);
     }
 
-    async create(letter: Letter): Promise<Letter> {
-        return await this.repository.save(letter);
+    async insert(letter: Letter): Promise<Letter> {
+        let connection = await getDumpCodalDbConnection();
+        this.repository = connection.getRepository(Letter);
+        let result = await this.repository.save<Letter>(letter);
+        return result;
     }
 
     async createArray(letters: Array<Letter>): Promise<any> {
+
+
         let generatedResponse = [];
         for (let letter of letters) {
             try {
-                let insertResponse = await this.create(letter)
+                let insertResponse = await this.insert(letter)
                 generatedResponse.push(insertResponse)
             } catch (error) {
                 //todo: m.talebi: log using global logger;

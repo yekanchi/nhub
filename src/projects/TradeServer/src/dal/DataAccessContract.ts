@@ -1,7 +1,8 @@
+import {Letter} from "../domain/Domain";
 
 export interface IDumpRepository {
 
-    create(letter: Letter): Promise<Letter>;
+    insert(letter: Letter): Promise<Letter>;
 
     getAll(): Promise<Letter[]>;
 }

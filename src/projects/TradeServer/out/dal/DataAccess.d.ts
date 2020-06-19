@@ -6,7 +6,7 @@ export declare const getDumpCodalDbConnection: () => Promise<Connection>;
 export declare class DumpRepository implements IDumpRepository {
     repository: Repository<Letter>;
     constructor();
-    create(letter: Letter): Promise<Letter>;
+    insert(letter: Letter): Promise<Letter>;
     createArray(letters: Array<Letter>): Promise<any>;
     getAll(): Promise<Letter[]>;
 }
