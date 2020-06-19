@@ -1,0 +1,13 @@
+import { IBalanceSheet, ICostOfGoods, IIncomeStatement, IN10Letter, IN30ProductItem, IN30Report, IN3xLetter, ISaleAndCost } from "data/financialStatements";
+export interface ICodalDataStore {
+    retrieveN30Report(letter: IN3xLetter): Promise<IN30Report>;
+    loadN30ProductItems(tracingNumber: number): Promise<IN30ProductItem[]>;
+    loadN30ProductItemHistory(letter: IN3xLetter, productName: string): Promise<[IN30Report[], IN30ProductItem[]]>;
+    retrieveIncomeStatements(letter: IN10Letter): Promise<IIncomeStatement[]>;
+    retrieveBalanceSheets(letter: IN10Letter): Promise<IBalanceSheet[]>;
+    retrieveSalesAndCostsTrend(letter: IN10Letter): Promise<ISaleAndCost[]>;
+    loadSalesAndCostsTrend(symbol: string): Promise<ISaleAndCost[]>;
+    retrieveCostOfGoods(letter: IN10Letter): Promise<ICostOfGoods[]>;
+}
+export declare const codalDataStore: ICodalDataStore;
+//# sourceMappingURL=index.d.ts.map
