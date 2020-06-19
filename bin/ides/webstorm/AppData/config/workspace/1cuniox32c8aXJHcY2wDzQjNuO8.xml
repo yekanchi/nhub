@@ -21,11 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
+              <caret line="3" column="99" selection-start-line="3" selection-start-column="99" selection-end-line="3" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -39,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dal/DataAccess.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
@@ -149,7 +149,7 @@
     </option>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50686000" />
+    <option name="totallyTimeSpent" value="51308000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -172,7 +172,7 @@
       <window_info anchor="bottom" id="TODO" order="3" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.38375" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.3275" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.62636036" visible="true" weight="0.42125" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.62636036" weight="0.42125" />
       <window_info anchor="right" x="0" y="0" width="372" height="717" id="Documentation" order="5" side_tool="true" visible="true" weight="0.32965687" />
       <window_info id="Learn" order="4" />
       <window_info anchor="bottom" id="Internal Method Tracing" order="7" />
@@ -442,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="66" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JobScheduler.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -485,6 +478,13 @@
             <element signature="e#0#65#0" expanded="true" />
             <element signature="n#!!block;n#getAll#0;n#DumpRepository#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="99" selection-start-line="3" selection-start-column="99" selection-end-line="3" selection-end-column="99" />
         </state>
       </provider>
     </entry>
