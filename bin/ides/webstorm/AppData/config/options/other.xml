@@ -14,24 +14,25 @@
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
     <property name="GeneralSettings.initiallyConfigured" value="true" />
-    <property name="InstalledPluginsSearchHistory" value="k&#10;ke&#10;ma&#10;mac" />
-    <property name="KEYMAP" value="f5&#10;ctrl&#10;run&#10;format&#10;size" />
+    <property name="InstalledPluginsSearchHistory" value="autoimp&#10;autoim&#10;auto&#10;a&#10;au" />
+    <property name="KEYMAP" value="font si&#10;f5&#10;ctrl&#10;run&#10;format" />
     <property name="LayoutCode.optimizeImports" value="false" />
     <property name="LayoutCode.processChangedText" value="false" />
-    <property name="MarketplacePluginsSearchHistory" value="/sortBy:featured&#10;/tag:Keymap" />
+    <property name="MarketplacePluginsSearchHistory" value="/tag:Keymap&#10;/sortBy:featured" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="NonModalCommitCustomization.IsApplied" value="true" />
-    <property name="SettingsSearchHistory" value="envir&#10;key&#10;terminal" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="SettingsSearchHistory" value="autoimp&#10;aut&#10;font&#10;env&#10;envi" />
     <property name="ShowDocumentationInToolWindow" value="false" />
-    <property name="appcds.runOnSecondStart" value="WS-201.7223.93-ef07ee4090621b253d5ee8df2430a67ca7f3c63d0b54e9a973cd0395ea0143d1" />
+    <property name="appcds.runOnSecondStart" value="WS-201.7223.93-4ae2d381f4827bb5eb5d9a44eb52ff7670e95da09af80986a24148a4cbfa2554" />
     <property name="evlsprt.201" value="172c454e5ca" />
     <property name="evlsprt2.201" value="17295306d00" />
     <property name="evlsprt3.201" value="10" />
-    <property name="file.chooser.recent.files" value="E:/NHUB/src/projects/TradeServer/out/app.js&#10;E:/NHUB/src/projects/TradeServer/src/app.ts&#10;E:/NHUB/bin/node&#10;E:/NHUB/src/projects/TradeServer&#10;E:/NHUB/bin/gitscm/bin/git.exe&#10;E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat&#10;E:/NHUB/src/tests&#10;E:/NHUB/bin/compilers/node/node.exe" />
-    <property name="file.gist.reindex.count" value="275" />
+    <property name="file.chooser.recent.files" value="E:/NHUB/bin/gitscm/bin&#10;E:/NHUB/src/projects/BinaServer&#10;E:/NHUB/src/projects/TradeServer/out/app.js&#10;E:/NHUB/src/projects/TradeServer/src/app.ts&#10;E:/NHUB/bin/node&#10;E:/NHUB/src/projects/TradeServer&#10;E:/NHUB/bin/gitscm/bin/git.exe&#10;E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat&#10;E:/NHUB/src/tests&#10;E:/NHUB/bin/compilers/node/node.exe" />
+    <property name="file.gist.reindex.count" value="278" />
     <property name="ide.memory.adjusted" value="true" />
-    <property name="last_opened_file_path" value="E:/NHUB/bin/gitscm/bin/git.exe" />
+    <property name="last_opened_file_path" value="E:/NHUB/bin/gitscm/bin" />
     <property name="org.intellij.images.editor.actions.BackgroundImageDialog#recent" value="" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
     <property name="ts.lib.d.ts.version" value="3.8.2" />

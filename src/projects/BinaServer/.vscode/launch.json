@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "file:///E:\\NHUB\\src\\kickStarters\\typeTradeAdvisor\\src\\app.html",
+            "preLaunchTask": "welcomeTask",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Node Start",
+            "program": "${workspaceFolder}\\out\\app.js",
+            "runtimeExecutable": "E:\\NHUB\\bin\\compilers\\node\\node.exe",
+            "preLaunchTask": "tsc-build-with-shell",
+            "console": "externalTerminal"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Electron Start",
+            "program": "${workspaceFolder}\\out\\app.js",
+            "runtimeExecutable": "E:\\NHUB\\bin\\compilers\\node\\electron",
+            "preLaunchTask": "tsc-build-with-shell",
+            "console": "internalConsole"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Node Start",
+            "program": "${workspaceFolder}\\out\\app.js",
+            "runtimeExecutable": "E:\\NHUB\\bin\\compilers\\node\\node.exe",
+            "preLaunchTask": "tsc-build-with-shell",
+            "console": "internalConsole"
+        }
+    ]
+}

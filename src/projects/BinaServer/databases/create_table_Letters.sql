@@ -1,0 +1,21 @@
+CREATE TABLE  Letters (
+   	tracingNo integer null,
+	symbol text null,
+	companyName text null,
+	underSupervision integer default 0 not null,
+	title text null,
+	letterCode text null,
+	sentDateTime text null,
+	publishDateTime text null,
+	hasHtml integer default 0 not null,
+	url text null,
+	hasExcel integer default 0 not null,
+	hasPdf integer default 0 not null,
+	hasXbrl integer default 0 not null,
+	hasAttachment integer default 0 not null,
+	attachmentUrl text null,
+	pdfUrl text null,
+	excelUrl text null,
+	xbrlUrl text null,
+	tedanUrl text null
+)

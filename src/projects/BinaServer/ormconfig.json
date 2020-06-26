@@ -1,0 +1,9 @@
+{
+    "name": "default",
+    "type": "sqlite",
+    "database": "E:\\NHUB\\data\\bina\\BinaCodal.db",
+    "autoSchemaSync": true,
+    "entities": [
+      "Domain/*.js"
+    ]
+ }
