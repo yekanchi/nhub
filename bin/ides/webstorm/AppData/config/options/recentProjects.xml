@@ -2,75 +2,15 @@
   <component name="RecentProjectsManager">
     <option name="additionalInfo">
       <map>
-        <entry key="E:/NHUB/src/tests/webstormAngular">
+        <entry key="E:/NHUB/src/projects/bina/binabourseserver">
           <value>
-            <RecentProjectMetaInfo projectWorkspaceId="1c6CyXeoQzpDDb2MkNx61CxjZuf">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="WS-201.7223.93" />
-              <option name="buildTimestamp" value="1588234348132" />
-              <frame x="-159" y="148" width="1605" height="988" extendedState="6" />
-              <option name="productionCode" value="WS" />
-              <option name="projectOpenTimestamp" value="1591387606779" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="E:/NHUB/src/projects/TradeServer">
-          <value>
-            <RecentProjectMetaInfo projectWorkspaceId="1cuniox32c8aXJHcY2wDzQjNuO8">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="WS-201.7223.93" />
-              <option name="buildTimestamp" value="1588234337539" />
-              <frame x="952" y="0" width="977" height="1042" extendedState="6" />
-              <option name="productionCode" value="WS" />
-              <option name="projectOpenTimestamp" value="1592677805111" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="E:/bina">
-          <value>
-            <RecentProjectMetaInfo projectWorkspaceId="1eAoMDCcjUT22p61GQhuALwkKyK">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="WS-201.7223.93" />
-              <option name="buildTimestamp" value="1588234374433" />
-              <frame x="-10" y="-10" width="1938" height="1051" extendedState="6" />
-              <option name="productionCode" value="WS" />
-              <option name="projectOpenTimestamp" value="1593773707716" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="E:/NHUB/src/projects/BinaServer">
-          <value>
-            <RecentProjectMetaInfo projectWorkspaceId="1dG7uBLOt0uxdV4JCVemn1Nz6RE">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="WS-201.7223.93" />
-              <option name="buildTimestamp" value="1588234374433" />
-              <frame x="-10" y="-10" width="1938" height="1051" extendedState="6" />
-              <option name="productionCode" value="WS" />
-              <option name="projectOpenTimestamp" value="1593773731471" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="E:/binabourseserver">
-          <value>
-            <RecentProjectMetaInfo projectWorkspaceId="1eAoRZqEUwWvYdm83uwmZr9A8dK">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="WS-201.7223.93" />
-              <option name="buildTimestamp" value="1588234374433" />
-              <frame x="-9" y="0" width="977" height="1042" extendedState="6" />
-              <option name="productionCode" value="WS" />
-              <option name="projectOpenTimestamp" value="1593773750424" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
-        <entry key="E:/bina/binabourseserver">
-          <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1eAoRZqEUwWvYdm83uwmZr9A8dK">
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1eUujmfkwM8xhJIR3pz95ggOK1j">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="WS-201.8538.32" />
-              <option name="buildTimestamp" value="1594111056823" />
-              <frame x="-9" y="0" width="977" height="1042" extendedState="6" />
+              <option name="buildTimestamp" value="1594111049255" />
+              <frame x="-10" y="-10" width="1938" height="1051" extendedState="6" />
               <option name="productionCode" value="WS" />
-              <option name="projectOpenTimestamp" value="1594381854700" />
+              <option name="projectOpenTimestamp" value="1594388989338" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -79,12 +19,7 @@
     <option name="lastProjectLocation" value="E:/NHUB/src/tests" />
     <option name="recentPaths">
       <list>
-        <option value="E:/bina/binabourseserver" />
-        <option value="E:/binabourseserver" />
-        <option value="E:/NHUB/src/projects/BinaServer" />
-        <option value="E:/bina" />
-        <option value="E:/NHUB/src/projects/TradeServer" />
-        <option value="E:/NHUB/src/tests/webstormAngular" />
+        <option value="E:/NHUB/src/projects/bina/binabourseserver" />
       </list>
     </option>
   </component>

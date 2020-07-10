@@ -26,15 +26,18 @@
     <property name="SettingsSearchHistory" value="autoimp&#10;aut&#10;font&#10;env&#10;envi" />
     <property name="ShowDocumentationInToolWindow" value="false" />
     <property name="appcds.runOnSecondStart" value="WS-201.8538.32-39922516c762330a6808d9f480312d30ca3ccaac2428da74814d4528c51e9843" />
+    <property name="com.intellij.history.integration.ui.views.DirectoryHistoryDialog.0" value="300" />
     <property name="evlsprt.201" value="172c454e5ca" />
     <property name="evlsprt2.201" value="17295306d00" />
     <property name="evlsprt3.201" value="10" />
-    <property name="file.chooser.recent.files" value="E:/bina/binabourseserver&#10;E:/binabourseserver&#10;E:/bina&#10;E:/NHUB/bin/gitscm/bin&#10;E:/NHUB/src/projects/BinaServer&#10;E:/NHUB/src/projects/TradeServer/out/app.js&#10;E:/NHUB/src/projects/TradeServer/src/app.ts&#10;E:/NHUB/bin/node&#10;E:/NHUB/src/projects/TradeServer&#10;E:/NHUB/bin/gitscm/bin/git.exe&#10;E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat&#10;E:/NHUB/src/tests&#10;E:/NHUB/bin/compilers/node/node.exe" />
+    <property name="file.chooser.recent.files" value="E:/NHUB/src/projects/bina/binabourseserver/dist/index.js&#10;E:/NHUB/src/projects/bina/binabourseserver/tsconfig.json&#10;E:/NHUB/bin/compilers/node/node_modules/npm&#10;E:/NHUB/src/projects/bina/binabourseserver&#10;E:/NHUB/src/tests&#10;E:/NHUB/src&#10;E:/bina/binabourseserver&#10;E:/binabourseserver&#10;E:/bina&#10;E:/NHUB/bin/gitscm/bin&#10;E:/NHUB/src/projects/BinaServer&#10;E:/NHUB/src/projects/TradeServer/out/app.js&#10;E:/NHUB/src/projects/TradeServer/src/app.ts&#10;E:/NHUB/bin/node&#10;E:/NHUB/src/projects/TradeServer&#10;E:/NHUB/bin/gitscm/bin/git.exe&#10;E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat&#10;E:/NHUB/bin/compilers/node/node.exe" />
     <property name="file.gist.reindex.count" value="287" />
     <property name="ide.memory.adjusted" value="true" />
-    <property name="last_opened_file_path" value="E:/NHUB/bin/gitscm/bin" />
+    <property name="last_opened_file_path" value="E:/NHUB/src/projects/bina/binabourseserver" />
     <property name="org.intellij.images.editor.actions.BackgroundImageDialog#recent" value="" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
     <property name="ts.lib.d.ts.version" value="3.8.2" />
+    <property name="vcs.branch.view.splitter.proportion" value="0.1408364" />
+    <property name="vcs.log.changes.splitter.proportion" value="0.7342407" />
   </component>
 </application>

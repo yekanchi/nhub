@@ -30499,7 +30499,7 @@ The following features are available:
  <li>corrected RobotFramework 3.x built in variables</li> 
  <li>improved some python library imports (thanks to Tillaert)</li> 
  <li>added 'keyword' decorator for python keywords (thanks to Tillaert)</li> 
-</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="143.381"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="1159078" size="51849946" date="1591430776000" updatedDate="1594325085000" url="https://intellij-asciidoc-plugin.ahus1.de/"><name>AsciiDoc</name><id>org.asciidoctor.intellij.asciidoc</id><description><![CDATA[<p>
+</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="143.381"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="1159078" size="51949839" date="1594394052000" updatedDate="1594395033955" url="https://intellij-asciidoc-plugin.ahus1.de/"><name>AsciiDoc</name><id>org.asciidoctor.intellij.asciidoc</id><description><![CDATA[<p>
     <a href="https://intellij-asciidoc-plugin.ahus1.de/">Homepage</a> |
     <a href="https://intellij-asciidoc-plugin.ahus1.de/docs/users-guide/quick-start.html">Quick start</a> |
     <a href="https://intellij-asciidoc-plugin.ahus1.de/docs/users-guide/index.html">User Guide</a> |
@@ -30524,7 +30524,49 @@ The following features are available:
     For better legibility in the JavaFX preview, this package includes DejaVu fonts.
     <a href="https://dejavu-fonts.github.io/License.html">See here for the free fonts license</a>.
 </p>
-]]></description><version>0.30.78</version><vendor email="alexander.schwartz@gmx.net" url="https://github.com/asciidoctor/asciidoctor-intellij-plugin">Asciidoctor IntelliJ Plugin Project</vendor><rating>4.6</rating><change-notes><![CDATA[<h3>0.30.78</h3> 
+]]></description><version>0.30.84</version><vendor email="alexander.schwartz@gmx.net" url="https://github.com/asciidoctor/asciidoctor-intellij-plugin">Asciidoctor IntelliJ Plugin Project</vendor><rating>4.6</rating><change-notes><![CDATA[<h3>0.30.84 </h3> 
+<div> 
+ <ul> 
+  <li> <p>fix resolving of references by their titles</p> </li> 
+  <li> <p>avoid blocking lock when switching AsciiDoc editor when trying to save contents of changed documents (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/520">#520</a>)</p> </li> 
+ </ul> 
+</div>
+<h3>0.30.83 </h3> 
+<div> 
+ <ul> 
+  <li> <p>publish file information to allow status with a filename in IntelliJ Discord plugin (thanks to <a href="https://github.com/NonNullDinu">@NonNullDinu</a>) (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/518">#518</a>)</p> </li> 
+  <li> <p>first support for Asciidoclet (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/103">#103</a>)</p> </li> 
+ </ul> 
+</div>
+<h3>0.30.82 </h3> 
+<div> 
+ <ul> 
+  <li> <p>mark indexes to be rebuilt due to AST changes (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/508">#508</a>)</p> </li> 
+ </ul> 
+</div>
+<h3>0.30.81 </h3> 
+<div> 
+ <ul> 
+  <li> <p>avoid error “ProcessCanceledException should not be logged”</p> </li> 
+  <li> <p>show block type of current block, in structure view don’t pick look it up from a child element (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/511">#511</a>)</p> </li> 
+  <li> <p>reworking handling of list items and their contexts to prevent false positive list items and headlines in editor’s AST (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/508">#508</a>)</p> </li> 
+ </ul> 
+</div>
+<h3>0.30.80 </h3> 
+<div> 
+ <ul> 
+  <li> <p>workaround for IndexOutOfBoundsException when on MacOS X, possibly due to window manager / accessibility issues (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/499">#499</a>)</p> </li> 
+  <li> <p>supporting <code>rouge</code> as code syntax highlighter in preview. Documents can now override the code highlighter. Improved code syntax highlighting for preview in dark mode (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/505">#505</a>)</p> </li> 
+ </ul> 
+</div>
+<h3>0.30.79 </h3> 
+<div> 
+ <ul> 
+  <li> <p>avoid error “Directory index is already disposed for Project”</p> </li> 
+  <li> <p>a continuation can’t be followed by a heading (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/508">#508</a>)</p> </li> 
+ </ul> 
+</div>
+<h3>0.30.78</h3> 
 <div> 
  <ul> 
   <li> <p>fix parsing of second level enumeration in the editor</p> </li> 
@@ -30635,55 +30677,6 @@ The following features are available:
  <ul> 
   <li> <p>prevent scope-enlarger to break refactorings like introduce-variable (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/466">#466</a>)</p> </li> 
   <li> <p>prevent parsing to mis-align tokens after a <code>+</code> that could lead to their removal upon re-format (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/463">#463</a>)</p> </li> 
- </ul> 
-</div>
-<h3>0.30.62 </h3> 
-<div> 
- <ul> 
-  <li> <p>when referencing images in other Antora modules, assume image family for reference</p> </li> 
-  <li> <p>refactoring resolving Antora targets for images and xrefs for HTML preview; now also works for PDFs (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/441">#441</a>)</p> </li> 
-  <li> <p>avoid deadlock when creating PDF/HTML; show cancelable popup</p> </li> 
-  <li> <p>retrieve <code>reftext</code> or <code>navtitle</code> from page attributes when xref doesn’t have a text (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/441">#441</a>)</p> </li> 
-  <li> <p>allow the default zoom level to be configurable for JavaFX preview (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/444">#444</a>)</p> </li> 
- </ul> 
-</div>
-<h3>0.30.61 </h3> 
-<div> 
- <ul> 
-  <li> <p>support find-references for Antora family names</p> </li> 
-  <li> <p>adding a JSON schema for antora.yml to provide auto-completion, validation and quick-documentation (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/461">#461</a>)</p> </li> 
-  <li> <p>don’t pick the latest version when referencing a local partial or module (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/462">#462</a>)</p> </li> 
-  <li> <p>support Antora xref syntax for PlantUML block macro as there is an extension for that</p> </li> 
- </ul> 
-</div>
-<h3>0.30.60 </h3> 
-<div> 
- <ul> 
-  <li> <p>allow links containing only version and page file name (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/405">#405</a>)</p> </li> 
-  <li> <p>check links even when anchor contains an unresolvable attribute</p> </li> 
-  <li> <p>given an Antora partial and a local anchor, search the complete project for a reference when trying to resolve it</p> </li> 
-  <li> <p>avoid NPE when an Antora component descriptor doesn’t include a version (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/460">#460</a>)</p> </li> 
-  <li> <p>check links for files in block, inline and preprocessor macros</p> </li> 
-  <li> <p>enlarge search scope for finding references to all AsciiDoc documents in project independent of project’s module dependencies</p> </li> 
- </ul> 
-</div>
-<h3>0.30.59.1</h3> 
-<div> 
- <ul> 
-  <li> <p>prevent parsing to mis-align tokens after a <code>+</code> that could lead to their removal upon re-format (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/463">#463</a>)</p> </li> 
- </ul> 
-</div>
-<h3>0.30.59</h3> 
-<div> 
- <ul> 
-  <li> <p>rebuild indexes for bibliographic references (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/459">#459</a>)</p> </li> 
- </ul> 
-</div>
-<h3>0.30.58 </h3> 
-<div> 
- <ul> 
-  <li> <p>support bibliographic references when validating links and finding references (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/459">#459</a>)</p> </li> 
-  <li> <p>when an Antora xref contains a component name, it will always link to the “latest” version (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/405">#405</a>)</p> </li> 
  </ul> 
 </div>]]></change-notes><idea-version min="n/a" max="n/a" since-build="193.5662" until-build="202.0"></idea-version><depends>(optional) com.intellij.modules.java</depends><depends>(optional) com.intellij.modules.json</depends><depends>(optional) tanvd.grazi</depends><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="46544" size="103588" date="1402261805000" updatedDate="1593185772000" url=""><name>Latte</name><id>com.jantvrdik.intellij.latte</id><description><![CDATA[
 		<p>
@@ -33777,20 +33770,26 @@ More information may be found in our <a href="https://github.com/hurricup/Perl5-
           <li><a href="https://github.com/postcss/postcss-nested">postcss-nested</a></li>
       </ul>
       
-  ]]></description><version>201.6668.60</version><vendor email="" url="">JetBrains</vendor><rating>4.4</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.6668" until-build="201.*"></idea-version><depends>(optional) com.intellij.copyright</depends><depends>com.intellij.css</depends><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="12542" size="9703572" date="1588621141000" updatedDate="1588621141000" url=""><name>xquery-intellij-plugin</name><id>uk.co.reecedunn.intellij.plugin.xquery</id><description><![CDATA[
+  ]]></description><version>201.6668.60</version><vendor email="" url="">JetBrains</vendor><rating>4.4</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.6668" until-build="201.*"></idea-version><depends>(optional) com.intellij.copyright</depends><depends>com.intellij.css</depends><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="12542" size="9996202" date="1594394910000" updatedDate="1594395066789" url=""><name>XQuery IntelliJ Plugin</name><id>uk.co.reecedunn.intellij.plugin.xquery</id><description><![CDATA[
     <p>
       XQuery 1.0-3.1, XPath 2.0-3.1, and XSLT 3.0 language support with BaseX,
-      MarkLogic, Saxon, and W3C extensions; run and profile queries; log viewer;
-      and more.
+      MarkLogic, Saxon, and W3C extensions; run, debug, and profile queries;
+      log viewer; and more.
     </p>
     <p>&nbsp;</p>
     <p>Query processor integration:</p>
     <ol>
-      <li>Run BaseX, eXist-db, MarkLogic, and Saxon queries.</li>
-      <li>Profile BaseX, MarkLogic, and Saxon XQuery and XSLT.</li>
+      <li>Run BaseX, eXist-db, FusionDB, MarkLogic, and Saxon queries.</li>
+      <li>Profile BaseX, MarkLogic, and Saxon XQuery and XSLT files.</li>
+      <li>Debug MarkLogic XQuery files, with experimental breakpoint support.</li>
       <li>Log viewer for BaseX and MarkLogic.</li>
       <li>Built-in namespace and function support for BaseX, eXist-db, MarkLogic, and Saxon.</li>
-      <li>Support for MarkLogic rewriter XML files.</li>
+      <li>Support for MarkLogic rewriter XML files and EXQuery RESTXQ endpoints.</li>
+    </ol>
+    <p>Library and Framework integration:</p>
+    <ol>
+      <li>MarkLogic Roxy – source root detection.</li>
+      <li>MarkLogic ml-gradle – source root detection.</li>
     </ol>
     <p>XPath and XSLT:</p>
     <ol>
@@ -33816,28 +33815,72 @@ More information may be found in our <a href="https://github.com/hurricup/Perl5-
       <li>Context information (Alt+Q) for XQuery function declarations.</li>
       <li>Spellchecking support with bundle dictionaries with XPath, XQuery, and XSLT terms.</li>
     </ol>
-  ]]></description><version>1.6.2-201</version><vendor email="msclrhd@gmail.com" url="http://reecedunn.co.uk">Reece H. Dunn</vendor><rating>00</rating><change-notes><![CDATA[
-    <h3>Release 1.6.2:</h3>
-    <p>MarkLogic Rewriter XML Integration:</p>
+    <p>IntelliJ Ultimate integration:</p>
     <ol>
-      <li>Use the regular expression language for <code>matches</code> attributes.</li>
-      <li>
-        Add code completion for <code>match-accept</code>, <code>match-content-type</code>,
-        <code>match-execute-privilege</code>, <code>match-header</code>, and <code>match-method</code> elements.
-      </li>
-      <li>
-        Support resolving <code>dispatch</code>, <code>set-error-handler</code>, and <code>set-path</code>
-        elements to the XQuery/MJS/SJS file they reference.
-      </li>
-      <li>Add a line marker to XQuery files referenced in a rewriter file.</li>
+      <li>Support displaying MarkLogic rewriter files in the Endpoints tool window.</li>
+      <li>Support displaying EXQuery RESTXQ endpoints in the Endpoints tool window.</li>
+    </ol>
+  ]]></description><version>1.7-201</version><vendor email="msclrhd@gmail.com" url="http://reecedunn.co.uk">Reece H. Dunn</vendor><rating>00</rating><change-notes><![CDATA[
+    <h3>Release 1.7:</h3>
+    <ol>
+      <li>Display MarkLogic rewriter and EXQuery RESTXQ endpoints in IntelliJ Ultimate's Endpoint tool window.</li>
+      <li>Support for debugging MarkLogic XQuery-based queries, with experimental expression breakpoint support.</li>
+      <li>Improved eXist-db and FusionDB support.</li>
+      <li>Support for MarkLogic Roxy and ml-gradle project source root detection.</li>
+      <li>Add icons to the query processors and document sources.</li>
+    </ol>
+    <p>MarkLogic:</p>
+    <ol>
+      <li>Support stopping MarkLogic queries.</li>
+      <li>Support registering MarkLogic schema files.</li>
+      <li>Support for debugging MarkLogic XQuery-based queries.</li>
+    </ol>
+    <p>eXist-db / FusionDB:</p>
+    <ol>
+      <li>Detect FusionDB so it is correctly displayed in the query processor lists.</li>
+      <li>Display the log files in the Query Log panel.</li>
+      <li>Fixed calling APIs that require specific permissions that the query processor user has.</li>
+      <li>Fixed displaying <code>node()</code> and <code>function(*)</code> types in the query results view.</li>
+    </ol>
+    <p>BaseX:</p>
+    <ol>
+      <li>Fix validating beta releases in the query processor UI.</li>
     </ol>
     <p>Run Configurations:</p>
     <ol>
-      <li>Support stopping Saxon queries.</li>
-      <li>Fix running/profiling update queries on MarkLogic 10.</li>
-      <li>Fix using BaseX in a language other than English.</li>
+      <li>Fixed scrolling to an item in the results pane when the detected filetype is plain text.</li>
+      <li>Fixed a null pointer exception when processing MarkLogic syntax error responses.</li>
+      <li>Fixed navigating to module paths in query errors.</li>
+      <li>Add icons to the query processors.</li>
     </ol>
-  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.0" until-build="201.*"></idea-version><depends>(optional) com.intellij.modules.java</depends><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.xdebugger</depends><depends>com.intellij.modules.xml</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="49708" size="1032531" date="1588640226000" updatedDate="1588640226000" url=""><name>Clojure-Kit</name><id>org.jetbrains.idea.clojure</id><description><![CDATA[Clojure and ClojureScript plugin for IntelliJ-based tools]]></description><version>2020.1</version><vendor email="gregory.shrago@jetbrains.com" url="">Greg Shrago</vendor><rating>4.1</rating><change-notes><![CDATA[
+    <p>Module Imports:</p>
+    <ol>
+      <li>Support resolving MarkLogic imports from a configured database install path.</li>
+      <li>Support resolving imports from the Roxy <code>xquery.dir</code> property path.</li>
+      <li>Support resolving imports from the ml-gradle <code>mlModulePaths</code> property paths.</li>
+    </ol>
+    <p>Endpoints:</p>
+    <ol>
+      <li>Support autocompleting multi-valued <code>match-method</code> elements in MarkLogic rewriter files.</li>
+      <li>Support displaying MarkLogic rewriter files in the Endpoints tool window.</li>
+      <li>Support displaying EXQuery RESTXQ endpoints in the Endpoints tool window.</li>
+    </ol>
+    <p>Documentation:</p>
+    <ol>
+      <li>Fix the return type in the MarkLogic documentation.</li>
+      <li>Add icons to the documentation sources.</li>
+    </ol>
+    <p>Code Completion:</p>
+    <ol>
+      <li>Include declared variables without a namespace prefix in the completion list.</li>
+    </ol>
+    <p>Inlay Parameter Hints:</p>
+    <ol>
+      <li>Don't display a hint when the variable name matches the parameter name.</li>
+      <li>Don't display a hint when the path step element/attribute name matches the parameter name.</li>
+      <li>Don't display a hint when the forward/reverse step name matches the parameter name.</li>
+    </ol>
+  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.0" until-build="201.*"></idea-version><depends>(optional) com.intellij.modules.java</depends><depends>(optional) com.intellij.modules.microservices</depends><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.xdebugger</depends><depends>com.intellij.modules.xml</depends><depends>com.intellij.properties</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="49708" size="1032531" date="1588640226000" updatedDate="1588640226000" url=""><name>Clojure-Kit</name><id>org.jetbrains.idea.clojure</id><description><![CDATA[Clojure and ClojureScript plugin for IntelliJ-based tools]]></description><version>2020.1</version><vendor email="gregory.shrago@jetbrains.com" url="">Greg Shrago</vendor><rating>4.1</rating><change-notes><![CDATA[
     
     <ul>
       <li>formatter: missing newline after a line comment (#31)</li>

@@ -50,10 +50,6 @@ void Main()
 	var r = script.RunAsync(g).Result;
 	Debug.WriteLine(r.Script.Code);
 	Console.WriteLine(r.ReturnValue);
-
-
-	var x = new someClass();
-	x.otherProperty = 25;
 }
 
 public class Globals
@@ -64,7 +60,7 @@ public class Globals
 public class someClass
 {
 	/// <summary>User Name</summary>
-	public int otherProperty { get; set; }
-	public int MyProperty => 25;
+	public int cost { get; set; }
+	public int value => 25;
 	public string somestring => "Some test string";
 }
