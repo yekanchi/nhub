@@ -62,5 +62,5 @@ public class someClass
 	/// <summary>User Name</summary>
 	public int cost { get; set; }
 	public int value => 25;
-	public string somestring => "Some test string";
+	public string somestring => "this string value is for test purposes";
 }
