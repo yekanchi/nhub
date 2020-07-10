@@ -1,11 +1,11 @@
 <project version="4">
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="62">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -46,45 +46,53 @@
   </component>
   <component name="TerminalArrangementManager">
     <option name="myTabStates">
-      <TerminalTabState tabName="Local" currentWorkingDirectory="C:\Users\Morteza Talebi\PycharmProjects\untitled\" commandHistoryFileName="history-" />
+      <TerminalTabState tabName="Local" currentWorkingDirectory="C:\Users\Morteza Talebi\PycharmProjects\untitled" commandHistoryFileName="history-" />
     </option>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1942000" />
+    <option name="totallyTimeSpent" value="2303000" />
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
       <window_info id="Commit" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Services" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="14" visible="true" weight="0.44916344" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
       <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.46460748" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15555556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1654321" />
       <window_info anchor="bottom" id="Flow" order="9" />
       <window_info anchor="bottom" id="TODO" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" x="0" y="0" width="372" height="717" id="Documentation" order="4" side_tool="true" weight="0.2697531" />
-      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" x="0" y="0" width="372" height="717" id="Documentation" order="3" side_tool="true" weight="0.2697531" />
+      <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="bottom" id="Internal Method Tracing" order="12" />
       <window_info anchor="right" id="R Tools" order="2" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.45559844" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="R Console" order="8" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32947233" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.46460748" />
+      <window_info anchor="bottom" id="Python Console" order="13" visible="true" weight="0.32947233" />
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://E:/NHUB/bin/frameworks/anaconda/envs/SomeTestEnv/Lib/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="391" selection-start-line="391" selection-end-line="391" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="62">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

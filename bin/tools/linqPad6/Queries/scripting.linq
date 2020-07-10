@@ -11,7 +11,7 @@ void Main()
 	// for sending in parameters to the script
 	var myId = Guid.NewGuid();
 
-	
+
 	// Script that will use dynamic
 	var scriptContent = @"
 	{
@@ -36,9 +36,9 @@ void Main()
 		MetadataReference.CreateFromFile(typeof(Microsoft.CSharp.RuntimeBinder.RuntimeBinderException).GetTypeInfo().Assembly.Location),
 		MetadataReference.CreateFromFile(typeof(System.Runtime.CompilerServices.DynamicAttribute).GetTypeInfo().Assembly.Location)
 	};
-	
-	var script = CSharpScript.Create(scriptContent, 
-	options: ScriptOptions.Default.AddReferences(refs), 
+
+	var script = CSharpScript.Create(scriptContent,
+	options: ScriptOptions.Default.AddReferences(refs),
 	globalsType: typeof(Globals));
 
 	script.Compile();
@@ -50,6 +50,10 @@ void Main()
 	var r = script.RunAsync(g).Result;
 	Debug.WriteLine(r.Script.Code);
 	Console.WriteLine(r.ReturnValue);
+
+
+	var x = new someClass();
+	x.otherProperty = 25;
 }
 
 public class Globals
@@ -57,8 +61,10 @@ public class Globals
 	public dynamic data;
 }
 
-public class someClass{
-	
+public class someClass
+{
+	/// <summary>User Name</summary>
+	public int otherProperty { get; set; }
 	public int MyProperty => 25;
 	public string somestring => "Some test string";
 }

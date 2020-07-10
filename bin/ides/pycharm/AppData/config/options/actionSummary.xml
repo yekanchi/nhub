@@ -4,20 +4,23 @@
       <entry key="About">
         <ActionSummary times="4" last="1591963384197" />
       </entry>
+      <entry key="Debug">
+        <ActionSummary times="2" last="1594377775103" />
+      </entry>
       <entry key="EditorBackSpace">
-        <ActionSummary times="47" last="1591963738402" />
+        <ActionSummary times="57" last="1594377952311" />
       </entry>
       <entry key="EditorChooseLookupItemReplace">
-        <ActionSummary times="4" last="1591963713299" />
+        <ActionSummary times="5" last="1594377934948" />
       </entry>
       <entry key="EditorDown">
         <ActionSummary times="73" last="1591963730977" />
       </entry>
       <entry key="EditorEnter">
-        <ActionSummary times="9" last="1591963716357" />
+        <ActionSummary times="13" last="1594377703149" />
       </entry>
       <entry key="EditorIncreaseFontSize">
-        <ActionSummary times="5" last="1591963388249" />
+        <ActionSummary times="18" last="1594377925596" />
       </entry>
       <entry key="EditorTab">
         <ActionSummary times="1" last="1591963454229" />
@@ -31,8 +34,11 @@
       <entry key="Register">
         <ActionSummary times="1" last="1591953236666" />
       </entry>
+      <entry key="Resume">
+        <ActionSummary times="2" last="1594377796158" />
+      </entry>
       <entry key="Run">
-        <ActionSummary times="2" last="1591963774584" />
+        <ActionSummary times="8" last="1594377953420" />
       </entry>
       <entry key="ShowIntentionActions">
         <ActionSummary times="1" last="1591963404274" />
@@ -43,14 +49,20 @@
       <entry key="com.intellij.diagnostic.WindowsDefenderFixAction">
         <ActionSummary times="1" last="1591953239835" />
       </entry>
+      <entry key="com.intellij.notification.EventLogConsole$ClearLogAction">
+        <ActionSummary times="2" last="1594377682245" />
+      </entry>
       <entry key="com.intellij.openapi.keymap.impl.ui.KeymapPanel$14">
         <ActionSummary times="2" last="1591963376133" />
       </entry>
       <entry key="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
         <ActionSummary times="1" last="1591963902357" />
       </entry>
+      <entry key="com.intellij.openapi.updateSettings.impl.UpdateChecker$showNotification$1">
+        <ActionSummary times="1" last="1594377599352" />
+      </entry>
       <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
-        <ActionSummary times="2" last="1591963734761" />
+        <ActionSummary times="4" last="1594377685589" />
       </entry>
       <entry key="com.intellij.openapi.wm.impl.welcomeScreen.FlatWelcomeFrame$FlatWelcomeScreen$5">
         <ActionSummary times="1" last="1591952611563" />
@@ -62,7 +74,7 @@
         <ActionSummary times="2" last="1591963742872" />
       </entry>
       <entry key="editRunConfigurations">
-        <ActionSummary times="3" last="1591963782680" />
+        <ActionSummary times="4" last="1594377513873" />
       </entry>
       <entry key="org.jetbrains.plugins.terminal.TerminalSettingsPanel$2">
         <ActionSummary times="1" last="1591963908504" />

@@ -1,3 +1,0 @@
-com.intellij.resharper.unity
-com.jetbrains.dotCover
-com.jetbrains.dotTrace

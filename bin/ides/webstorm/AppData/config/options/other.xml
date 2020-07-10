@@ -25,12 +25,12 @@
     <property name="PluginConfigurable.selectionTab" value="1" />
     <property name="SettingsSearchHistory" value="autoimp&#10;aut&#10;font&#10;env&#10;envi" />
     <property name="ShowDocumentationInToolWindow" value="false" />
-    <property name="appcds.runOnSecondStart" value="WS-201.7223.93-4ae2d381f4827bb5eb5d9a44eb52ff7670e95da09af80986a24148a4cbfa2554" />
+    <property name="appcds.runOnSecondStart" value="WS-201.8538.32-39922516c762330a6808d9f480312d30ca3ccaac2428da74814d4528c51e9843" />
     <property name="evlsprt.201" value="172c454e5ca" />
     <property name="evlsprt2.201" value="17295306d00" />
     <property name="evlsprt3.201" value="10" />
-    <property name="file.chooser.recent.files" value="E:/NHUB/bin/gitscm/bin&#10;E:/NHUB/src/projects/BinaServer&#10;E:/NHUB/src/projects/TradeServer/out/app.js&#10;E:/NHUB/src/projects/TradeServer/src/app.ts&#10;E:/NHUB/bin/node&#10;E:/NHUB/src/projects/TradeServer&#10;E:/NHUB/bin/gitscm/bin/git.exe&#10;E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat&#10;E:/NHUB/src/tests&#10;E:/NHUB/bin/compilers/node/node.exe" />
-    <property name="file.gist.reindex.count" value="278" />
+    <property name="file.chooser.recent.files" value="E:/bina/binabourseserver&#10;E:/binabourseserver&#10;E:/bina&#10;E:/NHUB/bin/gitscm/bin&#10;E:/NHUB/src/projects/BinaServer&#10;E:/NHUB/src/projects/TradeServer/out/app.js&#10;E:/NHUB/src/projects/TradeServer/src/app.ts&#10;E:/NHUB/bin/node&#10;E:/NHUB/src/projects/TradeServer&#10;E:/NHUB/bin/gitscm/bin/git.exe&#10;E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat&#10;E:/NHUB/src/tests&#10;E:/NHUB/bin/compilers/node/node.exe" />
+    <property name="file.gist.reindex.count" value="287" />
     <property name="ide.memory.adjusted" value="true" />
     <property name="last_opened_file_path" value="E:/NHUB/bin/gitscm/bin" />
     <property name="org.intellij.images.editor.actions.BackgroundImageDialog#recent" value="" />

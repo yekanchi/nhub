@@ -1,23 +1,34 @@
 <application>
+  <component name="DimensionService">
+    <size key="GridCell.Tab.0.left.0.0.1921.1081@110dpi" width="1871" height="271" />
+    <size key="GridCell.Tab.0.center.0.0.1921.1081@110dpi" width="1871" height="271" />
+    <size key="GridCell.Tab.0.right.0.0.1921.1081@110dpi" width="1871" height="271" />
+    <size key="GridCell.Tab.0.bottom.0.0.1921.1081@110dpi" width="1871" height="271" />
+  </component>
   <component name="WindowManager">
+    <frame x="158" y="22" width="1605" height="988" extendedState="6" />
     <layout>
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
     </layout>
   </component>
   <component name="WindowStateApplicationService">
+    <state x="621" y="137" key="FileChooserDialogImpl" timestamp="1594380621649">
+      <screen x="0" y="0" width="1676" height="902" />
+    </state>
+    <state x="621" y="137" key="FileChooserDialogImpl/0.0.1676.902" timestamp="1594380621649" />
     <state x="841" y="383" key="WELCOME_SCREEN" timestamp="1590701125189">
       <screen x="0" y="0" width="1676" height="902" />
     </state>
     <state x="841" y="383" key="WELCOME_SCREEN/0.0.1676.902" timestamp="1590701125189" />
-    <state x="289" y="4" key="new project wizard" timestamp="1590701122158">
+    <state x="289" y="4" key="new project wizard" timestamp="1594380631811">
       <screen x="0" y="0" width="1676" height="902" />
     </state>
-    <state x="289" y="4" key="new project wizard/0.0.1676.902" timestamp="1590701122158" />
+    <state x="289" y="4" key="new project wizard/0.0.1676.902" timestamp="1594380631811" />
   </component>
 </application>

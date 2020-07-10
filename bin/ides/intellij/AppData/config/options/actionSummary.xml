@@ -1,8 +1,89 @@
 <application>
   <component name="ActionsLocalSummary">
     <data>
+      <entry key="$SelectAll">
+        <ActionSummary times="1" last="1594381302984" />
+      </entry>
+      <entry key="CompileDirty">
+        <ActionSummary times="2" last="1594381308507" />
+      </entry>
+      <entry key="DatabaseView.AddActionGroupPopup">
+        <ActionSummary times="1" last="1594380748277" />
+      </entry>
+      <entry key="EditorBackSpace">
+        <ActionSummary times="12" last="1594381424089" />
+      </entry>
+      <entry key="EditorDecreaseFontSize">
+        <ActionSummary times="9" last="1594381417171" />
+      </entry>
+      <entry key="EditorDelete">
+        <ActionSummary times="1" last="1594381425017" />
+      </entry>
+      <entry key="EditorEnter">
+        <ActionSummary times="1" last="1594381208259" />
+      </entry>
+      <entry key="EditorIncreaseFontSize">
+        <ActionSummary times="22" last="1594381207067" />
+      </entry>
+      <entry key="EditorLeft">
+        <ActionSummary times="19" last="1594381243642" />
+      </entry>
+      <entry key="EditorLineEnd">
+        <ActionSummary times="2" last="1594380725725" />
+      </entry>
+      <entry key="EditorPaste">
+        <ActionSummary times="3" last="1594381303314" />
+      </entry>
+      <entry key="EditorRight">
+        <ActionSummary times="1" last="1594381244120" />
+      </entry>
+      <entry key="ImportProject">
+        <ActionSummary times="2" last="1594381172420" />
+      </entry>
+      <entry key="NewClass">
+        <ActionSummary times="1" last="1594381148956" />
+      </entry>
+      <entry key="NewFile">
+        <ActionSummary times="1" last="1594381084508" />
+      </entry>
+      <entry key="NewModuleInGroup">
+        <ActionSummary times="1" last="1594381098437" />
+      </entry>
+      <entry key="Run">
+        <ActionSummary times="4" last="1594381428652" />
+      </entry>
+      <entry key="SaveAll">
+        <ActionSummary times="1" last="1594381425607" />
+      </entry>
+      <entry key="ShowIntentionActions">
+        <ActionSummary times="3" last="1594381281110" />
+      </entry>
+      <entry key="ShowProjectStructureSettings">
+        <ActionSummary times="2" last="1594381195158" />
+      </entry>
+      <entry key="ShowSettings">
+        <ActionSummary times="4" last="1594381004931" />
+      </entry>
       <entry key="WelcomeScreen.CreateNewProject">
-        <ActionSummary times="1" last="1590701090227" />
+        <ActionSummary times="2" last="1594380572272" />
+      </entry>
+      <entry key="com.intellij.diagnostic.WindowsDefenderFixAction">
+        <ActionSummary times="1" last="1594380671767" />
+      </entry>
+      <entry key="com.intellij.javascript.nodejs.interpreter.NodeJsInterpretersDialog$AddInterpreterTypeAction">
+        <ActionSummary times="1" last="1594380929133" />
+      </entry>
+      <entry key="com.intellij.openapi.keymap.impl.ui.KeymapPanel$14">
+        <ActionSummary times="2" last="1594381022864" />
+      </entry>
+      <entry key="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+        <ActionSummary times="2" last="1594380762620" />
+      </entry>
+      <entry key="com.intellij.ui.CommonActionsPanel$AddButton">
+        <ActionSummary times="2" last="1594381394618" />
+      </entry>
+      <entry key="editRunConfigurations">
+        <ActionSummary times="2" last="1594381389922" />
       </entry>
     </data>
   </component>
