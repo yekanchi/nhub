@@ -13,6 +13,9 @@
       <entry key="EditorChooseLookupItemReplace">
         <ActionSummary times="5" last="1594377934948" />
       </entry>
+      <entry key="EditorDecreaseFontSize">
+        <ActionSummary times="3" last="1594420182420" />
+      </entry>
       <entry key="EditorDown">
         <ActionSummary times="73" last="1591963730977" />
       </entry>
@@ -20,13 +23,16 @@
         <ActionSummary times="13" last="1594377703149" />
       </entry>
       <entry key="EditorIncreaseFontSize">
-        <ActionSummary times="18" last="1594377925596" />
+        <ActionSummary times="26" last="1594420217820" />
       </entry>
       <entry key="EditorTab">
         <ActionSummary times="1" last="1591963454229" />
       </entry>
       <entry key="EditorUp">
         <ActionSummary times="1" last="1591963705534" />
+      </entry>
+      <entry key="GotoDeclaration">
+        <ActionSummary times="1" last="1594420218383" />
       </entry>
       <entry key="NewPythonFile">
         <ActionSummary times="2" last="1591963293619" />
@@ -44,10 +50,16 @@
         <ActionSummary times="1" last="1591963404274" />
       </entry>
       <entry key="ShowSettings">
-        <ActionSummary times="4" last="1591963801750" />
+        <ActionSummary times="6" last="1594420103311" />
+      </entry>
+      <entry key="com.intellij.cloudConfig.StatusBarInfoManager$InfoComponent$1">
+        <ActionSummary times="1" last="1594420091851" />
       </entry>
       <entry key="com.intellij.diagnostic.WindowsDefenderFixAction">
         <ActionSummary times="1" last="1591953239835" />
+      </entry>
+      <entry key="com.intellij.javascript.nodejs.interpreter.NodeJsInterpretersDialog$AddInterpreterTypeAction">
+        <ActionSummary times="1" last="1594420148480" />
       </entry>
       <entry key="com.intellij.notification.EventLogConsole$ClearLogAction">
         <ActionSummary times="2" last="1594377682245" />
@@ -78,6 +90,9 @@
       </entry>
       <entry key="org.jetbrains.plugins.terminal.TerminalSettingsPanel$2">
         <ActionSummary times="1" last="1591963908504" />
+      </entry>
+      <entry key="org.jetbrains.r.notifications.RNotificationUtil$createNotificationAction$1">
+        <ActionSummary times="1" last="1594420193838" />
       </entry>
     </data>
   </component>

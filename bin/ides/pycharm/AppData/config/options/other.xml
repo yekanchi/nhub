@@ -1,7 +1,7 @@
 <application>
   <component name="NotRoamableUiSettings">
     <option name="fontScale" value="1.0" />
-    <option name="fontSize" value="14" />
+    <option name="fontSize" value="13" />
   </component>
   <component name="PropertiesComponent">
     <property name="DocumentationAutoUpdateEnabled" value="true" />
@@ -29,6 +29,7 @@
     <property name="lastTimeTipsWereShown" value="1594377470368" />
     <property name="last_opened_file_path" value="E:/NHUB/bin/consoles/pwsh_Integrated_Console.bat" />
     <property name="quick.doc.font.size.v3" value="SMALL" />
+    <property name="rplugin.version" value="201.5985.289" />
     <property name="seenTips" value="neue-AnnotationsAndDiffs.html,neue-CtrlShiftIForLookup.html" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
     <property name="ts.lib.d.ts.version" value="3.8.2" />

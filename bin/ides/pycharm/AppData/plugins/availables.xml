@@ -980,7 +980,21 @@ code smells, duplications in IDE.
         <li>Maintainability Index for Functions</li>
       </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.6668" until-build="201.*"></idea-version><depends>com.intellij.modules.python</depends><depends>Pythonid</depends><tags>Inspection</tags></idea-plugin><idea-plugin downloads="3" size="3588" date="1594105649000" updatedDate="1594105649000" url=""><name>Exclude ComponentN</name><id>justbucket.excludeComponentN</id><description><![CDATA[
       Plugin to filter out Kotlin componentN() methods
-    ]]></description><version>0.1</version><vendor email="26853613+JustBucket416@users.noreply.github.com" url="">JustBucket</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.3803.71"></idea-version><depends>com.intellij.modules.lang</depends><tags>Inspection</tags></idea-plugin></category><ff>"Intention"</ff><category name="Intention"><idea-plugin downloads="2571" size="517978" date="1370084995000" updatedDate="1370084995000" url=""><name>OpenInDebuggex</name><id>com.johnlindquist.OpenInDebuggex</id><description><![CDATA[Place your cursor on a RegExp. Hit alt+enter, select &quot;Open in Debuggex&quot;. This will launch your RegExp at debuggex.com]]></description><version>1.0</version><vendor email="johnlindquist@gmail.com" url="https://johnlindquist.com/">johnlindquist.com</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="107.105"></idea-version><depends>com.intellij.modules.lang</depends><tags>Intention</tags></idea-plugin><idea-plugin downloads="158" size="4032" date="1589917925000" updatedDate="1589917925000" url=""><name>Python: Prefix f-string Intention</name><id>cms.rendner.intellij.py-prefix-fstring-plugin</id><description><![CDATA[
+    ]]></description><version>0.1</version><vendor email="26853613+JustBucket416@users.noreply.github.com" url="">JustBucket</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.3803.71"></idea-version><depends>com.intellij.modules.lang</depends><tags>Inspection</tags></idea-plugin><idea-plugin downloads="0" size="5338315" date="1594386425000" updatedDate="1594386425000" url=""><name>JS Inspections (EA Ultimate)</name><id>com.kalessil.idea.jsInspectionsUltimate</id><description><![CDATA[
+A Static Code Analyzer (non-public beta-testing, needs as license key for running all features).
+
+]]></description><version>0.0.2-beta</version><vendor email="kalessil@gmail.com" url="">Vladimir Reznichenko</vendor><rating>00</rating><change-notes><![CDATA[
+    The very first features release!<br>
+    <br>
+    - Forgotten debug statement: implemented<br>
+    - Incomplete exceptions handling: implemented<br>
+    - Low-performing await-constructs usage: implemented<br>
+    - Suspicious arrow function usage: implemented<br>
+    - 'Array.indexOf(...)'  could be replaced by 'Array.includes(...)': implemented<br>
+    - 'String.indexOf(...)'  could be replaced by 'String.includes(...)': implemented<br>
+    <br>
+    
+]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.3803.71"></idea-version><depends>JavaScript</depends><depends>com.intellij.modules.platform</depends><tags>Inspection</tags></idea-plugin></category><ff>"Intention"</ff><category name="Intention"><idea-plugin downloads="2571" size="517978" date="1370084995000" updatedDate="1370084995000" url=""><name>OpenInDebuggex</name><id>com.johnlindquist.OpenInDebuggex</id><description><![CDATA[Place your cursor on a RegExp. Hit alt+enter, select &quot;Open in Debuggex&quot;. This will launch your RegExp at debuggex.com]]></description><version>1.0</version><vendor email="johnlindquist@gmail.com" url="https://johnlindquist.com/">johnlindquist.com</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="107.105"></idea-version><depends>com.intellij.modules.lang</depends><tags>Intention</tags></idea-plugin><idea-plugin downloads="158" size="4032" date="1589917925000" updatedDate="1589917925000" url=""><name>Python: Prefix f-string Intention</name><id>cms.rendner.intellij.py-prefix-fstring-plugin</id><description><![CDATA[
     Provides a "prefix f-string" intention.
     <br><br>
     The intention prefixes a string literal with <i>f</i> without additional changes.
@@ -3814,7 +3828,7 @@ Usage: <b>Help | Print Keymap</b>
       Version 0.5.2 - Improved description and docs.<br>
       Version 0.5.0 - Initial release.
     
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="172.2103.15"></idea-version><depends>(optional) Git4Idea</depends><depends>(optional) Subversion</depends><depends>com.intellij.modules.lang</depends><tags>User Interface</tags></idea-plugin><idea-plugin downloads="3466" size="42672" date="1514722417000" updatedDate="1514722417000" url=""><name>Random Background</name><id>io.allandequeiroz.random.image.background</id><description><![CDATA[
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="172.2103.15"></idea-version><depends>(optional) Git4Idea</depends><depends>(optional) Subversion</depends><depends>com.intellij.modules.lang</depends><tags>User Interface</tags></idea-plugin><idea-plugin downloads="3466" size="1451216" date="1594317200000" updatedDate="1594317200000" url=""><name>Random Background</name><id>io.allandequeiroz.random.image.background</id><description><![CDATA[
         Give some personal touch to your IDE with background images randomly picked from a directory of your choice.<br>
         <br>
         The usage is quite straight forward, set two parameters, tweak the third one, and you're ready to go. <br>
@@ -3839,18 +3853,19 @@ Usage: <b>Help | Print Keymap</b>
         <h2>How it looks like</h2>
 
         <img src="https://github.com/allandequeiroz/random_image_background_any_jetbrains_plugin/blob/master/resources/images/screenshot_16968.png?raw=true" alt="Animated sample usage of Randomness.">
-    ]]></description><version>1.2.1</version><vendor email="allan@queiroz.house" url="https://github.com/allandequeiroz">Allan de Queiroz</vendor><rating>3.9</rating><change-notes><![CDATA[Inclusion of opacity control. 
-<br>
-<br> -- Usage: 
-<br> Settings -&gt; Appearance &amp; Behaviour -&gt; Random Image Background 
-<br> -- Set the folder (recursive) to pull random background images from 
-<br> -- Set the time to change between images (seconds) 
-<br> -- Set the opacity 
-<br> &nbsp;&nbsp;&nbsp;--Left to dark
-<br> &nbsp;&nbsp;&nbsp;--Right to light
-<br>
-<br> To disable the random behaviour, let Time (seconds) empty or to fully disable check the Disabled option
-<br>]]></change-notes><idea-version min="n/a" max="n/a" since-build="162"></idea-version><depends>com.intellij.modules.lang</depends><tags>User Interface</tags></idea-plugin><idea-plugin downloads="1419" size="17602" date="1503472657000" updatedDate="1503472657000" url=""><name>TabNumberIndicator</name><id>com.khande.idea.plugin.TabNumberIndicator</id><description><![CDATA[Display the tab number indicator before the opened file name int editor tabs.
+    ]]></description><version>2.1.4</version><vendor email="allan@queiroz.house" url="https://github.com/allandequeiroz">Allan de Queiroz</vendor><rating>4.1</rating><change-notes><![CDATA[
+        <b>New features</b>
+        <ul>
+            <li>General revamp and internal optimizations.</li>
+        </ul>
+        <br>
+        <b>Fixes</b>
+        <ul>
+            <li>Restore default background when uninstalling plugin.</li>
+        </ul>
+        <br>
+    
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="162.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>User Interface</tags></idea-plugin><idea-plugin downloads="1419" size="17602" date="1503472657000" updatedDate="1503472657000" url=""><name>TabNumberIndicator</name><id>com.khande.idea.plugin.TabNumberIndicator</id><description><![CDATA[Display the tab number indicator before the opened file name int editor tabs.
 <br> Switch To Tab 1-10 by default keyboard shortcut alt+[1-9, 0] in Win/Linux or Option+[1-9, 0] in macOS. and you can find the menus in Tools menu.
 <br>]]></description><version>1.0</version><vendor email="komisha@163.com" url="https://github.com/Khande/TabNumberIndicator">TabNumberIndicator</vendor><rating>3.8</rating><change-notes><![CDATA[Initial release.
 <br>]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>User Interface</tags></idea-plugin><idea-plugin downloads="516" size="8338" date="1581716236000" updatedDate="1581716236000" url=""><name>ModuleColorPlugin</name><id>ModuleColorPlugin</id><description><![CDATA[
@@ -11357,7 +11372,7 @@ This project is not yet ready for open source, but we will open source after fea
             </ul>
         </div>
     
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="193.0"></idea-version><depends>(optional) com.jetbrains.php</depends><depends>(optional) org.jetbrains.plugins.vue</depends><depends>JavaScript</depends><depends>com.intellij.css</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.plugins.yaml</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="295" size="37875555" date="1594251614000" updatedDate="1594251614000" url=""><name>Nara Studio</name><id>io.naraplatform.studio.drama-plugin</id><description><![CDATA[
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="193.0"></idea-version><depends>(optional) com.jetbrains.php</depends><depends>(optional) org.jetbrains.plugins.vue</depends><depends>JavaScript</depends><depends>com.intellij.css</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.plugins.yaml</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="295" size="37863440" date="1594335155000" updatedDate="1594335155000" url=""><name>Nara Studio</name><id>io.naraplatform.studio.drama-plugin</id><description><![CDATA[
     Nara Studio is a tool for easily creating, testing, and deploying Dramas that will run on the Nara platform.<br>
 With Nara Studio you can:<br>
 <ul>
@@ -11365,9 +11380,9 @@ With Nara Studio you can:<br>
 &nbsp;&nbsp; <li>Generate various types of source code that fits on the Drama Spec</li>
 &nbsp;&nbsp; <li>Easy Drama Test</li>
 </ul>
-    ]]></description><version>0.31-2020.1</version><vendor email="syhan@nextree.io" url="http://www.nextree.co.kr">Nextree</vendor><rating>4.5</rating><change-notes><![CDATA[
-        1. Added MongoDB code generation function.<br>
-        2. Fix common errors.<br>
+    ]]></description><version>0.32-2020.1</version><vendor email="syhan@nextree.io" url="http://www.nextree.co.kr">Nextree</vendor><rating>4.5</rating><change-notes><![CDATA[
+        1. Added MariaDB code generation function.<br>
+        2. Changed REST URI pattern.<br>
     ]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.6668" until-build="201.*"></idea-version><depends>com.intellij.modules.lang</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="535" size="22632" date="1569196876000" updatedDate="1569196876000" url=""><name>Timestamp Generator</name><id>io.ajab.timestamp-generator-plugin</id><description><![CDATA[
       A timestamp generator.<br>
       <br>
@@ -13488,11 +13503,12 @@ At this moment plugin includes next symbol packs
       <em>1.0 Creation of the Eevee Progress Bar Project</em><br>
       <em>1.1 Better plugin icon and removing white bar while indeterminate</em><br>
     
-  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="192.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>Fun stuff</tags></idea-plugin><idea-plugin downloads="68" size="11557" date="1593251664000" updatedDate="1593251664000" url=""><name>Pokemon Trainer Progress Bar</name><id>manjaro.ptpb</id><description><![CDATA[
+  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="192.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>Fun stuff</tags></idea-plugin><idea-plugin downloads="68" size="12710" date="1594382067000" updatedDate="1594382067000" url=""><name>Pokemon Trainer Progress Bar</name><id>manjaro.ptpb</id><description><![CDATA[
       This is the Pokemon Trainer Progress Bar for IJ based IDEs based on the Nyan Progress Bar by Dmitry Batkovitch.
       It display Red and Pikachu for the basic bar and the bike animation for the indeterminate one.
-    ]]></description><version>1.0</version><vendor email="kylian.meulin@gmail.com" url="">KikiManjaro</vendor><rating>00</rating><change-notes><![CDATA[
+    ]]></description><version>1.1</version><vendor email="kylian.meulin@gmail.com" url="">KikiManjaro</vendor><rating>00</rating><change-notes><![CDATA[
       <em>1.0 Creation of the Pokemon Trainer Progress Bar Project</em><br>
+      <em>1.1 Adding bigger icon for larger screen</em><br>
     
   ]]></change-notes><idea-version min="n/a" max="n/a" since-build="192.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>Fun stuff</tags></idea-plugin><idea-plugin downloads="20" size="229364" date="1593651537000" updatedDate="1593651537000" url=""><name>Gitmoji-Unicode</name><id>io.github.biezhi.plugins.gitmoji-unicode</id><description><![CDATA[
          <p>
@@ -14090,7 +14106,7 @@ At this moment plugin includes next symbol packs
 				</ul>
 			</li>
 			</ul>
-			]]></change-notes><idea-version min="n/a" max="n/a" since-build="99.18"></idea-version><depends>com.intellij.modules.lang</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="187066" size="3587704" date="1593363264000" updatedDate="1593363264000" url=""><name>Jenkins Control Plugin</name><id>Jenkins Control Plugin</id><description><![CDATA[<h1>Integrates Jenkins in IntelliJ</h1>
+			]]></change-notes><idea-version min="n/a" max="n/a" since-build="99.18"></idea-version><depends>com.intellij.modules.lang</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="187066" size="3587704" date="1593363264000" updatedDate="1594379176250" url=""><name>Jenkins Control Plugin</name><id>Jenkins Control Plugin</id><description><![CDATA[<h1>Integrates Jenkins in IntelliJ</h1>
 
 <strong>Features</strong>
 <ul>
@@ -16784,7 +16800,7 @@ To configure, open <b>Settings | Build, Execution, Deployment | Docker</b>.
 <br> Power by YouDao translate engine.]]></description><version>1.1</version><vendor email="huangmb413@163.com" url="">bob</vendor><rating>4.3</rating><change-notes><![CDATA[<ul> 
  <li> 1.0(2016-12-13)<br> -Support get words selected by user or pick word around caret.<br> -Support translate panel,a simple dictionary.<br> -Add some toggle entries:shortcut,main menu,pop menu.<br> -Support Chinese-English and English-Chines translate.<br> -Fix some bug(such as disconnect http accidentally). </li> 
  <li> 1.1(2016-12-19)<br> -Fix out of index bug if there has no word at the caret's location.<br> -Add an entry to ToolBar. </li> 
-</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="141.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="179627" size="324440" date="1594084788000" updatedDate="1594084788000" url=""><name>React Native Console</name><id>com.github.beansoftapp.reatnative.idea</id><description><![CDATA[
+</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="141.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="179627" size="353755" date="1594376570000" updatedDate="1594376570000" url=""><name>React Native Console</name><id>com.github.beansoftapp.reatnative.idea</id><description><![CDATA[
     <h2>React Native Console</h2>
 <p>an IDEA/WebStorm/Android Studio Plugin for run React Native commands</p>
 <p>Thanks for your support, this plugin is first made for myself for daily using 3 years ago,<br>
@@ -16861,8 +16877,12 @@ however you can still use the old FREE version, see <a href="https://plugins.jet
 <h2>ISSUES</h2>
 <p>
 <a href="https://github.com/beansoftapp/react-native-console/issues">Suggestions or Bugs</a></p>
-    ]]></description><version>2020.2.1</version><vendor email="beansoft@126.com" url="https://github.com/beansoftapp/react-native-console">BeanSoft</vendor><rating>3.8</rating><change-notes><![CDATA[
+    ]]></description><version>2020.2.2</version><vendor email="beansoft@126.com" url="https://github.com/beansoftapp/react-native-console">BeanSoft</vendor><rating>3.8</rating><change-notes><![CDATA[
      <br>
+         <br>2020.2.2
+            <br>Display colorful terminal output
+            <br>Start Xcode, Android Studio on Mac with one click
+            <br>New Expo project on WebStorm(PhpStorm etc)
         <br>2020.2.1
         <br>- display customize icons for react-native project's file and directory(android,test,ios) in non-Java IDE
         <br>2020.2
@@ -17521,9 +17541,9 @@ WebStorm and others support.]]></change-notes><idea-version min="n/a" max="n/a" 
     </p>
     ]]></description><version>0.4</version><vendor email="bitbucket.plugin@gmail.com" url="https://github.com/BigBurritoInc">Big Burrito Inc.</vendor><rating>4.4</rating><change-notes><![CDATA[
       v.0.4 Fixed parsing error when user email is empty
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>Git4Idea</depends><depends>com.intellij.modules.lang</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="1922" size="3023107" date="1586289913000" updatedDate="1586289913000" url=""><name>Salesforce Commerce Cloud Studio</name><id>com.binarysushi.sfcc-studio</id><description><![CDATA[
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>Git4Idea</depends><depends>com.intellij.modules.lang</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="1922" size="3023442" date="1594296008000" updatedDate="1594296008000" url=""><name>Salesforce Commerce Cloud Studio</name><id>com.binarysushi.sfcc-studio</id><description><![CDATA[
         Tools for developing Salesforce Commerce Cloud websites.
-    ]]></description><version>1.6.3</version><vendor email="nek4life@gmail.com" url="">Charlie Choiniere</vendor><rating>4.6</rating><change-notes><![CDATA[
+    ]]></description><version>1.6.4</version><vendor email="nek4life@gmail.com" url="">Charlie Choiniere</vendor><rating>4.6</rating><change-notes><![CDATA[
       New Features<br><br>
       <em>2020.1 Compatibility Build</em><br>
       <em>Proxy Connection Support: IDE proxy settings are now used when making a server connection</em>
@@ -18382,7 +18402,7 @@ license.
         <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
     </li>
 </ul>
-]]></description><version>2020.1.5-built-for-ide-2020.1</version><vendor email="" url="">ntworld</vendor><rating>4.4</rating><change-notes><![CDATA[
+]]></description><version>2020.1.5-built-for-ide-2020.1</version><vendor email="" url="">ntworld</vendor><rating>4.2</rating><change-notes><![CDATA[
     <h2>Notable changes</h2>
     <ul>
         <li>Support IDEA 2020.1, Android Studio 4.0.0</li>
@@ -28302,7 +28322,7 @@ For detailed usage documents and function descriptions, please visit
         <li>Register xlf and xliff as XML file type to provide navigation for <a href="https://plugins.jetbrains.com/plugin/7219-symfony-support/">Symfony Plugin</a></li>
       </ul>
 
-    ]]></description><version>0.0.4</version><vendor email="daniel@espendiller.net" url="https://espend.de/?p=de.espend.idea.localization">espend_de</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="192.0" until-build="201.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Framework integration</tags></idea-plugin><idea-plugin downloads="77" size="1492345" date="1592638780000" updatedDate="1592638780000" url="https://github.com/L2jLiga/fastify-decorators-plugin"><name>Fastify decorators</name><id>fastify_decorators.plugin</id><description><![CDATA[
+    ]]></description><version>0.0.4</version><vendor email="daniel@espendiller.net" url="https://espend.de/?p=de.espend.idea.localization">espend_de</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="192.0" until-build="201.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Framework integration</tags></idea-plugin><idea-plugin downloads="77" size="1497320" date="1594357568000" updatedDate="1594357568000" url="https://github.com/L2jLiga/fastify-decorators-plugin"><name>Fastify decorators</name><id>fastify_decorators.plugin</id><description><![CDATA[
 <p>Support for <a href="https://npmjs.org/package/fastify-decorators">fastify-decorators</a> library.</p>
 <h2>Getting started</h2>
 <ul>
@@ -28315,18 +28335,23 @@ For detailed usage documents and function descriptions, please visit
 <li>Checks project configuration</li>
 <li>Inspects DI-specific stuff</li>
 </ul>
-    ]]></description><version>0.6</version><vendor email="l2jliga@gmail.com" url="https://github.com/l2jliga">Andrey Chalkin</vendor><rating>00</rating><change-notes><![CDATA[<b>Features added:</b>
+    ]]></description><version>0.7</version><vendor email="l2jliga@gmail.com" url="https://github.com/l2jliga">Andrey Chalkin</vendor><rating>00</rating><change-notes><![CDATA[<b>Features added:</b>
 <ul>
-  <li>Core: support IDEA 2020.2 (EAP)</li>
-  <li>Inspection: highlight errors in @Inject decorator usage</li>
-  <li>Inspection: disabled controllers default export inspection by default</li>
+  <li>Inspection: Warn when @Inject decorator used for static fields</li>
+  <li>Quick-fix: Replace "@Inject" with "getInstanceByToken"</li>
+</ul>
+
+<b>Bugs fixed:</b>
+<ul>
+  <li>type cast exception when @Inject argument is literal (string, number etc)</li>
+  <li>false-positive error for FastifyInstanceToken usage in @Inject</li>
+  <li>controller was marked as unused when apply "add default export" quick-fix</li>
 </ul>
 
 <b>Miscellaneous:</b>
 <ul>
-  <li>Dependencies: update org.jetbrains.intellij to 0.4.21 (was 0.4.18)</li>
-  <li>Dependencies: update Graddle to 6.5 (was 6.3)</li>
-</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="183.2940.10" until-build="202.*"></idea-version><depends>JavaScript</depends><depends>com.intellij.modules.platform</depends><tags>Framework integration</tags></idea-plugin><idea-plugin downloads="2030" size="41743" date="1591200085000" updatedDate="1591200085000" url=""><name>Qt Style Sheet Highlighter</name><id>quickturnstudio.sdk.language.qss.QtStyleSheetHighlighter</id><description><![CDATA[
+  <li>Dependencies: update Gradle to 6.5.1 (was 6.5)</li>
+</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="193" until-build="202.*"></idea-version><depends>JavaScript</depends><depends>com.intellij.modules.platform</depends><tags>Framework integration</tags></idea-plugin><idea-plugin downloads="2030" size="41743" date="1591200085000" updatedDate="1591200085000" url=""><name>Qt Style Sheet Highlighter</name><id>quickturnstudio.sdk.language.qss.QtStyleSheetHighlighter</id><description><![CDATA[
 
     <p>
         This plugin is a part of <a href="https://quickturnstudio.com/pluginqtinclion">"Working with Qt in CLion"</a> project.
@@ -31005,7 +31030,7 @@ The following features are available:
  <li>corrected RobotFramework 3.x built in variables</li> 
  <li>improved some python library imports (thanks to Tillaert)</li> 
  <li>added 'keyword' decorator for python keywords (thanks to Tillaert)</li> 
-</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="143.381"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="1159078" size="51849946" date="1591430776000" updatedDate="1594325085000" url="https://intellij-asciidoc-plugin.ahus1.de/"><name>AsciiDoc</name><id>org.asciidoctor.intellij.asciidoc</id><description><![CDATA[<p>
+</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="143.381"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="1159078" size="51949839" date="1594394052000" updatedDate="1594395034000" url="https://intellij-asciidoc-plugin.ahus1.de/"><name>AsciiDoc</name><id>org.asciidoctor.intellij.asciidoc</id><description><![CDATA[<p>
     <a href="https://intellij-asciidoc-plugin.ahus1.de/">Homepage</a> |
     <a href="https://intellij-asciidoc-plugin.ahus1.de/docs/users-guide/quick-start.html">Quick start</a> |
     <a href="https://intellij-asciidoc-plugin.ahus1.de/docs/users-guide/index.html">User Guide</a> |
@@ -31030,7 +31055,49 @@ The following features are available:
     For better legibility in the JavaFX preview, this package includes DejaVu fonts.
     <a href="https://dejavu-fonts.github.io/License.html">See here for the free fonts license</a>.
 </p>
-]]></description><version>0.30.78</version><vendor email="alexander.schwartz@gmx.net" url="https://github.com/asciidoctor/asciidoctor-intellij-plugin">Asciidoctor IntelliJ Plugin Project</vendor><rating>4.6</rating><change-notes><![CDATA[<h3>0.30.78</h3> 
+]]></description><version>0.30.84</version><vendor email="alexander.schwartz@gmx.net" url="https://github.com/asciidoctor/asciidoctor-intellij-plugin">Asciidoctor IntelliJ Plugin Project</vendor><rating>4.6</rating><change-notes><![CDATA[<h3>0.30.84 </h3> 
+<div> 
+ <ul> 
+  <li> <p>fix resolving of references by their titles</p> </li> 
+  <li> <p>avoid blocking lock when switching AsciiDoc editor when trying to save contents of changed documents (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/520">#520</a>)</p> </li> 
+ </ul> 
+</div>
+<h3>0.30.83 </h3> 
+<div> 
+ <ul> 
+  <li> <p>publish file information to allow status with a filename in IntelliJ Discord plugin (thanks to <a href="https://github.com/NonNullDinu">@NonNullDinu</a>) (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/518">#518</a>)</p> </li> 
+  <li> <p>first support for Asciidoclet (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/103">#103</a>)</p> </li> 
+ </ul> 
+</div>
+<h3>0.30.82 </h3> 
+<div> 
+ <ul> 
+  <li> <p>mark indexes to be rebuilt due to AST changes (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/508">#508</a>)</p> </li> 
+ </ul> 
+</div>
+<h3>0.30.81 </h3> 
+<div> 
+ <ul> 
+  <li> <p>avoid error “ProcessCanceledException should not be logged”</p> </li> 
+  <li> <p>show block type of current block, in structure view don’t pick look it up from a child element (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/511">#511</a>)</p> </li> 
+  <li> <p>reworking handling of list items and their contexts to prevent false positive list items and headlines in editor’s AST (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/508">#508</a>)</p> </li> 
+ </ul> 
+</div>
+<h3>0.30.80 </h3> 
+<div> 
+ <ul> 
+  <li> <p>workaround for IndexOutOfBoundsException when on MacOS X, possibly due to window manager / accessibility issues (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/499">#499</a>)</p> </li> 
+  <li> <p>supporting <code>rouge</code> as code syntax highlighter in preview. Documents can now override the code highlighter. Improved code syntax highlighting for preview in dark mode (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/505">#505</a>)</p> </li> 
+ </ul> 
+</div>
+<h3>0.30.79 </h3> 
+<div> 
+ <ul> 
+  <li> <p>avoid error “Directory index is already disposed for Project”</p> </li> 
+  <li> <p>a continuation can’t be followed by a heading (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/508">#508</a>)</p> </li> 
+ </ul> 
+</div>
+<h3>0.30.78</h3> 
 <div> 
  <ul> 
   <li> <p>fix parsing of second level enumeration in the editor</p> </li> 
@@ -31141,55 +31208,6 @@ The following features are available:
  <ul> 
   <li> <p>prevent scope-enlarger to break refactorings like introduce-variable (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/466">#466</a>)</p> </li> 
   <li> <p>prevent parsing to mis-align tokens after a <code>+</code> that could lead to their removal upon re-format (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/463">#463</a>)</p> </li> 
- </ul> 
-</div>
-<h3>0.30.62 </h3> 
-<div> 
- <ul> 
-  <li> <p>when referencing images in other Antora modules, assume image family for reference</p> </li> 
-  <li> <p>refactoring resolving Antora targets for images and xrefs for HTML preview; now also works for PDFs (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/441">#441</a>)</p> </li> 
-  <li> <p>avoid deadlock when creating PDF/HTML; show cancelable popup</p> </li> 
-  <li> <p>retrieve <code>reftext</code> or <code>navtitle</code> from page attributes when xref doesn’t have a text (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/441">#441</a>)</p> </li> 
-  <li> <p>allow the default zoom level to be configurable for JavaFX preview (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/444">#444</a>)</p> </li> 
- </ul> 
-</div>
-<h3>0.30.61 </h3> 
-<div> 
- <ul> 
-  <li> <p>support find-references for Antora family names</p> </li> 
-  <li> <p>adding a JSON schema for antora.yml to provide auto-completion, validation and quick-documentation (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/461">#461</a>)</p> </li> 
-  <li> <p>don’t pick the latest version when referencing a local partial or module (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/462">#462</a>)</p> </li> 
-  <li> <p>support Antora xref syntax for PlantUML block macro as there is an extension for that</p> </li> 
- </ul> 
-</div>
-<h3>0.30.60 </h3> 
-<div> 
- <ul> 
-  <li> <p>allow links containing only version and page file name (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/405">#405</a>)</p> </li> 
-  <li> <p>check links even when anchor contains an unresolvable attribute</p> </li> 
-  <li> <p>given an Antora partial and a local anchor, search the complete project for a reference when trying to resolve it</p> </li> 
-  <li> <p>avoid NPE when an Antora component descriptor doesn’t include a version (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/460">#460</a>)</p> </li> 
-  <li> <p>check links for files in block, inline and preprocessor macros</p> </li> 
-  <li> <p>enlarge search scope for finding references to all AsciiDoc documents in project independent of project’s module dependencies</p> </li> 
- </ul> 
-</div>
-<h3>0.30.59.1</h3> 
-<div> 
- <ul> 
-  <li> <p>prevent parsing to mis-align tokens after a <code>+</code> that could lead to their removal upon re-format (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/463">#463</a>)</p> </li> 
- </ul> 
-</div>
-<h3>0.30.59</h3> 
-<div> 
- <ul> 
-  <li> <p>rebuild indexes for bibliographic references (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/459">#459</a>)</p> </li> 
- </ul> 
-</div>
-<h3>0.30.58 </h3> 
-<div> 
- <ul> 
-  <li> <p>support bibliographic references when validating links and finding references (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/459">#459</a>)</p> </li> 
-  <li> <p>when an Antora xref contains a component name, it will always link to the “latest” version (<a href="https://github.com/asciidoctor/asciidoctor-intellij-plugin/issues/405">#405</a>)</p> </li> 
  </ul> 
 </div>]]></change-notes><idea-version min="n/a" max="n/a" since-build="193.5662" until-build="202.0"></idea-version><depends>(optional) com.intellij.modules.java</depends><depends>(optional) com.intellij.modules.json</depends><depends>(optional) tanvd.grazi</depends><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="46544" size="103588" date="1402261805000" updatedDate="1593185772000" url=""><name>Latte</name><id>com.jantvrdik.intellij.latte</id><description><![CDATA[
 		<p>
@@ -34287,20 +34305,26 @@ More information may be found in our <a href="https://github.com/hurricup/Perl5-
           <li><a href="https://github.com/postcss/postcss-nested">postcss-nested</a></li>
       </ul>
       
-  ]]></description><version>201.6668.60</version><vendor email="" url="">JetBrains</vendor><rating>4.4</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.6668" until-build="201.*"></idea-version><depends>(optional) com.intellij.copyright</depends><depends>com.intellij.css</depends><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="12542" size="9703572" date="1588621141000" updatedDate="1588621141000" url=""><name>xquery-intellij-plugin</name><id>uk.co.reecedunn.intellij.plugin.xquery</id><description><![CDATA[
+  ]]></description><version>201.6668.60</version><vendor email="" url="">JetBrains</vendor><rating>4.4</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.6668" until-build="201.*"></idea-version><depends>(optional) com.intellij.copyright</depends><depends>com.intellij.css</depends><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="12542" size="9996202" date="1594394910000" updatedDate="1594395066789" url=""><name>XQuery IntelliJ Plugin</name><id>uk.co.reecedunn.intellij.plugin.xquery</id><description><![CDATA[
     <p>
       XQuery 1.0-3.1, XPath 2.0-3.1, and XSLT 3.0 language support with BaseX,
-      MarkLogic, Saxon, and W3C extensions; run and profile queries; log viewer;
-      and more.
+      MarkLogic, Saxon, and W3C extensions; run, debug, and profile queries;
+      log viewer; and more.
     </p>
     <p>&nbsp;</p>
     <p>Query processor integration:</p>
     <ol>
-      <li>Run BaseX, eXist-db, MarkLogic, and Saxon queries.</li>
-      <li>Profile BaseX, MarkLogic, and Saxon XQuery and XSLT.</li>
+      <li>Run BaseX, eXist-db, FusionDB, MarkLogic, and Saxon queries.</li>
+      <li>Profile BaseX, MarkLogic, and Saxon XQuery and XSLT files.</li>
+      <li>Debug MarkLogic XQuery files, with experimental breakpoint support.</li>
       <li>Log viewer for BaseX and MarkLogic.</li>
       <li>Built-in namespace and function support for BaseX, eXist-db, MarkLogic, and Saxon.</li>
-      <li>Support for MarkLogic rewriter XML files.</li>
+      <li>Support for MarkLogic rewriter XML files and EXQuery RESTXQ endpoints.</li>
+    </ol>
+    <p>Library and Framework integration:</p>
+    <ol>
+      <li>MarkLogic Roxy – source root detection.</li>
+      <li>MarkLogic ml-gradle – source root detection.</li>
     </ol>
     <p>XPath and XSLT:</p>
     <ol>
@@ -34326,28 +34350,72 @@ More information may be found in our <a href="https://github.com/hurricup/Perl5-
       <li>Context information (Alt+Q) for XQuery function declarations.</li>
       <li>Spellchecking support with bundle dictionaries with XPath, XQuery, and XSLT terms.</li>
     </ol>
-  ]]></description><version>1.6.2-201</version><vendor email="msclrhd@gmail.com" url="http://reecedunn.co.uk">Reece H. Dunn</vendor><rating>00</rating><change-notes><![CDATA[
-    <h3>Release 1.6.2:</h3>
-    <p>MarkLogic Rewriter XML Integration:</p>
+    <p>IntelliJ Ultimate integration:</p>
     <ol>
-      <li>Use the regular expression language for <code>matches</code> attributes.</li>
-      <li>
-        Add code completion for <code>match-accept</code>, <code>match-content-type</code>,
-        <code>match-execute-privilege</code>, <code>match-header</code>, and <code>match-method</code> elements.
-      </li>
-      <li>
-        Support resolving <code>dispatch</code>, <code>set-error-handler</code>, and <code>set-path</code>
-        elements to the XQuery/MJS/SJS file they reference.
-      </li>
-      <li>Add a line marker to XQuery files referenced in a rewriter file.</li>
+      <li>Support displaying MarkLogic rewriter files in the Endpoints tool window.</li>
+      <li>Support displaying EXQuery RESTXQ endpoints in the Endpoints tool window.</li>
+    </ol>
+  ]]></description><version>1.7-201</version><vendor email="msclrhd@gmail.com" url="http://reecedunn.co.uk">Reece H. Dunn</vendor><rating>00</rating><change-notes><![CDATA[
+    <h3>Release 1.7:</h3>
+    <ol>
+      <li>Display MarkLogic rewriter and EXQuery RESTXQ endpoints in IntelliJ Ultimate's Endpoint tool window.</li>
+      <li>Support for debugging MarkLogic XQuery-based queries, with experimental expression breakpoint support.</li>
+      <li>Improved eXist-db and FusionDB support.</li>
+      <li>Support for MarkLogic Roxy and ml-gradle project source root detection.</li>
+      <li>Add icons to the query processors and document sources.</li>
+    </ol>
+    <p>MarkLogic:</p>
+    <ol>
+      <li>Support stopping MarkLogic queries.</li>
+      <li>Support registering MarkLogic schema files.</li>
+      <li>Support for debugging MarkLogic XQuery-based queries.</li>
+    </ol>
+    <p>eXist-db / FusionDB:</p>
+    <ol>
+      <li>Detect FusionDB so it is correctly displayed in the query processor lists.</li>
+      <li>Display the log files in the Query Log panel.</li>
+      <li>Fixed calling APIs that require specific permissions that the query processor user has.</li>
+      <li>Fixed displaying <code>node()</code> and <code>function(*)</code> types in the query results view.</li>
+    </ol>
+    <p>BaseX:</p>
+    <ol>
+      <li>Fix validating beta releases in the query processor UI.</li>
     </ol>
     <p>Run Configurations:</p>
     <ol>
-      <li>Support stopping Saxon queries.</li>
-      <li>Fix running/profiling update queries on MarkLogic 10.</li>
-      <li>Fix using BaseX in a language other than English.</li>
+      <li>Fixed scrolling to an item in the results pane when the detected filetype is plain text.</li>
+      <li>Fixed a null pointer exception when processing MarkLogic syntax error responses.</li>
+      <li>Fixed navigating to module paths in query errors.</li>
+      <li>Add icons to the query processors.</li>
     </ol>
-  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.0" until-build="201.*"></idea-version><depends>(optional) com.intellij.modules.java</depends><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.xdebugger</depends><depends>com.intellij.modules.xml</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="49708" size="1032531" date="1588640226000" updatedDate="1588640226000" url=""><name>Clojure-Kit</name><id>org.jetbrains.idea.clojure</id><description><![CDATA[Clojure and ClojureScript plugin for IntelliJ-based tools]]></description><version>2020.1</version><vendor email="gregory.shrago@jetbrains.com" url="">Greg Shrago</vendor><rating>4.1</rating><change-notes><![CDATA[
+    <p>Module Imports:</p>
+    <ol>
+      <li>Support resolving MarkLogic imports from a configured database install path.</li>
+      <li>Support resolving imports from the Roxy <code>xquery.dir</code> property path.</li>
+      <li>Support resolving imports from the ml-gradle <code>mlModulePaths</code> property paths.</li>
+    </ol>
+    <p>Endpoints:</p>
+    <ol>
+      <li>Support autocompleting multi-valued <code>match-method</code> elements in MarkLogic rewriter files.</li>
+      <li>Support displaying MarkLogic rewriter files in the Endpoints tool window.</li>
+      <li>Support displaying EXQuery RESTXQ endpoints in the Endpoints tool window.</li>
+    </ol>
+    <p>Documentation:</p>
+    <ol>
+      <li>Fix the return type in the MarkLogic documentation.</li>
+      <li>Add icons to the documentation sources.</li>
+    </ol>
+    <p>Code Completion:</p>
+    <ol>
+      <li>Include declared variables without a namespace prefix in the completion list.</li>
+    </ol>
+    <p>Inlay Parameter Hints:</p>
+    <ol>
+      <li>Don't display a hint when the variable name matches the parameter name.</li>
+      <li>Don't display a hint when the path step element/attribute name matches the parameter name.</li>
+      <li>Don't display a hint when the forward/reverse step name matches the parameter name.</li>
+    </ol>
+  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.0" until-build="201.*"></idea-version><depends>(optional) com.intellij.modules.java</depends><depends>(optional) com.intellij.modules.microservices</depends><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.xdebugger</depends><depends>com.intellij.modules.xml</depends><depends>com.intellij.properties</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="49708" size="1032531" date="1588640226000" updatedDate="1588640226000" url=""><name>Clojure-Kit</name><id>org.jetbrains.idea.clojure</id><description><![CDATA[Clojure and ClojureScript plugin for IntelliJ-based tools]]></description><version>2020.1</version><vendor email="gregory.shrago@jetbrains.com" url="">Greg Shrago</vendor><rating>4.1</rating><change-notes><![CDATA[
     
     <ul>
       <li>formatter: missing newline after a line comment (#31)</li>
@@ -34604,14 +34672,16 @@ More information may be found in our <a href="https://github.com/hurricup/Perl5-
         </ul>
       <p></p>
     
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.4515.24"></idea-version><depends>(optional) com.intellij.modules.java</depends><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="12975" size="6864519" date="1594125026000" updatedDate="1594125026000" url=""><name>Ballerina</name><id>io.ballerina</id><description><![CDATA[
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.4515.24"></idea-version><depends>(optional) com.intellij.modules.java</depends><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="12975" size="6868530" date="1594397489000" updatedDate="1594397488718" url=""><name>Ballerina</name><id>io.ballerina</id><description><![CDATA[
       The Ballerina IntelliJ plugin provides the <a href="https://ballerina.io/">Ballerina</a> development capabilities
       in IntelliJ IDEA.
       <br><br>For instructions on how to download, install, and use the features of the plugin, refer the
       <a href="https://v1-0.ballerina.io/learn/tools-ides/intellij-plugin/">Ballerina IntelliJ plugin Guide</a>.
-    ]]></description><version>1.2.5</version><vendor email="ballerinalang@wso2.com" url="https://ballerina.io/">BallerinaLang</vendor><rating>4.5</rating><change-notes><![CDATA[
+    ]]></description><version>1.2.6</version><vendor email="ballerinalang@wso2.com" url="https://ballerina.io/">BallerinaLang</vendor><rating>4.5</rating><change-notes><![CDATA[
       <ul>
-        <li> Fixed distribution auto-detection for homebrew based installations. </li>
+        <li> Fixed plugin support for deprecated parameter documentation. </li>
+        <li> Fixed quoted string literal related syntax highlighting. </li>
+
       </ul>
     
     ]]></change-notes><idea-version min="n/a" max="n/a" since-build="182.0"></idea-version><depends>(optional) com.intellij.modules.java</depends><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="31207" size="1033075" date="1582874433000" updatedDate="1582874433000" url=""><name>Fortran</name><id>org.jetbrains.fortran</id><description><![CDATA[
@@ -35161,7 +35231,7 @@ FIX: Default Value Separator get frequently reset to comma, changes only applied
         </dl>
   
     
-  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="192.0"></idea-version><depends>(optional) org.intellij.intelliLang</depends><depends>(optional) org.jetbrains.plugins.terminal</depends><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="860" size="68863" date="1512818411000" updatedDate="1512818411000" url=""><name>TSS editor</name><id>be.programaths.idea.plugins.editors.tss</id><description><![CDATA[A simple TSS editor]]></description><version>1.0</version><vendor email="christian.baune@programaths.be" url="https://www.programaths.be">Programaths</vendor><rating>00</rating><change-notes><![CDATA[Initial release]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="256070" size="17810165" date="1594049698000" updatedDate="1594049698000" url=""><name>Illuminated Cloud 2</name><id>com.illuminatedcloud2.intellij</id><description><![CDATA[
+  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="192.0"></idea-version><depends>(optional) org.intellij.intelliLang</depends><depends>(optional) org.jetbrains.plugins.terminal</depends><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="860" size="68863" date="1512818411000" updatedDate="1512818411000" url=""><name>TSS editor</name><id>be.programaths.idea.plugins.editors.tss</id><description><![CDATA[A simple TSS editor]]></description><version>1.0</version><vendor email="christian.baune@programaths.be" url="https://www.programaths.be">Programaths</vendor><rating>00</rating><change-notes><![CDATA[Initial release]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="256070" size="17823933" date="1594401532000" updatedDate="1594401532036" url=""><name>Illuminated Cloud 2</name><id>com.illuminatedcloud2.intellij</id><description><![CDATA[
         <p>
             <b>Illuminated Cloud</b> brings the modern feature set of JetBrains' powerful IDEs to Salesforce
             development. Illuminated Cloud not only saves you time with its <b>intelligent auto-completion</b> for all
@@ -35203,77 +35273,73 @@ FIX: Default Value Separator get frequently reset to comma, changes only applied
 
         Note that Illuminated Cloud is a <a href="http://www.illuminatedcloud.com/purchase">commercial offering</a> and
         requires an active annual subscription-based license for continued access to its features.
-        ]]></description><version>2.1.2.8</version><vendor email="support@illuminatedcloud.com" url="http://www.illuminatedcloud.com/">Rose Silver Software</vendor><rating>4.6</rating><change-notes><![CDATA[
-        <p><b>2.1.2.8</b></p>
+        ]]></description><version>2.1.2.9</version><vendor email="support@illuminatedcloud.com" url="http://www.illuminatedcloud.com/">Rose Silver Software</vendor><rating>4.6</rating><change-notes><![CDATA[
+        <p><b>2.1.2.9</b></p>
         <ul>
-            <li><b>Lightning Web Components fixes and improvements</b>
+            <li><b>Lightning fixes and improvements</b> - Implemented another round of fixes and improvements for
+                Lightning development, both LWC and Aura. In fact, most of these fixes are for Aura and/or Community
+                Edition IDE users.
                 <ul>
-                    <li>Made a full pass on the standard LWC components and their attributes, methods, etc., to ensure
-                        that they're as accurate and up-to-date as possible.
+                    <li>Added full support for Aura/LWC component composition, i.e., using custom LWC components in Aura
+                        component markup. This includes code completion, reference navigation, LWC components as
+                        selectors in Aura style files, integrated LWC component API documentation from Aura markup, etc.
                     </li>
-                    <li>Added missing common attributes such as <code>aria-*</code>, standard event handlers,
-                        <code>lwc:dom</code>, etc.
+                    <li>Added full support for design tokens in Aura style files. This includes code completion,
+                        reference navigation, handling of token renames (requires a commercial JetBrains IDE), etc.
                     </li>
-                    <li>Added code completion and cross-relational reference support for LWC components as CSS
-                        selectors.
+                    <li>Improved the structure view for ES6 classes in Community Edition IDEs. Previously it was limited
+                        by the Rhino JavaScript parser's inability to grok ES6. Now I'm using the same simple custom ES6
+                        parser used to find ES6 properties and methods for code completion to build the structure view.
+                        It's not perfect, but it's much more accurate that in the past and should facilitate faster
+                        navigation of ES6 class members in Community Edition IDEs.
                     </li>
-                    <li>Added code completion and cross-relational reference support for standard design tokens.</li>
-                    <li>Fixed an issue that caused IC not to evaluate service components properly.</li>
-                    <li>Fixed several issues with secondary components (those where file names do not match the
-                        component bundle name).
+                    <li>Fixed an issue where multiple identical HTML references to JavaScript controller properties and
+                        functions were not being de-duplicated correctly in Community Edition IDEs leading to duplicate
+                        entries being offered during reference navigation.
                     </li>
-                    <li>Fixed an issue with how custom event names are discovered so that those constructed using
-                        <code>new Event(...)</code> are found in addition to <code>new CustomEvent(...)</code>.
+                    <li>Improved reference highlighting in Community Edition IDEs for controller properties/fields and
+                        functions/methods used in markup.
                     </li>
-                    <li>Fixed an issue that would result in duplicate references being added to references to event
-                        handler methods for standard events, e.g., <code>onclick</code>, in commercial JetBrains IDEs.
-                        This would occur because the base JetBrains IDE and Illuminated Cloud would each add a
-                        reference. Now Illuminated Cloud only adds references to event handler methods for custom event
-                        handler attributes.
-                    </li>
-                    <li>Added a number of inspection suppressors where the commercial JetBrains HTML5/CSS/JS plugin
-                        cannot properly determine the nature of a reference relationship resulting in a warning or
-                        error.
-                    </li>
-                    <li>Added support for the <code>supportedFormFactors</code> child elements of
-                        <code>targetConfigs</code> in LWC component <code>meta.xml</code> files.
+                    <li>Fixed an issue where undecorated ES6 fields were not being found properly.</li>
+                    <li>Fixed a potentially long-standing issue where directories were being evaluated as JavaScript/CSS
+                        files incorrectly.
                     </li>
                 </ul>
-                <b>NOTE:</b> There are still a few issues that I have not been able to resolve because they are in the
-                commercial JetBrains HTML/CSS/JS plugin and are not subject to inspection suppression. I have logged
-                several bugs with JetBrains on these issues so that either JetBrains can address them, or they can
-                hopefully provide feedback on how they can be addressed in a plugin:
+                <b>NOTE:</b> As before, there are still a few issues that I have not been able to resolve because they
+                are in the commercial JetBrains HTML/CSS/JS plugin and are not subject to inspection suppression. In
+                addition to those enumerated in the previous build's release notes, I have logged the following bug with
+                JetBrains regarding an issue with the rename refactoring not properly updating braced expression
+                references to ES6 members:
                 <ul>
-                    <li><a href="https://youtrack.jetbrains.com/issue/WEB-46308">WEB-46308</a> for which I've provided
-                        a workaround in IC
-                    </li>
-                    <li><a href="https://youtrack.jetbrains.com/issue/WEB-46312">WEB-46312</a> for which changing the
-                        attribute ordering is a viable workaround
-                    </li>
-                    <li><a href="https://youtrack.jetbrains.com/issue/WEB-46313">WEB-46313</a> for which there is no
-                        known workaround at present
-                    </li>
+                    <li><a href="https://youtrack.jetbrains.com/issue/WEB-46397">WEB-46397</a></li>
                 </ul>
             </li>
-            <li><b>Issue 1650</b> - Prospective fixes for a number of issues observed by a user in the metadata
-                retrieval dialog.
+            <li><b>Issue 1652</b> - Made the confirmation messages displayed during connection removal more detailed
+                regarding the exact connection requested for removal and the ramifications of removing a CLI-managed
+                connection.
             </li>
-            <li><b>Issue 1653</b> - Fixed an issue with the keyword case mismatch inspection and query bind expressions.
+            <li><b>Issue 1661</b> - Fixed an issue that could cause the namespace to be missed for Salesforce CLI
+                connections when one is specified in <code>sfdx-project.json</code>. Note that this is not a 100%
+                perfect fix because the namespace is not included in the response from <code>force:org:list</code> or
+                <code>force:org:display</code> and must be sourced from the project-specific
+                <code>sfdx-project.json</code> file. If the relevant project is not open when the connection details
+                are evaluated, the namespace will not be found. I have filed an enhancement request with Salesforce to
+                include the namespace in one/both of those CLI actions so that the namespace for a CLI-managed org is
+                always known.
             </li>
-            <li>Fixed an issue that could result in incorrect reference addition for a word in a string literal
-                following a colon that matches a resolvable identifier but that is not used as a bind expression in a
-                dynamic query.
+            <li><b>Issue 1662</b> - In the previous release references were only added to query bind expressions in
+                string literals if they were in a string literal or string concatenation that begins with either
+                <code>SELECT</code> or <code>FIND</code>. This missed some other types of multi-statement string
+                concatenations. Now it will also look for string literals/concatenations that begin with other keywords
+                for clauses in which bind expressions can be used, specifically <code>WHERE</code>, <code>AND</code>,
+                <code>OR</code>, <code>LIMIT</code>, <code>OFFSET</code>, and <code>GEOLOCATION</code>. To avoid invalid
+                reference attribution, any string literal/concatenation expression that does not begin with one of these
+                keywords will not be evaluated for references to Apex symbols used in bind expressions.
             </li>
-            <li>Added module validation support to assist with marking the <code>.localdevserver</code> directory as an
-                exclusion when present.
+            <li><b>Issue 1667</b> - Implemented a workaround for a backward-incompatible change to the JSON output
+                format for <code>force:source:deploy</code>'s async status. It should work with both previous and new
+                output formats now.
             </li>
-            <li>Fixed the Quick Definition action when viewing a definition that would normally be handled in a tabbed
-                editor (finally!).
-            </li>
-            <li>Fixed the signature of <code>$Lightning.createComponent()</code> so that it properly includes the
-                <code>domLocator</code> parameter.
-            </li>
-            <li>Added support for the missing <code>flexipage</code> namespace Aura components.</li>
             <li>Other fixes and improvements.</li>
         </ul>
         ]]></change-notes><idea-version min="n/a" max="n/a" since-build="193.3519.25"></idea-version><depends>(optional) JavaScript</depends><depends>(optional) com.intellij.copyright</depends><depends>(optional) com.intellij.css</depends><depends>(optional) com.intellij.modules.coverage</depends><depends>(optional) com.intellij.modules.java</depends><depends>(optional) com.intellij.modules.python</depends><depends>(optional) com.intellij.modules.ruby</depends><depends>(optional) com.intellij.modules.webstorm</depends><depends>(optional) com.jetbrains.php</depends><depends>(optional) org.jetbrains.plugins.textmate</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="62573" size="4959309" date="1586889557000" updatedDate="1586889557000" url=""><name>Elm</name><id>org.elm.klazuka</id><description><![CDATA[
@@ -36277,38 +36343,87 @@ Functions provided:<br>
       
   ]]></description><version>0.1.8</version><vendor email="tsepa.stas@gmail.com" url="">MrTsepa</vendor><rating>3.5</rating><change-notes><![CDATA[* compiler directives support]]></change-notes><idea-version min="n/a" max="n/a" since-build="173.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="1267" size="345541" date="1538702180000" updatedDate="1538702180000" url=""><name>P4 Plugin</name><id>org.p4.p4plugin</id><description><![CDATA[
       Plugin for P4 language
-    ]]></description><version>0.3</version><vendor email="yi@p4tw.org" url="p4tw.org">Yi Tseng</vendor><rating>00</rating><change-notes><![CDATA[Fix syntax check]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="9174" size="5921058" date="1591822558000" updatedDate="1591822558000" url="https://www.edaphic.studio"><name>SystemVerilog</name><id>studio.edaphic.sv</id><description><![CDATA[
+    ]]></description><version>0.3</version><vendor email="yi@p4tw.org" url="p4tw.org">Yi Tseng</vendor><rating>00</rating><change-notes><![CDATA[Fix syntax check]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="9174" size="5988575" date="1594398231000" updatedDate="1594398231000" url="https://www.edaphic.studio"><name>SystemVerilog</name><id>studio.edaphic.sv</id><description><![CDATA[
         Full SystemVerilog (and Verilog) support, including resolving macros and checking underlying code as well as
         parsing of the UVM library.
         Features syntax error detection, code completion, navigation, structure view, inspections, variable rename, parameter hinting and more.
-    ]]></description><version>2020.2.2</version><vendor email="info@edaphic.studio" url="">Edaphic.Studio, LLC</vendor><rating>4.4</rating><change-notes><![CDATA[
-     <h1>2020.2.1 Release Notes</h1>
-     <h2>New Feature: Breadcrumbs</h2>
-     <p>The SystemVerilog plugin now supports breadcrumbs. Breadcrumbs are, by default, shown at the bottom of the editor and highlight the code hierarchy. If you place the caret inside class ExampleClass’ function ExampleFunction then the breadcrumb at the bottom would show <code>ExampleClass &gt; ExampleFunction &gt; ()</code>. These breadcrumbs help give a quick overview of where in the code you are and can be used for quick navigation. Clicking on any part of the breadcrumbs bar will jump you to that piece of code. The breadcrumbs also show conditional statements and many other code features. </p>
+    ]]></description><version>2020.2.3</version><vendor email="info@edaphic.studio" url="">Edaphic.Studio, LLC</vendor><rating>4.4</rating><change-notes><![CDATA[
+        <h1>2020.2.3 Release Notes</h1>
+        <p>This release introduces two new noteworthy features and several improvements. The two new features are:</p>
+        <ul><li>Support for resolving nested functions calls
+        </li><li>Support for resolving parameterized (a.k.a templated) classes (and static functions)
+        </li></ul>
 
-     <h2>New Features: Macro formatting</h2>
-     <p>The first version of macro formatting is here. Previously macro formatting was haphazard. But hitting <code>reformat</code> now will no longer randomly move macro indentations. Please read on for more information on why the calculating indentations of macros were so hard for the plugin.</p>
+        <p>With these two features, the plugin can resolve any reference, so please report cases where resolve doesn’t work. The medium-term goal is to implement an “unknown reference” error check, but this requires the plugin resolve to be rock-solid. There are still areas (looking at you <code>modport</code>) that need more coverage. Any reported issue with example code gets added to the regression suite (currently 2144 tests)</p>
 
-     <h3>Macro formatting details.</h3>
+        <p>Below are more details of the changes.</p>
 
-     <p>Here is an inside view of why macro formatting is hard for the plugin. It falls under the "no good deed goes unpunished" category.  The plugin supports compiler directives, a key feature, but these directives create complexity when implementing code analysis features. </p>
+        <h2>Resolve of nested functions calls</h2>
+        <p>The plugin can now resolve nested function calls like in the following example. In this example, the plugin knows that the <code>.Field</code> marked with <code>//^</code> resolves to the <code>string Field</code> declaration, marked with <code>//X</code>. </p>
+        <pre><code><span>struct</span> <span>{</span>
+            <span>string</span> Field<span>;</span>
+                 <span>//X</span>
+        <span>}</span> Struct<span>;</span>
 
-     <p>The IntelliJ editor represents each physical file as an internal PSI file, which has a tree structure based on the language of the file. The SystemVerilog plugin inserts extra elements into the tree while expanding macros.  Expanding macros is a powerful feature that lets the plugin deeply understand your code. The SystemVerilog plugin is the only plugin, apart from JetBrains' CLion, that supports compiler directives - for <i>any</i> language!</p>
+        <span>class</span> Class<span>;</span>
+            <span>static</span> <span>function</span> Struct <span>ReturnStruct</span><span>();</span> <span>endfunction</span> <span>:</span> Function
+        <span>endclass</span> <span>:</span> Class
 
-     <p><i>Unfortunately,</i> formatting is based on the PSI tree. There is no easy way to filter out the extra PSI elements while still maintaining the overall structure.  This release takes a significant step towards dealing with this complexity. There will likely be corner cases where the formatter will gets confused. Please report them when you see them. The plugin <i>now</i> has the infrastructure to fix it.</p>
+        <span>function</span> Class <span>ReturnClass</span><span>();</span>
+        <span>endfunction</span> <span>:</span> Function
 
-     <h2>Fixed issues</h2>
-     <ul><li>Having multiple projects opened at the same time no-longer clobbers the project caches
-     </li><li>Extra project reparse no longer happens when IDE restarts for second time after plugin update
-     </li><li>Extra semicolons in packages are no longer errors but simply warnings
-     </li><li>Support for port concatenation in non-ansi modules e.g. <code>module complex_ports({c, d}, .e(f));</code>
-     </li><li>Fixed <code>signed</code> parsing error in implicit data types port e.g. <code>module mh15(integer x, signed [5:0] y);</code>
-     </li><li>Fixed  parsing error with <code>wire &lt;data_type&gt;</code> ports e.g. <code>module mh22(input wire integer p_a, .p_b(s_b), p_c)</code>
-     </li><li>Fixed parsing error with empty ports  in ordered port instantiations  e.g.<code>alu alu(alu_out, , ain, bin, opcode);</code>
-     </li><li>Fixed parsing error around multi-dimensional ports e.g.  <code>module parent output o [8][4];</code>
-     </li><li>Fixed parsing error with multi-dimensional instantiations e.g  <code>child c[8] [4](o, i);</code>
-     </li><li>Fixed several errors around  <code>extern module</code>  parsing e.g.  <code>extern module a#(parameter s=8, parameter type TP = logic [7:0])(input [s:0] a, output TP b);</code>
-     </li></ul>
+        <span>begin</span> <span>:</span> Test
+            <span>int</span> first<span>,</span> second<span>;</span>
+            <span>string</span> third<span>;</span>
+            <span>string</span> result <span>=</span> <span>ReturnClass</span><span>().</span><span>ReturnStruct</span><span>().</span>Field<span>;</span>
+                                                       <span>//^</span>
+        <span>end</span> <span>:</span> Test
+        </code></pre>Getting nested function calls to work with the parser required unifying the scoped (i.e. <code>::</code>) , hierarchical (i.e. <code>.</code>) and function rules into a single <i>master</i> rule.
+
+        <h2>Resolve of parameterized classes</h2>
+        The plugin now resolves parameterized classes, which is excellent for navigating UVM code that relies heavily on them.
+        In the following example, the plugin would resolve the <code>.String</code> field marked with <code>//^</code> to the declaration <code>string String</code> marked with <code>//X</code>
+        <pre><code><span>typedef</span> <span>struct</span> <span>{</span>
+            <span>string</span> String<span>;</span>
+                 <span>//X</span>
+        <span>}</span> Struct<span>;</span>
+
+        <span>virtual</span> <span>class</span> ParameterizedClass#<span>(</span><span>type</span> T <span>=</span> <span>bit</span><span>);</span>
+            <span>static</span> <span>function</span> T <span>ReturnParameter</span><span>();</span>
+                <span>return</span> T<span>;</span>
+            <span>endfunction</span> <span>:</span> ReturnParameter
+        <span>endclass</span> <span>:</span> ParameterizedClass
+
+        <span>begin</span> <span>:</span> Test
+            <span>string</span> result <span>=</span> ParameterizedClass#<span>(</span>Struct<span>)::</span><span>ReturnParameter</span><span>().</span>String<span>;</span>
+                                                     <span>//^</span>
+        <span>end</span> <span>:</span> Test</code></pre>
+        <p><br></p>
+        <h2>Miscellaneous Improvements</h2>
+        <h3>Improved parsing of <code>sequence</code> and <code>property</code> statements.</h3>
+        <p>This parser now parses recursive <code>sequence</code> and <code>property</code> statement better. The most noticeable effect is better formatting but also improved error messages.</p>
+
+        <h3>Support for the resolve of “reverse” include file pattern</h3>
+        <p>One limitation of SystemVerilog is that external package items cannot be implemented outside of package scope i.e., trying to implement a class function like this <code>function Package::Class::Function() begin end</code> is illegal.</p>
+        <p>This limitation leads to a pattern that reverses the include file pattern compared with C++. In this pattern, the header file included the implementation file and not the other way around. The plugin now understands how to resolve code like this:</p>
+        <ul><li>File <code>Package.svh</code>:
+        </li></ul>
+        <pre><code><span>package</span> Package<span>;</span>
+        	<span>class</span> Class<span>;</span>
+            	<span>extern</span> <span>task</span> Task<span>;</span>
+        	<span>endclass</span><span>:</span> Class
+        	<span>`include</span> “Class<span>.</span>sv”
+        <span>endpackage</span> <span>:</span> Package
+        </code></pre><ul><li>File <code>Class.svh</code>
+        </li></ul>
+        <pre><code><span>task</span> Class<span>::</span>Task<span>;</span>
+            <span>//...</span>
+        <span>endtask</span> <span>:</span> Task</code></pre>
+        <p><br></p>
+        <h3>Code completion improvements</h3>
+        <ul><li>	Code completion triggers inside sequential code when you insert a new line in the middle of the existing source. Before the parser error of the missing semicolon on the new line would often confuse completion engine
+        </li><li>	Code completion for package import statements now works in all places.</li></ul>
+    
     ]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.6487" until-build="202.*"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags><tags>Paid</tags><productCode>PVLOG</productCode></idea-plugin><idea-plugin downloads="76615" size="230979" date="1525328202000" updatedDate="1525328202000" url=""><name>IntelliBot @SeleniumLibrary Patched</name><id>com.millennialmedia.intellibot@SeleniumLibrary Patched</id><description><![CDATA[IntelliBot, Robot Framework Support 
 <p>The IntelliBot plugin for IntelliJ/Pycharm adds smart editing features to support the <a href="http://robotframework.org/" rel="nofollow">Robot Framework</a>.</p> 
 <p>Make sure to <a href="https://github.com/millennialmedia/intellibot/wiki/Python-Interpreter" rel="nofollow">setup your IDE correctly</a> to gain Python support.</p> 
@@ -36507,7 +36622,7 @@ Your ratings and feedback are very important. The feature will appear the faster
       This is an update to the original Crystal language plugin to support IDEA 2018.2 onwards.
       Released separately since the original plugin got dormant.
     ]]></description><version>1.3.0</version><vendor email="kingsley.hendrickse@gmail.com" url="http://kenro-ji-jin.net/">Kenro Ji Jin</vendor><rating>4.6</rating><change-notes><![CDATA[This is an update to the original Crystal language plugin to support IDEA 2018.2 onwards.
-Released separately since the original plugin got dormant.]]></change-notes><idea-version min="n/a" max="n/a" since-build="182.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="112277" size="461966" date="1593158713000" updatedDate="1593158713000" url=""><name>TypoScript - Enterprise</name><id>de.sgalinski.typoscript.enterprise.plugin.id</id><description><![CDATA[
+Released separately since the original plugin got dormant.]]></change-notes><idea-version min="n/a" max="n/a" since-build="182.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="112277" size="469635" date="1594317622000" updatedDate="1594317622000" url=""><name>TypoScript - Enterprise</name><id>de.sgalinski.typoscript.enterprise.plugin.id</id><description><![CDATA[
         <h1>
             <img alt="Logo - sgalinski Internet Services" src="https://www.sgalinski.de/fileadmin/external/new_phpstorm.png">
         </h1>
@@ -36612,7 +36727,7 @@ Released separately since the original plugin got dormant.]]></change-notes><ide
             Details about the license can be found on the site behind the following link:
             https://www.sgalinski.de/licenses/spl/
 		</p>
-    ]]></description><version>2.2.1</version><vendor email="stefan@sgalinski.de" url="https://www.sgalinski.de">sgalinski Internet Services</vendor><rating>3.3</rating><change-notes><![CDATA[
+    ]]></description><version>2.3.0</version><vendor email="stefan@sgalinski.de" url="https://www.sgalinski.de">sgalinski Internet Services</vendor><rating>3.3</rating><change-notes><![CDATA[
         <strong>2.2.0</strong>
         <ul>
             <li>[FEATURE] Support of the latest IDE versions.</li>
@@ -37992,7 +38107,7 @@ Adds support for working with shell script files
 </ul>
 <p><br>BashSupport Pro uses either the JetBrains Shell plugin or the open-source BashSupport plugin.
 <br>Please refer to <a href="https://www.bashsupport.com/pro/">bashsupport.com</a> for the documentation and an overview of all available features.</p>
-]]></description><version>1.3.19.201</version><vendor email="mail@ja-dev.eu" url="https://www.j-a.dev">joachim_ansorg</vendor><rating>4.7</rating><change-notes><![CDATA[<p><strong>Bugfixes:</strong></p>
+]]></description><version>1.3.19.201</version><vendor email="mail@ja-dev.eu" url="https://www.j-a.dev">joachim_ansorg</vendor><rating>4.8</rating><change-notes><![CDATA[<p><strong>Bugfixes:</strong></p>
 <ul>
 <li>Fix: Detect read-only status for variables declared by <code>typeset -r</code>, <code>declare -r</code>, or <code>local -r</code></li>
 <li>Fix: Exception <code>class com.intellij.sh.psi.impl.ShSimpleCommandElementImpl cannot be cast to class …</code></li>
@@ -41603,7 +41718,7 @@ Official Site:
     <li>Coding assistance for build files</li>
     <li>The ability to maintain Phing build targets and run builds</li>
   </ul>
-  ]]></description><version>201.7846.93</version><vendor email="" url="">JetBrains</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.7846" until-build="201.*"></idea-version><depends>(optional) com.intellij.properties</depends><depends>(optional) com.jetbrains.php</depends><depends>com.intellij.modules.xml</depends><tags>Build</tags><tags>PHP</tags></idea-plugin><idea-plugin downloads="1002018" size="133441" date="1589450071000" updatedDate="1594123351000" url=""><name>File Watchers</name><id>com.intellij.plugins.watcher</id><description><![CDATA[Allows executing tasks triggered by file modifications]]></description><version>201.7846.6</version><vendor email="" url="">JetBrains</vendor><rating>4.0</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.7846" until-build="201.*"></idea-version><depends>(optional) com.jetbrains.plugins.webDeployment</depends><depends>com.intellij.modules.xml</depends><tags>Build</tags></idea-plugin><idea-plugin downloads="30770" size="452688" date="1594063397000" updatedDate="1594230167000" url=""><name>Pants Support</name><id>com.intellij.plugins.pants</id><description><![CDATA[Support for Pants build system]]></description><version>1.15.1</version><vendor email="" url="">Twitter, Inc.</vendor><rating>4.1</rating><change-notes><![CDATA[
+  ]]></description><version>201.7846.93</version><vendor email="" url="">JetBrains</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.7846" until-build="201.*"></idea-version><depends>(optional) com.intellij.properties</depends><depends>(optional) com.jetbrains.php</depends><depends>com.intellij.modules.xml</depends><tags>Build</tags><tags>PHP</tags></idea-plugin><idea-plugin downloads="1002018" size="133441" date="1589450071000" updatedDate="1594123351000" url=""><name>File Watchers</name><id>com.intellij.plugins.watcher</id><description><![CDATA[Allows executing tasks triggered by file modifications]]></description><version>201.7846.6</version><vendor email="" url="">JetBrains</vendor><rating>4.0</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.7846" until-build="201.*"></idea-version><depends>(optional) com.jetbrains.plugins.webDeployment</depends><depends>com.intellij.modules.xml</depends><tags>Build</tags></idea-plugin><idea-plugin downloads="30770" size="452688" date="1594063397000" updatedDate="1594401903000" url=""><name>Pants Support</name><id>com.intellij.plugins.pants</id><description><![CDATA[Support for Pants build system]]></description><version>1.15.1</version><vendor email="" url="">Twitter, Inc.</vendor><rating>4.1</rating><change-notes><![CDATA[
     
       <ul>
         <li><a href="https://github.com/pantsbuild/intellij-pants-plugin/releases">Please see release notes.</a></li>
@@ -42265,7 +42380,7 @@ Official Site:
      <p>A plugin to help you easily edit Swagger and Open API specification files.</p><br>
 
      <p>Like this plugin? <b>Give it a star</b> at <a href="https://github.com/zalando/intellij-swagger">GitHub</a> and spread the word!</p>
-    ]]></description><version>1.0.28</version><vendor email="sebastian.monte@zalando.de" url="https://tech.zalando.com/">Zalando SE</vendor><rating>4.6</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="183.0"></idea-version><depends>com.intellij.modules.lang</depends><depends>org.jetbrains.plugins.yaml</depends><tags>Code editing</tags></idea-plugin><idea-plugin downloads="2362" size="5873" date="1580843344000" updatedDate="1580843344000" url=""><name>Hungry Backspace Reloaded</name><id>com.olegych.hungry.backspace.reloaded</id><description><![CDATA[
+    ]]></description><version>1.0.28</version><vendor email="sebastian.monte@zalando.de" url="https://tech.zalando.com/">Zalando SE</vendor><rating>4.5</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="183.0"></idea-version><depends>com.intellij.modules.lang</depends><depends>org.jetbrains.plugins.yaml</depends><tags>Code editing</tags></idea-plugin><idea-plugin downloads="2362" size="5873" date="1580843344000" updatedDate="1580843344000" url=""><name>Hungry Backspace Reloaded</name><id>com.olegych.hungry.backspace.reloaded</id><description><![CDATA[
       Modifies BackSpace key to hungrily delete whitespace.<br>
       Updated version of https://plugins.jetbrains.com/plugin/162<br>
     ]]></description><version>1.0.2</version><vendor email="" url="https://github.com/OlegYch/hungry-backspace-reloaded">OlegYch</vendor><rating>00</rating><change-notes><![CDATA[
@@ -44949,18 +45064,19 @@ Plugin supports:
     ]]></description><version>1.1</version><vendor email="diego@marcher.com.uy" url="http://www.marcher.com.uy">Nerd's Corner</vendor><rating>00</rating><change-notes><![CDATA[
       Fixed blocked field after editing. Performance improvements.
     
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Administration Tools</tags></idea-plugin><idea-plugin downloads="2382" size="23709" date="1577932899000" updatedDate="1577932899000" url=""><name>Helsing</name><id>com.github.igrmk</id><description><![CDATA[Dark color theme for working under the sunlight]]></description><version>2.6</version><vendor email="igor.mikushkin@gmail.com" url="http://github.com/igrmk">igrmk</vendor><rating>00</rating><change-notes><![CDATA[Color updates, several fixes for Go language]]></change-notes><idea-version min="n/a" max="n/a" since-build="191.0"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Administration Tools</tags><tags>Theme</tags></idea-plugin><idea-plugin downloads="347" size="15015" date="1563164932000" updatedDate="1563164932000" url=""><name>Kill8080</name><id>cn.focus.sohu.kill8080</id><description><![CDATA[
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Administration Tools</tags></idea-plugin><idea-plugin downloads="2382" size="23709" date="1577932899000" updatedDate="1577932899000" url=""><name>Helsing</name><id>com.github.igrmk</id><description><![CDATA[Dark color theme for working under the sunlight]]></description><version>2.6</version><vendor email="igor.mikushkin@gmail.com" url="http://github.com/igrmk">igrmk</vendor><rating>00</rating><change-notes><![CDATA[Color updates, several fixes for Go language]]></change-notes><idea-version min="n/a" max="n/a" since-build="191.0"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Administration Tools</tags><tags>Theme</tags></idea-plugin><idea-plugin downloads="347" size="14135" date="1594380878000" updatedDate="1594380878000" url=""><name>Kill8080</name><id>cn.focus.sohu.kill8080</id><description><![CDATA[
       Kill the process running on 8080 port by one key. <br>
       By default, press `Ctrl+Meta+K` to perform a kill action, press `Ctrl+Shift+Meta+K` to show settings dialog.<br>
       <br>
       Source code is <a href="https://github.com/QiaoJianCheng/Kill8080">here</a>.
       
-    ]]></description><version>1.3</version><vendor email="" url="https://github.com/QiaoJianCheng/Kill8080">Qiao</vendor><rating>00</rating><change-notes><![CDATA[
+    ]]></description><version>1.4</version><vendor email="" url="https://github.com/QiaoJianCheng/Kill8080">Qiao</vendor><rating>00</rating><change-notes><![CDATA[
+      1.4: Show different port on status bar for different project.<br>
       1.3: Remove duplicate ports shown on status bar.<br>
       1.2: Kill all java process(tomcat inclusive) running on 8080 port, in case of wrong killing(eg: WeChat).<br>
       1.0: First version.You can kill the process running on 8080 port by one key. Show running process on status bar, it depends on you.<br>
       
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="172.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>Administration Tools</tags></idea-plugin><idea-plugin downloads="644" size="37033022" date="1565949632000" updatedDate="1565949632000" url=""><name>Zhenai Android Coding Guidelines</name><id>com.zhenai.lib.ZhenaiLintPlugin</id><description><![CDATA[
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="193.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>Administration Tools</tags></idea-plugin><idea-plugin downloads="644" size="37033022" date="1565949632000" updatedDate="1565949632000" url=""><name>Zhenai Android Coding Guidelines</name><id>com.zhenai.lib.ZhenaiLintPlugin</id><description><![CDATA[
       This is a can help developers to quickly find code problem<br>
       <em>What's the problem can be feedback on my email</em>
     ]]></description><version>1.0.9</version><vendor email="scaudengqu@163.com" url="https://github.com/dengqu/ZhenaiLintPlugin.git">zhenai</vendor><rating>00</rating><change-notes><![CDATA[
@@ -45190,13 +45306,14 @@ Sources: <a href="https://github.com/hajdam/guipopup-intellij-plugin">https://gi
 <li>First published alpha version</li>
 </ul>
 
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="173.0"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Administration Tools</tags></idea-plugin><idea-plugin downloads="208" size="3771735" date="1573292825000" updatedDate="1573292825000" url=""><name>Codcut</name><id>com.codcut</id><description><![CDATA[Share pieces of code to Codcut directly from your IDE.]]></description><version>1.0.6</version><vendor email="info@codcut.com" url="https://codcut.com">Codcut</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="173.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Administration Tools</tags></idea-plugin><idea-plugin downloads="327" size="3673416" date="1568746505000" updatedDate="1568746505000" url=""><name>IceTerm</name><id>org.jetbrains.plugins.iceterm</id><description><![CDATA[
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="173.0"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Administration Tools</tags></idea-plugin><idea-plugin downloads="208" size="3771735" date="1573292825000" updatedDate="1573292825000" url=""><name>Codcut</name><id>com.codcut</id><description><![CDATA[Share pieces of code to Codcut directly from your IDE.]]></description><version>1.0.6</version><vendor email="info@codcut.com" url="https://codcut.com">Codcut</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="173.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Administration Tools</tags></idea-plugin><idea-plugin downloads="327" size="3674145" date="1594410625000" updatedDate="1594410625000" url=""><name>IceTerm</name><id>org.jetbrains.plugins.iceterm</id><description><![CDATA[
       IceTerm is a plugin for integrating ConEmu terminal emulator as a tool window inside IntelliJ platform based IDEs.
-    ]]></description><version>0.0.4-beta</version><vendor email="milos@mstevanovic.net" url="http://www.stevium.com">Stevium</vendor><rating>00</rating><change-notes><![CDATA[
-      Initial Implementation
-      <em>Integrated ConEmu within IntelliJ IDEA IDE</em>
+    ]]></description><version>0.0.8</version><vendor email="milos@mstevanovic.net" url="http://www.stevium.com">Stevium</vendor><rating>00</rating><change-notes><![CDATA[
+      <ul>
+          <li>Improved general stability of the plugin and focus issue fixes</li>
+      </ul>
     
-  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="191.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>Administration Tools</tags></idea-plugin><idea-plugin downloads="3481" size="169180" date="1572531206000" updatedDate="1572531206000" url=""><name>Code Notes</name><id>com.jetbrains.plugins.code-notes-plugin</id><description><![CDATA[
+  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.5985"></idea-version><depends>com.intellij.modules.platform</depends><tags>Administration Tools</tags></idea-plugin><idea-plugin downloads="3481" size="169180" date="1572531206000" updatedDate="1572531206000" url=""><name>Code Notes</name><id>com.jetbrains.plugins.code-notes-plugin</id><description><![CDATA[
     Allows to add code notes without altering the code.
     ]]></description><version>1.3</version><vendor email="alexander.bubenchikov@jetbrains.com" url="http://www.jetbrains.com">JetBrains</vendor><rating>3.1</rating><change-notes><![CDATA[
     <p>1.0</p>
@@ -47856,7 +47973,7 @@ everything organized.</p>
 <ul><li><code>pluginUntilBuild</code> set to the correct format: <code>201.*</code></li><li>Bump detekt dependency to <code>1.10.0</code></li></ul>
 
 <h3>Fixed</h3>
-<ul><li>GitHub Actions - Template Cleanup - fixed adding files to git</li><li>Update Template plugin name on cleanup</li><li>Set <code>buildUponDefaultConfig = true</code> in detekt configuration</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="193.0" until-build="201.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="4" size="50208" date="1594048830000" updatedDate="1594048830000" url=""><name>Eye Health</name><id>lekanich.eye-health</id><description><![CDATA[
+<ul><li>GitHub Actions - Template Cleanup - fixed adding files to git</li><li>Update Template plugin name on cleanup</li><li>Set <code>buildUponDefaultConfig = true</code> in detekt configuration</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="193.0" until-build="201.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="4" size="50208" date="1594048830000" updatedDate="1594313021000" url=""><name>Eye Health</name><id>lekanich.eye-health</id><description><![CDATA[
     It's a tool to help to manage your staring time to the display.<br>
     ]]></description><version>0.1.3</version><vendor email="lekan1992@gmail.com" url="https://github.com/Lekanich/Eye-Health">Aleksandr Zhelezniak</vendor><rating>00</rating><change-notes><![CDATA[
       * added idle observer <br>
