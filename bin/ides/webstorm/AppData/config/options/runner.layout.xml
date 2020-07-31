@@ -43,8 +43,8 @@
       </ViewImpl>
       <TabImpl>
         <option name="displayName" value="Debugger" />
-        <option name="leftProportion" value="0.18114603" />
-        <option name="rightProportion" value="0.29759705" />
+        <option name="leftProportion" value="0.095302925" />
+        <option name="rightProportion" value="0.15793057" />
       </TabImpl>
       <General>
         <option name="focusOnCondition">

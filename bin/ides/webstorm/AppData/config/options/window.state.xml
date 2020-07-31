@@ -21,10 +21,10 @@
     <size key="GridCell.Tab.0.center.0.0.1600.900@120dpi" width="1573" height="207" />
     <size key="GridCell.Tab.0.right.0.0.1600.900@120dpi" width="1573" height="207" />
     <size key="GridCell.Tab.0.bottom.0.0.1600.900@120dpi" width="1573" height="207" />
-    <size key="GridCell.Tab.0.left.0.0.1921.1081@110dpi" width="1896" height="271" />
-    <size key="GridCell.Tab.0.center.0.0.1921.1081@110dpi" width="1896" height="271" />
-    <size key="GridCell.Tab.0.right.0.0.1921.1081@110dpi" width="1896" height="271" />
-    <size key="GridCell.Tab.0.bottom.0.0.1921.1081@110dpi" width="1896" height="271" />
+    <size key="GridCell.Tab.0.left.0.0.1921.1081@110dpi" width="1719" height="335" />
+    <size key="GridCell.Tab.0.center.0.0.1921.1081@110dpi" width="1719" height="335" />
+    <size key="GridCell.Tab.0.right.0.0.1921.1081@110dpi" width="1719" height="335" />
+    <size key="GridCell.Tab.0.bottom.0.0.1921.1081@110dpi" width="1719" height="335" />
     <size key="GridCell.Tab.1.left.0.0.1921.1081@110dpi" width="1896" height="335" />
     <size key="GridCell.Tab.1.center.0.0.1921.1081@110dpi" width="1896" height="335" />
     <size key="GridCell.Tab.1.right.0.0.1921.1081@110dpi" width="1896" height="335" />
@@ -68,9 +68,9 @@
       <screen x="0" y="0" width="1676" height="902" />
     </state>
     <state x="349" y="28" key="SettingsEditor/0.0.1676.902" timestamp="1594388986828" />
-    <state x="840" y="383" key="WELCOME_SCREEN" timestamp="1594419919009">
+    <state x="840" y="383" key="WELCOME_SCREEN" timestamp="1594564669359">
       <screen x="0" y="0" width="1676" height="902" />
     </state>
-    <state x="840" y="383" key="WELCOME_SCREEN/0.0.1676.902" timestamp="1594419919009" />
+    <state x="840" y="383" key="WELCOME_SCREEN/0.0.1676.902" timestamp="1594564669359" />
   </component>
 </application>

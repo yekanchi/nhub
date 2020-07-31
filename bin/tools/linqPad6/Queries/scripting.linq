@@ -32,6 +32,7 @@ void Main()
 	// setup references needed
 	var refs = new List<MetadataReference>
 	{
+		MetadataReference.CreateFromFile(typeof(System.Diagnostics.Debug).GetTypeInfo().Assembly.Location),
 		MetadataReference.CreateFromFile(typeof(System.Guid).GetTypeInfo().Assembly.Location),
 		MetadataReference.CreateFromFile(typeof(Microsoft.CSharp.RuntimeBinder.RuntimeBinderException).GetTypeInfo().Assembly.Location),
 		MetadataReference.CreateFromFile(typeof(System.Runtime.CompilerServices.DynamicAttribute).GetTypeInfo().Assembly.Location)
