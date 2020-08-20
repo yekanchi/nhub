@@ -1,0 +1,12 @@
+<div dir="rtl">
+    <h3 style="font-family: 'calibri'; font-weight: 200;">فرآیند های جاری</h3>
+    <p *ngIf="!processInstances">processInstance does'nt exist</p>
+    <ejs-grid [dataSource]='processInstances' width="80%">
+        <e-columns>
+            <e-column field='processInstanceId' headerText='شناسه فرآیند'  textAlign='Right' width=60 ></e-column>
+            <e-column field='name' headerText='نام فرآیند'  textAlign='Right' width=60></e-column>
+            <e-column field='name' headerText='عنوان فرآیند'  textAlign='Right' width=60></e-column>
+            <e-column field='initiatorFullName' headerText='درخواست دهنده'  textAlign='Right' width=60></e-column>
+        </e-columns>
+    </ejs-grid>
+</div>

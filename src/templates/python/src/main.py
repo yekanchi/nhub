@@ -1,3 +1,3 @@
 import vsCodeTests.mainTest as mainTest
 
-mainTest.runMaintest()
+print("hello world")

@@ -53,7 +53,7 @@
                     //      "-File",
                     //      "E:\\NHUB\\consoles\\vsCodeAutomationConsoleInitiation.ps1"]
                 },
-                "cwd": "${workspaceFolder}/angularBase/src"
+                "cwd": "${workspaceFolder}/src"
             },
         },
         {

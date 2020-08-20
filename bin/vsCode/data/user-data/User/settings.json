@@ -37,7 +37,6 @@
     "sync.autoUpload": true,
     "sync.removeExtensions": false,
     "sync.gist": "bc322808d55acdebad87ce3f1bb125c1",
-    //Git-scm=======================================================================================================
     "git.path": "E:\\NHUB\\bin\\gitscm\\bin\\git.exe",
     "git.enableSmartCommit": true,
     //Java==========================================================================================================
@@ -45,7 +44,6 @@
     //Python========================================================================================================
     "python.jediEnabled": true,
     "python.condaPath": "E:\\NHUB\\bin\\frameworks\\anaconda\\Condabin\\conda.bat",
-    "python.pythonPath": "E:\\NHUB\\bin\\frameworks\\anaconda\\python.exe",
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.envFile": "${workspaceFolder}/.env",
     //"python.pythonPath": "${workspaceFolder}\\.\\..\\..\\bin\\frameworks\\anaconda\\python.exe",
@@ -124,5 +122,8 @@
     ],
     "C_Cpp.updateChannel": "Insiders",
     "editor.mouseWheelZoom": true,
-    "kite.showWelcomeNotificationOnStartup": false
+    "kite.showWelcomeNotificationOnStartup": false,
+    "python.defaultInterpreterPath": "E:\\NHUB\\bin\\frameworks\\anaconda\\python.exe",
+    "terminal.integrated.fontFamily": "Cascadia Mono PL",
+    "typescript.updateImportsOnFileMove.enabled": "always"
 }

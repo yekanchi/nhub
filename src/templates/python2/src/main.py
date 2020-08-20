@@ -1,13 +1,11 @@
 print("hello world")
 
+def doJob(jobName):
+    print("job is done for job:" + jobName)
 
 
 
-
-
-
-
-
+doJob("my job")
 
 
 

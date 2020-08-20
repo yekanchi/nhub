@@ -5,37 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "type": "firefox",
             "request": "launch",
-            "name": "Launch Chrome",
-            "url": "file:///E:\\NHUB\\src\\kickStarters\\typeTradeAdvisor\\src\\app.html",
-            "preLaunchTask": "welcomeTask",
-            "webRoot": "${workspaceFolder}"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Node Start",
-            "program": "${workspaceFolder}\\out\\app.js",
-            "runtimeExecutable": "E:\\NHUB\\bin\\compilers\\node\\node.exe",
-            "preLaunchTask": "tsc-build-with-shell",
-            "console": "internalConsole"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Node Start",
-            "program": "${workspaceFolder}\\out\\app.js",
-            "runtimeExecutable": "E:\\NHUB\\bin\\compilers\\node\\node.exe",
-            "preLaunchTask": "tsc-build-with-shell",
-            "console": "internalConsole"
+            "reAttach": true,
+            "name": "Launch localhost",
+            "url": "http://localhost:4200",
+            "webRoot": "${workspaceFolder}",
+            "firefoxExecutable": "E:\\NHUB\\bin\\firefox\\App\\Firefox\\firefox.exe"
         },
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Chrome",
-            "url": "localhost:4200",
-            "preLaunchTask": "ngServe",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:4200",
             "webRoot": "${workspaceFolder}"
         }
     ]
