@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { bpaInstanceService, ProcessInstance } from 'src/app/services/bpaService/bpa-service.service';
 import { ThrowStmt } from '@angular/compiler';
+import { inject } from '@angular/core/testing';
 
 @Component({
   selector: 'app-pi-list',

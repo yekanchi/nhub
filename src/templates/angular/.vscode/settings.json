@@ -1,4 +1,17 @@
 {
     "editor.fontFamily": "Cascadia Code, 'Courier New', monospace",
-    "editor.fontWeight": "400"
+    "editor.fontWeight": "400",
+    "files.exclude": {
+        "node_modules/": true,
+        "e2e/": true,
+        "package-lock.json": true,
+        "karma.conf.js": true,
+        "tsconfig.app.json": true,
+        "tsconfig.spec.json": true,
+        "tslint.json": true,
+        "browserslist": true,
+        ".editorconfig": true,
+        ".gitignore": true,
+        "angular.json": true,
+    }
 }

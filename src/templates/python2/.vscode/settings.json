@@ -1,6 +1,0 @@
-{
-    "python.terminal.activateEnvironment": true,
-    "python.terminal.activateEnvInCurrentTerminal": true,
-    "python.venvPath": "E:\\NHUB\\bin\\frameworks\\anaconda\\envs",
-    "python.terminal.executeInFileDir": true
-}

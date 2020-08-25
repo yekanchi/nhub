@@ -11,7 +11,7 @@
             "program": "${workspaceFolder}/src/main.py",
             "console": "integratedTerminal",
             "pythonPath": "E:\\NHUB\\bin\\frameworks\\anaconda\\python.exe",
-            "preLaunchTask": "conda"
+            "preLaunchTask": "activate"
         }
     ]
 }

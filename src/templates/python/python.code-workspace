@@ -11,12 +11,12 @@
 		// "terminal.integrated.shellArgs.windows": [
 		// 	"/k echo 'CMD Started with Shell Args'",
 		// ],
+		// "terminal.integrated.shell.windows": "E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat",
+		"python.terminal.activateEnvironment": true,
+		"python.terminal.activateEnvInCurrentTerminal": true,
+		"python.venvPath": "E:\\NHUB\\bin\\frameworks\\anaconda\\envs",
+		"python.terminal.executeInFileDir": true,
 		"terminal.integrated.shell.windows": "E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat",
-		"terminal.integrated.automationShell.windows":"E:/NHUB/bin/consoles/pwsh_Integrated_Console_python.bat",
-		//Python, Anaconda
-		// "python.linting.pylintArgs": [
-		// 	"--extension-pkg-whitelist=PyQt5"
-		// ],
-		"python.pythonPath": "E:\\NHUB\\bin\\frameworks\\anaconda\\python.exe"
+		"terminal.integrated.automationShell.windows": "C:\\WINDOWS\\System32\\cmd.exe"
 	}
 }

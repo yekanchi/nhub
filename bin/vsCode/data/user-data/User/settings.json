@@ -125,5 +125,7 @@
     "kite.showWelcomeNotificationOnStartup": false,
     "python.defaultInterpreterPath": "E:\\NHUB\\bin\\frameworks\\anaconda\\python.exe",
     "terminal.integrated.fontFamily": "Cascadia Mono PL",
-    "typescript.updateImportsOnFileMove.enabled": "always"
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+
 }
