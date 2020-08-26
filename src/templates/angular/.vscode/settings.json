@@ -13,5 +13,7 @@
         ".editorconfig": true,
         ".gitignore": true,
         "angular.json": true,
+        "src/polyfills.ts": true,
+        "src/test.ts": true,
     }
 }
