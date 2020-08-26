@@ -1,0 +1,99 @@
+You can help us to translate BitComet into your own language.
+
+1. Please visit http://www.bbcomet.com/projects/bitcomet/ and try to translate on the web.
+
+2. After finish translation, you can download .mo file from the website, and save it to this folder
+   to have a try. BitComet will load it after restart.
+
+3. When the next release of BitComet, we will merge your translation into the install package.
+
+Thank you for your support.
+
+
+
+
+Language list supported by BitComet:
+
+       Language          ->    Language File Name
+==================================================
+Albanian                 ->      bitcomet-sq.mo
+Arabic                   ->      bitcomet-ar.mo
+Armenian                 ->      bitcomet-hy.mo
+Azeri                    ->      bitcomet-az.mo      *** (see note)
+Basque                   ->      bitcomet-eu.mo
+Bengali                  ->      bitcomet-bn.mo      *** (see note)
+Bosnian                  ->      bitcomet-bs.mo
+Bulgarian                ->      bitcomet-bg.mo
+Catalan                  ->      bitcomet-ca.mo
+Chinese (Simplified)     ->      bitcomet-zh_CN.mo
+Chinese (Traditional)    ->      bitcomet-zh_TW.mo
+Chinese (Hong Kong)      ->      bitcomet-zh_HK.mo   *** (see note)
+Croatian                 ->      bitcomet-hr.mo
+Czech                    ->      bitcomet-cs.mo
+Danish                   ->      bitcomet-da.mo
+Dutch                    ->      bitcomet-nl.mo
+English                  ->      bitcomet-en_US.mo
+English (United Kingdom) ->      bitcomet-en_GB.mo   *** (see note)
+English (Canada)         ->      bitcomet-en_CA.mo   *** (see note)
+English (Australia)      ->      bitcomet-en_AU.mo   *** (see note)
+Estonian                 ->      bitcomet-et.mo
+Finnish                  ->      bitcomet-fi.mo
+French                   ->      bitcomet-fr.mo
+Galician                 ->      bitcomet-gl.mo
+Georgian                 ->      bitcomet-ka.mo      *** (see note)
+German                   ->      bitcomet-de.mo
+Greek                    ->      bitcomet-el.mo
+Gujarati                 ->      bitcomet-gu.mo      *** (see note)
+Hebrew                   ->      bitcomet-he.mo
+Hindi                    ->      bitcomet-hi.mo      *** (see note)
+Hungarian                ->      bitcomet-hu.mo
+Icelandic                ->      bitcomet-is.mo      *** (see note)
+Indonesian               ->      bitcomet-id.mo
+Italian                  ->      bitcomet-it.mo
+Japanese                 ->      bitcomet-ja.mo
+Javanese                 ->      bitcomet-jv.mo      *** (see note)
+Kannada                  ->      bitcomet-kn.mo
+Kazakh                   ->      bitcomet-kk.mo
+Khmer/Cambodian          ->      bitcomet-km.mo      *** (see note)
+Korean                   ->      bitcomet-ko.mo
+Kurdish                  ->      bitcomet-ku.mo
+Latvian                  ->      bitcomet-lv.mo
+Lithuanian               ->      bitcomet-lt.mo
+Macedonian               ->      bitcomet-mk.mo
+Malay                    ->      bitcomet-ms.mo
+Mongolian                ->      bitcomet-mn.mo      *** (see note)
+Nepali                   ->      bitcomet-ne.mo
+Norwegian                ->      bitcomet-nb.mo
+Occitan                  ->      bitcomet-oc.mo      *** (see note)
+Persian/Farsi            ->      bitcomet-fa.mo
+Polish                   ->      bitcomet-pl.mo
+Portuguese               ->      bitcomet-pt.mo
+Portuguese (Brazilian)   ->      bitcomet-pt_BR.mo
+Romanian                 ->      bitcomet-ro.mo
+Russian                  ->      bitcomet-ru.mo
+Serbian                  ->      bitcomet-sr.mo
+Sinhalese                ->      bitcomet-si.mo      *** (see note)
+Slovak                   ->      bitcomet-sk.mo
+Slovenian                ->      bitcomet-sl.mo
+Spanish                  ->      bitcomet-es.mo
+Spanish (Argentina)      ->      bitcomet-es_AR.mo   *** (see note)
+Swedish                  ->      bitcomet-sv.mo
+Tamil                    ->      bitcomet-ta.mo
+Telugu                   ->      bitcomet-te.mo      *** (see note)
+Thai                     ->      bitcomet-th.mo
+Turkish                  ->      bitcomet-tr.mo
+Uighur                   ->      bitcomet-ug.mo
+Ukrainian                ->      bitcomet-uk.mo
+Urdu                     ->      bitcomet-ur.mo
+Vietnamese               ->      bitcomet-vi.mo
+
+----------- 70 in total, 53 supplied in install package
+
+*** Note:
+The languages marked with stars are supported by BitComet, but the corresponding .mo files
+are not supplied in install package, as their translations are far from complete, or they
+are some reduplicate with other languages.
+
+If you still want to use one of these non-supplied languages, please download corresponding
+.mo file from above translate website, and save it to this folder. BitComet will load it
+after restart.

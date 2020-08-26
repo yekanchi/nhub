@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BitComet Author="RnySmile" Version="0.1">
+	<Favourite>
+	</Favourite>
+	<SearchToolbar>
+		<s title="软件" link="https://jprj.com/" html="https://jprj.com/search?q=${QUERY}" />
+	</SearchToolbar>
+</BitComet>

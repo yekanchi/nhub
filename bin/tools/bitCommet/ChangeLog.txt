@@ -1,0 +1,2320 @@
+﻿changelog
+=============================
+v1.70    2020.8.9
+    GUI Improve: add option to start seeding after generating torrent file
+    GUI Improve: advanced option system.show_debug_info renamed to system.enable_expert_mode
+    GUI Improve: add DHT network node list to left channel list when expert_mode enabled
+    GUI Improve: add flow graph for download speed, upload speed, DHT transfer
+    GUI Improve: display location code if no location image in peer list
+    GUI Improve: Add HTTP download in batch window support paste HTTP URL list
+    GUI Improve: "Remember my settings" in Auto Shutdown menu changed to "Remember Shutdown Condition"
+    GUI Bugfix: number of Torrent History not refreshed after generating torrent file
+    GUI Bugfix: peer download progress not displayed in peer list
+    GUI Bugfix: IP location icon dispay bug when using 150% DPI
+    GUI Bugfix: download speed display bug in floating window
+    GUI Bugfix: binding IP address in advanced option can not be set to unassigned
+    Core Bugfix: data save failure due to zero-size file in torrent
+    Core Bugfix: program may crash when downloading pieces containing file boundary in v1.69
+    Core Bugfix: initial seeding option can not be saved due to async modifacation operation of BT task properties (v1.68 - 1.69)
+
+v1.69    2020.7.8
+    GUI Improve: display Mobile APP traffic in the info-tips of upload size and upload speed in task summary pane
+    GUI Improve: display detailed failure info of download torrent in BT task log pane
+    GUI Improve: display IP location in peer list of BitTorrent task
+    GUI Bugfix: the main window should not be restored by relaunch program if entered lock mode while the main window minimized
+    GUI Bugfix: can't change the default download directory for a task tag in the Option window
+    GUI Bugfix: handle the situation of LAN IP is the same with WAN IP in Remote Download page of Options window
+    Core Improve: improve error handling after piece hash check failure of BT task
+    Core Improve: part of the file operation is moved to the worker thread to reduce UI freeze
+    Core Improve: improve torrent share data processing and reduce UI freeze
+    Core Improve: supports brotli compress for HTTP Tracker, torrent download and visit RSS feeds
+    Core Improve: apply advanced option http.user_agent to all HTTP connections besides HTTP file download
+    Core Improve: remove HTTP request header: Pragma/Cache-Control: no-cache
+    Core Bugfix: occasionally crash when starting BT task asynchronously
+
+v1.68.1  2020.6.28 (macOS)
+    GUI Bugfix: disk space display error in task properties dialog in Mac edition
+    GUI Bugfix: check box display error in file list of BT tasks in Mac edition
+
+v1.68    2020.6.15
+    GUI Improve: add Bind App button for BitComet Android edition in toolbar and tools menu
+    GUI Improve: add enable BitComet App option in Remote Download page of Options window
+    GUI Improve: add Bind App button in Remote Download page of Options window
+    GUI Improve: add Devices button in Remote Download page of Options window
+    GUI Improve: add force HTTPS option in Remote Download page of Options window
+    GUI Improve: display Remote Download info in Statistics pane
+    GUI Improve: allow piece alignment option when creating private torrent file
+    GUI Improve: new advanced option: system.process_io_priority
+    GUI Improve: display long-term seeds info in Tracker list
+    GUI Improve: add auto refresh option in torrent list toolbar
+    GUI Improve: add refresh button in torrent list toolbar
+    GUI Improve: keep selection state of focused item in torrent list when auto refresh
+    GUI Improve: filter RSS torrent list by RSS feed name
+    GUI Improve: new option in RSS torrent list: auto download meta-data
+    GUI Improve: new option in torrent collect list: auto download meta-data
+    GUI Improve: keep multiple selection in torrent list when auto-refresh disabled
+    GUI Improve: new column in torrent list: has metadata
+    GUI Improve: display Long-Term Seeding info in Summary pane when system.show_debug_info turned on
+    GUI Improve: remember show/hide state of task tags toolbar when program restart
+    GUI Improve: display UDP transfer info in Statistics pane
+    GUI Improve: display DNS failure info of UDP transfer in Statistics pane
+    GUI Bugfix: sort bug for first column of torrent list
+    GUI Bugfix: the downloaded icon in torrent list does not refresh in time
+    GUI Bugfix: Option window may display incorrectly when opened for second time in Mac edition
+    GUI Bugfix: program may crash when drag and drop multiple HTTP links to main windows or floating window
+    Core Improve: selecting files to download for BitTorrent task changes to asynchronous operation, to reduce the UI lag
+    Core Improve: clean up unfinished files for BitTorrent task changes to asynchronous operation, to reduce the UI lag
+    Core Improve: when sharing torrents in Torrent Exchange, give higher priority to the torrents whose content have been downloaded
+    Core Improve: assign padding attribute to padding files according to BEP47 when creating torrent file
+    Core Improve: handling padding file attribute when opening torrent file
+    Core Improve: enhance security for Remote Download
+    Core Improve: supports view task info from BitComet Android edition
+    Core Improve: supports add, start, stop task from BitComet Android edition
+    Core Improve: supports play completed mp4, mkv video files from BitComet Android edition
+    Core Improve: do not retry within 1 minute after DNS failure for UDP transfer
+    Core Bugfix: the piece containing file boundary can not be downloaded in individual cases
+
+v1.67    2020.5.6
+    GUI Improve: new command in context menu of task list: search online for the task name
+    GUI Improve: new global option: save the torrent file to download folder
+    GUI Improve: display the number of DHT torrents with metadata in left channel pane if show torrents with metadata option enabled
+    GUI Improve: reduce UI lag of BitTorrent task properties dialog when use network folder as download folder
+    GUI Improve: new command in context menu of torrent list: search online for the torrent name
+    GUI Improve: new advanced option: system.check_bcagent, disable check OCX control status for browser extensions at startup
+    GUI Improve: new settings in tasks page of option window: start queued task if the download spped of slowest task is lower than
+    GUI Improve: display UPNP port mapping info in global log
+    GUI Bugfix: the upload limit can not be set to 1, 2, 3...9MB/s in Option dialog
+    GUI Bugfix: magnet URI tasks not displayed in Uncompleted task list after program restart
+    Core Improve: the format of data file of torrent history list changed from xml to sqlite, conversation will be performed automatically when program launch
+    Core Improve: improve algorithm of removing items in torrent list, reduce UI lag
+    Core Improve: increase sorting speed for snapshot and post column in torrent list
+    Core Improve: improve algorithm of long-term seeding, reduce UI lag
+    Core Improve: starting BT task changes to asynchronous operation, to reduce the UI lag
+    Core Improve: reduce process time for stopping BT task
+    Core Improve: reduce process time for removing BT tasks without deleting downloaded files
+    Core Improve: reduce UI lag due to long-term seeding
+    Core Bugfix: BT task may stop unexpectedly due to file not found if yellow blocks appear in piece map
+    Core Bugfix: program may crash when sorting torrent list
+    Core Bugfix: disk boost service not utilized when allocate disk space before downloading option disabled
+    Core Bugfix: metadata download task not removed when removing items in torrent list
+
+v1.66    2020.4.13
+    GUI Improve: improve icons in toolbar and download list for HiDPI display
+    GUI Improve: add settings button in toolbar of torrent list
+    GUI Improve: new option for DHT torrents: Only show torrents with metadata
+    GUI Improve: add Feed Name in RSS torrent list
+    GUI Improve: display number of piece in torrent maker dialog
+    GUI Improve: display metadata downloading info in Statistics pane
+    GUI Improve: do not display listen port of peer if unknown for BT peers
+    GUI Improve: "Preview Download Mode" renamed to "Sequential Download Mode" in context menu of BT task
+    GUI Improve: add Compact Database command in settings menu of torrent list
+    GUI Improve: new advanced option: bittorrent.dht_torrent_refresh_interval, 5 sec as default to decrease disk activity time
+    GUI Improve: new advanced option: system.compact_memory_interval
+    GUI Improve: display configuration file folder in Global Log pane
+    GUI Improve: display Long-Term Seeding status in Statistics Pane
+    GUI Improve: add copy command to context menu of settings list in advanced option page
+    GUI Improve: improve HiDPI support for Batch download dialog
+    GUI Improve: new option in Proxy setting page: DNS query using proxy server
+    GUI Improve: add unit choice for Speed limit in Option dialog
+    GUI Improve: support add batch-download by drag and drop multiple URL links to floating window or main window
+    GUI Improve: support add batch-download by clipboard monitor
+    GUI Improve: new advanced option: bittorrent.hash_check_for_ltseed
+    GUI Improve: add memory usage details about process heap size and disk write buffer size
+    GUI Improve: new settings in advanced option page to select IP address to bind to when initiate a connection
+    GUI Improve: show pending DNS number in Statistics pane
+    GUI Bugfix: the number of torrents in the left channel list is not refreshed in time
+    GUI Bugfix: sort bug for first column of Torrent History list
+    GUI Bugfix: task summary panel text alignment
+    GUI Bugfix: level progress display error when progress is 0% in the lower left corner
+    GUI Bugfix: incorrect configuration file folder used in certain case
+    GUI Bugfix: UI lag when select all by Ctrl+A in torrent list
+    Core Improve: DHT Tracker use worker thread to reduce the UI lag
+    Core Improve: support initiate a connection using preferred network adapter if multiple network adapters exist in system
+    Core Improve: support IPv6 connection through SOCKS5 proxy server
+    Core Improve: support UTF8 BOM when improve URL list from text file in Batch download dialog
+    Core Improve: support extract URL links containing Chinese characters from html page segment dropped to BitComet from web page
+    Core Improve: improve memory allocation, decrease memory usage for UDP buffer and log buffer
+    Core Improve: optimize UDP packet sending efficiency，default value of network.max_udp_pkt_per_sec changed to 1000 from 500
+    Core Improve: avoid program crash caused by IE component damage
+    Core Improve: improve Preview download mode for BT task
+    Core Improve: reduce memory usage when downloading metadata for DHT torrent list
+    Core Bugfix: the global option "allocation disk space before download" works even when disabled
+    Core Bugfix: empty files should not be created when performs hash-check
+    Core Bugfix: connection error retry issue when download from long-term seed
+    Core Bugfix: fix speed limit deviation
+    Core Bugfix: "Sequential Download Mode" does not work if "Optimize download strategy for preview" disabled in Option dialog
+    
+v1.65    2020.3.16
+    GUI Improve: Display left time in torrent making dialog
+    GUI Improve: add more items to backup in Import/Export dialog from File menu
+    GUI Improve: display torrent creation time and RSS article publication time in Summary page of torrent list separately
+    GUI Improve: the publish time in torrent list changed from torrent creation time to RSS article publication time
+    GUI Improve: add new commands to context menu of RSS list: Copy title
+    GUI Improve: the publish time in torrent list can be updated by click Reload command in context menu of RSS torrent node in Channel list
+    GUI Improve: improve port mapping error message
+    GUI Improve: the start time of task renamed to added time
+    GUI Improve: LT Seed number in file list of BT task changed to "connected/total"
+    GUI Improve: new advanced option to set HTTP retry max number and interval for downloading torrent in BT task
+    GUI Improve: new advanced option: network.tcp_connection_timeout
+    GUI Improve: new advanced option: bittorrent.max_connections_per_ltseed
+    GUI Improve: default setting of UDP packets sent per second changed from 100 to 500 in advanced option page
+    GUI Improve: display task logs about downloading torrent file from HTTP link for BT task
+    GUI Improve: add memory usage details in Statistics pane
+    GUI Bugfix: task delete button in toolbar should not be grayed out when task is running
+    Core Improve: support import and export Torrent History, Torrent Exchange, RSS Torrents, DHT Torrents via backup file
+    Core Improve: improve DNS resolution for UDP packet to prevent sending congestion
+    Core Improve: add error retry for BT task when downloading torrent file from HTTP link
+    Core Improve: add TCP connecting timeout for automatic disconnection
+    Core Bugfix: after one file downloaded from a LT Seed, no requests for downloading other file are sent
+    Core Bugfix: out of memory due to huge number of peer requests to running BT task
+    Core Bugfix: while proxy server enabled, the program may crash when exiting
+    Core Bugfix: the max TCP connection setting should be cons considered when initiating a long-term download connection
+    Core Bugfix: fix improper operation in executable file name safety checking
+
+v1.64    2020.1.13
+    GUI Improve: add new advanced option: Use toast notifications in action center under Windows 10 (Need to create shortcut in start menu)
+    GUI Improve: the max connection number for HTTP download task changed from 20 to 200 in HTTP task properties window
+    GUI Improve: the max default connection number for HTTP download task changed from 20 to 200 in option window
+    GUI Improve: show notification when the paging file is too small for memory allocation
+    GUI Improve: add info-tip for peer count, health and share ratio column in task download list
+    GUI Improve: improve display for HiDPI
+    GUI Bugfix: the display name parameter in the magnetic link caused the default save name of the downloaded file to be incorrect
+    GUI Bugfix: issues on sorting torrent list by snapshot or comments
+    GUI Bugfix: the speed graph not cleared after perform disk cleanup for HTTP task
+    GUI Bugfix: the queuing state icon not displayed if the task is in error state
+    GUI Bugfix: the function of sorting by task state not working for queuing tasks
+    Core Improve: enhanced the ability of HTTP download tasks to detect server support for download resume
+    Core Improve: reduce memory usage for torrent metadata download
+    Core Improve: improve video file snapshot, support thumbnail, decrease loading time
+    Core Improve: disable extra disk writing verify to decrease disk usage
+    Core Bugfix: if auto file moving launched after hash check when BitTorrent download finished, the files been moved will bot be removed
+    Core Bugfix: HTTP download should stop immediately after failure of creating file
+    Core Bugfix: program may crash at exit
+
+v1.63    2019.12.20
+    GUI Improve: new RSS Torrents list in Torrent Exchange, to collect torrent info from RSS feeds
+    GUI Improve: new DHT Torrents list in Torrent Exchange, to collect torrent info in peer request from DHT network
+    GUI Improve: add Download Metadata command to context menu of torrent list, to obtain torrent meta-data without creating download task
+    GUI Improve: add Logs pane to torrent list, to display logs when obtaining torrent meta-data
+    GUI Improve: decrease displaying time of waiting state when loading web page of task comments and snapshots
+    GUI Improve: new settings in Proxy option page: do not use proxy for long-term seeding and port forward detection
+    GUI Improve: display RSS update logs when advanced option system.show_debug_info enabled
+    GUI Improve: new option in context menu of DHT torrents in left channel pane: auto download meta-data
+    GUI Improve: new advanced options: Max number of concurrent downloading meta-data, Timeout seconds of downloading meta-data
+    GUI Bugfix: the default connection number in HTTP batch download window changed from 1 to the setting value in Option window
+    GUI Bugfix: the speed graph not cleared after perform disk cleanup for BitTorrent task
+    GUI Bugfix: when click the blank area in piece map scroll bar out of the thumb, page up or page down not triggered.
+    GUI Bugfix: the status bar of main window flickers when refresh
+    Core Improve: improve identification code of BitTorrent client name and version
+    Core Improve: do not detect IPv6 port forward status if global IPv6 address not found in system
+    Core Bugfix: fix moving operations of configuration files when switch use_app_data advanced option
+    Core Bugfix: program may crash when force stop tasks in stopping state
+    Core Bugfix: the option of clear Torrent Collection list at program exit does not work
+    Core Bugfix: the passkey parameter in tracker URL for private torrent should not be removed for non-MagnetURI torrents received from RSS feed
+    Core Bugfix: if no data received from RSS feed, the reconnection will not be preformed in certain case
+    Core Bugfix: if the torrent turned out private after meta-data received, no trackers should be added automatically from trackers-list
+
+v1.62    2019.11.26
+    GUI Improve: a new option to seed using existing files when create task by torrent file, check piece hash until uploading the piece
+    GUI Improve: improve refresh algorithm of piece map to decrease CPU usage
+    GUI Improve: display a piece in yellow if the piece is unchecked in the piece map pane of BitTorrent task
+    GUI Improve: improve display refreshing code of torrent share list, reduce the UI lag when display large amounts of torrents
+    GUI Improve: a new prompt to choose download one by one or in batches when select multiple magnet links in torrent share list
+    GUI Improve: add tooltip to display peer_id when mouse hover on client name of peer list
+    GUI Improve: the default allowed max size of torrent file changed from 10MB to 20MB, and a new advanced option added: bittorrent.max_torrent_size_mb
+    GUI Improve: boss key renamed to lock / unlock main window hot-key. password will be needed when unlock if startup password is set.
+    GUI Improve: new advanced option: bittorrent.anti_leech_banned_peer_ids
+    GUI Improve: new advanced option: bittorrent.anti_leech_private_torrent, disabled by default 
+    GUI Improve: show notification when out of memory
+    GUI Improve: Task disk space cleanup can only be invoked when task stopped
+    Core Improve: BT stop changes to asynchronous operation with new task Stopping state, to reduce the UI lag when stopping tasks
+    Core Improve: improve processing flow to reduce the UI lag when task finishes downloading
+    Core Improve: improve processing flow to reduce the UI lag when deleting running tasks
+    Core Improve: discard cache data in running BitTorrent tasks when quit BitComet to reduce the UI lag
+    Core Improve: improve processing flow of task start to reduce the UI lag
+    Core Improve: improve processing flow of task progress auto save to reduce the UI lag 
+    Core Improve: the format of data file of torrent share list changed from xml to sqlite, conversation will be performed automatically when program launch
+    Core Improve: reduce the memory consume for loading torrent share list, to avoid program crash due to large amounts of torrents
+    Core Improve: use worker thread to save data file of torrent share list incrementally, to avoid UI lag caused by saving data file at program exit
+    Core Improve: decrease CPU usage when uploading in high speed
+    Core Improve: increase the max allowed length of request queue for BitTorrent task
+    Core Improve: update BitTorrent client identification code for Tixati
+    Core Improve: support retrieve peer client name and version from extension protocol, on the basis of the identification from peer_id
+    Core Improve: auto fix mistaken creation date format in torrent file
+    Core Bugfix: when completed task list selected in left pane, Magnet tasks downloading meta data should not be displayed
+    Core Bugfix: fix data error from uploading disk cache in rare cases
+
+v1.61    2019.11.14
+    GUI Improve: improve filter for auto torrent download from RSS feed
+    GUI Improve: do not display unknown as name for tasks created from HTTP URL of torrent file 
+    GUI Improve: new command in context menu of RSS article list: copy torrent link
+    GUI Improve: show tooltip when mouse hover on status column of peer list
+    GUI Improve: check disk boost service when program starts, display fix notification if not installed
+    GUI Improve: task finish popup changed to toast notification of Action Center in Windows 10
+    GUI Improve: auto update interval of RSS feed changed to the shorter one of user setting and feed setting
+    GUI Improve: add new setting bittorrent.anti_leech_banned_ports in Advanced page of Options window
+    GUI Improve: The option window automatically adjusts the window size according to the minimum size of the page when switching pages
+    GUI Improve: add search options box in Advanced page of Options window
+    GUI Bugfix: the setting of max number of RSS article works incorrectly
+    GUI Bugfix: refresh task properties dialog after meta-data downloaded right away
+    GUI Bugfix: fix display problem of floating window with HiDPI scale
+    GUI Bugfix: remove obsoleted option: display task properties dialog after meta-data downloaded for Magnet link
+    GUI Bugfix: publisher info not displayed in BitTorrent task properties dialog
+    GUI Bugfix: copy RSS feed URL will get RSS feed web-page URL
+    Core Improve: Improve compatibility with XML file formats returned by RSS feeds
+    Core Improve: for the option that start a new task from waiting queue when total download speed lower than setting value, also stop a slowest task at the same time
+    Core Improve: switch to IE11 render mode for RSS web-page in Window 10
+    Core Bugfix: The Magnet link task addition time is changed from the time of torrent file downloaded to the time of task created.
+    Core Bugfix: problem about the auto refresh interval for RSS feeds
+
+v1.60    2019.10.17
+    GUI Improve: add new command to File menu: add torrents from RSS feed
+    GUI Improve: add RSS page in Option window, to configure RSS feed auto refresh and RSS torrent auto download
+    GUI Improve: new setting in RSS page of Option window: add tag to task using feed title when auto download torrent from RSS feed
+    GUI Improve: new setting in RSS page of Option window: pause download when auto download torrent from RSS feed
+    GUI Improve: new setting in RSS page of Option window: filters for RSS torrent auto download
+    GUI Improve: add new commands to context menu of RSS list: Copy RSS feed URL, Open page in Browser
+    GUI Improve: able to download torrents using multiple-selection in RSS article list
+    GUI Improve: add toolbar to web page pane of RSS article
+    GUI Improve: new column in task list: number of task files
+    GUI Improve: improve display speed of opening Option windows
+    GUI Improve: support copy text in multiple lines of Statistics pane
+    Core Improve: add RSS feed auto refresh and RSS torrent auto download function
+    Core Improve: display corresponding RSS article title in task log when add torrent from RSS feed
+    Core Improve: improve disk reading cache for BitTorrent uploading, decrease UI lag
+    Core Bugfix: fix memory leakage when connecting to trackers using HTTPS protocol
+    Core Bugfix: fix bug in task merging when one task downloaded a torrent from HTTP having the same infohash as another task
+
+v1.59    2019.9.17
+    GUI Improved: revert task remove window, add Cleanup command to task context menu
+    GUI Improved: improve Torrent Share list refresh
+    GUI Improved: the max value of advanced setting network.max_connecting_connections changed from 1000 to 10000
+    GUI Improved: add advanced option log.tracker_limit to set the max number of logs for tracker
+    GUI Improved: add advanced option log.task_limit to set the max number of logs for task
+    GUI Improved: add Clear Log command to context menu of Tracker list, available when system.show_debug_info enabled
+    GUI Improved: add Clear Log command to context menu of task log list, available when system.show_debug_info enabled
+    GUI Improved: display number of pending TCP connections in Statistics pane
+    GUI Improved: add indicator for private torrent in summary pane of BitTorrent task
+    Core Improve: improve memory allocation strategy, decrease memory fragment 
+    Core Improve: decrease interval of creating new TCP connections, and increase network throughput
+    Core Improve: remove passkey parameter from tracker URL for private torrent received from Magnet Link
+    Core Improve: active Long-Term seeding after task downloading finished immediately
+    Core Improve: do not retry when failed to send STOP action to tracker
+    Core Bugfix: improve peer connection request algorithm, avoid new added peers not been connected for a long time
+
+v1.58    2019.7.6
+    GUI Improved: support 32MB piece size when creating torrent file, and show estimated size of torrent
+    GUI Improved: add fit column size command in context menu of list view header
+    GUI Improved: add 2 new options in task remove window: delete unfinished download files only, delete all downloaded files
+    GUI Improved: display torrent creator info in task summary page
+    GUI Improved: improve floating window display for HiDPI
+    GUI Improved: allow up to 10 new task windows to be displayed simultaneously
+    GUI Improved: display flag for registered BitComet users of IPv6 in peers list of BitTorrent task
+    GUI Improved: display tracker returned leechers amount in tracker list of BitTorrent task
+    GUI Bugfix: display issue of item group fold/unfold in Statistics pane
+    GUI Bugfix: max upload rate per BitTorrent task in Option window does not take effect immediately when changed
+    GUI Bugfix: Long-Term seeding upload speed not displayed in tooltip of BitTorrent task summary pane when task stopped
+    Core Improve: improve peer connection request algorithm: assign high priority for new added peers, and cleanup dead peers with failures
+    Core Improve: enable Long-Term seeding immediately after new torrent created
+    Core Improve: max allowed connection interval of tracker changed to 120 minutes
+    Core Improve: add advanced option: bittorrent.save_connected_peers_only
+    Core Bugfix: when select part of files in torrent to download, the left size sent to tracker should include all uncompleted files
+    Core Bugfix: the upload, download size in first announce to tracker is incorrect when task restart after stop
+    Core Bugfix: announcement not sent to tracker when task restart immediately after stop
+    Core Bugfix: no DHT nodes should be written into torrent when DHT Network option unselected in torrent maker window
+    Core Bugfix: connection error after first announce to HTTPS tracker
+    Core Bugfix: HTTP download fails when URL contains IPv6 address host
+    Core Bugfix: improve stability of Long-Term Seeding disk cache
+
+v1.57    2019.5.8
+    GUI Improved: choose only KB/s or MB/s as speed unit automatically, excluding B/s
+    GUI Improved: do not allow reentrancy of new task creating window to avoid stack overflow
+    GUI Bugfix: program may crash at exit triggered by Windows shutdown/restart/logoff
+    Core Improve: support TLS v1.3 for HTTPS
+    Core Improve: support Server Name Indication for multiple domains hosted HTTPS sever
+    Core Bugfix: Long-Term Seeding does not work for certain torrents
+
+v1.56    2019.3.13
+    GUI Bugfix: mistake in UI translations
+    Core Bugfix: disk cache setting for Long-Term Seeding does not take effect
+    Core Bugfix: improve stability of Long-Term Seeding
+    Core Bugfix: Long-Term Seeding does not work in pure IPv6 network
+    Core Bugfix: after all trackers in private torrent been replaced, no tracker will be connected when task downloading
+
+v1.55    2019.1.14
+    GUI Improved: add new task categories "Uncompleted" and more in left Channel pane, which can be switch by context menu
+    GUI Improved: add RSS feeds in left Channel pane
+    GUI Improved: Statistics pane displays listening port status of IPv4, IPv6, TCP, UDP separately
+    GUI Improved: Trackers pane displays peer number from PEX
+    GUI Improved: Peers pane displays downloaded and uploaded size of disconnected peers
+    GUI Improved: new Long-Term Seeding disk cache setting in Option window
+    GUI Improved: Statistics pane displays disk cache info of BitTorrent transfer, HTTP download and Long-Term Seeding separately
+    GUI Improved: choose KB/s or MB/s as speed unit automatically
+    GUI Improved: when sort task by time, display tasks of unknown time as earliest
+    GUI Improved: identify video file type of .webm and .ogv
+    GUI Bugfix: toolbar display incorrectly after change Windows UI theme
+    GUI Bugfix: tooltip of task summary will show up even when window not in foreground
+    GUI Bugfix: occasionally crash when display popup window of task download progress
+    Core Improve: support Long-Term Seeding in IPv6 network
+    Core Improve: optimize the disk cache for Long-Term Seeding 
+    Core Improve: add UDP incoming status detect for listening port
+    Core Improve: report IPv4, IPv6 address to other peer in dual-stack network, to establish double way connections
+    Core Bugfix:  decrease UI lag when executable file download finished
+    Core Bugfix:  too many tracker connections when multiple BitTorrent tasks download at the same time
+    Core Bugfix:  improve stability of Long-Term Seeding
+
+v1.54    2018.12.6
+    GUI Improved: add log out action when all task finished
+    GUI Improved: increase disk cache max limit for 64 bits system
+    GUI Improved: add option to disable peer exchange globally in advanced page of Option window
+    GUI Improved: update translations
+    GUI Bugfix: crash when remove task if file list pane tab reordered
+    GUI Bugfix: should not use index.html as default file name if no name found in Magnet URI dragged from web page
+    Core Improve: decrease disk cache size when page file insufficient
+    Core Bugfix:  incoming connection should be disconnected immediately when invalid encryption BitTorrent protocol detected
+
+v1.53    2018.10.26
+    GUI Improved: support add BitTorrent task using 32-byte Base32 encoded infohash of magnet link directly in "Open torrent from URL" dialaog
+    GUI Improved: increase maximum text length of input box in "Open torrent from URL" dialaog
+    GUI Improved: add resize ability to "Open torrent from URL" dialaog
+    GUI Improved: improve support for high-DPI monitor of statistic information dialog of multiple tasks
+    GUI Changed: remove VIP Acceleration page from Channels in left pane
+    GUI Changed: remove VIP Acceleration tab from BitTorrent task properties dialog
+    GUI Bugfix: dialog display will be deferred while high-speed downloading
+    Core Improve: the max value of network.max_connecting_connections in advanced options changed from 200 to 1000
+    Core Bugfix:  the default value of network.start_connect_interval_ms in advanced options changed from 200 to 100
+    Core Improve: support IPv6 address when detecting listening port status
+    Core Changed: remove VIP Acceleration and Anonymous Download for BitTorrent task
+
+v1.52    2018.7.18
+    GUI Improved: HTTP(S)/FTP download support IPv6 URL link
+    GUI Improved: Peer list and Tracker list support display IPv6 address
+    GUI Improved: IPv6 address of LAN/WAN displayed in Statistics pane
+    GUI Improved: DHT network node info of IPv4 and IPv6 displayed in Statistics pane
+    GUI Improved: add SHA256 checksum verification to HTTP task properties dialog
+    GUI Improved: add DNS resolve error info for UDP Tracker
+    GUI Improved: upgrade UI text translation website https://bbcomet.com/projects/bitcomet/
+    GUI Bugfix: unable to add HTTPS URL as Web Seed in torrent file maker window
+    GUI Bugfix: errors when displaying new version upgrade window
+    Core Improve: support IPv6 network (Windows XP SP1 or later required)
+    Core Improve: support IPv6 HTTP Tracker
+    Core Improve: support IPv6 UDP Tracker
+    Core Improve: support IPv6 DHT Tracker
+    Core Improve: allow upload pieces containing file boundary when part of files in torrent selected for download
+    Core Bugfix:  data not saved into piece_part file correctly in a few particular situations when part of files in torrent selected for download
+
+v1.51    2018.6.12
+    GUI Improved: new settings in Tracker page of option window, automatically add trackers when start BitTorrent download
+    GUI Improved: new settings in Tracker page of option window, automatically update trackers list every day
+    GUI Improved: increase max value for global rate limit, task rate limit and scheduler rate limit from 9999kB/s to 100MB/s
+    GUI Improved: improve support for high-DPI monitor
+    GUI Bugfix: unsupport download torrent file from HTTPS link
+    GUI Bugfix: remove P2PCache function from Advanced page of Option window, which was out-of-service for a long time
+    Core Improve: improve download speed stability of BitTorrent downloading
+    Core Improve: increase max download speed of single connection of BitTorrent downloading
+    Core Improve: refine Crash Report program
+    Core Bugfix:  fix problems when exit program while high-speed downloading
+
+v1.50    2018.5.3
+    GUI Improved: the file list in BitTorrent task properties dialog can switch between simple list and tree list 
+    GUI Bugfix: background color of URL input box displayed incorrectly when create new HTTP task
+    GUI Bugfix: speed graph displayed incorrectly when high speed downloading
+    Core Improve: refine Crash Report program
+    Core Improve: update BitTorrent client identification code
+    Core Bugfix:  certain file name displayed incorrectly in BitTorrent task
+
+v1.49    2018.2.6
+    GUI Improved: improve context menu of Torrent History list, Torrent Share list and Torrent Collection list
+    GUI Improved: add Transmission to allowed client list in Option window
+    GUI Improved: improve support for high-DPI monitor
+    GUI Bugfix: order disordered when collapse or expand sorted file list of BitTorrent task
+    GUI Bugfix: when open directory of a file in sub-directory from the file list of BitTorrent task, incorrect directory opened
+    Core Improve: update BitTorrent client identification code
+    Core Improve: decrease piece_part file size for BitTorrent task with only part files selected to download
+
+v1.48    2017.12.28
+    GUI Improved: enhance webpage security
+    GUI Improved: minor UI improvement
+
+v1.47    2017.8.28
+    GUI Improved: minor UI improvement
+
+v1.46    2017.7.6
+    GUI Improved: enhance webpage security
+    Core Improve: improve HTTPS download ability
+
+v1.45    2017.1.17
+    GUI Improved: support login account using email
+    GUI Improved: client IP address moved from status bar to context menu
+    GUI Bugfix: task size not displayed when opening torrent
+
+v1.44    2016.11.11
+    GUI Bugfix: dialog layout mistake in high-DPI monitor
+    GUI Bugfix: the column width of some list not saved properly
+
+v1.43    2016.10.19
+    GUI Bugfix: the setting of download part of files in torrent may lost after BitComet restart
+    GUI Bugfix: fix icon display in high-DPI monitor
+
+v1.42    2016.07.04
+    GUI Improved: improve support for high-DPI monitor
+
+v1.41    2016.05.24
+    GUI Improved: display Batch Download window when open multiple torrent files in File Explorer
+    GUI Improved: merge 32bit/64bit editions into one install package
+    Core Improve: increase default disk cache limit from 50 MB to half of total memory, up to 1GB 
+    Core Improve: add peer software version recognition
+
+v1.40    2015.09.06
+    GUI Improved: support Windows 10
+    GUI Bugfix:   Torrent make dialog not displayed when drag-n-drop files to the web-view pane in main window
+    Core Bugfix:  when delete download task and its files together, sometimes certain sub-directories are not removed
+
+v1.39    2015.06.29
+    GUI Bugfix:   fix the expired code signing certificate
+
+v1.38    2015.03.30
+    GUI Improved: add open-folder button in download finish pop-up window
+    GUI Improved: display download speed and progress together when floating window re-sized large enough
+    GUI Improved: change the option of auto-stop seeding time from minutes to day-hour-minute
+    GUI Bugfix:   fix the floating window display problem when using multiple monitors
+    Core Improve: improve file read/write performance, reduce UI stuck
+    Core Improve: support ReFS disk volume
+    Core Improve: support Chrome browser extension
+    Core Bugfix:  the minimize value of network.max_connecting_connections in advanced options changed to 8
+    Core Bugfix:  fix bugs in IE extension
+
+v1.37    2013.12.31
+    GUI Improved: add download speed/progress graph in task summary pane
+    GUI Improved: add download size in total, upload size in total, torrent create time in task list, hidden by default
+    GUI Improved: display new finished tasks in bold
+    GUI Improved: display proxy server connection errors in task log
+    GUI Improved: after hash checking, mark the banned and removed files in piece map as empty
+    GUI Improved: improve the operation of open file, open folder and invoke anti-virus software, avoid UI not response
+    GUI Improved: add new language: Kurdish
+    GUI Bugfix:   fix the bug of missing file extension name when start download by Magnet URI
+    GUI Bugfix:   fix the bug of not keeping selection state when switch between task list and torrent exchange list 
+    GUI Bugfix:   install package supports Windows 8.1
+    Core Improve: improve Firefox extension to support multiple Firefox versions
+    Core Bugfix:  fix the bug in Firefox extension that unable to start BitComet from Save As dialog
+    Core Bugfix:  fix the bug of the save folder of HTTP/FTP file is not set to the desired one from remote download webpage
+
+v1.36    2013.05.02
+    GUI Bugfix:   program crash occasionally when delete task
+    Core Improve: support Firefox 20
+
+v1.35    2013.02.19
+    GUI Improved: show the "Saving data" tip when shut down computer while BitComet running (Vista or later)
+    GUI Improved: max seeding time changes from 1000min to 99999min. max share ratio changes from 2000% to 9999%
+    GUI Improved: do not show right-bottom corner popup tips by default
+    GUI Improved: changes some text in UI
+    Core Improve: support Firefox 18
+    Other Change: switch to new translation site: www.bbcomet.com
+
+v1.33    2012.09.18
+    GUI Improved: improve Remote Download web page
+    GUI Bugfix:   the torrent file creation time in UTC is not displayed correctly
+    GUI Bugfix:   support jump list of taskbar in Windows 8
+    Core Improve: support Firefox 15
+    Core Improve: add queuing state to VIP Acceleration, which can be canceled anytime while queuing or preparing.
+    Core Bugfix:  cannot finish hash check for torrents with 16MB piece size
+    Core Bugfix:  the proxy settings cannot be saved when the IE proxy setting is empty
+
+v1.33    2012.07.31
+    GUI Improved: update comment info in torrent list when torrent comment page loaded
+    GUI Improved: remember export folder when selecting multiple tasks to save torrent files
+    GUI Improved: store the settings of Socks and HTTP proxy server separately
+    GUI Bugfix:   after clear all in Torrent Collection list, the corresponding number in left Fav bar not cleared
+    GUI Bugfix:   remove the space at the beginning of the first column in each line of Tracker list
+    GUI Bugfix:   in BitTorrent task properties dialog, the selection size is always 0 when the folder collapsed
+    GUI Bugfix:   certain language names displayed in Tools menu incorrectly
+    GUI Bugfix:   using Tab key to navigate among panels of main window
+    Core Improve: support Firefox 14
+    Core Bugfix:  program crashes when connect to proxy server with authentication info
+
+v1.32    2012.03.13
+    GUI Improved: improve the snapshot icon display in task list
+    GUI Improved: when resize the main window, keep the width of left fav bar unchanged
+    GUI Improved: when load a URL list file to do a batch download, show a message if duplicated URLs detected
+    GUI Bugfix:   after sort task list, the sort state will not be restored when program restart
+    GUI Bugfix:   when download a Magnet URI, the default save folder is not filled in the new task dialog
+    GUI Bugfix:   when multiple URL links are selected in IE9 web page, they cannot be drag&drop to the floating window
+    GUI Bugfix:   the sort state of task list will be broken when modify the task filter
+    GUI Bugfix:   if the multiple-monitor configuration of Windows changed during program running, some dialog will be displayed in invalid position
+    GUI Bugfix:   when multiple tasks are selected, the refresh of task number in status bar will flicker
+    GUI Bugfix:   fix the program icon of 256x256
+    Core Improve: support Firefox 10
+    Core Bugfix:  program may crash if failed to load detail file of any task
+    
+v1.31    2011.12.12
+    GUI Improved: save the heights of task list pane and Torrent History pane separately
+    GUI Improved: keep the tasks which occur downloading error together when sort task list by state
+    GUI Improved: add confirm dialog when restore the display of hidden torrents in Peer Share list
+    GUI Bugfix:   Auto-Shutdown at specified time does not work
+    GUI Bugfix:   open URL using system default browser instead of IE
+    GUI Bugfix:   torrent file icon should not use the program icon
+    GUI Bugfix:   when adding new Torrent, all files will be downloaded instead of only selected
+    GUI Bugfix:   task position in the task list should not be changed when press Home/End
+    GUI Bugfix:   the setting of View - Task list - Show filter does not work when program starts
+    Core Bugfix:  handle torrent file not using UTF-8 encoding
+
+v1.30    2011.11.11
+    GUI Improved: cleaned up and improved a lot of code, reduce program size
+    GUI Improved: add VIP download list button in task list toolbar
+    GUI Improved: do not allow hide the title column of task list
+    GUI Improved: new command in View menu: Find Task (Ctrl+F)
+    GUI Improved: switch file list to Simple List or Tree List, from context menu
+    GUI Improved: display the tree list of files correctly when the files in Torrent are not sorted by directories
+    Core Improve: support Firefox 7
+    Core Improve: the file size limit of Torrent changed to 10MB
+    Core Improve: support torrents whose piece size is not the integral multiple of 16 KB
+
+v1.29    2011.09.23
+    GUI Improved: display prompt message when UI no response while writing piece_part file
+    GUI Improved: new option in advance page of BitTorrent task properties dialog: Bypass task seeding rules, keeps active
+    GUI Improved: change the health value of task displayed on the right of availability graph in task summary to the availability value
+    GUI Improved: display the download size/rate from VIP Acceleration in the tooltip of task summary 
+    GUI Improved: after click the prompt balloon of task finish, the corresponding task will be highlighted in the list
+    GUI Bugfix:   task list failed to sort by download/upload size
+    GUI Bugfix:   tracker setting not saved after remove a tracker from the context menu of tracker list
+    Core Improve: Web seeding supports HTTP servers which do not accept range request
+    Core Improve: improve connection request algorithm, decrease unnecessary connection number
+    Core Improve: disable eMule plugin for Anonymous Download
+    Core Improve: support Firefox 6
+    Core Bugfix:  BitTorrent download containing too many files can not launch VIP Acceleration
+    Core Bugfix:  failed to auto-shutdown after all download finished if any queued seeding task exists
+
+v1.28    2011.06.28
+    GUI Improved: move VIP Acceleration window into BitTorrent task properties dialog
+    GUI Improved: new option in VIP Acceleration tab of BitTorrent task properties dialog: Anonymous Download
+    GUI Improved: add Anonymous Download state to VIP icon in task list
+    GUI Improved: bookmark list in left favorites bar recovered
+    GUI Improved: remember the position and size of task properties dialog
+    GUI Improved: add Folder and Private columns in task list, hidden by default
+    GUI Improved: display a balloon tip when accessing network share folder leads to UI no response
+    GUI Improved: 32/64 bit editions use separate install packages
+    GUI Improved: auto update identify 32/64 bit editions correctly
+    GUI Improved: the language list uses the language names provided by Windows
+    GUI Improved: add icons to the main menu and context menu of floating window
+    GUI Improved: display a balloon tip when launch a new instance of BitComet while another is exiting
+    GUI Improved: the default action of minimize button of main window changed to minimize to task bar under Win 7
+    GUI Improved: remove the AutoRefresh option in Torrent Collection toolbar. new torrents are appended to the bottom directly
+    GUI Improved: when the display number of Torrent Collection list reaches max value, a info bar will be displayed
+    GUI Improved: add Remove command to Torrent Collection list
+    GUI Improved: decrease start-up delay of Torrent Collection by loading torrents information asynchronously
+    GUI Improved: display a balloon tip when sorting the list of Torrent Collection leads to UI no response
+    GUI Improved: add a icon for "Properties" in the context menu of task list
+    GUI Improved: improve the thumbnail task list for system tray icon and floating window when mouse hovering
+    GUI Improved: add "reset to default layout" the context menu of detailed tabs of Torrent Share and Torrent History
+    GUI Improved: the option of "show detailed info" in View menu works for Torrent Share and Torrent History
+    GUI Improved: display free memory of BitComet process in Statistics pane
+    GUI Bugfix:   disable task operation buttons in toolbar when display VIP download list
+    GUI Bugfix:   the setting of show toolbar and show status bar in View menu not remembered
+    GUI Bugfix:   failed to read cookie from Firefox 4 when add HTTP download
+    GUI Bugfix:   support saving files larger than 4G in volume of HFS+/HFSJ/HFSX
+    GUI Bugfix:   v1.27 failed to start under Win2000
+    GUI Bugfix:   the text of weekday in Schedule setting page misplace in certain display setting condition
+    GUI Bugfix:   batch adding torrents have Chinese file name will fail under English Windows XP
+    Core Improve: support Anonymous Download for tasks enabled VIP Acceleration, preventing any direct connection to trackers or BitTorrent peers
+    Core Improve: update BitTorrent client identification code
+    Core Bugfix:  memory access violation leading to program crash
+
+v1.27    2011.04.22
+    GUI Improved: display Batch Download window when drag&drop multiple torrent files to main window or floating window
+    GUI Improved: remove the drop-down menu from the delete button in toolbar of Torrent History or Torrent Share list
+    GUI Improved: add "Show Detailed Info" option in View menu
+    GUI Improved: new setting in option dialog: add to Torrent Share when opening torrent
+    GUI Improved: display translation text of "Day" and "Hour" in task left time
+    GUI Improved: display recovered and dropped data size by hash-checking in task log list
+    GUI Improved: display used memory size in Statistics pane
+    GUI Improved: new setting in Advanced Option page: max number of UDP packets sent per second
+    GUI Improved: display upload/download speed in the left of main window's title bar
+    GUI Improved: display more accurate error info when opening Magnet URI of unsupported types
+    GUI Improved: display preview window of task downloading progress when mouse hovers on floating window or system tray icon
+    GUI Improved: display Batch Download window when open multiple torrent files from File menu
+    GUI Improved: display confirm window if tasks need hash-check when started
+    GUI Improved: add new global option: display hash-check confirm window
+    GUI Improved: enhance video file capture ability of Firefox extension
+    GUI Improved: max cache size in global options page up to 16 GB under 64-bit system
+    GUI Improved: display download/upload size of this session in Statistics pane
+    GUI Improved: drop-down menu of remove button in toolbar is removed. click remove button with shift key can remove download task and files together
+    GUI Improved: decrease the context menu level of floating window and system tray icon
+    GUI Improved: available space can be displayed correctly even if the save folder is a symbol link to other volume
+    GUI Improved: improve the crash report program
+    GUI Improved: new task list of VIP Downloads
+    GUI Improved: "delete task and files" removed from task context menu. click "delete task" menu command with shift key to delete download task and files together.
+    GUI Improved: support context menu of IE 9 to download using BitComet
+    GUI Improved: modify the size of BT task properties dialog, compatible with 1024x600 resolution
+    GUI Improved: display navigation pane of Windows Explorer when open task download folder under Windows XP
+    GUI Improved: the text of task status in summary pane can't be displayed completely when it's too long
+    GUI Improved: new button in toolbar: add Magnet URI
+    GUI Improved: BitComet video download extension for Firefox supports Firefox 4
+    GUI Improved: BitComet plugin for Firefox supports Firefox 4
+    GUI Improved: un-installation program will notify running BitComet to exit
+    GUI Changed:  update check for popular software removed totally
+    GUI Changed:  remove the "Don't show again" option in task remove confirm window
+    GUI Bugfix:   "Open Forum" button in toolbar become invalid when file list is showing
+    GUI Bugfix:   after remote connection established, the network status light turns green, but the tooltip of the light and the listening port status in Statistics pane not refreshed
+    GUI Bugfix:   in v1.26, certain settings in Proxy page can't be saved
+    GUI Bugfix:   in v1.26, unable to create new tag from Task Tag option page
+    GUI Bugfix:   in v1.26, the seed number not displayed in task summary pane
+    GUI Bugfix:   the option "add to Torrent Share when opening torrent" doesn't work
+    GUI Bugfix:   when mouse hovers on the system tray icon, the preview window of task downloading progress displayed in incorrect position
+    GUI Bugfix:   the detail info windows of download/upload size in task summary pane couldn't be able to shown up after program running for a long time
+    GUI Bugfix:   the task state icon displayed as warning if only download part of files of a BitTorrent and choose "Download Later"
+    GUI Bugfix:   after increase text size of Windows (DPI setting), the layouts of certain windows went wrong
+    GUI Bugfix:   the function of shutdown computer after all task download finished ignores tasks in queue
+    Core Improve: native support for 64-bit system
+    Core Improve: read file in working thread after disk cache of BitComet used up, to avoid UI responding slowly while high-speed seeding
+    Core Improve: slow down download speed when disk writing speed can not catch up, to avoid UI responding slowly while high-speed downloading
+    Core Improve: improve uploading queue handing, to boost uploading speed in LAN
+    Core Improve: if the the download drive not accessible when task starts, hash-check will be skipped to avoid download progress be reset
+    Core Bugfix:  stop and restart BT task containing 0 size files will lead to unnecessary hash-checking
+    Core Bugfix:  drop incoming peers whose listening port is unknown when their connection disconnected
+    Core Bugfix:  files not closed after task stopped as disk space full, making those files locked for moving or removing
+    Core Bugfix:  if only select part of files in a BitTorrent download, the task progress may fall back after hash-checking
+    Core Bugfix:  when the setting of allocate space before downloading enabled, only the space of the first 50 files is allocated
+    Core Bugfix:  if the save folder is a junction of directory, the download will fail
+    Core Bugfix:  download rate limit for single BT task not applied to downloading from Long-Term Seeds
+
+v1.26    2011.01.27
+    GUI Improved: improve text information displayed in VIP acceleration dialog
+    GUI Improved: improve progress bar of disk space in task properties dialog
+    GUI Improved: new setting in advanced option page to enable/disable auto hash check after downloaded file changed
+    GUI Improved: new setting in advanced option page to enable/disable disk boost service (only Vista and later)
+    GUI Improved: display the status of disk boost service in statistical tab (only Vista and later)
+    GUI Improved: tasks in queue will be displayed in Active task list
+    GUI Improved: improve re-connection timers displayed in tracker list
+    GUI Improved: do not display torrent downloading prompt dialog when open a magnet link
+    GUI Improved: improve GUI font when choosing Traditional Chinese in non-Traditional Chinese Windows
+    GUI Improved: simplify torrent status icon in torrent history and torrent share list
+    GUI Improved: do not fix the width of date column in torrent history and torrent share list
+    GUI Improved: improve display refreshing code of torrent history and torrent share list, reduce CPU usage
+    GUI Improved: display the default command in context menu of torrent history and torrent share list as bold
+    GUI Improved: new command in context menu of Torrent Collect list: Add to Torrent Share
+    GUI Improved: add openbittorrent and publicbt as default trackers when creating torrents
+    GUI Improved: green light appears after incoming connection established from a remote peer
+    GUI Improved: add large icon of 256*256 for Vista/Win7
+    GUI Improved: add new column to Torrent History list: private torrent
+    GUI Improved: do not lock the width of preview column in task list
+    GUI Improved: display total download time in task summary tab
+    GUI Improved: display the number of days in case of downloading left time is more than 24 hours
+    GUI Improved: check downloaded files at program startup, and display warning icon on task if file missing. It can be disabled in advanced option page.
+    GUI Changed:  Long-Time Seeding renamed to Long-Term Seeding
+    GUI Bugfix:   the downloaded size in task statistical dialog when selecting multiple tasks is invalid
+    GUI Bugfix:   when mouse cursor hovering on system tray icon in XP, the task running info balloon can not be shown
+    GUI Bugfix:   the delete button in toolbar grayed out when pressing Ctrl to select multiple items in Torrent History and Torrent Share
+    GUI Bugfix:   in the global option dialog, the max value of cache size for each connection of HTTP download should be 2MB
+    GUI Bugfix:   after torrent downloaded for Magnet URI, the hidden options in advanced page of task properties dialog is not shown right away
+    GUI Bugfix:   the error message of failure to listen on UDP port is not accurate
+    Core Improve: using disk boost service to create large files when start downloading, to speed up disk operation, avoid UI no response (only Vista and later)
+    Core Improve: improve kernel to reduce CPU usage for UI refreshing when downloading BitTorrent task
+    Core Improve: connect to one only tracker at a time when downloading private torrent, and clear all peers when switching tracker
+    Core Improve: improve crash report program
+    Core Improve: improve transport interval of peer exchange
+    Core Improve: use worker thread to process socket message, thereby reduce message handling in UI thread
+    Core Bugfix:  do not connect to tracker when remove a tracker from tracker list (thanks to kluelos)
+    Core Bugfix:  when listening port disabled in option dialog, program will dead-loop when exit
+
+v1.25    2010.12.08
+    GUI Improved: new global option: customize actions of mouse double-click on task list
+    GUI Improved: show log of trackers from tracker list
+    GUI Improved: display progress bar of disk space in task properties dialog
+    GUI Improved: add Torrent History button to toolbar of task list
+    GUI Improved: add task list button to toolbars of Torrent History ad Torrent Share
+    GUI Improved: remember sort state of task list after program restart
+    GUI Improved: new icon for Torrent History
+    GUI Improved: VIP Acceleration can be canceled if a task can not complete for a long time
+    GUI Bugfix:   UNC path can not be set as default download folder in option dialog
+    Core Bugfix:  improve kernel stability
+    Core Bugfix:  improve stability of BHO
+
+v1.24    2010.11.11
+    GUI Improved: add "VIP Accelerate" for BitTorrent download, enable from the VIP icon in task list 
+    GUI Improved: new global settings: move downloaded files to specified folder after task finished
+    GUI Improved: add task filter on the top of task list, filter tasks by states, tags and keywords
+    GUI Improved: move task tag list from the favorites bar at left to the task filter bar above task list
+    GUI Improved: add keyboard shortcut Ctrl+F to find task
+    GUI Improved: show batch download dialog when open multiple magnet links using Ctrl+U
+    GUI Improved: change the text of preview/open in task list to icon
+    GUI Improved: remove the upper limit of the peer number displayed in peer list of BitTorrent task and display all
+    GUI Improved: display a yellow warning icon for tasks that failed to move/rename files after download finished
+    GUI Improved: improve the "Search ED2K links" dialog launched from the file list of BitTorrent task
+    GUI Improved: add thumbnail picture for task bar button in Windows 7, to display downloading task information
+    GUI Improved: display download progress on task bar button in Windows 7
+    GUI Improved: add frequent used operations to context menu of task bar button in Windows 7
+    GUI Improved: new global settings to specify main window action when program starts, minimized or closed
+    GUI Improved: new option for auto-shutdown, to action once or forever
+    GUI Improved: OpenDir, Properties and Delete buttons in toolbar available when switched to Torrent History list
+    Core Improve: support "VIP Accelerate" for BitTorrent download
+    Core Improve: keep original creator name of torrent file when save torrent as
+    Core Bugfix:  connect to peers returned from DHT network using encryption protocol by force (thanks to Ori)
+    Core Bugfix:  VideoSnapshot.exe can not exit normally when processing abnormal video files
+    Core Bugfix:  change the limit of disk cache up to 2GB
+
+v1.23    2010.08.31
+    GUI Improved: add Summary tab to Torrent History and Torrent Share list
+    GUI Improved: open Torrent from URL dialog supports multiple URLs
+    GUI Improved: export all torrents in one time by selecting multiple tasks in task list, Torrent History or Torrent Share list
+    GUI Improved: display "click to add" in file list when BitTorrent task missing ED2K links
+    GUI Improved: add Snapshot and Comment tab to Torrent History and Torrent Share list
+    GUI Improved: new command in context menu of Torrent History: "add to task list"
+    GUI Improved: support import unfinished download files with any extension name
+    GUI Improved: new advanced option: allow preview program to open files of any type from file list (thanks to greywizard)
+    GUI Improved: enhance video file capture ability of Firefox extension
+    GUI Change:   CometPassport renamed to CometID
+    GUI Bugfix:   percent of score bar for CometID level up displays invalid for level 50+ (v1.22)
+    GUI Bugfix:   after modifying save path in task properties dialog and selecting moving files, the downloaded files are copied to new folder, not moved
+    GUI Bugfix:   no beeps after download completed (v1.22)
+    GUI Bugfix:   after changing torrent file encoding in task properties dialog, the task name in Torrent History is not refreshed
+    GUI Bugfix:   cannot send crash report under XP
+    GUI Bugfix:   after switched to Torrent History, some buttons in toolbar should disabled
+    Core Improve: supports HTTP 301/302 redirecting for Web Seed
+    Core Improve: eMule plugin Xtreme Mod upgraded to v8.0 (eMule v0.50a)
+    Core Improve: after error code received from Tracker, increase retry interval and re-connect later
+    Core Improve: increase priority of HTTP tracker connection
+    Core Improve: improve piece request algorithm for BitTorrent task, reduce CPU usage
+    Core Bugfix:  if BitTorrent task containing multiple files, multiple eMule plugin will be launched incorrectly(v0.50a)
+    Core Bugfix:  failed to generate Crash Report in Vista/Win7 (v1.22)
+    Core Bugfix:  upload task number limit works incorrectly when there are any task whose torrent not downloaded yet
+    Core Bugfix:  perform hash-check if file changed or missing when start BitTorrent task
+    Core Bugfix:  FTP download did not handle the error of disconnect by server unexpectedly
+    Core Bugfix:  FTP download failed to resume download from certain FTP servers
+    Core Bugfix:  fix DNS query function
+
+v1.22    2010.06.30
+    GUI Improved: improve IE context menu display effect under Vista/Win7
+    GUI Bugfix:   tab key response incorrectly in Torrent Maker dialog
+    Core Improve: improve compatibility of UDP transmission modular with third-party software
+    Core Improve: eMule plugin upgraded to v0.50a
+    Core Bugfix:  failed to fetch cookie info from Firefox 3.0 and above when HTTP downloading
+    Core Bugfix:  failed to save DHT nodes file when program exiting in some situation
+    Core Bugfix:  fix DNS query function
+    Core Improve: do not reset task progress to 0% when disk drive inaccessible(e.g. flash disk unplugged)
+    Core Bugfix:  fail to save task list when use_app_data == false under Vista/win7 (v1.21)
+    Core Bugfix:  improve kernel stability
+
+v1.21    2010.05.28
+    GUI Improved: support open magnet URI with multiple tracker parameters
+    GUI Improved: include multiple tracker parameters when copy magnet URI from BitTorrent task
+    GUI Improved: download installation package of new version in background automatically if enabled
+    GUI Improved: support SHA1 verification for downloaded file in HTTP task properties dialog 
+    GUI Improved: display confirmation dialog when choose re-download HTTP task
+    GUI Improved: improve icons in context menu of task list
+    GUI Improved: rename "Web Interface" to "Remote Download" in Option dialog
+    GUI Improved: username, password and referrer can be specified when add HTTP download in Remote Download web page
+    GUI Improved: add log list for HTTP task connections in Remote Download web page
+    GUI Improved: add start/stop operations in task info web page of Remote Download
+    GUI Improved: Firefox extension supports capture .hlv video file
+    GUI Improved: when using multiple user accounts of Windows, each user has individual task list and program settings
+    GUI Bugfix:   share ratios of BitTorrent tasks are displayed incorrectly when program just started
+    GUI Bugfix:   displaying tooltip in toolbar may lead to crash
+    Core Improve: support file path longer than 260 characters
+    Core Improve: remove LUA scripts support for intelligent rename of HTTP download
+    Core Improve: update BitTorrent client identification code
+    Core Bugfix:  fail to download HTTP URL containing single quotes
+
+v1.20    2010.03.25
+    GUI Improved: new command in file menu: "Import Unfinished Download", supports BitComet, uTorrent, Xunlei
+    GUI Improved: start download from torrent infohash directly in "Open torrent from URL" dialog
+    GUI Improved: drag & drop task names to rearrange task list(when task list not sorted)
+    GUI Improved: BT task summary tab: show BT task pieces number; show down/upload speed/size detail info in tooltip when mouse hovers on them
+    GUI Improved: BT task peer list: new command "Friend Upload Slot" in the context menu, for only one IP at the same time
+    GUI Improved: BT task tracker list: show seeds, peers, downloaded number returned from tracker
+    GUI Improved: BT task file list: sort file names in the same order as Windows Explorer(thanks to RadioNoise)
+    GUI Improved: display snapshots tab in new BT task dialog when open torrent file
+    GUI Improved: modify the size of BT task properties dialog, compatible with 1024x600 resolution
+    GUI Improved: for finished BT task, "search for Long-Time Seeds" displayed as "enable Long-Time Seeding", "search for eMule sources" as "enable upload to eMule sources" in task properties dialog
+    GUI Improved: new global option: maximum number of concurrent seeding BitTorrent tasks
+    GUI Improved: new global option: Don't use proxy for tracker/peer connections
+    GUI Improved: new global option: specify separated listen port for Web UI
+    GUI Improved: supports Occitan language(see lang\HowTo-Translate.txt)
+    GUI Improved: when using remote desktop, disable highlight the row on which mouse hovers in file list, peer list and tracker list
+    GUI Improved: improve compatibility of install package with Vista/Win7
+    GUI Bugfix:   tailing space in tracker address leads to connection failure
+    GUI Bugfix:   can't start BitTorrent download when drag&drop a Magnet URI text to floating window
+    Core Improve: use UTF-8 encoding when making torrent file by default for all language versions of Windows
+    Core Improve: improve algorithm, reduce CPU usage of DHT modular, avoid GUI blocked
+    Core Improve: improve algorithm, reduce CPU usage of Long-Time Seeds download modular, avoid GUI blocked
+    Core Improve: support HTTPS tracker
+    Core Bugfix:  after Scheduler stopped all tasks, the option of "Auto start task when download rate less than specified rate" will still start tasks
+    Core Bugfix:  after BT task stopped, corresponding DHT connections didn't stop totally
+    Core Bugfix:  invalid DHT packet may lead to program crash(thanks to Pierre Nogu��s)
+    Core Bugfix:  task list backup file from v1.19 can't be imported by itself
+
+v1.19    2010.02.21
+    GUI Improved: Torrent maker dialog changed to modeless window
+    GUI Improved: supports edit Tracker URL for Magnet URI task before torrent downloaded
+    GUI Improved: new command in Tools menu: enable eMule plugin, show/hide plugin window
+    GUI Improved: support set task tags in BT/HTTP task properties dialog
+    GUI Improved: move downloaded files to tag associated folder optionally when add task tag using task context menu
+    GUI Improved: supports switch input focus to list control inside task tabs by Tab key
+    GUI Improved: add icons to task context menu
+    GUI Improved: display "not supported" in ed2k link field of file list for private torrents
+    GUI Improved: new setting in advanced page of option dialog: system.show_debug_info
+    GUI Bugfix:   can't drag&drop download links to floating windows from IE8 in Win7
+    GUI Bugfix:   the save path edit-box in BT/HTTP task properties dialog doesn't support mouse wheel
+    GUI Bugfix:   Web interface doesn't support to download Magnet URI
+    GUI Bugfix:   the last task in task list doesn't get refreshed in some situation
+    Core Improve: support BitTorrent Extension Protocol of peer exchange, compatible with BitTorrent mainline
+    Core Improve: new eMule plugin (based on Xtreme 7.2 mod)
+    Core Bugfix:  after removing tasks without removing files, the Long-Time Seeding for these files won't stop immediately 
+    Core Bugfix:  after disable LT Seeding in option dialog, running tasks won't stop downloading from Long-Time Seeding immediately 
+
+v1.18    2010.01.20
+    GUI Improved: display the properties of multiple tasks will show a task statistics dialog
+    GUI Improved: drag&drop a Magnet URI or HTTP URL to main window of BitComet will launch a download
+    GUI Improved: add legend to the piece map tab of task
+    GUI Improved: new setting in advanced page of option dialog: system.use_app_data, detailed info refer to wiki
+    GUI Improved: display error message when failed to load/save task list xml file
+    GUI Improved: new command in context menu of tracker list: add tracker
+    GUI Improved: new setting in connection page of option dialog: randomize port each start
+    GUI Improved: display "added date" in torrent history, and hide "snapshots", "comments", "rating", "popular" by default
+    GUI Improved: display translator info in about dialog
+    GUI Improved: enhance BHO, display BitComet icon in context menu of IE8
+    GUI Improved: enhance video downloader extension for Firefox, display captured files in Tools menu besides in context menu
+    GUI Improved: new setting in BT task page of option dialog: display task properties dialog after torrent downloaded from Magnet URI
+    GUI Improved: display batch download dialog when multiple torrents selected to download in Torrent Exchange
+    GUI Bugfix:   when shutdown scheduled at specified time, shutdown will still be launched when all download finished
+    GUI Bugfix:   error occurred when non-admin user try to modify IE integration setting under Vista/Win7
+    GUI Bugfix:   task properties dialog displayed incorrectly for right-to-left languages, e.g. Arabic and Hebrew
+    GUI Bugfix:   the setting of shutdown at specified time does not take effect at first time
+    Core Improve: save bak files for task list xml file up to 7 copies
+    Core Improve: update BitTorrent client identification code
+    Core Improve: the BT tasks which haven't downloaded torrent will not enter the task queue
+    Core Bugfix:  enhance the stability of UDP transport
+    Core Bugfix:  enhance the stability of HTTP proxy connection
+
+v1.17    2009.12.28
+    GUI Improved: support download Magnet URI when click "Open Torrent from URL" from file menu
+    GUI Improved: change "copy BC link" in context menu of task list, Torrent History and Torrent Exchange to "Copy Magnet URI"
+    GUI Improved: new auto-shutdown condition: shutdown at specified time
+    GUI Improved: display information of every connection to the same server in connection tab of HTTP task
+    GUI Improved: add context menu to BT task file list header, to select columns to display
+    GUI Improved: display the preview buttons of files in BT task file list according to each file's downloading progress
+    GUI Improved: support mouse wheel in task summary
+    GUI Improved: remove "Task Content" tab
+    GUI Improved: highlight the row on which mouse hovers in file list, peer list and tracker list
+    GUI Improved: rename "Super-Seeding" to "Initial-Seeding" in BT task properties dialog
+    GUI Improved: display local-language name of every language in Tools menu, besides theirs English name 
+    GUI Improved: remove es_ar language due to the limit in launchpad.net, and add Uighur
+    GUI Improved: rename Torrent Archive under Torrent Share to Torrent Share under Torrent Exchange, and add Torrent History in addition
+    GUI Improved: display introduction page when click Torrent Exchange in left fav tree
+    GUI Improved: new option in BT task page of options dialog: add to Torrent History when open .torrent file
+    GUI Improved: new option in BT task page of options dialog: list of BitTorrent clients allowed connecting to
+    GUI Improved: new option in Integration page of options dialog: associate with Magnet URI
+    GUI Improved: option to restart program immediately when send crash report
+    GUI Improved: when opening video file, use the player program configured in advanced option 
+    GUI Bugfix:   fix many spell mistakes in GUI (thanks to greywizard)
+    GUI Bugfix:   cannot input Web Seed address longer than one row of the input edit-box
+    Core Improve: support BitTorrent Extension Protocol of metadata exchange, compatible with BitTorrent mainline
+    Core Improve: support BitTorrent Extension Protocol of report DHT port, compatible with BitTorrent mainline
+    Core Bugfix:  display file failed to create in task log when start new BT task in certain situation
+    Core Bugfix:  can not open torrent file containing multi-files, in which the name field ends with space
+
+v1.16    2009.11.10
+    GUI Improved: add "Task Tags" page to Options dialog, default download folder for each tag can be set here.
+    GUI Improved: improve "Directories" page in Options dialog, task tags for each candidate download directory can be set here.
+    GUI Improved: set task tag and default download folder for new task automatically according to file extension name.
+    GUI Improved: improve drop list of save folder in task properties dialog, display candidate download directories and corresponding tags
+    GUI Improved: add "Set as Default Directory" button in BT task properties dialog
+    GUI Improved: add "Super Seeding" option in advanced page of BT task properties dialog
+    GUI Improved: add BT task log list
+    GUI Improved: add preview/open button in BT task file list
+    GUI Improved: display user group info in peer list of BT task in blue
+    Core Improve: support Super Seeding for BT task (for initial seeding server only)
+    Core Improve: improve preview download mode for BT task
+    Core Improve: improve connection algorithm of Long-Time seed
+    Core Bugfix:  save task list failed in Vista/Win7 64bit
+    Core Bugfix:  data in first/last piece of file may not be saved properly when select part of files in BT task to download
+    Core Bugfix:  failed to remove torrent file with read-only attribute in program data folder when remove BT task
+
+v1.15    2009.09.25
+    GUI Improved: task information panel lists change to task information tabs, support drag & drop and context menu
+    GUI Improved: redesign "Task Summary" tab
+    GUI Improved: task "Recommend" page changes to "Start Page" tab
+    GUI Improved: hide unnecessary task tabs when no task selected or task stopped
+    GUI Improved: add "Network Setting Wizard" to "Network" page in Option dialog
+    GUI Improved: improve context menu of status bar, add "port mapping again" and "help"
+    GUI Improved: add download/upload limit setting to context menu of floating window and system tray icon
+    GUI Improved: show "ED2K link" in file list of BT task
+    GUI Improved: highlight the current time block in scheduler setting page
+    GUI Bugfix:   password not cleared when change user name in CometPassport sign in dialog
+    GUI Bugfix:   pieces status and upload speed of eMule plugin display incorrectly in peer list
+    Core Improve: eMule plugin upgraded to v0.49c
+    Core Improve: improve connection algorithm of Long-Time seed for high-speed network
+    Core Improve: "Start all seeding" from context menu of floating window do not start tasks with file missing
+    Core Improve: improve DNS query
+    Core Improve: update task finish time when BT task download finished again after selecting more files to download
+    Core Bugfix:  EVENT_COMPLETE should be sent to tracker only when all files in BT task downloaded, not only selected (v1.13 and v1.14)
+    Core Bugfix:  connection number too small after some files in BT task finished
+    Core Bugfix:  UPNP modular can not exit normally sometimes
+    Core Bugfix:  task should enter in queue if when started during stopped time of schedule
+    Core Bugfix:  remove port mapping of eMule plugin when program exiting
+
+v1.14    2009.07.31
+    GUI Improved: support Web Seed when make torrent file
+    GUI Improved: support modify Web Seed list in BT task properties dialog
+    GUI Improved: display download/upload rate of user group in peer list of BT task
+    GUI Improved: display downloading piece position in peer list of BT task
+    GUI Improved: display balloon on system tray icon when disk busy leading to GUI losing response
+    GUI Improved: new appearance option: minimize when program start
+    GUI Improved: add loading page to bookmark in left fav bar
+    GUI Improved: loading torrent collection list from xml file in working thread, avoid GUI freezing
+    GUI Improved: decrease the delay switching to torrent collection list from task list
+    GUI Improved: add new command in context menu of floating window: start uploading all
+    GUI Improved: change the BitComet icon in system tray to grey when program exiting
+    GUI Improved: new setting in connection panel of option dialog: Alternate max upload rate when not downloading
+    GUI Improved: statistics panel displays current download rate limit and upload rate limit
+    GUI Improved: individual max concurrent downloading task numbers for BT tasks and HTTP tasks in option dialog
+    GUI Improved: new "Force" option for BT task protocol encryption in option dialog
+    GUI Improved: new setting in Long-Time Seeding panel of option dialog: Auto upload rate control
+    GUI Improved: statistics panel displays current upload rate limit of long-time seeding
+    GUI Improved: BitComet not responding dialog will be closed automatically after GUI resumed
+    GUI Bugfix:   can't add HTTP Tracker whose port is 80 in BT task properties dialog
+    GUI Bugfix:   if task selection state changed before task delete dialog displayed, the task will be deleted may not be the originally selected
+    Core Improve: BT task supports downloading from Web Seed, compatible with BitTorrent mainline
+    Core Improve: decrease CPU usage of DHT modular
+    Core Improve: ban the peers from the specified IP even they changed peer ID
+    Core Improve: improve connection algorithm for UDP download from Long-Time seed
+    Core Improve: send no-retry instruction to remote UDP peers when exiting
+    Core Improve: improve connection algorithm for BT uploading
+    Core Improve: give BT upload connection higher priority when auto upload rate control of long-time seeding enabled
+    Core Bugfix:  max simultaneous half-open TCP connection number in advanced option page does not take effect
+    Core Bugfix:  making torrent file may fail if there're too many files in the specified folder
+
+v1.13    2009.06.22
+    GUI Improved: add "Uploading" queue to the left fav bar
+    GUI Improved: BT task file list in properties dialog and right-bottom pane changes to tree list for directory structure
+    GUI Improved: BT task file list in properties dialog and right-bottom pane support sorting
+    GUI Improved: add new commands to context menu of BT task file list: expand/collapse folders
+    GUI Improved: add check box to BT task file list pane for each file and folder, to switch download it or not
+    GUI Improved: add connection status icon for each peer in BT task peer list
+    GUI Improved: add "new peer" command to context menu of BT task peer list
+    GUI Improved: BT task peer list displays prompt string when frozen by ScrollLock
+    GUI Improved: support only export selected tasks into backup file
+    GUI Improved: support import tasks from backup file and merge them into task list
+    GUI Improved: select whether import global program settings while import tasks from backup file
+    GUI Improved: language list in Tools menu changes to a 2-level sub menu
+    GUI Improved: add loading page to task content, Snapshot, Comment and Recommend pane
+    GUI Improved: do not clear rate graph in floating window when stop all tasks
+    GUI Improved: do not show the message of missing BitCometAgent.dll when program start
+    GUI Improved: optimize reconnect time after Comet Passport sign in failed
+    GUI Improved: add support for several new languages (see lang\HowTo-Translate.txt)
+    GUI Bugfix:   when open a GB2312 encoding torrent file in traditional Chinese Windows, the task name and publish info displays incorrectly after change character encoding
+    GUI Bugfix:   TCP, UDP mode setting of Long-Time seeding in advanced options can not be saved
+    GUI Bugfix:   restore the torrent archive list which removed in v1.12
+    GUI Bugfix:   if select none of files in BT task to download, the task progress will display incorrectly when program start next time
+    Core Improve: improve taskname.piece_part.bc! file structure, which used to save file boundary data for BT task, therefore decreased memory usage
+    Core Improve: BT task Anti-Leech setting changes to three levels: "disable", ""auto", "strict"
+    Core Improve: improve network modular code, avoid program losing response when download in high speed
+    Core Improve: add disk cache for UDP Long-Time seeding, 50MB max
+    Core Improve: set the thread priority of UDP Long-Time seeding below normal
+    Core Bugfix:  memory leak in UDP uploading modular of Long-Time seeding
+    Core Bugfix:  too many memory and CPU used when Long-Time seeding in high speed using UDP
+
+v1.12    2009.05.18
+    GUI Improved: remove torrent share list in simplified Chinese version
+
+v1.11    2009.04.28
+    GUI Improved: elevation is not needed to associate torrent file in Windows Vista
+    GUI Improved: save to My Document in HTTP batch download dialog is supported
+    GUI Improved: the client version and transfer mode of Long-Time Seeding peer is displayed in peer list of BT task
+    GUI Improved: add piece error column in peer list of BT task, hidden by default
+    GUI Improved: display connection time of Long-Time Seed in peer list of BT task
+    GUI Bugfix:   when using multi-monitor, BitComet do not restore window position to the monitor last exit from.
+    GUI Bugfix:   can't sort peer list by the cols that in the right of any hidden column
+    Core Improve: support the UDP transfer mode of Long-Time Seeding, can be enabled in advanced options
+    Core Improve: support test UDP port in WAN/LAN ip detector
+    Core Improve: stop connect to a peer that send too many error pieces
+    Core Improve: improve connection algorithm for Long-Time seeding
+    Core Improve: improve the compatibility to the old versions of eMule plugin, support v1.06 and later
+    Core Improve: delete Thumbs.db when remove task downloaded files
+    Core Improve: set taskname.piece_part.bc! as hidden file, avoiding deleted accidentally
+    Core Improve: update BitTorrent client identification code
+    Core Bugfix:  program crash when using proxy server
+    Core Bugfix:  user and password setting for proxy server do not work
+    Core Bugfix:  making torrent file fail if containing empty sub-folders
+    Core Bugfix:  invalid local IP displayed in statistics pane
+    Core Bugfix:  publish date of very few torrent display incorrect in torrent collection list
+
+v1.10    2009.03.09
+    GUI Improved: add task search box in toolbar, which can be enable from View menu
+    GUI Improved: add a button in HTTP task properties dialog to set current download folder as default
+    GUI Improved: improve the file type filter in BT task properties dialog
+    GUI Improved: improve the auto shutdown function in Tools menu
+    GUI Improved: show item number count in HTTP batch download dialog
+    GUI Improved: new command in context menu of task archive list: show torrent file properties dialog
+    GUI Improved: show task index and total count in floating window when it's large enough
+    GUI Improved: new setting in advance page of option dialog: User-Agent string for all HTTP task
+    GUI Improved: add support for several new languages (see lang\HowTo-Translate.txt)
+    GUI Improved: do not switch to task list after download a torrent file from torrent collection list
+    GUI Bugfix:   download several torrents from torrent collection list and display their task properties dialog at the same time may cause program no response
+    GUI Bugfix:   files large than 4GB can be downloaded to volume using exFAT
+    Core Improve: improve file boundary data save for BT task
+    Core Improve: enhance virus protect auto-config
+    Core Improve: HTTP download task support redirection to relative path
+    Core Bugfix:  authentication information is not send to server in very few situations of HTTP redirection
+    Core Bugfix:  private BT task will search peers in DHT network in very few situations
+    Core Bugfix:  uploading of Long-Time seeding is unstable
+
+v1.09    2009.01.20
+    Core Bugfix:  certain BT task may occur progress error caused by saving file boundary data when task stop
+
+v1.08    2009.01.18
+    GUI Improved: add filter by file type to file list in BT task properties dialog
+    GUI Improved: display torrent create software and create date display BT task properties dialog
+    GUI Improved: support to add mirror URL manually in HTTP task properties dialog
+    GUI Improved: move the option of "power off or standby after download finish" from option dialog to Tools menu
+    GUI Improved: remove toolkit VistaTcpPatch.exe, merged into main program
+    GUI Improved: open torrent file directly if existed in torrent archive when open BC link
+    GUI Improved: show task archive and torrent collection immediately after program startup, without pending load
+    GUI Improved: improve the item number info in status bar when filter the torrent archive and torrent collection
+    GUI Improved: append new torrent to the bottom of torrent archive or torrent collection list
+    GUI Improved: remove old torrent from the top of torrent collection list, when the torrent number reaches the max number
+    GUI Improved: new download status icon in torrent archive list, to indicate the task download finished
+    GUI Improved: add "open save folder" command to the context menu of torrent archive list, available after task download finished
+    GUI Improved: add "Unhide all" command to the context menu of torrent collection list
+    GUI Improved: hit Del to delete selected items in torrent archive list, or block selected items in torrent collection list
+    GUI Bugfix:   when the item in torrent archive or torrent collection has no snapshot, click the empty snapshot icon area will open invalid webpage
+    Core Improve: improve connection algorithm for Long-Time seeding
+    Core Improve: improve file boundary data save for BT task
+    Core Improve: ignore thumbs.db when making torrent file
+    Core Bugfix:  download failed from certain video website
+    Core Bugfix:  user name and password info filled in HTTP task don't take effect if reference page not filled
+
+v1.07    2008.12.03
+    GUI Improved: add tags to task by context menu (support multi-selection)
+    GUI Improved: filter tasks by tag from favorites list
+    GUI Improved: new option in task setting panel of option dialog: add tag to new task by download file type
+    GUI Improved: display task tags and public date for BT task in summary pane
+    GUI Improved: display task tags for HTTP task in summary pane
+    GUI Improved: add "Apply" button to option dialog
+    GUI Improved: new option in Web Interface setting panel of option dialog: display prompt window for web interface operation
+    GUI Improved: show prompt window when open a torrent file that already existed in torrent archive list
+    GUI Improved: when modify the save path of an existed BT/HTTP task, show a prompt to choose whether to move downloaded files to new save path
+    GUI Improved: when modify BT/HTTP task save path, show the path auto-complete drop list
+    GUI Improved: when the width of file list in BT task properties dialog is not enough for file name, try to display the head and tail part of the filename, with the middle part as ellipsis
+    GUI Improved: when switch task lists, task tags or torrent share list from favorites list, remember the scroll bar position and task selections before switch
+    GUI Improved: add context menu to BitComet passport and DHT area in main status bar
+    GUI Improved: when click comment or snapshot icon in task list, display them below task list, instead of open a browser window
+    GUI Improved: add support for 10 new languages
+    GUI Bugfix:   program crash when display task delete confirm dialog under Win98/2K
+    Core Improved: Web Interface support create new task from BC link
+    Core Improved: When create a task that already existed, Web Interface will displays an webpage link to the existed task
+    Core Improved: eMule plugin can download file boundary data for BT task, where one piece containing multi files
+    Core Improved: create bak file when save task list to downloads.xml
+    Core Bugfix:  error data received in file boundary piece makes task download can not finish
+
+v1.06    2008.11.12
+    GUI Improved: rearrange main menu, "tools" changes to "software", "options" changes to "tools"
+    GUI Improved: add submenu to select default save directory in tools menu
+    GUI Improved: improve directory setting panel in option dialog. double click to set default save directory
+    GUI Improved: new Web Interface setting panel in option dialog
+    GUI Improved: add MD5 verify pane to HTTP/FTP task properties dialog
+    GUI Improved: downloaded files can be moved to candidate directory from context menu of task list
+    GUI Improved: add downloaded size and uploaded size columns in task list (hidden by default)
+    GUI Improved: remove Flv player from install package
+    GUI Improved: improve Long-Time seeding display in peer list
+    GUI Bugfix:   fix some translation errors.
+    Core Improved: new Web Interface modular, to remote BitComet from web browser (disabled by default)
+    Core Improved: improve Long-Time Seeding module
+    Core Improved: increase first-time loading speed of torrent share list
+    Core Improved: limit download rate for HTTP task automatically when download speeding larger than disk writing speed, to avoid wasting too many memory for disk cache
+    Core Improved: update eMule plugin to v0.49b
+    Core Bugfix:  UI may response slowly when downloading BT task in high speed
+    Core Bugfix:  program crash after install IE8 beta
+
+v1.05    2008.10.10
+    GUI Improved: split save location of BT task into 2 parts: save path and filename for single-file task, save path and subfolder for multi-files task.
+    GUI Improved: when add new BT task, start now/start later combo box changes to 2 buttons below in the dialog
+    GUI Improved: remove "set as default" button in BT and HTTP/FTP task properties dialog. Save path of new task will be added into candidate directory list in option dialog automatically.
+    GUI Improved: new candidate directory list in option dialog. The directories in list can be pick up easily when add new task.
+    GUI Improved: rewrite batch HTTP/FTP download dialog and download all dialog. They are merged into a new designed batch download dialog, which is more convenient.
+    GUI Improved: new site password manager for HTTP/FTP download. Username & password will be filled automatically when add new task if existed. This can be enabled in option dialog.
+    GUI Improved: in torrent maker dialog, network type combo list changes into private torrent check box and add DHT nodes check box.
+    GUI Improved: after popular software update checking, updated softwares will be list under tools menu in main window.
+    GUI Improved: show an error message box when click [play] on a finished task, while the downloaded file has been deleted.
+    GUI Bugfix:    under Windows Vista, search box in toolbar displays incorrectly after switch search type
+    Core Improved: UI language files change from .xml format to .mo format, which are more universal and can be concurrent translated in https://translations.launchpad.net/bitcomet
+    Core Bugfix:  under Windows Vista, BitComet will lost task list if running under administrator privilege
+    Core Bugfix:  if the HTTP task stopped because the file locked by other program, data integrality can not be guaranteed when resume downloading.
+    Core Bugfix:  in few situations, the BT task finish progress is 100% after hash checking, but the file finish progresses are not displayed as 100%
+    Core Bugfix:  if a BT task has been specified file download order, program will lose respond when switch a file to be download or not.
+
+v1.04    2008.8.22
+    GUI Improved: "my shared torrent list" turns into "torrent archive". all downloaded torrent files will be saved there.
+    GUI Improved: add filter edit box to torrent archive list.
+    GUI Improved: remove deleted task list. when delete BT task, its torrent file can be kept in torrent archive
+    GUI Improved: new option: clear peer sharing torrent list when program exits. enabled by default.
+    GUI Improved: new option: standby, hibernate, restart or shutdown computer when all task downloaded and stopped
+    GUI Improved: new command in Tools menu: check for BitComet updates
+    GUI Improved: improve Long-Time Seeding download rate display in peer list
+    GUI Improved: displays play button in task list after download audio file, like mp3, wma
+    GUI Bugfix: open file from file list will fail, after rename BT task and restart BitComet
+    GUI Bugfix: when make torrent file in v1.03, files in sub-directories will not be added into torrent
+    GUI Bugfix: when main window is not wide enough, the search box in toolbar will display in invalid position
+    GUI Bugfix: total downloaded/uploaded bytes in statistics list will be clear in some situation since v1.02
+    Core Improved: all opened torrent files will be saved to archive folder
+
+v1.03    2008.7.17
+    GUI Improved: redesign preferences dialog, improve option layout
+    GUI Improved: new advanced option: User-agent sent to HTTP tracker
+    GUI Improved: new advanced option to adjust Anti-Leech rules
+    GUI Improved: new advanced option to config file path of video player
+    GUI Improved: improve connection number display in task list for HTTP/FTP task
+    GUI Improved: add left size column to task list (hidden by default)
+    GUI Improved: add context menu to BT task peer list header, to select columns to display
+    GUI Improved: BT task peer list support group display
+    GUI Improved: freeze BT task peer list when ScrollLock turned on
+    GUI Improved: HTTP task properties dialog will display free disk space of save location
+    GUI Improved: BitComet not responding dialog can be disabled
+    GUI Improved: BitComet don't hide already running eMule plugin window when startup
+    GUI Improved: remove task category management
+    GUI Improved: remove history task list
+    GUI Improved: remove video file preview window, launch external video player instead
+    GUI Improved: remove BitComet resource browser from install package
+    GUI Bugfix: Firefox extension can download flv file from Firefox cache
+    Core Improved: remove NAT Traversal via UDP, to improve TCP transfer efficiency
+    Core Improved: improve TCP half-open patch for Windows XP SP3
+    Core Bugfix: after a file in BT task download finished, disconnect corresponding Long-Time Seeding connection immediately
+    Core Bugfix: the pieces containing file boundary data of BT task will be downloaded repeatedly in some situation
+    Core Bugfix: BitComet does not save the BT tasks created by BC link when program exit
+
+v1.02    2008.6.3
+    GUI Improved: task category will display "empty" when not set
+    GUI Improved: whether to search for mirrors when add new HTTP task can be set as default setting
+    GUI Improved: new option for preview window: keep aspect ratio of video
+    GUI Improved: new switch button in toolbar of preview window: skip undownloaded range or waiting for buffering
+    GUI Improved: BitComet resource browser (CometBrowser.exe) will exit immediately after close all its window
+    GUI Improved: remove server mode option in advanced network settings
+    GUI Bugfix: user name and password in HTTP/FTP task properties dialog do not take effect
+    Core Improved: Long-Time Seeding can download file boundary data for BT task, where one piece containing multi files
+    Core Improved: when select part files of a BT task to download, the file boundary data will be saved in taskname.piece_part.bc!
+    Core Improved: enhance virus protect auto-config
+    Core Improved: support TCP half-open patch for Windows XP SP3
+    Core Improved: Firefox extension support Firefox 3.0
+    Core Bugfix: error occurs when connect to certain trackers: "Tracker Return Zero Length Response"
+    Core Bugfix: EVENT_COMPLETE should be sent to tracker only when all files in BT task downloaded, not only selected
+    Core Bugfix: HTTP download task do not reconnect server after connection disconnected by server
+    Core Bugfix: HTTP download task do not drop invalid data from out-of-date mirror server, lead to redownload after hash check failure
+
+v1.01    2008.5.5
+    GUI Improved: new option in advanced connection settings of preferences dialog: Enable Anti-Leech
+    GUI Improved: Firefox extension add download video files command to context menu of web page
+    Core Improved: after enable Anti-Leech, connections which transfer little data during a long time will be disconnected
+    Core Improved: enhance video file preview, support avi, rmvb, wmv, mpg, flv, ogm, mkv, mp4 files
+
+v1.00    2008.3.24
+    GUI Improved: move "add torrent to my sharing" check box in BT task properties dialog to Advanced page
+    GUI Improved: new command in Tools menu: check software update
+    GUI Improved: new command in context menu of Peer list: Remove peer
+    GUI Improved: new command in context menu of Tracker list: Remove tracker
+    GUI Improved: Firefox extension add download video files command to Tools menu, which can capture video files in webpage.
+    GUI Bugfix: pause and resume preview video file will lead to exit full-screen mode
+    GUI Bugfix: Refresh button in toolbar of BitComet resource browser does not work
+    Core Improved: update TCP half open limit modification for Windows Vista
+    Core Bugfix: Long-Time Seeding does not stop when Scheduler pause all download
+    Core Bugfix: BitComet resource browser cannot download video files embedded in webpage after install IE7
+
+v0.99    2008.2.1
+    GUI Improved: check software update in system automatically, can be enable in option dialog
+    GUI Improved: new Firefox extension, support download file using BitComet
+    GUI Improved: new option in advanced setting page: query task comment and snapshot info automatically
+    GUI Improved: when browse the save location folder of task, do not open new window if this folder has already been opened
+    GUI Improved: add time interval setting to context menu of floating window
+    GUI Bugfix: BC link of BT task displayed as error link in HTTP task properties dialog
+    GUI Bugfix: failed to verify login password at BitComet startup will lead to crash
+    Core Improved: increase connection speed of downloading torrent file in BC link, and querying HTTP file size
+    Core Bugfix: preview in full screen mode for more than twice do not work properly under Windows Vista
+
+v0.98    2008.1.8
+    GUI Improved: start downloading torrent file while show the task properties dialog of new opened BC link
+    GUI Improved: search box in toolbar remains in the same row of the toolbar buttons when resize main window
+    GUI Improved: HTTP task properties dialog support query file size and server resume-supported ability for HTTP/FTP link with password authentication
+    GUI Improved: improve display effect of peer download status bar in BT task peer list
+    GUI Improved: BT task peer list support sorting
+    GUI Improved: BT task peer list display download status bar of each peer
+    GUI Improved: HTTP task connection list display download status bar of each source
+    GUI Improved: new command in HTTP task context menu: Verify MD5 checksum
+    GUI Bugfix: ESC key do not work in download all links dialog
+    GUI Bugfix: task remains in queue after deleted into recycle bin
+    Core Improved: improve HTTP task download algorithm to avoid download speed decrease near finish
+    Core Improved: HTTP task support redirect to FTP url
+    Core Bugfix: preview unfinished HTTP task may cause program crash
+    Core Bugfix: tasks which disable Long-Time Seeding download should not upload for Long-Time Seeding
+    Core Bugfix: tasks in recycle bin should not upload for Long-Time Seeding(persistent seeding)
+
+v0.97    2007.12.07
+    GUI Improved: improve BC link support when download all links from web page
+    GUI Improved: add overwrite prompt when save torrent file of a BT task to another location
+    GUI Improved: new command in Tools menu: Show eMule plugin
+    GUI Bugfix: after sort URL list in download all links dialog, the downloaded links do not match the selected links
+    GUI Bugfix: torrent file association icon cannot display
+    GUI Bugfix: install package compatible with Windows Vista
+    GUI Bugfix: invalid input prompt for save location in BT/HTTP task properties dialog
+    GUI Bugfix: status bar language not changed after switch UI language
+    Core Bugfix: program may crash when download HTTP file from redirected server
+    Core Bugfix: task added at eMule plugin startup will not be created successfully
+    Core Bugfix: cannot connect to certain tracker that forbid web browser connection
+    Core Bugfix: v0.96 cannot load configuration file BitComet.xml in Windows Vista/2K
+
+v0.96    2007.11.07
+    GUI Bugfix: bugs in install package script
+    Core Bugfix: cannot query file size of FTP link containing non-English character in FTP task properties dialog
+    Core Bugfix: HTTP connection logs do not display in version 0.95
+    Core Improved: main program compressed, decrease loading time
+
+v0.95    2007.11.05
+    GUI Improved: new hotkey Ctrl+B for HTTP/FTP batch download
+    GUI Improved: remove search bar below favorites list
+    GUI Improved: remove recommend window
+    GUI Improved: if download rate in user list of BT task less than 1K, display it as "<1 kB/s"
+    GUI Improved: display "play" button in task list for flv and swf file when it download finished
+    GUI Improved: hot key Ctrl+R in add download group dialog will fill max value of wildcard automatically
+    GUI Improved: BT task share ratio includes Long-Time Seeding uploaded size
+    GUI Bugfix: icons in task log display incorrectly in Windows Vista
+    GUI Bugfix: task auto stop function can not work if this task has been previewed
+    GUI Bugfix: Scheduler will not refresh task list after pause all task
+    GUI Bugfix: user name and password info is not imported from captured FTP URL link
+    GUI Bugfix: the option of search for more users to speed up download in HTTP task properties dialog does not work
+    Core Improved: improve preview download mode of BT task, decrease CPU usage
+    Core Improved: eMule plugin can handle ED2K link opened from IE
+    Core Improved: when BitComet creates task in eMule plugin, the task category of new task will be set to _bitcomet_imported
+    Core Improved: when BitComet downloads BT task from eMule plugin, if the same file already exists in plugin's download queue, downloaded data will be imported
+    Core Bugfix: .bc! file is not removed occasionally when download very small HTTP files
+    Core Bugfix: unable to download zero byte HTTP file
+    Core Bugfix: private torrent didn't disable persistent seeding
+
+v0.94    2007.10.08
+    GUI Improved: new function in context menu of BT task file list: search ED2K link for selected file
+    GUI Improved: enable Windows open file security warning for downloaded executable files
+    GUI Improved: new option in preferences dialog: Login BitComet Passport Automatically
+    GUI Improved: hide notify window of start downloading torrent file immediately after download finished
+    GUI Improved: support query file size and server resume-supported ability for BC link in HTTP task properties dialog
+    GUI Improved: launch BitComet resource browser to capture video file when click "download video" in IE context menu
+    GUI Improved: add Accelerate Keys page to Help menu
+    GUI Improved: remove horizontal scroll-bar of fav list and task info pane list
+    GUI Bugfix: tasks in queue will not start automatically at next time of BitComet launch
+    GUI Bugfix: task list and file list do not refresh after rename task
+    GUI Bugfix: get invalid BC link when copy BC link from FTP task
+    GUI Bugfix: the display effect of resizing floating window is not correct under Windows Vista
+    GUI Bugfix: zero-size BT task will display in downloading list all the time
+    Core Improved: eMule plugin supports searching ED2K link for selected file of BT task, to help BitComet download from ED network
+    Core Improved: new toolbar button in BitComet resource browser to capture flv video files in webpage and download them
+    Core Improved: HTTP task decrease download rate automatically when disk writing speed much lower than downloading rate
+    Core Bugfix: HTTP task will download file repeatedly in some special situation of hash check failure
+    Core Bugfix: the file name and sub-directory name in torrent file is invalid when make torrent of an entire disk from root directory
+    Core Bugfix: in-queue task number may get wrong if select to download remainder files of a BT task after part files of which download finished
+    Core Bugfix: eMule plugin window appears incorrectly sometimes
+    Core Bugfix: preview download mode does not work correctly sometimes
+    Core Bugfix: play button does not display in task list after download video file from HTTP server without resume-supported ability
+
+v0.93    2007.9.10
+    Core Improved: improve the stability of persistent seeding
+
+v0.92    2007.8.31
+    GUI Improved: task list sorting by task name use pronunciation order
+    GUI Improved: add "toolkit" menu to download software correlated with BitComet
+    GUI Improved: the global max upload rate in preferences dialog must larger than 10kB/s
+    GUI Improved: the notice window of free disk space insufficiency will not close until user click
+    GUI Improved: improved torrent file maker dialog layout, supporting dialog resize
+    GUI Improved: display file type icons in file list of BT task
+    GUI Improved: display connection time in peer list of BT task
+    GUI Improved: HTTP/FTP task support hash check (only support certain files)
+    GUI Bugfix: bug in sorting my shared torrent list by whether shared
+    GUI Bugfix: torrent file association error in Windows Vista
+    GUI Bugfix: downloaded file is not selected correctly when view task save folder in Windows Vista
+    GUI Bugfix: the right and bottom edge of torrent file maker dialog and BT task properties dialog is not displayed correctly in Windows Vista
+    GUI Bugfix: RealMediaSplitter.ax registration failed in Windows Vista, result in fail to preview rmvb file
+    GUI Bugfix: available space size in BT task properties dialog displayed in red color mistakenly, not considering task downloaded size
+    GUI Bugfix: the option of replace wildcard "(*)" to letters does not work in add HTTP download group dialog
+    GUI Bugfix: fail to set torrent file create date when add it to my shared torrent list from new BT task dialog
+    Core Improved: add "preview download mode" in BT task context menu, supporting download pieces in sequence
+    Core Improved: eMule plugin support sending crash report
+    Core Bugfix: new BT task will stop downloading due to nonexistent disk error in some situation
+    Core Bugfix: default TCP half open limit in Windows Vista is displayed as 0. it's 10 actually
+
+v0.91    2007.7.19
+    GUI Improved: double click un-downloaded torrent file in my shared torrent list to start download it
+    GUI Improved: restore option: add .bc! file extension to unfinished file
+    GUI Improved: new function in context menu of BT task file list: search ED2K link for selected file
+    GUI Improved: add real-time sort to task list. enable it from View menu
+    GUI Improved: new operation in context menu of peer shared torrent list: "add to my share list"
+    GUI Improved: new status icon for BT task downloading torrent file in task list
+    GUI Improved: add torrent publish date info to torrent share list
+    GUI Improved: right click torrent share list header to choose displayed column
+    GUI Improved: a notifier window will display after add a BC link task
+    GUI Improved: add file category combo list to torrent share list toolbar
+    GUI Improved: support multi key words in peer shared torrent list filter, separated by space
+    GUI Improved: torrent file name in torrent share list will be displayed in infotip when mouse hover on it if too long
+    GUI Improved: specify ED2K link from context menu in file list of BT task, to help ED plugin search ED download resource
+    GUI Improved: when double click .bc! file, prompt to open the unfinished file using the program associated with the original file without .bc! suffix
+    GUI Improved: right click toolbar of main window to choose displayed buttons, or using View/Toolbar/Buttons menu
+    GUI Improved: enable auto adjust column width from View/Tasklist menu
+    GUI Improved: when HTTP/FTP task connection failed, detail error and retry info will be displayed in connection log
+    GUI Improved: add HTTP/FTP task error retry interval time option in preferences dialog
+    GUI Improved: restore allocate disk space before downloading option in preferences dialog
+    GUI Improved: display upload rate and left time in task list by default
+    GUI Improved: when available space of save location in BT task properties dialog is not enough, the available space size is displayed in red color
+    GUI Improved: add copy IP address to context menu of status bar in main window
+    GUI Improved: display task size, progress and preview button in history task list by default
+    GUI Bugfix: the order of tasks in queue does not match the order in tasklist when start all task from context menu of floating window
+    GUI Bugfix: the task number in fav list does not refresh when move task to a new category using context menu of tasklist
+    GUI Bugfix: the wildcard "(*)" does not work in add HTTP/FTP download group dialog
+    GUI Bugfix: the HTTP/FTP task in queue failed to stop when double click it in tasklist
+    GUI Bugfix: the wildcard "(*)" does not work in add HTTP/FTP download group dialog for FTP links
+    GUI Bugfix: when click cancel button of BT task properties dialog after torrent file downloaded from BC link, the BT task will not be removed
+    GUI Bugfix: unable to handle non-English character in publisher URL of BT task
+    Core Improved: support persistent seeding to seed finished torrents in background automatically without starting the task
+    Core Improved: support uploading rate limit for all persistent seeding, tweak in preferences dialog
+    Core Improved: support customize file download order for BT task, in BT task properties dialog
+    Core Improved: support patch TCP half-open limit in Windows Vista
+    Core Bugfix: program will lose respond for a while to flush disk cache when high-speed downloading HTTP/FTP file from LAN
+    Core Bugfix: ED plugin will upload invalid data in some situation
+    Core Bugfix: scheduler failed to resume download after stop tasks for 2 hour or longer
+    Core Bugfix: unfinished tasks will not auto-start at program startup if BitComet is not closed normally
+
+v0.90    2007.6.19
+    GUI Improved: add search for eDonkey download source option in BT task properties dialog
+    GUI Improved: add ED download plugin configuration page in preferences dialog
+    GUI Improved: display download rate from HTTP/FTP sources and ED sources in BT task summary pane
+    GUI Improved: snapshot info for each item in task list and torrent share list changed to a clickable icon
+    GUI Improved: tasks remain selected after sort task list
+    GUI Improved: new context menu for my shared torrent and peer shared torrent in fav list
+    GUI Improved: decrease CPU usage for shared torrent list refresh
+    GUI Improved: new search icon for each item in shared torrent list
+    GUI Improved: prompt information will be displayed when shared torrent list is empty
+    GUI Improved: add "copy BC link" to context menu of shared torrent list, with hotkey Ctrl+C
+    GUI Improved: add "clear all" to context menu of peer shared torrent list
+    GUI Improved: new option in View menu to show search box in toolbar
+    GUI Improved: shutdown computer after download finish works for HTTP task now
+    GUI Improved: text in info bar and status bar of review window change to multi-language string
+    GUI Improved: the last task will be selected when BitComet startup
+    GUI Improved: minimize to system tray by close button or minimize button can be configured in preferences dialog
+    GUI Improved: a prompt window will popup if BitComet detected that the TCP half-open limit of windows is too small at startup
+    GUI Improved: new state of "detecting" for WAN/LAN ip detector in status bar
+    GUI Improved: HTTP task connection list move to the up of task log
+    GUI Improved: the auto-start order for queued task keeps the same to display order of sorted task list
+    GUI Bugfix: preview window fail to refresh when switch UI language
+    GUI Bugfix: "pause all active task" in context menu of floating window does not work
+    GUI Bugfix: program exit confirm when task running do not count up uploading tasks
+    GUI Bugfix: unable to click task comment, snapshot and voting for items of 10001th and below in shared torrent list
+    GUI Bugfix: redownload HTTP task will lose task list sort order
+    Core Improved: BT task support downloading from eDonkey network (ED plugin for BitComet is required)
+    Core Improved: BT task support uploading to eDonkey network
+    Core Improved: add eDonkey network listen port to Windows Firewall and UPNP NAT device when program startup
+    Core Improved: disable NAT Traversal via UDP automatically for WAN IP user, to improve TCP transfer efficiency
+    Core Bugfix: auto stop running BT task using a invalid condition mismatch to user settings
+    Core Bugfix: program will lose respond for a while to flush disk cache when downloading huge HTTP/FTP file under Win2003 64bit
+
+v0.89    2007.5.31
+    GUI Improved: add "Hide this" to context menu of peer shared torrent list, no longer display the selected torrent files
+    GUI Improved: add "copy title" to context menu of peer shared torrent list, copy the title of selected torrent file to clipboard
+    GUI Improved: double click downloaded torrent file in peer shared torrent list to view corresponding task in task list
+    GUI Improved: new icon in my shared torrent file list to show the shared, but not downloaded torrent file
+    GUI Improved: peer shared torrent list will only refresh once when typing continuously in the filter edit box
+    GUI Improved: items in peer shared torrent list will keep selected when auto-refresh
+    GUI Improved: no torrent file will be displayed in shared torrent list in torrent file share disabled in preferences dialog
+    GUI Improved: the default number to show in the shared torrent list is set to "unlimit"
+    GUI Improved: new option of socket start interval(ms) in preferences dialog
+    GUI Bugfix: upload rate displays text error in task list if max upload rate of task is set
+    GUI Bugfix: operation to torrent will be misplaced after set filter to peer shared torrent list
+    GUI Bugfix: task number in history task list is not refreshed upon 0 clock at midnight
+    GUI Bugfix: "Open BC link" in file menu does not work if task summary pane is current active window
+    Core Bugfix: Share ratio of BT task is always 0 if only uploading without any downloading
+
+v0.88    2007.5.24
+    GUI Improved: add an option to verify login password at program startup in preferences dialog
+    GUI Improved: add default task related info pane option in preferences dialog
+    GUI Improved: add an option to set BitComet as default IE download tool in preferences dialog
+    GUI Improved: add an option to enable torrent share in preferences dialog
+    GUI Improved: open BCTP link dialog replaced by open BC link dialog, which can create HTTP/FTP/BT task from BC link
+    GUI Improved: add "copy BC link to clipboard" command to task list context menu, with hotkey Ctrl+C
+    GUI Improved: add snapshot number column in task list
+    GUI Improved: add tooltip to display detail task status info when mouse hover on task icon in task list
+    GUI Improved: add tooltip to display upload rate, left time, health when mouse hover on download rate, progress, seed number
+    GUI Improved: upload rate, left time, health will not display in task list by default (can be shown in View menu)
+    GUI Improved: when task stopped, task can be renamed even if task is not completed
+    GUI Improved: double click to download torrent file in peer shared torrent list
+    GUI Improved: add popular column in peer shared torrent list
+    GUI Improved: new icon and tooltip to designate whether the torrent has been downloaded or shared by me in peer shared torrent list
+    GUI Improved: add auto-refresh checkbox in toolbar of peer shared torrent list
+    GUI Improved: add share-all checkbox in toolbar of my shared torrent list
+    GUI Improved: improve statistic pane display effect
+    GUI Improved: add save file already exist check when open torrent file to create new BT task
+    GUI Improved: able to save files to UNC path of shared folder in network during HTTP/BT downloading
+    GUI Improved: add warning prompt if save file large than 4GB to non-NTFS volume when create HTTP/BT task
+    GUI Improved: add balloon prompt on disk full error during HTTP/BT downloading
+    GUI Improved: add prompt dialog to close program and send error report when program is not responding
+    GUI Improved: add context menu to WAN IP detect light in status bar of main window
+    GUI Improved: remove some infrequent options in preferences dialog
+    GUI Improved: floating window remember its position and size automatically
+    GUI Bugfix: unfinished tasks will not auto-start at program startup if BitComet is not closed normally before shut down computer
+    GUI Bugfix: average download rate in task summary pane is cleared after BT task stopped
+    GUI Bugfix: comment number and snapshot number in shared torrent list is not refreshed in time
+    GUI Bugfix: operation to torrent will be misplaced after sort shared torrent list
+    GUI Bugfix: text in toolbar of shared torrent list and passport pane is displayed incorrectly after switch display resolution
+    GUI Bugfix: refresh of peer shared torrents list lead to high CPU usage
+    Core Bugfix: program crash in some condition
+
+v0.87    2007.5.7
+    GUI Improved: add an option in BT task properties dialog to add this torrent file to my shared torrent list
+    GUI Improved: add "view task" command to the context menu of my shared torrent list
+    GUI Improved: add a filter in the toolbar of peer shared torrent list
+    GUI Improved: display peer shared torrent file number in peer shared node of fav list
+    GUI Improved: add an option to enable BT task search for HTTP/FTP download source in preferences dialog
+    GUI Improved: add commands to import/export task list and global settings under file menu
+    GUI Improved: add "rename task" function in context menu of task list
+    GUI Improved: detail error information will be displayed in tooltip when mouse cursor hover on the red-cross icon of a task which encounters error like disk full
+    GUI Improved: task rating information will be displayed in tooltip when mouse cursor hover on comment region of the task list
+    GUI Improved: add hotkey Ctrl+Home/End to move selected tasks to the top/bottom of task list
+    GUI Improved: support scroll information in all panes on which the mouse cursor is hovering by rolling mouse wheel
+    GUI Improved: add an option in preferences dialog to enable submit video file snapshot after task download finish
+    GUI Improved: add an option in preferences dialog to enable protection against ARP cheating attack from LAN
+    GUI Improved: new designed BitComet resource browser to accelerate open web page from BitComet
+    GUI Improved: improve displayed information layout in task summary pane
+    GUI Improved: add "minimize to system tray" to system menu of BitComet button in windows taskbar
+    GUI Improved: delete file check box in task delete dialog is displayed in red color
+    GUI Bugfix: View/download list/Columns menu does not work after switch UI language
+    GUI Bugfix: all tasks will be displayed as in queue if enabled auto-start task when download rate below specified value
+    GUI Bugfix: all tasks displayed in task list will be removed if launch clear recycle bin in recycle bin context menu even they are not in recycle bin
+    Core Bugfix: fix a bug sometimes lead to memory leakage
+    Core Bugfix: handle some BT task with zero-size file incorrectly
+
+v0.86    2007.4.4
+    GUI Improved: new torrent share function: click my shared or peer shared in fav list to manage shared torrents
+    GUI Improved: add option to calculate ED2K link for each file in torrent make dialog
+    GUI Improved: add preset button to choose preset save folder in BT task properties dialog
+    GUI Improved: add option to download from the mirror when the source url can't be connected in HTTP task properties dialog
+    GUI Improved: remove movie info related staffs from torrent make dialog and BT task properties dialog
+    GUI Improved: add mark highlight button and filter popup menu to download all links dialog
+    GUI Improved: add server mode option to preferences dialog, which support more connections but can't set precise rate
+    GUI Improved: improve search box in toolbar of main window
+    GUI Improved: if choose to open URL inside BitComet, new web window will open, without effect to main window
+    GUI Improved: after a torrent file downloaded by http task, the BT download will start automatically
+    GUI Improved: HTTP/FTP resources number for BT task is displayed in file list
+    GUI Improved: add hotkey PageUp/PageDown, Ctrl+Left/Right and Alt+Left/Right for preview window to seek 10 sec, 30 sec and 120 sec
+    GUI Improved: buffered time length is display in status bar when preview
+    GUI Improved: when close BT/HTTP task properties dialog, save folder and filename is verified to be valid
+    GUI Bugfix: ban IP menu in peer list of BT task do not work sometimes
+    GUI Bugfix: avoid system entering suspend/sleeping mode do not work in Windows Vista
+    GUI Bugfix: left time in task list is not correct if task size is too large or download rate is too low
+    Core Improved: new torrent share function, to download torrent files from peers
+    Core Improved: support HTTPS download
+    Core Improved: support download FTP resource for BT task
+    Core Improved: improve SHA1 algorithm, decrease CPU usage
+    Core Improved: improve NAT Traversal via UDP component, decrease CPU usage
+    Core Bugfix: upnp.exe launch fail in Windows 2000
+
+v0.85    2007.3.19
+    GUI Improved: new option in torrent maker dialog to enable large file(>1MB) align to piece boundary
+    GUI Improved: new option in torrent maker dialog to allow user search for HTTP/FTP resources when BT downloading
+    GUI Improved: new option in BT task properties dialog to enable search for HTTP/FTP resources for BT task files
+    GUI Improved: new history task filter in fav list, in which tasks displayed in the order of download finish date
+    GUI Improved: improve task delete dialog, able to remove downloaded files while keep task record in recycle bin
+    GUI Improved: new option in preferences dialog to enable BT task access P2PCache server (need ISP support)
+    GUI Improved: task created date and finish date are displayed in task summary
+    GUI Improved: improve task piece graph, support page up/down using mouse wheel
+    GUI Improved: new recommend side-bar which can be toggled in view menu
+    GUI Improved: BitComet main window minimize to windows taskbar, and system tray icon always displays
+    GUI Improved: if the task name/publisher name in task list is too long to display, it will be displayed in tooltip
+    GUI Improved: new search toolbar in the top of BitComet passport view
+    GUI Improved: improve the clipboard monitor, only capture url links of specific files type
+    GUI Improved: add support for Maxthon browser
+    GUI Improved: unhide the option of browse url in BitComet
+    GUI Improved: downloaded file will be selected when open task save folder
+    GUI Bugfix: fix the bug that some HTTP download fail due to missing cookie info
+    GUI Bugfix: fix the bug that hash check of multi BT tasks not running in queue
+    GUI Bugfix: fix the bug that move to other location command in task context menu does not work
+    GUI Bugfix: fix the bug that some particular language can not be input to IE edit control when BHO loaded
+    Core Improved: add P2SP download function to BT task, able to search for HTTP/FTP resources to accelerate download
+    Core Improved: add large file(>1MB) align to piece boundary function to torrent maker and BT download module
+    Core Bugfix: fix the bug that may lead to crash when download HTTP task using P2P connection
+    Core Bugfix: fix the bug that may lead to crash when an error UDP packet received
+    Core Bugfix: fix the bug that downloaded file may save fail if unsupported character in current code-page occurred in torrent file
+    Core Bugfix: fix the bug about GZIP decode in HTTP 1.0
+    Core Bugfix: fix the bug that the task created from BCTP link is not properly saved if torrent had not downloaded.
+    Core Bugfix: fix the bug that unable to connect to some FTP server
+
+v0.84    2007.2.8
+    GUI Improved: new task piece graph for both BT and HTTP, displaying detail file piece downloading state
+    GUI Improved: enhanced video codec version detection for preview. the extra video codec check wizard is removed.
+    GUI Improved: add clipboard monitor, which can be enabled in floating window context menu
+    GUI Bugfix: fix the bug that fail to open torrent file during preview
+    GUI Bugfix: fix the bug that the UPNP operation results are not displayed in statistics view
+    GUI Bugfix: fix the bug that the floating window is not hide when hit boss key
+    Core Bugfix: fix the bug that the uploading rate is too low in some situation
+    Core Bugfix: fix the bug in the decode of GZIP data returned from HTTP server
+
+v0.83    2007.2.4
+    GUI Improved: add option in HTTP task properties dialog to enable P2P http download
+    GUI Improved: add hot key Ctrl+R in add HTTP task group dialog, to replace selected text in url to wildcard "(*)"
+    GUI Improved: refer page url is filled to new http task when drag URL from IE to floating window
+    GUI Improved: new network rate graph of the floating window in large size
+    GUI Improved: improve the IE context menu for BitComet, add sub menu to download particular objects in the webpage
+    GUI Improved: add comment and preview/play column in task list
+    GUI Improved: WAN IP and network connection status is displayed in status bar of the main window, showing if the listen port is reachable to public domain peers
+    GUI Improved: enhance the RSS list display function
+    GUI Improved: add options in preferences dialog to enable network connection status auto check
+    GUI Improved: add options in preferences dialog to enable task statistical info submitting
+    GUI Improved: add "download link" to context menu of Firefox
+    GUI Improved: Hide the option of browse url in BitComet
+    GUI Bugfix: fix the bug that "save torrent as" in task context menu will save other task's torrent file if category is selected in fav list
+    GUI Bugfix: fix the bug of the sort operation in task list
+    GUI Bugfix: fix the bug that the URL link name is not displayed in the selection dialog of downloading all links
+    GUI Bugfix: fix the display bug of floating window in Windows Vista
+    GUI Bugfix: fix the bug that the task list is not refreshed after cancel the operation of add HTTP task group
+    GUI Bugfix: fix the display bug of the HTTP task info window when switching selected task
+    Core Improved: add P2P download function to HTTP task, able to search more peers to speed up downloading
+    Core Improved: reconstruction NAT Traversal via UDP using encryption connections
+    Core Improved: improve the robustness of video file preview. the crash of video codec will not terminate BitComet main program
+    Core Bugfix: fix the bug that HTTP download resume will fail if the web server is rebooted
+
+v0.82    2007.1.19
+    GUI Improved: add sound prompt when task download finish, which can be configured in preferences dialog
+    GUI Improved: improve the context menu of floating window and system tray icon
+    GUI Improved: processing progress dialog will be displayed when add http task group
+    GUI Bugfix: fix the bug that the task start order is not correct if reduce task queue length while the queue is not empty
+    GUI Bugfix: fix the bug of version 0.81 that program can not run under win98/me
+    Core Improved: the NAT port mapping and Windows Firewall operation is moved to a separated toolkit program, therefore the CPU usage of main program decrease
+    Core Bugfix: fix the bug that the preview window will lose response if click stop button while preview video file of BT task
+
+v0.81    2006.12.27
+    GUI Improved: new floating window to display running status, supporting drag&drop of links in webpage and files to start download
+    GUI Improved: add new function of auto query file size and server resume-supported ability when add new HTTP task, which can be configured in preferences dialog
+    GUI Improved: the task number of a task queue is displayed in the favorites list
+    GUI Improved: new icons for HTTP task states in task list
+    GUI Improved: link count is displayed in add HTTP task group dialog
+    GUI Bugfix: fix the bug that URL can not be opened from BitComet if Firefox is set to be default browser
+    Core Improved: new function of auto recycle memory, which can be configured in preferences dialog
+    Core Improved: compatible to Windows Vista, able to download HTTP links from IE7
+
+v0.80    2006.12.15
+    GUI Improved: new designed HTTP properties dialog layout
+    GUI Improved: start preview video file while http downloading from toolbar button or task context menu
+    GUI Improved: support display URL with non-English UTF-8 characters correctly in English version Windows
+    GUI Improved: display "Minimize to tray" in task-bar context menu of BitComet if enabled
+    GUI Improved: new setting of "Optimize download strategy for preview" in Task setting page of preferences dialog
+    GUI Improved: add move file to desktop and to My Document function in task context menu
+    GUI Improved: after downloaded torrent file using BitComet, the torrent task properties dialog is displayed immediately
+    GUI Improved: toolkit FlvPlayer support running under Windows 2003 now
+    GUI Improved: toolkit FlvPlayer is able to seek while playing for most flv files now
+    GUI Bugfix: fix the bug that the description info in HTTP properties dialog not been saved after user modified
+    GUI Bugfix: fix the bug that the number of selected urls in url selection dialog not refreshed after applied filter
+    GUI Bugfix: fix the bug that BitComet not able to launch FlvPlayer to play downloaded flv file in whose path has space character
+    Core Improved: HTTP download task support video file preview, etc. play video file during downloading
+    Core Improved: support to download URL with non-English UTF-8 characters in English version Windows
+    Core Improved: able to change HTTP connection number during task running
+    Core Bugfix: fix the bug that the program will lose response when decrease max downloading task number while any task running
+
+v0.79    2006.11.30
+    GUI Improved: improve the performance of task list in task catalog switch action
+    GUI Bugfix: fix the bug in 0.78 that the program will crash when due to refresh task log start BT task
+    Core Bugfix: improve the process of some non-standard HTTP protocol packet
+
+v0.78    2006.11.29
+    GUI Improved: change the display font in Statistics View to monospaced font
+    GUI Improved: improve the task delete confirm dialog
+    GUI Improved: add a button to rename download file by several rules in HTTP task properties dialog
+    GUI Improved: new proxy setting page in preferences dialog
+    GUI Improved: now can select which columns to display in task list by right click task list header
+    GUI Improved: now can import Flash files (.swf) when select download all links or download videos in webpage
+    GUI Improved: change the default operation for close button on main window to minimize main window
+    GUI Bugfix: fix the focus switch order when press Tab key in the HTTP task properties dialog
+    GUI Bugfix: fix the problem that the redownload button does not work when import a new task but a exist task with the same URL is detected
+    GUI Bugfix: fix the problem that the download left time is displayed as zero when download rate is zero
+    Core Improved: add support for connection via HTTP, SOCK4, SOCK5 proxy server
+    Core Improved: enhance the function of download videos in webpage, optimize for mainstream video websites
+    Core Improved: improved Rmvb file version and Real codec version detection algorithm, avoid most crash when play rmvb files
+    Core Bugfix: fix the problem that unable to download file from certain FTP server
+
+v0.77    2006.11.18
+    GUI Improved: add recycle bin to place tasks deleted temporarily
+    GUI Improved: add toolbar button, task list context menu item and Delete hot-key to delete task to recycle bin
+    GUI Improved: add the function to capture http/ftp file download in IE
+    GUI Improved: add a setting to specify the file types to be captured when IE downloads file in in preferences dialog
+    GUI Improved: add "Download Videos using BitComet" command in IE context menu as a option
+    GUI Improved: adjust position of splitters automatically when resizing main window to keep optimal layout
+    GUI Improved: display translated text in status-bar in the language of user chosen when mouse hover in the toolbar
+    GUI Improved: display the number of imported urls in the selection dialog of download all links in webpage
+    GUI Improved: new toolkit: FlvPlayer
+    GUI Bugfix:  fix the bug that the task list is cleared and not displayed after switch UI language
+    Core Improved: add the function of searching mirror site automatically for HTTP download task
+    Core Improved: add the function of download video files in webpage
+    Core Bugfix: fix the bug that the program may crash when only download partial files in a BT task
+
+v0.76    2006.11.7
+    GUI Improved: add Scheduler setting page in preferences dialog to adjust bandwidth depending time
+    GUI Improved: add max/min upload rate per task settings in BT task page of preferences dialog
+    GUI Improved: add New HTTP/FTP download button in toolbar
+    GUI Improved: the total task number and selected task number are displayed in status bar of main window
+    GUI Bugfix: fix the bug that the BitComet main window is not active sometimes when download url from IE
+    GUI Bugfix: fix the bug that the function of avoid system entering suspend mode still works even when no task is running
+    Core Improved: improve memory allocation strategy, avoid huge physical memory usage when program running for a long time
+    Core Bugfix: fix the bug that in 0.75 sometimes the file is not downloaded entirely when task finish
+
+v0.75    2006.10.24
+    GUI Improved: add HTTP/FTP download in file menu
+    GUI Improved: add HTTP/FTP download settings page in preferences dialog
+    GUI Improved: add "Download using BitComet" command in IE context menu as a option
+    GUI Improved: switch to downloading task list automatically if downloaded task list is being showed when add new task
+    GUI Improved: the translator's name is able to be set in language file edit dialog
+    GUI Improved: add clear button in torrent info search page of task properties dialog
+    GUI Improved: the TCP half open limit is up to 500 in preferences dialog
+    GUI Bugfix: fix the bug in 0.74 that non-executable file can not be opened in file list
+    GUI Bugfix: fix the bug of a display mistake of the balloon tooltip when task download finish
+    Core Improved: add HTTP/FTP multi-connection download function
+    Core Improved: add HTTP/FTP multi-connection download disk cache function
+    Core Bugfix: fix the bug in 0.74 that in rare situation program will crash due to file operation
+
+v0.74    2006.10.14
+    GUI Improved: add default settings of view size and list col width for common screen resolutions
+    GUI Improved: change default setting to open webpage using IE, and hide browse button in toolbar
+    GUI Bugfix: fix the bug that in 0.73 an explorer window will be opened when task finish if the virus scan program path setting is incorrect
+    GUI Bugfix: fix the bug that task list every 5 minutes auto-save function does not work
+    GUI Bugfix: fix the bug that "Task File Move to" -> "Other Location" function only applied to first task when multi tasks are selected
+    Core Bugfix: fix the bug that in 0.73 sometimes the file is not downloaded entirely when task finish
+
+v0.73    2006.9.25
+    GUI Improved: add the function to scan virus upon download finish
+    GUI Improved: add a prompt to scan virus when open executable file
+    GUI Improved: add scan virus to task list and file list context menu
+    GUI Improved: add scan virus setting page in Preferences dialog
+    GUI Improved: add language translate editor dialog to option menu
+    GUI Improved: add the function to move task downloaded files to corresponding folder when change task catalog
+    GUI Improved: add catalog setting to BT task properties dialog
+    GUI Improved: add upload/download speed limit settings to advanced page of BT task properties dialog
+    GUI Improved: add a option to hide confirm dialog when open BCTP link from IE
+    GUI Improved: remove Caps LockNum Lock and ScrollLock status display in main window's status-bar
+    GUI Bugfix: fix the bug that the disk available space is displayed error in BT task properties dialog
+    GUI Bugfix: fix the bug that the default TCP half-open number setting is too small in Windows2003
+    Core Improved: add specific task upload/download speed limit function
+    Core Bugfix: fix the bug of high CPU usage when enable upload/download speed limit
+
+v0.72    2006.9.16
+    GUI Improved: add the function to move task downloaded files to corresponding folder when change task catalog
+    GUI Improved: improve task list display speed
+    GUI Bugfix: fix the bug that the publisher's webpage may be opened incorrectly when selecting multi-task using mouse
+    GUI Bugfix: fix the bug in version 0.71 that the UPNP gateway NAT port mapping function does not work
+    GUI Bugfix: fix the bug in version 0.71 that the task download rate in balloon tip is not displayed correctly when main window is minimized
+    GUI Bugfix: fix the bug in version 0.71 that the balloon tip will not display when task download finish and main window is minimized
+    GUI Bugfix: fix the bug in version 0.71 that stop task while playing video may cause program crash
+
+v0.71    2006.9.2
+    GUI Improved: Add "Move file to..." function to task list context menu
+    GUI Improved: Add task catalog manage functions to "download completed" task queue context menu in favorites list
+    GUI Improved: Add task catalog set and locate functions to task list context menu
+    GUI Improved: Improve task list display algorithm, decrease CPU usage
+    GUI Improved: Add Half-Open TCPIP connection limitation modification for Windows XP SP2, in Preferences dialog
+    GUI Improved: redesign "task automatic stop" settings in Preferences dialog
+    GUI Improved: remove task pause, resume operation
+    GUI Improved: remove "Global Log" window, in which the information displayed is merged into "Statistics" window
+    GUI Improved: Improved crash report program, send crash report to server directly instead of using email
+    GUI Bugfix: fix the bug that the BCTP link is not displayed correctly if opened from internal browser in BitComet
+    GUI Bugfix: fix the bug that the music in webpage of video play window does not stopped after video play starts
+    Core Improved: no longer depends on MSXML3, no need to install MSXML3 in windows 98
+    Core Improved: improved file piece request algorithm, increase the launch speed of online video play
+    Core Improved: more program run-time error can be detected by the crash report
+    Core change: Chat, Proxy, NAT Traversal via UDP, IP block rules is removed temporarily
+    Core Improved: kernel code reconstruction
+
+v0.70    2006.6.24
+    GUI Bugfix: fix the bug that the program can not run in certain OS due to mistaken compile option
+
+v0.69    2006.6.23
+    GUI Improved: download status information will be displayed in preview window info-bar when preview is buffering
+    GUI Improved: BitComet Forum URL is updated
+    GUI Bugfix: controls in Task Property Dialog will reposition correctly when resizing the dialog
+    GUI Bugfix: fix the bug that the spin buttons of min/max upload rate edit-box in Task Property Dialog do not work
+    GUI Bugfix: fix the bug that the peer list doesn't display any peer in very occasional situation
+    GUI Bugfix: be able to handle BCTP link opened from Firefox properly
+    Core Improved: improve preview buffer schedule algorithm, start buffer if data in buffer pool less than 50%, resume play if full
+    Core Improved: improve piece request algorithm when preview, decrease the chance of buffering
+    Core Improved: improve error detection of video decoder when start preview
+    Core Bugfix: fix the bug that the video and audio sometimes become asynchronous caused by preview buffering
+    Core Bugfix: fix the bug that the program may crash when parsing some non-standard HTTP protocol packet
+
+v0.68    2006.5.29
+    GUI Bugfix: fix the problem that the option "Do not prompt when add new task" doesn't work
+    GUI Bugfix: fix the bug that the program may crash when display some non-standard rss item
+    Core Improved: improve selected file download algorithm, decrease the possibility to re-download file boundary data
+    Core Bugfix: fix the bug that the program may crash when parsing some non-standard HTTP protocol packet
+    Core Bugfix: fix the bug that the program may crash when parsing some non-standard encryption protocol packet
+
+v0.67    2006.5.10
+    GUI Bugfix: fix the incorrect prompt text when open torrent file failed
+    GUI Bugfix: change PayPal picture auto-update period to one day
+    GUI Bugfix: improve the detecting algorithm of Real file decoder in Video Codec Check Wizard
+    Core Improved: enhanced ICF/UPNP port mapping operation
+    Core Bugfix: fix the bug that the program may crash when received incorrect packet
+
+v0.66    2006.4.27
+    Core Improved: more program run-time error can be detected by the crash report
+    Core Bugfix: fix the bug that the sometimes program will crash when display chat message
+
+v0.65    2006.4.25
+    GUI Improved: add IE favorites list
+    GUI Improved: add a new function to update the PayPal picture in left tree list from BitComet.com site
+    GUI Bugfix: fix the bug that the Goto button on address bar doesn't work properly
+    GUI Bugfix: fix the bug that the program will crash if any torrent file is opened with the "Can't listen to port" dialog displayed
+    GUI Bugfix: fix the bug that the program will crash when loading some non-standard rss xml
+    GUI Bugfix: fix the bug in version 0.64 that the torrent maker dialog doesn't display the tracker url entered last time
+    GUI Bugfix: fix the bug in version 0.64 that the task property dialog can not be opened when the task is paused
+    GUI Bugfix: fix the bug that the media file playback will pause when preview window is minimized
+    GUI Bugfix: fix the bug that the text on switch buttons of channel, search and IE fav doesn't change when language switched
+    Core Improved: add a new function to add a listening port of Windows Firewall in Windows XP SP2
+    Core Improved: connect to the previous peers immediately when restarting a task
+    Core Bugfix: fix the bug in version 0.64 that the function to ban user temporarily doesn't work
+
+v0.64    2006.4.10
+    GUI Improved: the optional IE toolbar is removed
+    GUI Improved: able to read RSS feed
+    GUI Bugfix:  chat user list is removed temporarily
+    Core Bugfix: fix the bug that the play button doesn't work after click stop button in task preview window
+    Core Bugfix: fix the bug that unable to seek continuous when preview avi/rm file
+
+v0.63    2006.3.4
+    GUI Improved: fix the bug that sometimes torrent file can't be open properly after downloaded in BitComet embedded browser
+    Core Improved: Remove the old protocol header encryption, add new protocol encryption compatible with Azureus and uTorrent
+
+v0.62    2006.2.14
+    GUI Improved: add the ability to fetch remote channel xml file and display its items in favourite bar
+    GUI Improved: adjust the toolbar position of embedded browser
+    GUI Bugfix: fix the bug that sometimes the embedded browser can't handle BCTP link properly
+    GUI Bugfix: fix the bug that sometimes the task name displayed as the http link of torrent file
+    GUI Bugfix: fix the bug that sometimes the task status displayed as failed after DHT torrent download finished successfully
+    Core Improved: user favourite data file changed from .\fav\my_fav.xml to .\Favourite.xml
+    Core Bugfix: fix possible crash when exit program while hashing
+    Core Bugfix: fix possible crash when detects WMP version at BitComet startup
+    Core Bugfix: fix possible memory access violation when remove task after DHT torrent file download finished
+
+v0.61    2006.1.10
+    GUI Improved: enhance BCTP link command to lunch preview window
+    GUI Improved: support xp themes in the embedded browser
+    GUI Improved: no longer popup script error message in the embedded browser
+    GUI Bugfix: Possible buffer overflow when opening URL link using external browser. (Thanks Fortinet Security Research)
+    GUI Bugfix: the clip board can work in some user interface
+    Core Improved: support wmv/asf file in the preview window
+    Core Bugfix: fix the bug that DHT is added for the 'private' torrent after task begins
+    Core Bugfix: fix the bug that UDP port mapping is not released when BitComet exit
+
+v0.60    2005.9.8
+    GUI Improved: new toolkit: BitComet Video Codec Check Wizard
+    GUI Improved: add open BCTP/HTTP link command in file menu
+    GUI Improved: add BCTP link page in Task Property Dialog
+    GUI Improved: add Boss-key choice option
+    GUI Improved: add Disable torrent file download dialog option
+    GUI Improved: add Display task delete confirm dialog option
+    GUI Improved: add piece size 2/4/8MB choice when making torrent
+    GUI Improved: open web link in internal browse of BitComet
+    GUI Bugfix: fix mistake delete when multi-selection after torrent list sort
+    GUI Bugfix: fix the win2k auto shutdown issue
+    Core Improved: add video file preview when downloading
+    Core Improved: add Torrent download from DHT network using BCTP link
+    Core Improved: add protocol header encrypt option
+    Core Improved: add Always using NAT Traversal via UDP option
+
+v0.59    2005.6.8
+    GUI Improved: add Search button to search torrent in torrent website
+    GUI Improved: remove the drop-down menu of the Web button
+    GUI Improved: open all links using user default browser
+    GUI Improved: add three network mode when creating .torrent file
+    GUI Improved: add a light in the status bar indicate the DHT Network status
+    GUI Bugfix: fixed typing issue regarding the speed input box
+    Core Improved: add DHT Network support, BitComet become trackerless
+    Core Improved: add UDP port mapping in ICF/UPNP
+    Core Improved: support 'private' key in torrent
+    Core Improved: support 'private' key in tracker response
+    Core Bugfix: fix UPNP problem in v0.57, v0.58
+
+v0.58    2005.5.6
+    GUI Improved: add Hash-check thread priority as an option
+    GUI Improved: add "Remove task only" confirmation
+    GUI Bugfix: disable file location change for paused tasks
+    GUI Bugfix: can not auto shutdown computer when desktop is locked
+    GUI Bugfix: the auto-stopped task can not upload
+    GUI Bugfix: fix the win98/me auto shutdown issue
+    GUI Bugfix: fix the dde regarding file association
+    Core Improved: add task option: peer info exchange enable
+    Core Bugfix: UDP tracker DNS resolve can cause stop response for 2s
+    Core Bugfix: fix the issue when one UDP tracker in a tracker group can not connect
+    Core Bugfix: continue download at startup can not work if crashed last time
+    Core Bugfix: fix one crash issue when connections are unstable
+
+v0.57    2005.3.5
+    GUI Improved: add boss key: Alt+`
+    GUI Improved: embedded web view was improved
+    GUI Improved: Task Property Dialog can be resized or maximized now
+    GUI Improved: option to disable the prompt window when adding torrent
+    GUI Improved: enable multi-selection when open torrent files
+    GUI Improved: task list now support sort
+    GUI Improved: add seeding task catalog
+    GUI Bugfix: fix the copy paste problem in embedded IE
+    GUI Bugfix: never prevent windows from entering suspend mode if the computer is running on batteries (Thanks B. Larg)
+    GUI Bugfix: Save location reset to default upon changing encoding method. (Thanks ericbo)
+    GUI Bugfix: Incorrect time left if more than 24 hours (Thanks u1ookingatme)
+    GUI Bugfix: the max value of half-opened tcp can't be changed to smaller value
+    Core Bugfix: fix a upload selection bug which may affect download speed
+    Core Bugfix: auto stop may not work if enable auto checking after finished
+    Core Bugfix: possibly fix the tracker download reporting bug happens in TB, etc
+    Core Bugfix: fixed NAT Traversal rate can not be accurately limited
+    Core Bugfix: Can not create directory when change priority for running task (Thanks maxbkk)
+    Core Bugfix: IP rules do not effect in NAT Traversal connections(Thanks tianle)
+    Core Bugfix: add new task waiting queue, close bc, the file priority lost(Thanks hdll)
+    Core Bugfix: Hash Checking queue does not work (Thanks njiayu)
+    Core Bugfix: UDP tracker retry interval keeps to be 10s
+
+v0.56    2004.9.23
+    GUI Bugfix: stop update peer list if select two peers and click the left or the top list (Thanks gjr)
+    GUI Bugfix: change the system time may cause gui buffer overrun (Thanks baul)
+    Core Improved: auto detect the max value of half-opened tcp for patched tcpip.sys in XP SP2
+    Core Improved: improve the efficient of NAT Traversal again
+    Core Bugfix: fix some compatible issue with ipfilter.dat in eMule(Thanks Soorpher)
+    Core Bugfix: may crash when exit while having queued hashing tasks(Thanks the crash report by Chi Yeong Teoh)
+    Core Bugfix: fixed a serious issue that NAT Traversal will occupy all the upload bandwidth (Thanks friends @ TB)
+
+v0.55    2004.9.9
+    GUI Improved: torrent maker can auto-detect the best piece-size now
+    GUI Improved: do not check version for more than once in one day
+    GUI Bugfix: tray icon shows up when change the lock of the tray area (Thanks xl)
+    GUI Bugfix: fix possible crash when closing
+    GUI Bugfix: the issue of adding task by command line do nothing(Thanks Yu BOYTHERE)
+    GUI Bugfix: may crash in splitter (Thanks the crash report by Cytech-May & Punkrawk)
+    Core Improved: add auto stop task when share ratio reach specific value, auto shut down the computer
+    Core Improved: improve the efficient of NAT passthrough (incompatible with 0.53)
+    Core Improved: add Max Simultaneous TCP connection attempts to option, better works with XP SP2
+    Core Bugfix: fix the issue that min seeding rate also applies to download task
+    Core Bugfix: move on to next tracker slowly if no peers returned.
+    Core Bugfix: fix the issue that it will not stop connecting to tracker after task stopped
+    Core Bugfix: may crash because of thread conflict when writing the edge of files(Thanks the crash report by wluck)
+    Core Bugfix: may crash when exit while having queued tasks(Thanks the crash report by Asem Mohamed)
+    Core Bugfix: may crash when calculate the rate(Thanks the crash report by trudy)
+    Core Bugfix: fix some crash caused by overflow (Thanks the crash report by Huang Kan)
+    Core Bugfix: fix too short timeout disconnect issue with AZ and Official Seed
+
+v0.54    2004.8.21
+    GUI Improved: global & per task 3KB/s upload rules ( Thanks DreadWingKnight )
+    GUI Improved: multi selection when ban ip ( Thanks CH )
+    GUI Improved: torrent file save as in task list
+    Core Improved: NAT passthrough by UDP! (still in experimental)
+    Core Improved: add crash reporter to release version
+    Core Improved: connect to UDP tracker first in the same group
+    Core Improved: support http tracker: 'key' flag ( Thanks neooff )
+    Core Improved: support the new UDP Tracker protocol ( v2 )
+    Core Improved: torrent strings fix the utf8 encoding problems with Azureus ( Thanks Henrique Vianna )
+    Core Changes:  remove default backup tracker ( Thanks x )
+    Core Bugfix: may can't create torrent contains >4G files
+    Core Bugfix: fully support multitracker spec, support server groups ( Thanks DreadWingKnight )
+    Core Bugfix: strange http HOST problem in nipponsei.levillage.org ( Thanks AndyGod )
+    Core Bugfix: http redirection bug, fix connection problem in TorrentBits.org ( Thanks HiTechOutlaw )
+    Core Bugfix: fix connection problem in bt.edwardk.info ( Thanks fftfelix)
+    Core Bugfix: no longer skip the empty directories when making torrent ( Thanks 5Q heaven )
+
+v0.53    2004.6.15
+    GUI Bugfix:   fixed lots of gui crash problems
+    GUI Improved: tweak the column layout (Thanks stisev)
+    GUI Improved: display seeds numbers connected in the recent 10 minutes
+    GUI Improved: able to add task as paused
+    GUI Improved: send crash report is supported for all beta version
+    GUI Improved: auto add seeding task as paused after .torrent is made
+    GUI Improved: should runs more smooth for those download rate exceed 1MB/s - 2MB/s (Great thanks to GHOSTOPOST)
+    GUI Improved: avoid gui blink for non-XP os
+    GUI Improved: global pause/resume from the system tray (Thanks Assmongrel)
+    GUI Improved: avoid system entering power suspend mode when task is running
+    GUI Improved: command line add params: /? /s /m /tray /output <file>
+    GUI Improved: able to edit backup tracker in the options
+    GUI Changes:  listening port now allow full range : 1 - 65535
+    Core Improved: limit the tcp connecting rate to 4 new connection per second
+    Core Improved: add default minimize upload rate, avoid zero rate seeding
+    Core Improved: add chatting support, support PM as well, support chat room torrent
+    Core Improved: a few queue behavior improvement, and pause all bugfix (Thanks Kameraman)
+    Core Improved: able to Hash check again when the download task finished.
+    Core Improved: avoid upload to only several best peers, cause download drops when upload is slow. (<100k/s)
+    Core Improved: avoid download task donot need to upload but all the seeding task has no upload at all. (Thanks ulion)
+    Core Improved: change the frequency requesting tracker, decrease the burden of trackers. (Thanks ulion)
+    Core Improved: able to ban user temporarily for 5 minutes, 1 hour, or 24 hours.
+    Core Improved: able to block IP permanently defined by ipfilter.dat (compatible with eMule)(Thanks Adam Thirnis)
+    Core Improved: detect peer who send bad data, and auto temporarily block it for 5 minutes
+    Core Bugfix: do not work correctly with tracker in compact mode
+    Core Bugfix: "allocate before download" won't allocate immediately ( thanks windy)
+    Core Bugfix: forget to load the default tracker when tracker-list existed ( thanks Henry)
+    Core Bugfix: UPnP may can't work with some hardware router ( thanks btchina for the financial support to buy one )
+    Core Bugfix: UPnP may can't find service ( thanks BK->NEW() )
+    Core Bugfix: can't release port mapping when exit
+    Core Bugfix: remove .xml file, hash checking, start will hash-checking again (Thanks lqbn)
+    Core Bugfix: incorrectly handle the files gap, may fix the hashchecking loop bug
+    Core Bugfix: auto start new task if download rate below can't work
+    Core Bugfix: avoid too large disk cache crash BitComet in low memory conditions
+    Core Bugfix: the small file next to the big one may be 100% but zero data until the big one is finished. (Thanks c-j-z)
+    Core Bugfix(critical): mistake the timeout interval in BitTorrent specification,
+                           only 1 minute timeout cause possible disconnect with seed using official client (Thanks ulion)
+    Core Bugfix(critical): potential download a corrupt file
+    Core Bugfix(critical): do not response tracker NAT checking, so that won't be listed in tracker. ( happen again :( )
+
+v0.52    2004.4.23
+    GUI Changes: move language selection to menu
+    GUI Improved: remember list column order
+    GUI Improved: task status add status icon: connecting peers
+    GUI Improved: able to force start a queued task by start it again (Thanks fan_chenwen)
+    GUI Improved: new task is now at the bottom (Thanks Kameraman)
+    GUI Improved: able to auto run task when BitComet startup (Thanks Kameraman)
+    GUI Bugfix: Max Simultaneous Download Tasks changes won't be reflected upon the tasks immediately(Thanks windy)
+    GUI Bugfix: Toolbar will disappear next time if minimize BitComet to tray and close it.(Thanks Terence Tam)
+    GUI Bugfix: torrent encoding doesn't effect save location and comment.(Thanks kkj, Kameraman)
+    GUI Bugfix: minimize to taskbar and enable exit prompt cause confirm dialog can't be displayed(Thanks charlesyc)
+    GUI Bugfix: zero length file progress is always zero percent(Thanks Kameraman)
+    Core Improved: try to reserve disk space when downloading, almost zero disk fragment
+    Core Bugfix: rate measurement algorithm changed, should be more accurate but consume a bit more resource
+    Core Bugfix: hashing cause peers cache lost (Thanks Kameraman)
+    Core Bugfix: removing task incl files may delete all download directory, incl other files
+    Core Bugfix: hashing may crash at the end, and the task may can't be started
+    Core Bugfix: task minimize upload rate may cant work
+
+v0.51    2004.4.13
+    GUI Improved: tray icon display balloon notification when task finished
+    GUI Bugfix: wrong displace position for task specific upload limits.(Thanks charlesyc)
+    GUI Bugfix: crash when click OpenDir or Property for empty task.(Thanks xChiNa)
+    GUI Bugfix: disk driver free space may be wrong at first. (Thanks spcat2000, happyfa97)
+    Core Improved: able to change torrent encoding code page when adding task
+    Core Improved: task queue sequence is the same as displayed, top task first
+    Core Bugfix: fixed no response when too many files in one torrent(e.g. >1000 files) in v0.50
+    Core Bugfix: should not scan when seeding (Thanks Windforce)
+    Core Bugfix: when seeding, should not open file for writing (Thanks coolsnowwolf)
+    Core Bugfix: forget to save peers info when task is stopped
+    Core Bugfix: start task more than once cause problems (Thanks windy)
+
+v0.50    2004.4.8
+    GUI Improved: remember toolbar status
+    GUI Improved: thanks to SiC & Orochi for the graph design, much more pretty now
+    GUI Bugfix: in file dialog, right-click the driver and click Property will crash (Thanks to littlefoxes)
+    GUI Bugfix: can't remember window positions (Thanks to KELVEN13)
+    Core Improved: remove support for slots.xml, able to config in the option dialog
+    Core Improved: publisher information extension
+    Core Improved: able to set different upload limits for every task
+    Core Improved: add a simple queue system
+    Core Improved: add support for {hash} tracker url (idea by IH@isohunt)
+    Core Improved: file level priority control
+    Core Improved: remove upload download ratio limits in the config dialog.
+    Core Improved: file allocation in blocks and won't block gui and also decrease the disk fragment
+    Core Bugfix: random listening port won't larger than 32767, avoid route problem (thanks to Xing Zhanfeng)
+    Core Bugfix: total upload and download statistics overflow if larger than 2G (thanks to wpeng)
+    Core Bugfix: sometimes can't work with gzip tracker, get decode error (thanks to ihf)
+    Core Bugfix: lost percentage when it resumes downloads by BitTorrent 3.3 or above.
+
+v0.49    2004.3.3
+    GUI Improved: if file changed, prompt dialog : check / ignore / cancel
+    GUI Improved: Ctrl+Delete remove task including files
+    GUI Bugfix: possibly fix the crash when restoring from system tray
+    Core Improved: optimize pieces manager again
+    Core Improved: optimize choke picker for slow connections
+    Core Improved: able to auto resize the cache according to the speed, set default max cache size to 50M
+    Core Improved: Auto config XP Internet Connection Sharing and Firewall (ICS/ICF)
+    Core Improved: when use proxy only for trackers, send HTTP GET rather than HTTP Connect
+    Core Bugfix: cache size calculate may overflow when the physical memory is getting lower
+    Core Bugfix: send event=stopped to tracker when program exited (Thanks to ulion)
+    Core Bugfix: load same torrent make it vanish (Thanks to bigjumbo)
+    Core Bugfix: UPnP always failed with DSL router/ICS (Thanks to wxhere ~_~)
+    Core Bugfix: may crash when cache is empty
+    Core Bugfix: possible to receive only part of the HTTP response, cause tracker decode failure.
+
+v0.48    2004.2.18
+    Torrent Maker Bugfix: won't add announce-list if only one tracker address
+    GUI Improved: remember the favourite site choice last time
+    GUI Improved: prompt before remove task and delete all downloaded files
+    GUI Improved: peer-list sorted by ip
+    GUI Bugfix: won't prompt when hash checking
+    GUI Bugfix: always remember proxy server and port. (Thanks to wxhere)
+    Core Improved: consider connection stable after 3 minutes elapsed
+    Core Bugfix(critical): can't connect any peers when seeding
+    Core Bugfix(critical): do not response tracker NAT checking header, so that won't be listed in some tracker. (Thanks to stanhopea)
+
+v0.47    2004.2.17
+    withdraw the release, skip it.
+
+v0.46    2004.2.14
+    GUI Bugfix: total length incorrect if larger than 4G. (Thanks to Zergling)
+    Core Bugfix(critical): lots of pieces failed in SHA check, cause by disk cache bug.
+
+v0.45    2004.2.13
+    GUI Improved: great change in Language File, almost all string can be translated and part of the information format could be customized by edit language xml file.
+    GUI Improved: remove task, or remove task include downloaded files
+    GUI Improved: An option in the toolbar to toggle ON/OFF the panel list on the left of the Main window. (Thanks to seto_2003)
+    GUI Improved: Add toolbar, add right menu for selecting in the Torrent Property dialog
+    GUI Improved: ctrl+<arrow up> for "job move up" ; ctrl+<arrow down> for "job move down" (Thanks to xsintill)
+    GUI Improved: change "completed" to "progress", indicates the download progress of selected files
+    GUI Bugfix: The other two tree-view won't flicking now. (Thanks to seto_2003)
+    GUI Bugfix: in tray mode, listen for a full mouse click before popping up. (Thanks to Keen314 )
+    Core Improved: add a torrent maker, support utf-8 and multi-tracker
+    Core Improved: intelligent upload slots control, auto optimize for different connection speed (config in slots.xml)
+    Core Improved: correctly handle disk full and disk i/o error
+    Core Improved: delete those files didn't even download a byte when remove the task
+    Core Improved: optimize socket by delay sending HAVE message
+    Core Improved: optimize piece manager
+    Core Improved: optimize disk cache swap algorithm, avoid small cache shaking.
+    Core Improved: optimize disk cache memory manage, and is now able to set the minimize and maximize size.
+    Core Improved: able to change download selection when task is running
+    Core Improved: if file changed before resume, tell user.
+    Core Improved: support socks4, socks5, http/https proxy
+    Core Bugfix: Dead incoming peers in the peerlist can't be cleared
+    Core Bugfix: Torrent with the same file name will make the download list make mistake (Thanks to spcat2000)
+    Core Bugfix: when add one torrent twice and click OK in the second time, zero the process of it (Thanks to zeng777)
+    Core Bugfix: add port to tracker http request header "Host", fix problem with some proxy (Thanks to linxiaolegend)
+    Core Bugfix: when unselect small file in the end of filelist, the next big file won't finish for ever
+    Core Bugfix: no longer add .bc! extension for zero length file
+    Core Bugfix(critical): possible to send invalid REQUEST every few minutes, cause disconnection from other peer
+
+v0.44    2004.1.9
+    GUI Improved: able to identify BitSpirit, BitTorrent Plus
+    GUI Changed: auto update checker server changed to update.BitComet.com
+    GUI Changed: remove listening port above 1024 restriction (Thanks to Ano Nymous)
+    GUI Fix: auto update checker misunderstand the version number
+    Core Improved: add peer connecting number statistics and limits
+    Core BugFix(critical): fixed a bug in peer connecting limits, negative number cause it won't connect peers any more
+    Core BugFix(critical): security verification during peer communication
+
+v0.43    2004.1.5
+    Setup Package: Merge two package (unicode & MBCS) into one
+    GUI Improved: Remember Main window position (Thanks to Liu Wei)
+    GUI Improved: one click active window in tray icon mode (Thanks to lurenyi)
+    GUI Changed: mix upload limits is 20kB/s, and download rate no more than 8 times of uploads
+    GUI BugFix: 100% CPU when UPnP operation (startup and exit)
+    GUI BugFix: Fix IE shell open file not found bug if have sharezaa installed previously
+    GUI BugFix: "donot ask again" in confirm exit may cause problem, removed temporarily
+    Core Improve: optimize for some heavy trackers if they have more than one listening port
+    Core Improve: able to disable disk read cache now
+    Core Improve: decrease one memory copy in uploading and downloading, less cpu usage theoretically
+    Core Improve: do not allocate cache when checking complete
+    Core BugFix: Upload and Download rate control more smoothly, still not perfect though (Thanks to Vulpes)
+    Core BugFix: try to open normal file (not .bc! file) first when save location changed
+    Core BugFix(tiny): in statistics, download from XXX peers not accurate
+    Core BugFix(critical): fixed a bug that made .bc!.bc! extension if multi-file download, and also can't resume correctly.
+    Core BugFix(critical): unselect small file may broke neighbor file corrupt and may cause runtime exception and exit if it is the first file (Thanks to GDIMk)
+
+v0.42    2004.1.1
+    Add unicode build, fix some encoding bug under 2K/XP
+    GUI Improved: property diag more pretty
+    GUI Improved: avoid torrent list flicking under windows XP
+    GUI Improved: prompt exit only if there are running tasks
+    GUI Improved: auto version update checker
+    Core Improved: add Torrent Health statistics
+    Core Improved: Support Unicode torrent format extension
+    Core Improved: Option to add .bc! extension for unfinished files
+    Core Improved: one session per ip when seeding
+    Core Improved: flush file when saving status file
+    Core Improved: no longer stop response when doing the hash check
+    Core Improved: auto portmapping via UPnP, but local firewall still need to be manually config
+    Core Improved: accelerate hash check when resuming other client's downloads
+    Core Improved: support Tracker 301, fix cant connection bug for some trackers
+    Core Improved: torrent file path security checking
+    Core BugFix: Fix "download file length bigger than expected", ask for a choice now
+    Core BugFix: fix a bug that send zero port to tracker in no-listening mode
+    Core BugFix: fix a bug that can't resume torrent which contents only one file in a folder
+    Core BugFix(critical): Fixed: "unselect file A -> download -> stop -> select file A -> download" may cause runtime exception exit
+
+v0.41    2003.12.07
+    Core Improved: better support for download selection changes
+    Core Improved: save peer which have a listening port in status file
+    GUI Improved: add progress bar indicate complete ratio (looks very ugly I think)
+    GUI Improved: add message box when exit BitComet
+    GUI Improved: add Right Menu Key support in torrent list
+    GUI BugFix: add a torrent, delete, then can't add it again
+    Core BugFix(critical): stay at 99% bug maybe fixed this time
+
+v0.40    2003.11.27
+    Known bug: when only download selected files, never stop if cache size is set to zero;
+               or it is still possible to have some duplicated download in those gap pieces.
+               It doesn't matter too much... just waste a little bandwidth.
+    GUI Improved: add Ctrl+A, Alt+ENTER short key for torrent list
+    Core BugFix: incompletion in gap piece when add new download file which was banned before
+    Core BugFix: won't resize cache buffer when it is set to zero
+    Core BugFix(critical): Fix 100% but uncompleted bug caused by cache/piece manage
+
+v0.39    2003.11.26
+    Core Improved: save connected peer info for a quick restart
+    Core Improved: save partial download piece info in statusfile
+    GUI Improved: able to associate .torrent at run time, restore it when close client
+    GUI Improved: no longer write view size into registry, saved in style.xml instead
+    GUI BugFix: select all item when delete the bottom torrent entry
+    GUI BugFix: correctly display status(download/resume/seeding) for torrent property dialog
+    GUI BugFix: no longer lost icon when taskbar recreated
+    Core BugFix: Fix exception occurred when multi-tracker torrent stopping
+    Core BugFix(critical): Fix piece pick bug which make it downloaded 120% - 200% sized data
+    Core BugFix(critical): Fix piece cache bug which caused a lots of failed piece
+
+v0.38    2003.11.22
+    New Name: Change the name to "BitComet"
+    NewFeature: multi tracker supported
+    NewFeature: able to download selected files
+    NewFeature: no scanning seeding
+    Improved: global upload/download speed limits
+    Improved: optimize the piece picker, much more less CPU usage
+    Improved: pieces read/write cache, much better disk performance
+    Improved: rudely disconnect slow peers
+    Improved: torrent cache now using relative path
+    Improved: changed socket frame class, now support sock4, sock5 and http1.1 proxy
+    Improved: GUI interface more usable
+    BugFix: some problem about the connection with new version Shadow's Exp
+    BugFix: can't pause
+    BugFix: continue to connect tracker after failed 20 times now
+    BugFix: upload & download bytes wrong when reporting to tracker
+    BugFix(critical): passed pieces sum error when bitfield is initiating
+
+v0.37    2003.10 - 2003.11
+    Great changes, skip it.
+
+v0.361    2003.10.10
+    BugFix: "create empty document" error if download files > 2G
+
+v0.36    2003.09.20
+    Improved: overall u/d speed in tray icon
+    Improved: use utf-8 style file if system supported
+    Bugfix: keep choosing different port every time when start program if it is set to zero
+    Bugfix: check the file again when restarted downloading
+    BufFix(critical): found that the Run Time Error in Win2k(or below) was cause by the exception of:  _variant_t(unsigned __int64 ui8Src) throw();   when saving xml
+
+v0.35    2003.09.19
+    Add: traditional Chinese language
+    Add: pick a random port button
+    Improved: socket write buffer max length
+    BugFix: a few bugfix about the multilanguage interface
+    BugFix: disconnect if error occurs when reading file, won't send garbage
+    BugFix: do not save download queue
+    BufFix(critical): fixed the huge memory leak caused by forgetting to release when handing xml file. Now, the memory is quite low, but cpu usage a bit high, though
+
+v0.34    2003.09.16
+    Add: multi language support, auto selection
+    Add: save upload bytes in status file
+    Add: tracker http request add Host: item
+    Improve: change MSXML4 to MSXML3
+    Improve: 10 times upload speed for one peer for the first 3M upload or if the uploaded bytes of that peer is greater than downloaded bytes + 3M from me
+    Improve: isallpassed() cache, may reduce cpu usage a little
+    Improve: set upload zero means do not limits
+    BugFix: do not prompt when can't find status file during deleting
+
+v0.33    2003.09.10
+    Add: remember view window column size
+    Add: enable drag and drop
+    Add: start/stop/pause/resume selected torrents
+    Add: max connected peer limits
+    Improved: put torrent popup menu into style.xml
+    BugFix: delete torrent cause error
+
+v0.32    2003.09.08
+    Add: peer ip exchange protocol extension 09 00, 09 01, 09 02
+    Improved: newly added torrent on the top
+    Improved: open file as read only when seeding
+    BugFix: assume bitfield is already received when peer reconnected
+    BugFix: skip tracker announce when retry sometimes
+
+v0.31    2003.09.06
+    Add: tracker retry interval time table, from short(30s) to long(5m)
+    Add: socks5 proxy now fully supported (auth, tracker)
+    Improved: when a piece failed sha1 check, mark the error
+
+v0.30    2003.09.05
+    Add: global download speed limit
+    Add: simple socks5(no auth) support for peer connection
+    Improved: tidy the code of storage
+    Improved: longer the tracker retry interval & set the max retry to 20
+    BugFix: lost the last character of url when 302 redirecting
+
+v0.29    2003.09.03
+    Add: global download speed limit
+    Improved: bnbt tracker now supported, found the diff between python tracker,  http 1.0 res header \n & \r\n
+    Improved: rewrite piece picker, now pick the piece that is owned by the least peers
+    BugFix: support http 302 redirect
+    BugFix: spend more than one hour to find a memory leak when loading torrent status file
+
+v0.28    2003.08.31   1st Public Version
+    Add: make a msi of MSXML4 &  make a Setup by Innon Setup Compiler
+    Add: All Chinese
+    Add: Minimize to system tray
+    Bugfix: bug in deleting torrent in torrent list
+    Bugfix: complete percent now display OK
+    Bugfix(serious): always return true no matter SHA check succeed or failed
+
+v0.27    2003.08.30
+    Bugfix(critical): goes wrong when doing bitfiled get in HEX
+
+v0.26    2003.08.30
+    Add: Torrent list & status display column item names are now at style.xml
+    Add: Pause & Resume action supported
+    Bugfix: Large file display the wrong complete ratio
+    Bugfix: tracker connection status display
+    Bugfix(critical): socket fatal error after handshake failed then reconnecting
+
+v0.25    2003.08.29
+    Add: Peer Log Property Diag
+    Add: version number added in peer version display
+    Improve: download slice picker
+    Bugfix: tracker connection failed won't retry
+    Bugfix: upload / download should not count the disconnected peers
+
+v0.24    2003.08.26
+    Change: HTTP connection shift from WININET to socket,  (consider WINHTTP5 later maybe)
+    Bugfix: one peer multi sockets
+
+v0.23    2003.08.25
+    Change: Timer block was removed
+    Bugfix: file length check error in rawread()
+
+v0.22    2003.08.24
+    Add:    peer communication log, double click the peer
+    Bugfix(Critical): upload piece char* -> string
+
+v0.21    2003.08.23
+    Bugfix(Critical): crush when delete socket
+
+v0.20    2003.08.18
+    Bugfix(Critical): Timer event is called anytime, cause odd error. (e.g. delete element when iterating)  global timer blocking is added.
+
+v0.19    2003.08.16
+    Add:    Max announce intervals
+    Add:    global upload speed control & peer up/down ratio
+    Add:    passive mode
+    Add:    peer software version recognize
+    Bugfix(Critical): doesn't send INTEREST before download
+    Bugfix: null msg dead loop
+
+v0.18   2003.08.15
+    Add: torrent cache option
+    Add: seeds/peers display
+    Add: random port
+    BugFix: Should not delete element when iterating a map (PeerMap)
+    BugFix(Critical): send the wrong protocol header for incoming connections
+    BugFix(Critical): when comparing, CString treat both strings as null-terminate strings, substitute with std:string
+
+v0.17   2003.08.14
+    Add:     Peer speed estimate, choke & interest info
+    BugFix: stop download do not delete socket
+    BugFix: keep announce when stopped
+    BugFix: Socket error when exist, caused by calling shutdown at a invalid socket handle
+    BugFix: Exist download won't do checking
+
+v0.16   2003.08.12(first beta release)
+    Remaining time info is added
+    Single instance running....try many examples, found a working solution at microsoft at last.. ft
+    Lots of bugfix...
+
+v0.15   2003.08.11
+    New icon designed by FallenAngel
+    Register itself for .torrent & mime
+    Properties dialog is added, though ugly
+    Lots of bugfix and improvement, all forget
+
+v0.14   2003.08.10
+    BugFix: when delete torrent it won't completely delete data
+
+v0.13   2003.08.08
+    Show complete radio of every file
+    Multi torrent management
+    BugFix: hex2bin & bin2hex error
+    BugFix: peer disconnect will not change the status of peer
+
+v0.12   2003.08.07
+    ability to choose download location
+    bitfield cache bug fixed
+
+v0.11   2003.08.06
+    first published version

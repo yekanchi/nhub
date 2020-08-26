@@ -1,0 +1,31 @@
+BitComet Software Privacy Policy 
+
+We have established and implemented this BitComet Software Privacy Policy to inform you, the users of the Software, how we use and protect the personal information when you use the BitComet Software. 
+
+[Information we collect]
+
+The BitComet Software (the Software) automatically sends only standard, limited information to BitComet, which may be retained in BitComet's server logs. We do not associate this data with personally identifying information about you. The Software does not send any information about the files you are downloading, unless you enable the function of "Search for mirrors" while downloading in HTTP/FTP protocol. 
+
+If you enable the function of "Search for mirrors" in HTTP/FTP download, the Software may send some necessary information, such as link URLs and unique labels, of the downloading files to BitComet servers to help you to get more mirrors to accelerate your download speed. Your personal information isn't contained in this data and information. 
+
+If you are using BitTorrent download, the Software sends identifying information (such as Hash Code) to the trackers appointed by the torrent to search for other users who are downloading with the same torrent and then exchange file data with them. The BitComet Software cannot access this data or information. The information or the data of files on your computer is not available for upload to trackers or other users unless it is put into the torrent. 
+
+The BitComet Software Features that give you access to other BitComet services such as CometZonet and BitComet Passport are subject to the separate Privacy Policies of those products. 
+
+Third party site links or search boxes in the Software may send information such as search queries to sites not operated by BitComet which are not covered by the BitComet Software Privacy Policy. 
+
+The BitComet Software contacts our servers periodically to check if a later version is available and update some texts, links or images within the software, during which only the information in configuration files of the Software is checked, no personally identifying information is included 
+
+[Uses]
+
+In order to supply a better service, we may process some information which comes from your computer but is not related to your privacy. For example, the Software may send your queries to the site you request. But this information is under your control, you can choose the site which the information is sent to. 
+
+Also, we may retain some information submitted by you in our servers. For example, we may keep the download URLs which you used to send to the server when you used "Search for mirrors" as the mirrors for files you downloaded. When other users download the same file and enable the function of "Search for mirrors" of their BitComet Software, these mirrors are used to help their download. But the servers do not record who has submitted these links or mirrors which means your personally identifying information is not contained in the information or retained by the servers. 
+
+Otherwise, we may get the log information about aggregate BitComet Software usage to improve our services by collecting data from your computer when the BitComet Software updates. For example, when the Software updates, it contacts the server. Meantime, we may collect the information about your BitComet Software version, your location, the language support of your system, and so on. Then we gather the information from all the users together to form the aggregate BitComet Software usage from which your personal information cannot be distinguished. We do not record a single user's personal information. 
+
+[Your choices]
+
+You can disable the function of "Search for mirrors" in "Properties" of a download task at any time. With this function disabled, the Software does not contact BitComet during your downloading. 
+
+By using the Software, you acknowledge you agree with the BitComet Privacy Policy. If you do not agree with the Policy, you may not access or use the Software. You will be notified if this policy is materially changed, at which time you will have the opportunity to discontinue using the BitComet Software. 

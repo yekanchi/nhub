@@ -1,0 +1,9 @@
+﻿{
+  "name": "com.bitcomet.chrome_extension",
+  "description": "BitComet Launcher for Chrome",
+  "path": "ChromeLauncher.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://dhigneefebkcagnpnpbibganpmfgebnk/"
+  ]
+}

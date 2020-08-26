@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BitComet Author="RnySmile" Version="0.1">
+	<Favourite>
+		<WebSite expend="true" display="Torrent Sites" infotip="Browse Torrents Sites...">
+			<torrents type="url" value="https://thepiratebay.org/" display="The Pirate Bay" infotip="" />
+			<torrents type="url" value="http://www.torrentroom.com/" display="Torrent Room" infotip="" />
+			<torrents type="url" value="http://www.torrentbar.com/" display="Torrent Bar" infotip="" />			
+			<torrents type="url" value="https://www.demonoid.pw" display="Demonoid" infotip="" />
+			<torrents type="url" value="http://www.sumotorrent.com/" display="SUMO Torrent" infotip="" />
+			<torrents type="url" value="http://www.btmon.com/" display="BTMon" infotip="" />
+		</WebSite>
+		<HomePage expend="true" icon="4" display="BitComet ホームページ" infotip="BitCometのアップデートやサポート...">
+			<BitCometHomePage type="url" value="http://www.bitcomet.com/" display="公式サイト（英語）" />
+			<BitCometJP type="url" value="http://jp.bitcomet.com/" display="非公式日本語版サイト" />
+		</HomePage>
+  </Favourite>
+	<SearchToolbar>
+		<PirateBay title="ThePirateBay" link="https://thepiratebay.org/" html="http://www.bitcomet.com/client/redir/?https://thepiratebay.org/search/${QUERY}" />
+		<TorrentRoom title="TorrentRoom" link="http://www.torrentroom.com" html="http://www.bitcomet.com/client/redir/?http://www.torrentroom.com/search?client=bitcomet&amp;k=${QUERY}" />
+		<torrentBar title="TorrentBar" link="http://www.torrentbar.com" html="http://www.bitcomet.com/client/redir/?http://www.torrentbar.com/search/${QUERY}/" />
+	</SearchToolbar>
+</BitComet>

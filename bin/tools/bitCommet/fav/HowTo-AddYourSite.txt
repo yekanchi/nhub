@@ -1,0 +1,46 @@
+if you would like, you may add your favourite site in your language to fav/fav_xx_xx.xml file, and mail yours to bitcomet@yahoo.com
+
+       Language          ->    Favourite File Name
+==================================================
+Albanian                 ->     fav_sq.xml
+Arabic                   ->     fav_ar.xml
+Basque                   ->     fav_eu.xml
+Bosnian                  ->     fav_bs.xml
+Bulgarian                ->     fav_bg.xml
+Catalan                  ->     fav_ca.xml
+Chinese (Simplified)     ->     fav_zh_CN.xml
+Chinese (Traditional)    ->     fav_zh_TW.xml
+Croatian                 ->     fav_hr.xml
+Czech                    ->     fav_cs.xml
+Danish                   ->     fav_da.xml
+Dutch                    ->     fav_nl.xml
+English                  ->     fav_en_US.xml
+Estonian                 ->     fav_et.xml
+Finnish                  ->     fav_fi.xml
+French                   ->     fav_fr.xml
+Galician                 ->     fav_gl.xml
+German                   ->     fav_de.xml
+Greek                    ->     fav_el.xml
+Hebrew                   ->     fav_he.xml
+Hungarian                ->     fav_hu.xml
+Italian                  ->     fav_it.xml
+Japanese                 ->     fav_ja.xml
+Korean                   ->     fav_ko.xml
+Latvian                  ->     fav_lv.xml
+Lithuanian               ->     fav_lt.xml
+Norwegian                ->     fav_nb.xml
+Polish                   ->     fav_pl.xml
+Portuguese               ->     fav_pt.xml
+Portuguese (Brazilian)   ->     fav_pt_BR.xml
+Romanian                 ->     fav_ro.xml
+Russian                  ->     fav_ru.xml
+Serbian                  ->     fav_sr.xml
+Slovak                   ->     fav_sk.xml
+Slovenian                ->     fav_sl.xml
+Spanish                  ->     fav_es.xml
+Spanish (Argentina)      ->     fav_es_AR.xml
+Swedish                  ->     fav_sv.xml
+Thai                     ->     fav_th.xml
+Turkish                  ->     fav_tr.xml
+Ukrainian                ->     fav_uk.xml
+Vietnamese               ->     fav_vi.xml

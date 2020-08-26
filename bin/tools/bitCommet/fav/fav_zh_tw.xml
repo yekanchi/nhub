@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BitComet Author="X-Ray" Version="0.1">
+	<Favourite>
+	</Favourite>
+	<SearchToolbar>
+		<s title="奇摩" link="http://tw.yahoo.com/" html="http://tw.search.yahoo.com/search?fr=yfp&amp;ei=utf-8&amp;v=0&amp;p=${QUERY}" />
+	</SearchToolbar>
+</BitComet>
