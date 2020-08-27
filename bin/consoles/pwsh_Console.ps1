@@ -4,5 +4,5 @@ if($env:clearlog -eq "1")
 	clear;
 }
 
-Write-Color -Text 'CustomShell @ NHub:',' pwsh_Console.bat' -Color Green, Blue;
+Write-Color -Text 'Main Shell @CodeHub:',' pwsh_Console.bat' -Color Green, Blue;
 cd E:\NHUB
