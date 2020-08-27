@@ -1,4 +1,8 @@
 
+
+Register-PSRepository -Name 'CodeHubPSRepo' -SourceLocation 'E:\NHUB\bin\frameworks\CodeHubPSRepo'
+
+
 #posh-git
 if (-not (Get-Module -ListAvailable -Name posh-git)) {
     Write-Host "posh-git Is not Instealled";

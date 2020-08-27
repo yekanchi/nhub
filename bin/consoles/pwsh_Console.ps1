@@ -1,3 +1,4 @@
+$env:clearlog = "0"
 $commonResult = E:\NHUB\bin\consoles\set_commons
 if($env:clearlog -eq "1")
 {
