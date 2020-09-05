@@ -5,6 +5,7 @@ import { GridModule } from '@syncfusion/ej2-angular-grids';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/appComponent/app.component';
 import { PiListComponent } from './components/bpa/pi-list/pi-list.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PiListComponent } from './components/bpa/pi-list/pi-list.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    GridModule
+    GridModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

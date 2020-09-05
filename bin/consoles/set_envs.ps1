@@ -7,8 +7,13 @@ $env:PSRepoPath 					= $env:CHUB_HOME + "\bin\libs\" + $env:PSRepoName;
 
 
 ## PATH:
-$env:path 									+= ";E:\NHUB\bin\vsCode;E:\NHUB\bin\gitscm\bin;E:\NHUB\bin\compilers\node;E:\NHUB\bin\compilers\node\NPMCache";
-
+$env:path 									+= ";$env:CHUB_HOME\bin\vsCode;";
+$env:path 									+= "$env:CHUB_HOME\bin\gitscm\bin;";
+$env:path 									+= "$env:CHUB_HOME\bin\compilers\node;";
+$env:path 									+= "$env:CHUB_HOME\bin\compilers\node\NPMCache;";
+$env:path 									+= "$env:CHUB_HOME\bin\compilers\dotnet";
+$env:path 									+= "$env:CHUB_HOME\";
+$env:path 									+= "$env:CHUB_HOME\";
 
 ## 	JavaScript
 # 	Node.js, Typescrtipy, Angular, React:
